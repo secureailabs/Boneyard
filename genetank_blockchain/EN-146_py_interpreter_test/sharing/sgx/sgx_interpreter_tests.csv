@@ -1,0 +1,405 @@
+'test/test___future__.py',PASS,NR
+'test/test__locale.py',BLOCK,R
+'test/test__osx_support.py',PASS,NR
+'test/test_abc.py',PASS,NR
+'test/test_abstract_numbers.py',PASS,R
+'test/test_aepack.py',SKIP,NR,"apple specific"
+'test/test_aifc.py',FAIL,NR,"audio related"
+'test/test_al.py',SKIP,NR,"audio module"
+'test/test_anydbm.py',FAIL,NR,"any db module"
+'test/test_applesingle.py',SKIP,NR,"apple specific"
+'test/test_argparse.py',FAIL,NR,"parses cmd line arguments"
+'test/test_array.py',PASS,R
+'test/test_ascii_formatd.py',BLOCK,NR,"tests the depreciated PyOS_ascii_formatd API"
+'test/test_ast.py',PASS,R
+'test/test_asynchat.py',BLOCK,NR
+'test/test_asyncore.py',BLOCK,NR
+'test/test_atexit.py',PASS,NS
+'test/test_audioop.py',BLOCK,NR,"audio related"
+'test/test_augassign.py',PASS,NS
+'test/test_base64.py',PASS,R
+'test/test_bastion.py',SKIP,NR,"nothing"
+'test/test_bigaddrspace.py',PASS,R
+'test/test_bigmem.py',PASS,R
+'test/test_binascii.py',PASS,R
+'test/test_binhex.py',PASS,R
+'test/test_binop.py',PASS,R
+'test/test_bisect.py',PASS,R
+'test/test_bool.py',PASS,R
+'test/test_bsddb.py',SKIP,NR
+'test/test_bsddb185.py',SKIP,NR
+'test/test_bsddb3.py',SKIP,NR
+'test/test_buffer.py',PASS,R
+'test/test_bufio.py',FAIL,R,EN-204
+'test/test_builtin.py',FAIL,R,EN-216
+'test/test_bytes.py',PASS,R
+'test/test_bz2.py',SKIP,NR,"bz2 compression module not supported"
+'test/test_calendar.py',FAIL,R,EN-215
+'test/test_call.py',PASS,R
+'test/test_capi.py',SKIP,NS
+'test/test_cd.py',SKIP,NR,"CD ROM realted"
+'test/test_cfgparser.py',PASS,R
+'test/test_cgi.py',FAIL,NS,"os.open fails TODO"
+'test/test_charmapcodec.py',PASS,NS
+'test/test_cl.py',PASS,R
+'test/test_class.py',PASS,R
+'test/test_cmath.py',FAIL,R,EN-217
+'test/test_cmd_line_script.py',FAIL,NR
+'test/test_cmd_line.py',FAIL,NR
+'test/test_cmd.py',FAIL,NR
+'test/test_code.py',PASS,R
+'test/test_codeccallbacks.py',PASS,NS
+'test/test_codecencodings_cn.py',BLOCK,NR
+'test/test_codecencodings_hk.py',BLOCK,NR
+'test/test_codecencodings_iso2022.py',BLOCK,NR
+'test/test_codecencodings_jp.py',BLOCK,NR
+'test/test_codecencodings_kr.py',BLOCK,NR
+'test/test_codecencodings_tw.py',BLOCK,NR
+'test/test_codecmaps_cn.py',BLOCK,NR
+'test/test_codecmaps_hk.py',BLOCK,NR
+'test/test_codecmaps_jp.py',BLOCK,NR
+'test/test_codecmaps_kr.py',BLOCK,NR
+'test/test_codecmaps_tw.py',BLOCK,NR
+'test/test_codecs.py',FAIL,NS, "unknown encoding: big5"
+'test/test_codeop.py',PASS,NS
+'test/test_coercion.py',PASS,NS
+'test/test_collections.py',PASS,R
+'test/test_colorsys.py',PASS,NS
+'test/test_commands.py',FAIL,NR, "commands are not supported"
+'test/test_compare.py',PASS,R
+'test/test_compile.py',PASS,NR,"one failure where it checks if the python file has non ASCII characters"
+'test/test_compileall.py',FAIL,NR
+'test/test_compiler.py',SKIP,NR
+'test/test_complex_args.py',PASS,NR
+'test/test_complex.py',PASS,R
+'test/test_contains.py',PASS,R
+'test/test_contextlib.py',PASS,R
+'test/test_cookie.py',PASS,NS
+'test/test_cookielib.py',BLOCK,NR,"uses socket"
+'test/test_copy_reg.py',PASS,R
+'test/test_copy.py',PASS,R
+'test/test_cpickle.py',PASS,R,"needs to run with more file open than currently supported"
+'test/test_cprofile.py',BLOCK,NS,EN-218 "_lsprof"
+'test/test_crypt.py',FAIL,NS,EN-218
+'test/test_csv.py',PASS,R
+'test/test_ctypes.py',FAIL,R, "many tests, need CDLL, import errors"
+'test/test_curses.py',SKIP,NS,EN-218
+'test/test_datetime.py',FAIL,NS,"some tests should pass atleast which are not related to gettime syscall"
+'test/test_dbm.py',SKIP,NR,"unix database lib"
+'test/test_decimal.py',PASS,R
+'test/test_decorators.py',PASS,NS
+'test/test_defaultdict.py',FAIL,R,EN-214
+'test/test_deque.py',FAIL,R, "Assert in line 75 fail"
+'test/test_descr.py',FAIL,NS, "xxsubtype module missing"
+'test/test_descrtut.py',PASS,NS
+'test/test_dict.py',PASS,R
+'test/test_dictcomps.py',PASS,R
+'test/test_dictviews.py',PASS,R
+'test/test_difflib.py',PASS,R
+'test/test_dircache.py',FAIL,NR,"depreciated"
+'test/test_dis.py',PASS,NS
+'test/test_distutils.py',FAIL,NS, "many distutils not supported, need to figure out which ones to support"
+'test/test_dl.py',SKIP,NR,"checks shared libraries"
+'test/test_doctest.py',FAIL,NR
+'test/test_doctest2.py',FAIL,NR
+'test/test_docxmlrpc.py',BLOCK,NS
+'test/test_dumbdbm.py',FAIL,NR, "db related"
+'test/test_dummy_thread.py',PASS,R
+'test/test_dummy_threading.py',PASS,R
+'test/test_email_codecs.py',BLOCK,NR
+'test/test_email_renamed.py',BLOCK,NR
+'test/test_email.py',BLOCK,NR
+'test/test_ensurepip.py',FAIL,NR
+'test/test_enumerate.py',PASS,R
+'test/test_eof.py',PASS,R
+'test/test_epoll.py',BLOCK,NR
+'test/test_errno.py',PASS,R
+'test/test_exception_variations.py',PASS,R
+'test/test_exceptions.py',PASS,R,"disbaled test where checking file info"
+'test/test_extcall.py',PASS,NS
+'test/test_fcntl.py',SKIP,NR
+'test/test_file_eintr.py',BLOCK,NS,"EN-218 select"
+'test/test_file.py',FAIL,R,EN-204
+'test/test_file2k.py',BLOCK,R,"EN-218 select"
+'test/test_filecmp.py',FAIL,NS,"listdir is needed"
+'test/test_fileinput.py',FAIL,R,EN-205
+'test/test_fileio.py',FAIL,R,EN-206
+'test/test_float.py',PASS,R
+'test/test_fnmatch.py',PASS,R
+'test/test_fork1.py',SKIP,NR
+'test/test_format.py',PASS,R
+'test/test_fpformat.py',PASS,R
+'test/test_fractions.py',PASS,R
+'test/test_frozen.py',PASS,NS
+'test/test_ftplib.py',BLOCK,NR
+'test/test_funcattrs.py',PASS,NS
+'test/test_functools.py',PASS,NS
+'test/test_future_builtins.py',PASS,R
+'test/test_future.py',PASS,NS
+'test/test_future1.py',PASS,NS
+'test/test_future2.py',PASS,NS
+'test/test_future3.py',PASS,NS
+'test/test_future4.py',PASS,NS
+'test/test_future5.py',PASS,NS
+'test/test_gc.py',PASS,NS
+'test/test_gdb.py',SKIP,NR
+'test/test_gdbm.py',SKIP,NR,"Database interface for GDB"
+'test/test_generators.py',PASS,NS
+'test/test_genericpath.py',FAIL,NR,EN-207
+'test/test_genexps.py',PASS,NS
+'test/test_getargs.py',PASS,NS
+'test/test_getargs2.py',PASS,NS
+'test/test_getopt.py',PASS,NS
+'test/test_gettext.py',FAIL,NR,EN-202
+'test/test_gl.py',SKIP,NR,"graphics library"
+'test/test_glob.py',FAIL,NR,"EN-202 pathname related lib"
+'test/test_global.py',PASS,R
+'test/test_grammar.py',PASS,R
+'test/test_grp.py',SKIP,NS,EN-218
+'test/test_gzip.py',FAIL,NS
+'test/test_hash.py',FAIL,R,"subprocess is not supported, hash but hash works fine"
+'test/test_hashlib.py',PASS,R
+'test/test_heapq.py',PASS,R
+'test/test_hmac.py',PASS,R
+'test/test_hotshot.py',BLOCK,NS,EN-218
+'test/test_htmllib.py',PASS,NS
+'test/test_htmlparser.py',PASS,NS
+'test/test_httplib.py',BLOCK,NR
+'test/test_httpservers.py',BLOCK,NR
+'test/test_idle.py',SKIP,NR,"multi-threading lib"
+'test/test_imageop.py',SKIP,NR
+'test/test_imaplib.py',PASS,NR
+'test/test_imgfile.py',SKIP,NR
+'test/test_imghdr.py',FAIL,NR
+'test/test_imp.py',PASS,NR
+'test/test_import_magic.py',PASS,NS
+'test/test_import.py',BLOCK,NR
+'test/test_importhooks.py',FAIL,NR
+'test/test_importlib.py',PASS,NR
+'test/test_index.py',PASS,R
+'test/test_inspect.py',FAIL,NR,"inspect.getsourcefile(co) gives wrong file name"
+'test/test_int_literal.py',PASS,R
+'test/test_int.py',PASS,R
+'test/test_io.py',SKIP,R,"TODO: it is stuck"
+'test/test_ioctl.py',SKIP,NR
+'test/test_isinstance.py',PASS,NS
+'test/test_iter.py',PASS,R
+'test/test_iterlen.py',PASS,R
+'test/test_itertools.py',PASS,R
+'test/test_json.py',PASS,R
+'test/test_kqueue.py',BLOCK,NS,"kernal queue"
+'test/test_largefile.py',FAIL,R,"many including EN-207"
+'test/test_lib2to3.py',BLOCK,NR
+'test/test_linecache.py',FAIL,NR
+'test/test_linuxaudiodev.py',SKIP,NR
+'test/test_list.py',FAIL,R,EN-214
+'test/test_locale.py',PASS,R,
+'test/test_logging.py',BLOCK,NR
+'test/test_long_future.py',PASS,R
+'test/test_long.py',PASS,R
+'test/test_longexp.py',PASS,R
+'test/test_macos.py',SKIP,NR,"macos stuff"
+'test/test_macostools.py',SKIP,NR,"macos stuff"
+'test/test_macpath.py',FAIL,NR,"macos stuff"
+'test/test_macurl2path.py',PASS,NR,"macos stuff"
+'test/test_mailbox.py',BLOCK,NR
+'test/test_marshal.py',FAIL,NR
+'test/test_math.py',PASS,R
+'test/test_md5.py',PASS,R
+'test/test_memoryio.py',PASS,R
+'test/test_memoryview.py',PASS,NS
+'test/test_mhlib.py',FAIL,NR,"access to MH mailboxes and wants to open more more than 256 files"
+'test/test_mimetools.py',FAIL,NR,"socket and email"
+'test/test_mimetypes.py',PASS,NS
+'test/test_MimeWriter.py',PASS,NS
+'test/test_minidom.py',BLOCK,NS,EN-218
+'test/test_mmap.py',BLOCK,NR
+'test/test_module.py',PASS,R
+'test/test_modulefinder.py',BLOCK,NS,EN-202
+'test/test_msilib.py',SKIP,NR,"microsoft installer files"
+'test/test_multibytecodec.py',BLOCK,NS,"couldn't find proper docmentation to figure if we need it"
+'test/test_multifile.py',PASS,NS
+'test/test_multiprocessing.py',BLOCK,NR
+'test/test_mutants.py',PASS,NR
+'test/test_mutex.py',PASS,R
+'test/test_netrc.py',BLOCK,NR
+'test/test_new.py',PASS,R
+'test/test_nis.py',SKIP,NR
+'test/test_nntplib.py',BLOCK,NR,"NNTP protocol"
+'test/test_normalization.py',BLOCK,NR,"http tests"
+'test/test_ntpath.py',FAIL,NR, "socket + others"
+'test/test_old_mailbox.py',BLOCK,NR
+'test/test_opcodes.py',PASS,R
+'test/test_openpty.py',SKIP,NR,"pseudoterminal"
+'test/test_operator.py',PASS,NS
+'test/test_optparse.py',FAIL,NR, "listdir, socket, file_renme, fd disabled, tests cmd line arguments"
+'test/test_ordered_dict.py',PASS,R
+'test/test_os.py',BLOCK,NR,"module has limited support but FS and subprocess tests are not supported "
+'test/test_ossaudiodev.py',SKIP,NR,"audio stuff"
+'test/test_parser.py',BLOCK,NS,EN-218
+'test/test_pdb.py',FAIL,NR
+'test/test_peepholer.py',PASS,NR
+'test/test_pep247.py',PASS,NR
+'test/test_pep277.py',SKIP,NR,"for systems with unicode friendly filesystem encoding"
+'test/test_pep352.py',PASS,NR
+'test/test_pickle.py',FAIL,R,EN-206
+'test/test_pickletools.py',FAIL,R,EN-206
+'test/test_pipes.py',FAIL,NS,EN-208
+'test/test_pkg.py',FAIL,NS,EN-202
+'test/test_pkgimport.py',FAIL,NS,EN-202
+'test/test_pkgutil.py',FAIL,NS,EN-202
+'test/test_platform.py',FAIL,NR,"Access to underlying platform’s identifying data"
+'test/test_plistlib.py',FAIL,NR,"macOS plist test"
+'test/test_poll.py',BLOCK,NR
+'test/test_popen.py',BLOCK,NR,"pipes not supported"
+'test/test_popen2.py',BLOCK,NR,"pipes not supported"
+'test/test_poplib.py',BLOCK,NR,"POP3 test"
+'test/test_posix.py',BLOCK,NR,"checks file persmissions etc"
+'test/test_posixpath.py',FAIL,NR,EN-202+others
+'test/test_pow.py',PASS,R
+'test/test_pprint.py',PASS,NR
+'test/test_print.py',PASS,R
+'test/test_profile.py',PASS,NS
+'test/test_property.py',PASS,NS
+'test/test_pstats.py',PASS,NS
+'test/test_pty.py',SKIP,NR,"pseudoterminal"
+'test/test_pwd.py',SKIP,NR,EN-218
+'test/test_py_compile.py',FAIL,NR,EN-202
+'test/test_py3kwarn.py',SKIP,NR
+'test/test_pyclbr.py',PASS,NR,"disabled doctest and email parser tests"
+'test/test_pydoc.py',BLOCK,NR
+'test/test_pyexpat.py',BLOCK,NS,EN-218
+'test/test_queue.py',SKIP,R,"need threading lib, dummy_threading failed to acquire lock"
+'test/test_quopri.py',PASS,NS,"skipped tests running modules from cmd line"
+'test/test_random.py',PASS,R
+'test/test_re.py',PASS,R
+'test/test_readline.py',SKIP,NS,"EN-218 readline"
+'test/test_regrtest.py',BLOCK,NR
+'test/test_repr.py',PASS,R,"skipped tests which create a module to test, instead used an exisitng one"
+'test/test_resource.py',SKIP,NR,"utilization of resource by program"
+'test/test_rfc822.py',PASS,NS
+'test/test_richcmp.py',PASS,NS
+'test/test_rlcompleter.py',PASS,NS
+'test/test_robotparser.py',FAIL,NR,"to check for the robot.txt on websites"
+'test/test_runpy.py',FAIL,NR,
+'test/test_sax.py',BLOCK,NS,"no XML parser found"
+'test/test_scope.py',PASS,NS
+'test/test_scriptpackages.py',SKIP,NR
+'test/test_select.py',BLOCK,NR,EN-218
+'test/test_set.py',FAIL,R,EN-214
+'test/test_setcomps.py',PASS,R
+'test/test_sets.py',PASS,R
+'test/test_sgmllib.py',PASS,NS
+'test/test_sha.py',PASS,R
+'test/test_shelve.py',FAIL,NS,"listdir"
+'test/test_shlex.py',PASS,NR
+'test/test_shutil.py',BLOCK,NR
+'test/test_signal.py',BLOCK,NS,"EN-218 select"
+'test/test_SimpleHTTPServer.py',BLOCK,NR,"http server"
+'test/test_site.py',BLOCK,NR
+'test/test_slice.py',PASS,R
+'test/test_smtplib.py',BLOCK,NR
+'test/test_smtpnet.py',BLOCK,NR
+'test/test_socket.py',BLOCK,NR,"socket"
+'test/test_socketserver.py',BLOCK,NR
+'test/test_softspace.py',PASS,NS
+'test/test_sort.py',PASS,R
+'test/test_source_encoding.py',PASS,NS,"skipped file encoding tests"
+'test/test_spwd.py',SKIP,NS,"EN-218 spwd"
+'test/test_sqlite.py',SKIP,NS,"EN-218 _sqlite3"
+'test/test_ssl.py',BLOCK,NR,"EN-218 select"
+'test/test_startfile.py',SKIP,NR,"for windows"
+'test/test_stat.py',FAIL,NR,EN-202
+'test/test_str.py',PASS,R
+'test/test_strftime.py',FAIL,R,"time"
+'test/test_string.py',PASS,R
+'test/test_StringIO.py',PASS,R
+'test/test_stringprep.py',PASS,R
+'test/test_strop.py',SKIP,NR,"obselete module"
+'test/test_strptime.py',FAIL,NR,"time.strftime does not return the timezone"
+'test/test_strtod.py',PASS,R
+'test/test_struct.py',PASS,R
+'test/test_structmembers.py',PASS,NS
+'test/test_structseq.py',FAIL,NE, "time related calls not supported"
+'test/test_subprocess.py',BLOCK,NR
+'test/test_sunau.py',FAIL,NR,"audio stuff"
+'test/test_sunaudiodev.py',SKIP,NR,"audio"
+'test/test_sundry.py',FAIL,NR,"small tests for all modules"
+'test/test_support.py',PASS,NR
+'test/test_symtable.py',BLOCK,NS,"no module _symtable"
+'test/test_syntax.py',PASS,R
+'test/test_sys_setprofile.py',PASS,NS
+'test/test_sys_settrace.py',PASS,NS
+'test/test_sys.py',FAIL,R,EN-208
+'test/test_sysconfig.py',BLOCK,NR
+'test/test_tarfile.py',FAIL,NS,"struct.error: 'L' format requires 0 <= number <= 4294967295"
+'test/test_tcl.py',SKIP,NR,"GUI lib"
+'test/test_telnetlib.py',BLOCK,NR
+'test/test_tempfile.py',BLOCK,R,EN-206
+'test/test_test_support.py',BLOCK,NR
+'test/test_textwrap.py',PASS,NS
+'test/test_thread.py',SKIP,NR,"not supported"
+'test/test_threaded_import.py',SKIP,NR
+'test/test_threadedtempfile.py',SKIP,NR
+'test/test_threading_local.py',SKIP,NR
+'test/test_threading.py',SKIP,NR
+'test/test_threadsignals.py',SKIP,NR
+'test/test_time.py',BLOCK,NR,"not supported"
+'test/test_timeit.py',PASS,NS
+'test/test_timeout.py',BLOCK,NR,"socket timeout"
+'test/test_tk.py',SKIP,NR,"no GUI support"
+'test/test_tokenize.py',PASS,R
+'test/test_tools.py',BLOCK,NS
+'test/test_trace.py',FAIL,NR,EN-202
+'test/test_traceback.py',FAIL,NR,
+'test/test_transformer.py',SKIP,NS,"EN-218 parser"
+'test/test_ttk_guionly.py',SKIP,NR
+'test/test_ttk_textonly.py',SKIP,NR
+'test/test_tuple.py',PASS,R
+'test/test_turtle.py',SKIP,NR
+'test/test_typechecks.py',PASS,R
+'test/test_types.py',PASS,R
+'test/test_ucn.py',PASS,NS
+'test/test_unary.py',PASS,R
+'test/test_undocumented_details.py',PASS,NR
+'test/test_unicode_file.py',SKIP,NR
+'test/test_unicode.py',FAIL,R, "many including EN-211"
+'test/test_unicodedata.py',FAIL,NR, "unicodedata module not present"
+'test/test_unittest.py',FAIL,NR,"runs all tests"
+'test/test_univnewlines.py',SKIP,NE,"TODO get's stuck while writing to a file"
+'test/test_univnewlines2k.py',PASS,R,"execfile test excluded"
+'test/test_unpack.py',PASS,NS
+'test/test_urllib.py',BLOCK,NR
+'test/test_urllib2_localnet.py',BLOCK,NR
+'test/test_urllib2.py',BLOCK,NR
+'test/test_urllib2net.py',BLOCK,NR
+'test/test_urllibnet.py',BLOCK,NR
+'test/test_urlparse.py',PASS,NR
+'test/test_userdict.py',PASS,R
+'test/test_userlist.py',PASS,NS
+'test/test_userstring.py,PASS,R
+'test/test_uu.py',FAIL,NS,EN-202
+'test/test_uuid.py',FAIL,NR,"os.access not defined"
+'test/test_wait3.py',SKIP,NR,"uses fork"
+'test/test_wait4.py',SKIP,NR,"uses fork"
+'test/test_warnings.py',FAIL,NS, "TODO only for python 3 but try with pytests maybe"
+'test/test_wave.py',FAIL,NR, "audio"
+'test/test_weakref.py',PASS,NR
+'test/test_weakset.py',PASS,R
+'test/test_whichdb.py',SKIP,NR
+'test/test_winreg.py',SKIP,NR
+'test/test_winsound.py',SKIP,NR
+'test/test_with.py',PASS,R
+'test/test_wsgiref.py',BLOCK,NS
+'test/test_xdrlib.py',PASS,NS
+'test/test_xml_etree_c.py',SKIP,NS
+'test/test_xml_etree.py',FAIL,NS,"No module named expat; use SimpleXMLTreeBuilder instead"
+'test/test_xmllib.py',PASS,R
+'test/test_xmlrpc.py',BLOCK,NR
+'test/test_xpickle.py',PASS,R
+'test/test_xrange.py',PASS,NS
+'test/test_zipfile.py',FAIL,NR
+'test/test_zipfile64.py',FAIL,NR
+'test/test_zipimport_support.py',BLOCK,NR
+'test/test_zipimport.py',BLOCK,NR
+'test/test_zlib.py',PASS,NR

@@ -1,0 +1,12 @@
+$(MODULESRCDIR)/scipy/special/amos_wrappers.c \
+$(MODULESRCDIR)/scipy/special/cdf_wrappers.c \
+$(MODULESRCDIR)/scipy/special/_comb.c \
+$(MODULESRCDIR)/scipy/special/cython_special.c \
+$(MODULESRCDIR)/scipy/special/_ellip_harm_2.c \
+$(MODULESRCDIR)/scipy/special/fortranobject.c \
+$(MODULESRCDIR)/scipy/special/_logit.c \
+$(MODULESRCDIR)/scipy/special/sf_error.c \
+$(MODULESRCDIR)/scipy/special/specfunmodule.c \
+$(MODULESRCDIR)/scipy/special/specfun_wrappers.c \
+$(MODULESRCDIR)/scipy/special/_test_round.c \
+$(MODULESRCDIR)/scipy/special/_ufuncs.c \

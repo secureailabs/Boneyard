@@ -1,0 +1,2 @@
+nohup ./app -a beta -u http://platform.genetank.ai:3000 -e http://0.0.0.0:3220 -x http://acc.genetank.ai:3220 -d /home/accuser/enclave.sav/enclave1 >app.log 2>&1 &
+disown -h %1

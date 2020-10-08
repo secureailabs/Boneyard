@@ -1,0 +1,10 @@
+$(MODULESRCDIR)/scipy/spatial/ckdtree/src/build.cxx \
+$(MODULESRCDIR)/scipy/spatial/ckdtree/src/ckdtree.cxx \
+$(MODULESRCDIR)/scipy/spatial/ckdtree/src/count_neighbors.cxx \
+$(MODULESRCDIR)/scipy/spatial/ckdtree/src/cpp_exc.cxx \
+$(MODULESRCDIR)/scipy/spatial/ckdtree/src/globals.cxx \
+$(MODULESRCDIR)/scipy/spatial/ckdtree/src/query_ball_point.cxx \
+$(MODULESRCDIR)/scipy/spatial/ckdtree/src/query_ball_tree.cxx \
+$(MODULESRCDIR)/scipy/spatial/ckdtree/src/query.cxx \
+$(MODULESRCDIR)/scipy/spatial/ckdtree/src/query_pairs.cxx \
+$(MODULESRCDIR)/scipy/spatial/ckdtree/src/sparse_distances.cxx \

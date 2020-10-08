@@ -1,0 +1,15 @@
+$(MODULESRCDIR)/scipy/signal/bspline_util.c \
+$(MODULESRCDIR)/scipy/signal/C_bspline_util.c \
+$(MODULESRCDIR)/scipy/signal/correlate_nd.c \
+$(MODULESRCDIR)/scipy/signal/D_bspline_util.c \
+$(MODULESRCDIR)/scipy/signal/firfilter.c \
+$(MODULESRCDIR)/scipy/signal/lfilter.c \
+$(MODULESRCDIR)/scipy/signal/_max_len_seq_inner.c \
+$(MODULESRCDIR)/scipy/signal/medianfilter.c \
+$(MODULESRCDIR)/scipy/signal/_peak_finding_utils.c \
+$(MODULESRCDIR)/scipy/signal/S_bspline_util.c \
+$(MODULESRCDIR)/scipy/signal/sigtoolsmodule.c \
+$(MODULESRCDIR)/scipy/signal/_spectral.c \
+$(MODULESRCDIR)/scipy/signal/splinemodule.c \
+$(MODULESRCDIR)/scipy/signal/_upfirdn_apply.c \
+$(MODULESRCDIR)/scipy/signal/Z_bspline_util.c \

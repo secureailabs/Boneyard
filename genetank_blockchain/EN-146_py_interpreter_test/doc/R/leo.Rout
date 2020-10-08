@@ -1,0 +1,67 @@
+
+R version 3.2.3 (2015-12-10) -- "Wooden Christmas-Tree"
+Copyright (C) 2015 The R Foundation for Statistical Computing
+Platform: x86_64-pc-linux-gnu (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> ydat<-scan("/home/jingwei/genetank_blockchain/doc/R/y.txt",
++               quiet=TRUE)
+> xdat<-matrix(scan("/home/jingwei/genetank_blockchain/doc/R/x.txt",
++               quiet=TRUE),
++          ncol=1024,
++          byrow=TRUE)
+> 
+> len=length(ydat)
+> train_len<-trunc(len*0.8)
+> mark=sample(1:len,size=train_len)
+> y_train=ydat[mark]
+> y_test=ydat[-mark]
+> x_train=xdat[mark,]
+> x_test=xdat[-mark,]
+> #timer of trainning
+> library(randomForest)
+randomForest 4.6-12
+Type rfNews() to see new features/changes/bug fixes.
+> starttime<-Sys.time()
+> re<-randomForest(x=x_train,y=factor(y_train),xtest=x_test,ytest=factor(y_test),ntree=100)
+> endtime<-Sys.time()
+> retime<-endtime-starttime
+> retime
+Time difference of 5.326346 secs
+> 
+> re
+
+Call:
+ randomForest(x = x_train, y = factor(y_train), xtest = x_test,      ytest = factor(y_test), ntree = 100) 
+               Type of random forest: classification
+                     Number of trees: 100
+No. of variables tried at each split: 32
+
+        OOB estimate of  error rate: 28.09%
+Confusion matrix:
+   0   1 class.error
+0 52 123  0.70285714
+1 34 350  0.08854167
+                Test set error rate: 30.71%
+Confusion matrix:
+   0  1 class.error
+0 10 35  0.77777778
+1  8 87  0.08421053
+> 
+> 
+> proc.time()
+   user  system elapsed 
+  5.556   0.012   5.588 

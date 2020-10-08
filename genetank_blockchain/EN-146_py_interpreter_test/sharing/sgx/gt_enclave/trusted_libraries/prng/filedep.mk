@@ -1,0 +1,11 @@
+$(PRNGSRCDIR)/drand48.o:$(PRNGSRCDIR)/drand48.c 
+$(PRNGSRCDIR)/lcong48.o:$(PRNGSRCDIR)/lcong48.c 
+$(PRNGSRCDIR)/lrand48.o:$(PRNGSRCDIR)/lrand48.c 
+$(PRNGSRCDIR)/mrand48.o:$(PRNGSRCDIR)/mrand48.c 
+$(PRNGSRCDIR)/__rand48_step.o:$(PRNGSRCDIR)/__rand48_step.c 
+$(PRNGSRCDIR)/rand.o:$(PRNGSRCDIR)/rand.c 
+$(PRNGSRCDIR)/random.o:$(PRNGSRCDIR)/random.c 
+$(PRNGSRCDIR)/rand_r.o:$(PRNGSRCDIR)/rand_r.c 
+$(PRNGSRCDIR)/__seed48.o:$(PRNGSRCDIR)/__seed48.c 
+$(PRNGSRCDIR)/seed48.o:$(PRNGSRCDIR)/seed48.c 
+$(PRNGSRCDIR)/srand48.o:$(PRNGSRCDIR)/srand48.c 

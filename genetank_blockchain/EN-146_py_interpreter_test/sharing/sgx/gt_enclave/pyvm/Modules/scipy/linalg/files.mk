@@ -1,0 +1,12 @@
+$(MODULESRCDIR)/scipy/linalg/_blas_subroutine_wrappers.c \
+$(MODULESRCDIR)/scipy/linalg/cython_blas.c \
+$(MODULESRCDIR)/scipy/linalg/cython_lapack.c \
+$(MODULESRCDIR)/scipy/linalg/_decomp_update.c \
+$(MODULESRCDIR)/scipy/linalg/_fblas-f2pywrappers.c \
+$(MODULESRCDIR)/scipy/linalg/_fblasmodule.c \
+$(MODULESRCDIR)/scipy/linalg/_flapack-f2pywrappers.c \
+$(MODULESRCDIR)/scipy/linalg/_flapackmodule.c \
+$(MODULESRCDIR)/scipy/linalg/fortranobject.c \
+$(MODULESRCDIR)/scipy/linalg/_interpolativemodule.c \
+$(MODULESRCDIR)/scipy/linalg/_lapack_subroutine_wrappers.c \
+$(MODULESRCDIR)/scipy/linalg/_solve_toeplitz.c \

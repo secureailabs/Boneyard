@@ -1,0 +1,14 @@
+$(MODULESRCDIR)/scipy/sparse/linalg/eigen/arpack/ARPACK/UTIL/cmout.c \
+$(MODULESRCDIR)/scipy/sparse/linalg/eigen/arpack/ARPACK/UTIL/cvout.c \
+$(MODULESRCDIR)/scipy/sparse/linalg/eigen/arpack/ARPACK/UTIL/dmout.c \
+$(MODULESRCDIR)/scipy/sparse/linalg/eigen/arpack/ARPACK/UTIL/dvout.c \
+$(MODULESRCDIR)/scipy/sparse/linalg/eigen/arpack/ARPACK/UTIL/icnteq.c \
+$(MODULESRCDIR)/scipy/sparse/linalg/eigen/arpack/ARPACK/UTIL/icopy.c \
+$(MODULESRCDIR)/scipy/sparse/linalg/eigen/arpack/ARPACK/UTIL/iset.c \
+$(MODULESRCDIR)/scipy/sparse/linalg/eigen/arpack/ARPACK/UTIL/iswap.c \
+$(MODULESRCDIR)/scipy/sparse/linalg/eigen/arpack/ARPACK/UTIL/ivout.c \
+$(MODULESRCDIR)/scipy/sparse/linalg/eigen/arpack/ARPACK/UTIL/second_NONE.c \
+$(MODULESRCDIR)/scipy/sparse/linalg/eigen/arpack/ARPACK/UTIL/smout.c \
+$(MODULESRCDIR)/scipy/sparse/linalg/eigen/arpack/ARPACK/UTIL/svout.c \
+$(MODULESRCDIR)/scipy/sparse/linalg/eigen/arpack/ARPACK/UTIL/zmout.c \
+$(MODULESRCDIR)/scipy/sparse/linalg/eigen/arpack/ARPACK/UTIL/zvout.c \

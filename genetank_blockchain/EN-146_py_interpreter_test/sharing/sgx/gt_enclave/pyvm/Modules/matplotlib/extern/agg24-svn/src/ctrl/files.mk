@@ -1,0 +1,9 @@
+$(MODULESRCDIR)/matplotlib/extern/agg24-svn/src/ctrl/agg_bezier_ctrl.cpp \
+$(MODULESRCDIR)/matplotlib/extern/agg24-svn/src/ctrl/agg_cbox_ctrl.cpp \
+$(MODULESRCDIR)/matplotlib/extern/agg24-svn/src/ctrl/agg_gamma_ctrl.cpp \
+$(MODULESRCDIR)/matplotlib/extern/agg24-svn/src/ctrl/agg_gamma_spline.cpp \
+$(MODULESRCDIR)/matplotlib/extern/agg24-svn/src/ctrl/agg_polygon_ctrl.cpp \
+$(MODULESRCDIR)/matplotlib/extern/agg24-svn/src/ctrl/agg_rbox_ctrl.cpp \
+$(MODULESRCDIR)/matplotlib/extern/agg24-svn/src/ctrl/agg_scale_ctrl.cpp \
+$(MODULESRCDIR)/matplotlib/extern/agg24-svn/src/ctrl/agg_slider_ctrl.cpp \
+$(MODULESRCDIR)/matplotlib/extern/agg24-svn/src/ctrl/agg_spline_ctrl.cpp \

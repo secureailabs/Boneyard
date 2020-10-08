@@ -1,0 +1,10 @@
+$(MODULESRCDIR)/xgboost/src/tree/split_evaluator.cc \
+$(MODULESRCDIR)/xgboost/src/tree/tree_model.cc \
+$(MODULESRCDIR)/xgboost/src/tree/tree_updater.cc \
+$(MODULESRCDIR)/xgboost/src/tree/updater_colmaker.cc \
+$(MODULESRCDIR)/xgboost/src/tree/updater_fast_hist.cc \
+$(MODULESRCDIR)/xgboost/src/tree/updater_histmaker.cc \
+$(MODULESRCDIR)/xgboost/src/tree/updater_prune.cc \
+$(MODULESRCDIR)/xgboost/src/tree/updater_refresh.cc \
+$(MODULESRCDIR)/xgboost/src/tree/updater_skmaker.cc \
+$(MODULESRCDIR)/xgboost/src/tree/updater_sync.cc \
