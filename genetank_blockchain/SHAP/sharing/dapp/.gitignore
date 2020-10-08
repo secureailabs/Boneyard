@@ -1,0 +1,6 @@
+node_modules/
+.meteor/data/*
+.meteor/local/*
+*.log
+settings.json
+.vscode/

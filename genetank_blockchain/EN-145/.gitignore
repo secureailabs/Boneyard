@@ -1,0 +1,12 @@
+#git ignore file for model release codes
+bower_components/*
+*.swp
+sharing/dapp/package-lock.json
+*.DS_Store
+sharing/dapp/.idea/dapp.iml
+sharing/dapp/.idea/jsLibraryMappings.xml
+sharing/dapp/.idea/libraries/meteor_packages_auto_import_browser.xml
+sharing/dapp/.idea/misc.xml
+sharing/dapp/.idea/modules.xml
+.idea/
+sharing/sgx/sgx.mk

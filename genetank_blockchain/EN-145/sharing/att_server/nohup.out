@@ -1,0 +1,27 @@
+[[[[[ ~/sail/sharing/att_server ]]]]]
+
+=> Started proxy.
+=> Meteor 1.8.0.1 is available. Update this project with 'meteor update'.
+=> Errors prevented startup:
+   
+   While selecting package versions:
+   error: Potentially incompatible change required to top-level dependency:
+   mongo 1.5.1, was 1.6.0.
+   Constraints on package "mongo":
+   * mongo@1.5.0 <- top level
+   * mongo@~1.5.0 <- top level
+   * mongo@1.5.0 <- autoupdate 1.4.1 <- hot-code-push 1.0.4 <- meteor-base
+   1.4.0
+   * mongo@1.1.0 <- simple:rest 1.1.1
+   
+   To allow potentially incompatible changes to top-level dependencies, you
+   must pass --allow-incompatible-update on the command line.
+   
+=> Your application has errors. Waiting for file change.
+=> Meteor 1.8.0.1 is available. Update this project with 'meteor update'.
+=> Meteor 1.8.0.1 is available. Update this project with 'meteor update'.
+=> Meteor 1.8.0.1 is available. Update this project with 'meteor update'.
+=> Meteor 1.8.0.1 is available. Update this project with 'meteor update'.
+=> Meteor 1.8.0.1 is available. Update this project with 'meteor update'.
+=> Meteor 1.8.0.1 is available. Update this project with 'meteor update'.
+=> Meteor 1.8.0.1 is available. Update this project with 'meteor update'.

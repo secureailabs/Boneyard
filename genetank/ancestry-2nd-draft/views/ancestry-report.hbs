@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GeneTank — Ancestry Report</title>
+    {{> head}}
+    <!-- Page styles -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/styles_ancestry.css">
+  </head>
+  <body>
+    {{> nav}}
+    
+    <!-- Main section of page -->
+    <main role="main">
+      <div id="empowering-everyone">
+        <div class="banner" id="header-banner">
+          <div class="color-overlay"></div>
+          <figure class="banner-image" id="top-banner-image-figure">
+            <img src="images/dna.jpg" class="top-banner-image" />
+          </figure>
+          <div class="banner-desc">
+            <p class="banner-desc-header">Your Ancestry Report</p>
+            <p class="banner-desc-info">Discover your roots</p>
+          </div>
+        </div>
+        <div class="content">
+          <div class="row">
+            <p class="section-header">Your DNA can tell the story of who you are.</p>
+            <p class="section-info">We'll help you unravel the mysteries of your roots.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Population Admixture -->
+      <div id="population-admixture">
+        <div class="banner">
+          <div class="color-overlay"></div>
+          <figure class="banner-image">
+            <img src="images/crowd.jpg" class="section-banner-image" />
+          </figure>
+          <div class="banner-desc">
+            <p class="banner-desc-header">Where Everyone is From</p>
+            <p class="banner-desc-info">Ancestry results for everyone who's contributed to GeneTank</p>
+          </div>
+        </div>
+        <div class="content">
+          <div class="row">
+            <h2>Ancestry by Location</h2>
+            <!-- <p align="center">shiny geolocation admixture app here</p> -->
+            <img src="images/web-admix-geo.jpg" alt="Geo Admixture" style="width:100%">
+            <h2>Ancestry by Super Population</h2>
+            <div id="container">
+              <ul>
+              <li><img src="images/web-admix-pop-africa.jpg" alt="Africa Admixture" style="width:100%"></li>
+              <li><img src="images/web-admix-pop-america.jpg" alt="America Admixture" style="width:100%"></li>
+              <li><img src="images/web-admix-pop-asia.jpg" alt="Asia Admixture" style="width:100%"></li>
+              <li><img src="images/web-admix-pop-euro.jpg" alt="Euro Admixture" style="width:100%"></li>
+              <li><img src="images/web-admix-pop-south-asia.jpg" alt="South Asia Admixture" style="width:100%"></li>
+              <span class="button prevButton"></span>
+              <span class="button nextButton"></span>
+          </div>
+            <p>Each three letter code represents a different population. For example, CEU represents Northern Europeans from Utah and TSI represents Tuscans from Italy. (Source: <a href="http://www.internationalgenome.org/category/population/">International Genome Sample Resource Initiative</a>)</p>
+            <!-- Table of Population Codes -->
+            <table>
+              <thead>
+                <tr>
+                  <th style="text-align: center">Population Code</th>
+                  <th style="text-align: center">Population Description</th>
+                  <th style="text-align: center">Super Population Code</th>
+                  <th style="text-align: center">Sequence Data Available</th>
+                  <th style="text-align: center">Alignment Data Available</th>
+                  <th style="text-align: center">Variant Data Available</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td style="text-align: center">CHB</td>
+                  <td style="text-align: center">Han Chinese in Bejing, China</td>
+                  <td style="text-align: center">EAS</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                </tr>
+                <tr>
+                  <td style="text-align: center">JPT</td>
+                  <td style="text-align: center">Japanese in Tokyo, Japan</td>
+                  <td style="text-align: center">EAS</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                </tr>
+                <tr>
+                  <td style="text-align: center">CHS</td>
+                  <td style="text-align: center">Southern Han Chinese</td>
+                  <td style="text-align: center">EAS</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                </tr>
+                <tr>
+                  <td style="text-align: center">CDX</td>
+                  <td style="text-align: center">Chinese Dai in Xishuangbanna, China</td>
+                  <td style="text-align: center">EAS</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                </tr>
+                <tr>
+                  <td style="text-align: center">KHV</td>
+                  <td style="text-align: center">Kinh in Ho Chi Minh City, Vietnam</td>
+                  <td style="text-align: center">EAS</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                </tr>
+                <tr>
+                  <td style="text-align: center">CEU</td>
+                  <td style="text-align: center">Utah Residents (CEPH) with Northern and Western European Ancestry</td>
+                  <td style="text-align: center">EUR</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                </tr>
+                <tr>
+                  <td style="text-align: center">TSI</td>
+                  <td style="text-align: center">Toscani in Italia</td>
+                  <td style="text-align: center">EUR</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                </tr>
+                <tr>
+                  <td style="text-align: center">FIN</td>
+                  <td style="text-align: center">Finnish in Finland</td>
+                  <td style="text-align: center">EUR</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                </tr>
+                <tr>
+                  <td style="text-align: center">GBR</td>
+                  <td style="text-align: center">British in England and Scotland</td>
+                  <td style="text-align: center">EUR</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                </tr>
+                <tr>
+                  <td style="text-align: center">IBS</td>
+                  <td style="text-align: center">Iberian Population in Spain</td>
+                  <td style="text-align: center">EUR</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                </tr>
+                <tr>
+                  <td style="text-align: center">YRI</td>
+                  <td style="text-align: center">Yoruba in Ibadan, Nigeria</td>
+                  <td style="text-align: center">AFR</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                </tr>
+                <tr>
+                  <td style="text-align: center">LWK</td>
+                  <td style="text-align: center">Luhya in Webuye, Kenya</td>
+                  <td style="text-align: center">AFR</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                </tr>
+                <tr>
+                  <td style="text-align: center">GWD</td>
+                  <td style="text-align: center">Gambian in Western Divisions in the Gambia</td>
+                  <td style="text-align: center">AFR</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                </tr>
+                <tr>
+                  <td style="text-align: center">MSL</td>
+                  <td style="text-align: center">Mende in Sierra Leone</td>
+                  <td style="text-align: center">AFR</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                </tr>
+                <tr>
+                  <td style="text-align: center">ESN</td>
+                  <td style="text-align: center">Esan in Nigeria</td>
+                  <td style="text-align: center">AFR</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                </tr>
+                <tr>
+                  <td style="text-align: center">ASW</td>
+                  <td style="text-align: center">Americans of African Ancestry in SW USA</td>
+                  <td style="text-align: center">AFR</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                </tr>
+                <tr>
+                  <td style="text-align: center">ACB</td>
+                  <td style="text-align: center">African Caribbeans in Barbados</td>
+                  <td style="text-align: center">AFR</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                </tr>
+                <tr>
+                  <td style="text-align: center">MXL</td>
+                  <td style="text-align: center">Mexican Ancestry from Los Angeles USA</td>
+                  <td style="text-align: center">AMR</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                </tr>
+                <tr>
+                  <td style="text-align: center">PUR</td>
+                  <td style="text-align: center">Puerto Ricans from Puerto Rico</td>
+                  <td style="text-align: center">AMR</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                </tr>
+                <tr>
+                  <td style="text-align: center">CLM</td>
+                  <td style="text-align: center">Colombians from Medellin, Colombia</td>
+                  <td style="text-align: center">AMR</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                </tr>
+                <tr>
+                  <td style="text-align: center">PEL</td>
+                  <td style="text-align: center">Peruvians from Lima, Peru</td>
+                  <td style="text-align: center">AMR</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                </tr>
+                <tr>
+                  <td style="text-align: center">GIH</td>
+                  <td style="text-align: center">Gujarati Indian from Houston, Texas</td>
+                  <td style="text-align: center">SAS</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                </tr>
+                <tr>
+                  <td style="text-align: center">PJL</td>
+                  <td style="text-align: center">Punjabi from Lahore, Pakistan</td>
+                  <td style="text-align: center">SAS</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                </tr>
+                <tr>
+                  <td style="text-align: center">BEB</td>
+                  <td style="text-align: center">Bengali from Bangladesh</td>
+                  <td style="text-align: center">SAS</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                </tr>
+                <tr>
+                  <td style="text-align: center">STU</td>
+                  <td style="text-align: center">Sri Lankan Tamil from the UK</td>
+                  <td style="text-align: center">SAS</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                </tr>
+                <tr>
+                  <td style="text-align: center">ITU</td>
+                  <td style="text-align: center">Indian Telugu from the UK</td>
+                  <td style="text-align: center">SAS</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                  <td style="text-align: center">1</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <p>These populations have been combined into 5 super populations:</p>
+            <ul>
+              <li><strong>AFR</strong>, African</li>
+              <li><strong>AMR</strong>, Ad Mixed American</li>
+              <li><strong>EAS</strong>, East Asian</li>
+              <li><strong>EUR</strong>, European</li>
+              <li><strong>SAS</strong>, South Asian</li>
+            </ul>
+            </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Personal Ancestry (Admixture) Results -->
+      <div id="personal-ancestry">
+        <div class="banner">
+          <div class="color-overlay"></div>
+          <figure class="banner-image">
+            <img src="images/tree.jpg" class="section-banner-image" />
+          </figure>
+          <div class="banner-desc">
+            <p class="banner-desc-header">Your Story</p>
+            <p class="banner-desc-info">Your personal ancestry results (for sample HG00403)</p> 
+          </div>
+        </div>
+        <div class="content">
+          <div class="row">
+            <!-- Demo sample data -->
+            <p>For purposes of demonstration, we have included ancestry data for sample <a href="https://www.internationalgenome.org/data-portal/sample/HG00403">HG00403</a>.</p>
+
+            <p><a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0040115">Admixture projection analysis</a>
+            <!-- TODO: ACTUALLY DO THIS ADMIXTURE ANALYSIS -->
+            <!-- https://www.genetics.ucla.edu/software/admixture/admixture-manual.pdf -->
+            <!-- https://humgenomics.biomedcentral.com/articles/10.1186/1479-7364-7-1 -->
+            to inform ethnicity can be done similarly to <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4574246/">this study</a> in order to show an individual's ethnicity results.</p>
+
+            <h2>Your Ancestry</h2>
+            <img src="images/web-admix-self.jpg" alt="Your Admixture" style="width:100%">
+            <p>The populations that have greatest similarity to your ancestry results were CHD, She, CHS, Miaozu, Tujia, Han, CDX, which share East Asian ancestry</p>
+
+            <img src="images/web-admix-group.jpg" alt="Group Admixture" style="width:100%">
+
+          <!-- https://c.mfcreative.com/mars/landing/dna/homepage/ethnicity-map-blobs.jpg -->
+<!--           <h2>Your Geographic Ancestry</h2>
+          <p>This demo shows geographically where you are from, with the colors showing how recent/dominant your ancestry from these regions are:</p>
+          <div class="text-center"><img src="images/demo-admixture-map.jpg" class="demo-image" alt="Demo Admixture Map"></div> -->
+
+          <!-- http://revistas.utch.edu.co/ojs5/index.php/Bioneotropical/article/view/341/html_6 -->
+<!--           <h2>Your Percent Ancestry</h2>
+          <p>This demo displays your percent ancestry compositions:</p>
+          <div class="text-center"><img src="images/demo-admixture-percent.jpg" class="demo-image" alt="Demo Admixture Percent"></div> -->
+
+          <!-- https://dna-explained.com/category/admixture/ -->
+<!--           <h2>Your Chromosomal Ancestry</h2>
+          <p>This demo explains your ancestry at the chromosomal level:</p>
+          <div class="text-center"><img src="images/demo-admixture-chromosome.png" class="demo-image" alt="Demo Admixture Chromosome"></div> -->
+
+          <!-- https://www.nature.com/articles/s41598-017-01802-4 -->
+          <!-- <h2>Your Principle Component Analysis</h2> -->
+          <!-- <p>This demo would have interesting potential for socializing one's results against others</p> -->
+          <!-- <a href="https://www.nature.com/articles/s41598-017-01802-4/figures/2">Ancient and recent admixture layers in Sicily and Southern Italy trace multiple migration routes along the Mediterranean</a> -->
+
+          <!-- More potential admixture images https://dna-explained.com/category/admixture/ -->
+
+          </div>
+        </div>
+      </div>
+      
+      <!-- Dominant Population Story -->
+      <div id="dominant-population">
+        <div class="banner">
+          <div class="color-overlay"></div>
+          <figure class="banner-image">
+            <img src="images/great-wall.jpeg" class="section-banner-image" />
+          </figure>
+          <div class="banner-desc">
+            <p class="banner-desc-header">Find Out More</p>
+            <p class="banner-desc-info">Read the narrative of your dominant ancestry population</p>
+          </div>
+        </div>
+        <div class="content">
+          <div class="row">
+            <h2 align="center">Your dominant ancestry population is Han Chinese in Bejing, China.</h2>
+            <!-- TEXT ACCORDING TO WIKIPEDIA -->
+            <!-- https://en.wikipedia.org/wiki/Southern_Han -->
+            <div class="wikipedia-box">
+              <table class="infobox geography vcard vevent" style="width:290px;">
+                <tbody><tr class="mergedtoprow">
+                <td colspan="3" class="fn org summary" style="text-align:center; line-height:1.2em; font-size:135%; font-weight:bold;">Great Han / Great Yue</td>
+                </tr>
+                <tr class="mergedbottomrow">
+                <td colspan="3" class="fn org summary" style="text-align:center; line-height:1.2em; font-size:115%; font-weight:bold;"><big><span style="font-weight:normal;"><span lang="zh" xml:lang="zh"><a href="https://en.wiktionary.org/wiki/%E5%A4%A7" class="extiw" title="wikt:大">大</a><a href="https://en.wiktionary.org/wiki/%E6%BC%A2" class="extiw" title="wikt:漢">漢</a></span> / <span lang="zh" xml:lang="zh"><a href="https://en.wiktionary.org/wiki/%E5%A4%A7" class="extiw" title="wikt:大">大</a><a href="https://en.wiktionary.org/wiki/%E8%B6%8A" class="extiw" title="wikt:越">越</a></span></span></big></td>
+                </tr>
+                <tr>
+                <td colspan="3" style="vertical-align:middle; text-align:center; font-size:115%;"></td>
+                </tr>
+                <tr>
+                <td colspan="3" style="vertical-align:middle; text-align:center; border-top:solid 1px #aaa; padding:0.2em 0em 0.2em 0em;">
+                <table style="width:100%; text-align:center; margin:0 auto; background:transparent;">
+                <tbody><tr>
+                <td style="width:50px; border:0; vertical-align:middle; font-size:30%; line-height:105%;"></td>
+                <td style="vertical-align:middle; text-align:center; font-size:115%; border:0;"><b>917–971</b></td>
+                <td style="width:50px; border:0; vertical-align:middle; text-align:right; line-height:105%; font-size:30%;"></td>
+                </tr>
+                </tbody></table>
+                </td>
+                </tr>
+                <tr>
+                <td colspan="3" style="text-align:center; font-size:95%; padding:0.6em 0em 0.6em 0em;">
+                <div class="center">
+                <div class="floatnone"><a href="/wiki/File:L.LIANG.jpg" class="image" title="Location of Southern Han"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/d0/L.LIANG.jpg/250px-L.LIANG.jpg" width="250" height="342" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/d0/L.LIANG.jpg/375px-L.LIANG.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/d0/L.LIANG.jpg/500px-L.LIANG.jpg 2x" data-file-width="2508" data-file-height="3426"></a></div>
+                </div>
+                </td>
+                </tr>
+                <tr>
+                <td colspan="2"><b>Capital</b></td>
+                <td style="width:50%;">Xingwang (<a href="/wiki/Guangzhou" title="Guangzhou">Guangzhou</a>)</td>
+                </tr>
+                <tr>
+                <td colspan="2"><b>Languages</b></td>
+                <td><a href="/wiki/Middle_Chinese" title="Middle Chinese">Middle Chinese</a></td>
+                </tr>
+                <tr class="mergedtoprow">
+                <td colspan="2"><b>Government</b></td>
+                <td><a href="/wiki/Monarchy" title="Monarchy">Monarchy</a></td>
+                </tr>
+                <tr class="mergedrow">
+                <td colspan="2"><b><a href="/wiki/Southern_Han#Rulers" title="Southern Han">Emperor</a></b></td>
+                <td></td>
+                </tr>
+                <tr class="mergedrow">
+                <td style="width:1.0em; padding:0 0 0 0.6em;">&nbsp;•&nbsp;</td>
+                <td style="padding-left:0;text-align:left;">917–941</td>
+                <td><a href="/wiki/Liu_Yan_(Southern_Han)" class="mw-redirect" title="Liu Yan (Southern Han)">Emperor Gaozu</a></td>
+                </tr>
+                <tr class="mergedrow">
+                <td style="width:1.0em; padding:0 0 0 0.6em;">&nbsp;•&nbsp;</td>
+                <td style="padding-left:0;text-align:left;">941–943</td>
+                <td><a href="/wiki/Liu_Bin_(Southern_Han)" title="Liu Bin (Southern Han)">Emperor Shangdi</a></td>
+                </tr>
+                <tr class="mergedrow">
+                <td style="width:1.0em; padding:0 0 0 0.6em;">&nbsp;•&nbsp;</td>
+                <td style="padding-left:0;text-align:left;">943–958</td>
+                <td><a href="/wiki/Liu_Sheng_(Southern_Han)" title="Liu Sheng (Southern Han)">Emperor Zhongzong</a></td>
+                </tr>
+                <tr class="mergedbottomrow">
+                <td style="width:1.0em; padding:0 0 0 0.6em;">&nbsp;•&nbsp;</td>
+                <td style="padding-left:0;text-align:left;">958–971</td>
+                <td><a href="/wiki/Liu_Chang_(Jixing)" title="Liu Chang (Jixing)">Emperor Houzhu</a></td>
+                </tr>
+                <tr class="mergedtoprow">
+                <td colspan="2"><b>Historical era</b></td>
+                <td><a href="/wiki/Five_Dynasties_and_Ten_Kingdoms_Period" class="mw-redirect" title="Five Dynasties and Ten Kingdoms Period">Five Dynasties and Ten Kingdoms Period</a></td>
+                </tr>
+                <tr class="mergedrow">
+                <td style="width:1.0em; padding:0 0 0 0.6em;">&nbsp;•&nbsp;</td>
+                <td style="padding-left:0em;text-align:left;">Established</td>
+                <td style="vertical-align: bottom;">917</td>
+                </tr>
+                <tr class="mergedrow">
+                <td style="width:1.0em; padding:0 0 0 0.6em;">&nbsp;•&nbsp;</td>
+                <td style="padding-left:0em;text-align:left;">Renamed from "Yue" to "Han"</td>
+                <td style="vertical-align: bottom;">918</td>
+                </tr>
+                <tr class="mergedbottomrow">
+                <td style="width:1.0em; padding:0 0 0 0.6em;">&nbsp;•&nbsp;</td>
+                <td style="padding-left:0em;text-align:left;">Ended by the <a href="/wiki/Song_dynasty" title="Song dynasty">Song dynasty</a></td>
+                <td style="vertical-align: bottom;">971</td>
+                </tr>
+                <tr>
+                <td colspan="3">
+                <table style="width:95%; background: transparent; text-align:center; margin:0 auto;">
+                <tbody><tr>
+                <td style="text-align:center; border:0; padding-bottom:0">
+                <div id="before-after"></div>
+                <b>Preceded by</b></td>
+                <td style="text-align:center;border:0; padding-bottom:0;"><b>Succeeded by</b></td>
+                </tr>
+                <tr>
+                <td style="vertical-align:top; text-align:center; border:0;">
+                <table style="width:100%; background: transparent; text-align:center; margin:0 auto; border:0;">
+                <tbody><tr>
+                <td style="border:0; padding:0; vertical-align:middle;"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/d/d2/Blank.png" width="22" height="15" data-file-width="3" data-file-height="2"></td>
+                <td style="border:0; padding:0; vertical-align:middle; text-align:left;"><a href="/wiki/Tang_dynasty" title="Tang dynasty">Tang dynasty</a></td>
+                </tr>
+                </tbody></table>
+                </td>
+                <td style="vertical-align:top; text-align:center;border:0;">
+                <table style="width:92%; background:transparent; text-align:center; margin:0 auto; border:0;">
+                <tbody><tr>
+                <td style="border:0; padding:0; vertical-align:middle; text-align:right;"><a href="/wiki/Song_dynasty" title="Song dynasty">Song dynasty</a></td>
+                <td style="border:0; padding:0; vertical-align:middle;"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/d/d2/Blank.png" width="22" height="15" data-file-width="3" data-file-height="2"></td>
+                </tr>
+                </tbody></table>
+                </td>
+                </tr>
+                </tbody></table>
+                </td>
+                </tr>
+                <tr>
+                <td colspan="2"><b>Today part of</b></td>
+                <td><span class="flagicon"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/23px-Flag_of_the_People%27s_Republic_of_China.svg.png" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/35px-Flag_of_the_People%27s_Republic_of_China.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/45px-Flag_of_the_People%27s_Republic_of_China.svg.png 2x" data-file-width="900" data-file-height="600">&nbsp;</span><a href="/wiki/China" title="China">China</a><br>
+                <span class="flagicon"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/23px-Flag_of_Vietnam.svg.png" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/35px-Flag_of_Vietnam.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/45px-Flag_of_Vietnam.svg.png 2x" data-file-width="900" data-file-height="600">&nbsp;</span><a href="/wiki/Vietnam" title="Vietnam">Vietnam</a></td>
+                </tr>
+                </tbody></table>
+
+              <table class="infobox" style="width:22em">
+                <tbody><tr>
+                <td colspan="2" style="text-align:center"></td>
+                </tr>
+                <tr>
+                <td colspan="2" style="text-align:center;font-size: 125%; background-color: #b0c4de;">Southern Han</td>
+                </tr>
+                <tr>
+                <th scope="row" style="font-weight:normal;"><a href="/wiki/Traditional_Chinese_characters" title="Traditional Chinese characters">Traditional&nbsp;Chinese</a></th>
+                <td><span style="font-size: 1rem"><span lang="zh-Hant" xml:lang="zh-Hant">南漢</span></span></td>
+                </tr>
+                <tr>
+                <th scope="row" style="font-weight:normal;"><a href="/wiki/Simplified_Chinese_characters" title="Simplified Chinese characters">Simplified Chinese</a></th>
+                <td><span style="font-size: 1rem"><span lang="zh-Hans" xml:lang="zh-Hans">南汉</span></span></td>
+                </tr>
+                <tr>
+                <td colspan="2" style="text-align:center">
+                <table class="infobox collapsible collapsed" style="padding:0;border:none;margin:-3px;width:auto;min-width:100%;font-size:100%;clear:none;float:none;background-color:transparent" id="collapsibleTable0">
+                <tbody><tr>
+                <th colspan="2" style="text-align:center;font-size:125%;font-weight:bold;font-size: 100%; text-align: left; background-color: #f9ffbc;"><span class="collapseButton">[<a id="collapseButton0" href="#">show</a>]</span>Transcriptions</th>
+                </tr>
+                <tr style="display: none;">
+                <th colspan="2" style="text-align:center;background-color: #dcffc9;"><a href="/wiki/Standard_Chinese" title="Standard Chinese">Standard Mandarin</a></th>
+                </tr>
+                <tr style="display: none;">
+                <th scope="row" style="font-weight:normal;"><a href="/wiki/Hanyu_Pinyin" class="mw-redirect" title="Hanyu Pinyin">Hanyu Pinyin</a></th>
+                <td>Nán Hàn</td>
+                </tr>
+                <tr style="display: none;">
+                <th scope="row" style="font-weight:normal;"><a href="/wiki/Wade%E2%80%93Giles" title="Wade–Giles">Wade–Giles</a></th>
+                <td>Nan Han</td>
+                </tr>
+                </tbody></table>
+                </td>
+                </tr>
+                <tr style="display:none">
+                <td colspan="2"></td>
+                </tr>
+                </tbody></table>
+            </div>
+
+            <div class="wikipedia-text">
+              <p><b>Southern Han</b> (<a href="/wiki/Traditional_Chinese_characters" title="Traditional Chinese characters">Chinese</a>: <span xml:lang="zh-Hant" lang="zh-Hant">南漢</span>; <a href="/wiki/Pinyin" title="Pinyin">pinyin</a>: <i><span xml:lang="zh-Latn-pinyin" lang="zh-Latn-pinyin">Nán Hàn</span></i>; 917–971), originally <b>Great Yue (Viet)</b> (<a href="/wiki/Chinese_language" title="Chinese language">Chinese</a>: <span xml:lang="zh" lang="zh">大越</span>), was one of the ten kingdoms that existed during the <a href="/wiki/Five_Dynasties_and_Ten_Kingdoms_period" title="Five Dynasties and Ten Kingdoms period">Five Dynasties and Ten Kingdoms period</a>. It was located on China's southern coast, controlling modern <a href="/wiki/Guangdong" title="Guangdong">Guangdong</a> and <a href="/wiki/Guangxi" title="Guangxi">Guangxi</a>. The kingdom greatly expanded its capital Xingwang Fu (<a href="/wiki/Traditional_Chinese_characters" title="Traditional Chinese characters">Chinese</a>: <span xml:lang="zh-Hant" lang="zh-Hant">興王府</span>; <a href="/wiki/Pinyin" title="Pinyin">pinyin</a>: <i><span xml:lang="zh-Latn-pinyin" lang="zh-Latn-pinyin">Xìngwángfǔ</span></i>, (present-day <a href="/wiki/Guangzhou" title="Guangzhou">Guangzhou</a>). It attempted but failed to annex the Tang province of <a href="/wiki/Annam_(province)" title="Annam (province)">Annam</a> (modern northern Vietnam).</p>
+            
+            <!-- Interesting Science -->
+            <!-- TODO: Make search results here -->
+            <h2>Scientific Journal Articles about your dominant ancestry</h2>
+            <!-- article1 -->
+            <h3><a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0125676">Ancient DNA Reveals That the Genetic Structure of the Northern Han Chinese Was Shaped Prior to 3,000 Years Ago</a></h3>
+            <p>The Han Chinese are the largest ethnic group in the world, and their origins, development, and expansion are complex. Many genetic studies have shown that Han Chinese can be divided into two distinct groups: northern Han Chinese and southern Han Chinese. The genetic history of the southern Han Chinese has been well studied. However, the genetic history of the northern Han Chinese is still obscure. In order to gain insight into the genetic history of the northern Han Chinese, 89 human remains were sampled from the Hengbei site which is located in the Central Plain and dates back to a key transitional period during the rise of the Han Chinese (approximately 3,000 years ago). We used 64 authentic mtDNA data obtained in this study, 27 Y chromosome SNP data profiles from previously studied Hengbei samples, and genetic datasets of the current Chinese populations and two ancient northern Chinese populations to analyze the relationship between the ancient people of Hengbei and present-day northern Han Chinese. We used a wide range of population genetic analyses, including principal component analyses, shared mtDNA haplotype analyses, and geographic mapping of maternal genetic distances. The results show that the ancient people of Hengbei bore a strong genetic resemblance to present-day northern Han Chinese and were genetically distinct from other present-day Chinese populations and two ancient populations. These findings suggest that the genetic structure of northern Han Chinese was already shaped 3,000 years ago in the Central Plain area.</p>
+            <!-- article2 -->
+            <h3><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2790583/">Genetic Structure of the Han Chinese Population Revealed by Genome-wide SNP Variation</a></h3>
+            <p>Population stratification is a potential problem for genome-wide association studies (GWAS), confounding results and causing spurious associations. Hence, understanding how allele frequencies vary across geographic regions or among subpopulations is an important prelude to analyzing GWAS data. Using over 350,000 genome-wide autosomal SNPs in over 6000 Han Chinese samples from ten provinces of China, our study revealed a one-dimensional “north-south” population structure and a close correlation between geography and the genetic structure of the Han Chinese. The north-south population structure is consistent with the historical migration pattern of the Han Chinese population. Metropolitan cities in China were, however, more diffused “outliers,” probably because of the impact of modern migration of peoples. At a very local scale within the Guangdong province, we observed evidence of population structure among dialect groups, probably on account of endogamy within these dialects. Via simulation, we show that empirical levels of population structure observed across modern China can cause spurious associations in GWAS if not properly handled. In the Han Chinese, geographic matching is a good proxy for genetic matching, particularly in validation and candidate-gene studies in which population stratification cannot be directly accessed and accounted for because of the lack of genome-wide data, with the exception of the metropolitan cities, where geographical location is no longer a good indicator of ancestral origin. Our findings are important for designing GWAS in the Chinese population, an activity that is expected to intensify greatly in the near future.</p>
+            </div>
+            </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <!-- End -->
+
+    {{> footer}}
+
+    <script>
+      // Highlight current page
+      // document.getElementById('nav-about').className += 'current-page';
+    </script>
+  </body>
+</html>

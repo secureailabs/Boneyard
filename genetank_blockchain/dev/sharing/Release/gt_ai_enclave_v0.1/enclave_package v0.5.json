@@ -1,0 +1,19 @@
+{
+	"id":"EnclavePackage",
+    "name": "GeneTank AI Model Enclave",
+    "version":"0.5",
+    "description": "Genetank hardware secured enclave for protection of AI Model and user data.",
+    "enclave_creator":"0xB480c3233e1852Ea00Fd0EEc7149b2a6E67c23B2",
+    "spid":"0x7BC0338D24781F744875178FE7381F76", 
+    "public_key": "MIIBoDANBgkqhkiG9w0BAQEFAAOCAY0AMIIBiAKCAYEA0MvI9NpdP4GEqCvtlJQv00OybzTXzxBhPu/257VYt9cYw/phBN1WRyxBBcrZs15xmcvlb3xNmFGWs4w5oUgrFBNgi6g+CUOCsj0cM8xw7P/y3K0HXaZUf+T3CXCp8NvlkZHzfdWAFA5lGGR9g6kmuk7SojE3h87Zm1KjPU/PvAe+BaMUtrlRr4gPNVnu19Vho60xwuswPxfl/pBFUIk7qWEUR3l2hiqWMeLgf3Ays/WSnkXAuijwPt5g0hxsgIlyDrI3jKbf0zkFB56jvPwSykfU8aw4Gkbo5qSZxUAKnwH2L8UfyM6inBaaYtM79icRwsu45Yt6X0GAt7CSb/1TKBrnm5exmK1sug3YSQ/YuK1FYawUvIaDD0YfzOndTNVBewA+Hr5xNPvqGJoRKHuGbyu2lI9jrKYpVxQWsmx38wnxF6kEzX6N4m7KZiLeLpDdBVQtLuOzIdIE4wT3t/ckeqElxO/1Ut9bj765GcTTrYwMKHRwukWIH7ZtHtAjj0KzAgED", 
+    "hash_public_key": "",
+    "MRENCLAVE": "0xFAA9BC739B93B32C76A33E24FFEDC19EB2313AF52E5919CC89712FA99A51AAD1", 
+    "ISVPRODID": 0,
+    "ISVSN": 0,
+    "signature": "0x35444419f5e2783fab74c042e54298741dbb846a7b32a35c0766eaaccb1d6dd3cdb0cc08100a3b8d00c10d1a028d409dc3aab6c93b30d2273f286fd0f6a782f17fcd0bedd85f090bfb36f8a843364ae0e81e1e498772144346efda893af2e9d13a04751aa7ca9465c316c8aa469aea07b3fe380ee5739bc179570406259a312eba38b1bd66fb606f15559106426c9b124c0be0c994c607339043df3400923fee588a074c3994f8cfe85367befbafc81963a801f7f04ced7d22d853237188660d1fac6d36004ea8e67a720aba0b50e459aac2cedbcbc412ba3d65a7aa95e2c57f8025e1dde85b9c01e73ae2d739bbf756206ede040095b15b95812917af69b336fd22409ed5bd150e62177f06b0407eee7ea57ed6a48a654f91095c69372b6de4ad3f3532abadc6c67ae1008491eb498dc6bf3d2dd3b1b50f783221d3babb8180d8add6f8ae75af2c31f9d1e5d3440772c8db8a959194d570b79afdc9850c1aa348f7c7fe257d953daf4c9a8a4d2f83ad81e9c0ef8b6a546e1b2bc90897ebedb6", 
+    "hash_signature": "",
+    "src_file_type": ".zip", 
+    "hash_src_file": "",
+    "bin_file_type": ".zip",
+    "hash_bin_file": ""
+}

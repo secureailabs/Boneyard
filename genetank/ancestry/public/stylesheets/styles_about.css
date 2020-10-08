@@ -1,0 +1,33 @@
+.team-member {
+  width: 33.3333%;
+  float: left;
+}
+
+.team-name {
+  font-size: 1.3em;
+}
+
+.team-name, .team-role {
+  font-weight: bold;
+}
+
+.team-image {
+  max-width: 190px;
+  margin: auto;
+  padding: 17px 17px 0 17px;
+}
+
+.team-text {
+  padding: 17px;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.team-name a {
+  text-decoration: underline;
+  color: black;
+}
+
+.team-name a:hover {
+  color: #444;
+}

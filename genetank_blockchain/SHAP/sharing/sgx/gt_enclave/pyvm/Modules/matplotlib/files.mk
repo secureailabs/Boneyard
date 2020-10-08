@@ -1,0 +1,13 @@
+$(MODULESRCDIR)/matplotlib/_backend_agg.cpp \
+$(MODULESRCDIR)/matplotlib/_backend_agg_wrapper.cpp \
+$(MODULESRCDIR)/matplotlib/_contour.cpp \
+$(MODULESRCDIR)/matplotlib/_contour_wrapper.cpp \
+$(MODULESRCDIR)/matplotlib/_image.cpp \
+$(MODULESRCDIR)/matplotlib/_image_wrapper.cpp \
+$(MODULESRCDIR)/matplotlib/mplutils.cpp \
+$(MODULESRCDIR)/matplotlib/path_cleanup.cpp \
+$(MODULESRCDIR)/matplotlib/_path_wrapper.cpp \
+$(MODULESRCDIR)/matplotlib/_png.cpp \
+$(MODULESRCDIR)/matplotlib/py_converters.cpp \
+$(MODULESRCDIR)/matplotlib/_tkagg.cpp \
+$(MODULESRCDIR)/matplotlib/_ttconv.cpp \

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GeneTank — Get Notified</title>
+    {{> head}}
+    <!-- Page styles -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/styles_subscribe.css">
+  </head>
+  <body>
+    {{> nav}}
+    
+    <!-- Main section of page -->
+    <main role="main">
+      <div id="subscribe">
+        <div class="banner" id="header-banner">
+          <div class="color-overlay"></div>
+          <figure class="banner-image" id="top-banner-image-figure">
+            <img src="images/dna.jpg" class="top-banner-image" />
+          </figure>
+          <div class="banner-desc">
+            <p class="banner-desc-header">Coming Soon</p>
+            <p class="banner-desc-info">Get notified as soon as GeneTank launches</p>
+          </div>
+        </div>
+        <div class="content">
+          {{#if successMessage.length}}
+          <div class="alert alert-success">{{ successMessage }}</div>
+          {{/if}}
+          {{#if errorMessage.length}}
+          <div class="alert alert-error">{{ errorMessage }}</div>
+          {{/if}}
+
+          <div class="row">
+            <p class="section-header">Let's keep in touch.</p>
+            <div class="center-padded">
+              <form action="/subscribe" method="post">
+                <div class="form-group">
+                  <label class="label-block">Email Address</label>
+                  <input class="input-block field" type="text" name="email" required />
+                </div>
+                <input class="button black-button" type="submit" value="Submit" />
+              </form>
+            </div>
+          </div>
+          <div class="tall-spacer"></div>
+          <div class="tall-spacer"></div>
+          <div class="row">
+            <p class="section-header">Have any thoughts? Leave us a message.</p>
+            <div class="center-padded">
+              <form action="/contact" method="post">
+                <div class="form-group">
+                  <textarea class="input-block field" name="message" required></textarea>
+                </div>
+                <input class="button black-button" type="submit" value="Submit" />
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    {{> footer}}
+  </body>
+</html>

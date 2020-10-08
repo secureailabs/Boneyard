@@ -1,0 +1,43 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <form action="/file/upload" method="POST" id="upload-form">
+      <h1>File upload:</h1>
+      <input type="file" name="file" id="file">
+      <button type="submit">Upload</button>
+    </form>
+    <script>
+      $('#upload-form').submit(function(e) {
+        e.preventDefault();
+        var files = document.getElementById('file').files;
+
+        if (files.length > 0) {
+          var formData = new FormData();
+          formData.set('file', files[0], files[0].name);
+
+          $.ajax({
+            url: 'https://platform.genetank.ai:4100/file/upload',
+            type: 'POST',
+            data: formData,
+            processData: false,
+            contentType: false,
+            success: function(data) {
+              if (data.err) {
+                alert('Sorry, something went wrong while uploading your file. Please try again.');
+              } else {
+                alert('Success! Returned data: ' + JSON.stringify(data));
+              }
+            }
+          });
+        }
+      });
+    </script>
+    <form action="/file/delete" method="POST">
+      <h1>File delete:</h1>
+      <input type="text" name="key" id="key">
+      <button type="submit">Delete</button>
+    </form>
+  </body>
+</html>

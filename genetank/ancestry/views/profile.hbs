@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GeneTank — Profile</title>
+    {{> head}}
+  </head>
+  <body>
+    {{> internalnav}}
+
+    <!-- Main section of page -->
+    <main role="main">
+      <div id="profile">
+        <div class="content">
+          <div class="tall-spacer"></div>
+          <div class="row">
+            <p class="section-header">Profile</p>
+          </div>
+          <div class="row">
+            <p class="section-info">
+              <a href="/logout" class="button black-button">Logout</a>
+              <a href="/survey" class="button black-button">Answer Questions</a>
+            </p>
+          </div>
+          <div class="row">
+            <p class="section-info"><strong>id</strong>: {{ user.id }}</p>
+            <p class="section-info"><strong>email</strong>: {{ user.email }}</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    {{> footer}}
+  </body>
+</html>

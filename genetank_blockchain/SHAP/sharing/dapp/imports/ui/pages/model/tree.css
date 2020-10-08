@@ -1,0 +1,58 @@
+
+.Pane1 {
+  overflow: auto;
+}
+
+.tree {
+/*
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+  height: 300px;
+  color: blue;
+  resize: both;
+  height: 480px;
+*/
+  position: relative;
+  background-color: WhiteSmoke;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.m-node.placeholder {
+  border: 1px dashed #1385e5;
+}
+
+.m-node .inner {
+/*
+  color: #9DA5B4;
+*/
+  color: blue;
+  font-size: 12px;
+  font-family: Menlo;
+}
+
+.m-node .node {
+  display: inline-block;
+  width: 100%;
+  padding: 4px 5px;
+}
+
+.m-node .collapse {
+  display: inline;
+}
+
+.m-node .node.is-active {
+  background-color: #a1a6aF;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+

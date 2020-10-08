@@ -1,0 +1,25 @@
+.center-padded {
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+  padding: 40px;
+}
+
+input {
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  float: right;
+}
+
+label {
+  line-height: 1.6em;
+  letter-spacing: 0.5px;
+}
+
+textarea {
+  min-height: 150px;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16px;
+}

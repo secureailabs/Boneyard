@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Admin - Features</title>
+    {{> old-head}}
+  </head>
+  <body>
+    <div class="container">
+      {{> adminnav}}
+      <div class="page-header text-center">
+        <h1>Feature {{ feature.name }}</h1>
+        {{#if message}}
+          <div class="alert alert-{{ color }}">{{ message }}</div>
+        {{/if}}
+        <a href="/admin/features" class="btn btn-info"><span class="glyphicon glyphicon-th-list"></span> View all features</a>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Update Feature</h2>
+          <form method="post" action="/feature/update/{{ feature.id }}">
+            <div class="form-group">
+              <label for="display_name">Feature Display Name</label>
+              <input type="text" class="form-control" name="display_name" id="display_name" value="{{ feature.display_name }}">
+              <p class="help-block">This is how the feature will be displayed to end users.</p>
+            </div>
+            <button type="submit" class="btn btn-success">Update Feature</button>
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Grant Feature Access</h2>
+          <form method="post" action="/feature/grant/{{ feature.id }}">
+            <div class="form-group">
+              <label for="user_email">User Email</label>
+              <input type="text" class="form-control" name="user_email" id="user_email">
+            </div>
+            <button type="submit" class="btn btn-success">Grant Access</button>
+          </form>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Users with access to {{ feature.name }}</h2>
+          <table class="table table-striped table-hover">
+            <thead>
+              <th>User ID</th>
+              <th>Email</th>
+              <th>Revoke Access?</th>
+            </thead>
+            <tbody>
+              {{#each usersWithFeature}}
+              <tr>
+                <td>{{ this.id }}</td>
+                <td>{{ this.email }}</td>
+                <td><a href="/feature/revoke/{{ ../feature.id }}/{{ this.id }}"><span class="glyphicon glyphicon-remove"></span></a></td>
+              </tr>
+              {{/each}}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+{//comments must be removed before using it
+	  "id":"EnclaveRunner",
+    "name":"GeneTank AI Model Enclave version 0.1",
+    "enclave_creator":"0xB480c3233e1852Ea00Fd0EEc7149b2a6E67c23B2",//grandparent's key
+    "runner": "0xB480c3233e1852Ea00Fd0EEc7149b2a6E67c23B2",//key
+    "attestation_report": {
+      "MRENCLAVE": "0x8f7e09f225cf7ff97557cb8eac95cac83769d6eff20401fe1970e6cdb7fae6fa",//parent's key
+      "ISVPRODID": 0,
+      "ISVSN": 0,
+      "public_key": "MIIBoDANBgkqhkiG9w0BAQEFAAOCAY0AMIIBiAKCAYEA0MvI9NpdP4GEqCvtlJQv00OybzTXzxBhPu/257VYt9cYw/phBN1WRyxBBcrZs15xmcvlb3xNmFGWs4w5oUgrFBNgi6g+CUOCsj0cM8xw7P/y3K0HXaZUf+T3CXCp8NvlkZHzfdWAFA5lGGR9g6kmuk7SojE3h87Zm1KjPU/PvAe+BaMUtrlRr4gPNVnu19Vho60xwuswPxfl/pBFUIk7qWEUR3l2hiqWMeLgf3Ays/WSnkXAuijwPt5g0hxsgIlyDrI3jKbf0zkFB56jvPwSykfU8aw4Gkbo5qSZxUAKnwH2L8UfyM6inBaaYtM79icRwsu45Yt6X0GAt7CSb/1TKBrnm5exmK1sug3YSQ/YuK1FYawUvIaDD0YfzOndTNVBewA+Hr5xNPvqGJoRKHuGbyu2lI9jrKYpVxQWsmx38wnxF6kEzX6N4m7KZiLeLpDdBVQtLuOzIdIE4wT3t/ckeqElxO/1Ut9bj765GcTTrYwMKHRwukWIH7ZtHtAjj0KzAgED",
+      "signature":""
+    },
+    "model": "0x8f7e09f225cf7ff97557cb8eac95cac83769d6eff20401fe1970e6cdb7fae6fa", //AI model's key
+    "URL_port": "http://108.26.187.228:4300/enclave",
+    "hardware_info": "Name: Desktop-U3FBO2D,Processor: Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz 2.40GHz",
+    "other_info": ""
+}

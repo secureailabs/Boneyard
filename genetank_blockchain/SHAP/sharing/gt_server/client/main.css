@@ -1,0 +1,334 @@
+/* General styles */
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* A sad hack to get the login button to line up with the other nav buttons. */
+#login-buttons {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+#react-root {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 9;
+}
+
+/* Login styles */
+#login-buttons {
+  margin: 20px;
+  line-height: 20px;
+}
+
+#login-buttons .login-button, .accounts-dialog * {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#login-buttons .login-button, .accounts-dialog .login-button {
+  background: #2bbec0;
+  border-color: #2bbec0;
+}
+
+#login-buttons .login-button:hover, .accounts-dialog .login-button:hover {
+  background: #33c6c8;
+}
+
+#login-buttons a, .accounts-dialog a {
+  text-decoration: none;
+}
+
+/* Navbar styles */
+.login-spacer {
+  width: 170px;
+  height: 1em;
+}
+
+.login-spacer, .nav, .nav-list {
+  display: inline-block;
+}
+
+.nav, .nav-container {
+  position: fixed;
+  width: 100%;
+  z-index: 8;
+}
+
+.nav-spacer {
+  width: 100%;
+  height: calc(1em + 40px);
+}
+
+.nav-container {
+  /* border-bottom: 1px solid gray; */
+  box-shadow: 0 -2px 10px gray;
+  background: white;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li {
+  display: inline-block;
+  padding: 20px 15px 20px 15px;
+  cursor: pointer;
+  color: black;
+}
+
+.nav-list li:hover {
+  background-color: #2bbec0;
+  color: white !important;
+}
+
+.nav-list li a {
+  text-decoration: none;
+}
+
+.nav-list-md, .nav-list-lg {
+  display: none;
+}
+
+@media(min-width: 610px) {
+  .nav-list-sm, .nav-list-lg {
+    display: none;
+  }
+  .nav-list-md {
+    display: inline-block;
+  }
+  .nav-list li {
+    padding: 20px;
+  }
+  .nav-icon {
+    margin-right: 5px;
+  }
+}
+
+@media(min-width: 890px) {
+  .nav-list-sm, .nav-list-md {
+    display: none;
+  }
+  .nav-list-lg {
+    display: inline-block;
+  }
+}
+
+.nav-icon {
+  height: 15px;
+}
+
+/* Content styles */
+.content {
+  padding: 20px;
+}
+
+@media(min-width: 768px) {
+  .content {
+    padding: 40px;
+  }
+}
+
+.page-header {
+  margin-top: 0; /* We already have content padding, we don't need additional margin at the top of the page. */
+}
+
+/* Input styles */
+.inline-input {
+  margin-left: 5px;
+}
+
+.form-group {
+  margin-bottom: 1em;
+}
+
+.form-group label {
+  display: inline-block;
+  margin-bottom: .5em;
+}
+
+.form-group input, .form-group select {
+  display: block;
+  box-sizing: border-box;
+  width: 400px;
+  max-width: 80%;
+  padding: .5em .75em;
+}
+
+.form-group input[type=file] {
+  border: 1px solid lightgray;
+}
+
+.form-group input[type=submit], .form-group input[type=button] {
+  background: #2bbec0;
+  border: 1px solid #2bbec0;
+  color: white;
+  cursor: pointer;
+}
+
+.form-group input[type=submit]:hover, .form-group input[type=button]:hover {
+  background: #33c6c8;
+}
+
+/* Bootstrap styles */
+.pull-left {
+  float: left!important;
+}
+
+.pull-right {
+  float: right!important;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.list-group {
+  padding-left: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.list-group-item {
+  padding: 25px;
+  cursor: pointer;
+  position: relative;
+  display: block;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.list-group-item:first-child {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.list-group-item:last-child {
+  margin-bottom: 0;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.list-group-item:hover {
+  background-color: #f5f5f5;
+}
+
+.list-group-item-heading {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.list-group-item-text {
+  margin-bottom: 0;
+  line-height: 1.3;
+}
+
+/* Login page styles */
+.welcome-message {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3em;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.welcome-title {
+  font-size: 2em;
+  letter-spacing: 5px;
+}
+
+.welcome-image {
+  height: 3em;
+}
+
+.login-message {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+/* Blockchain page styles */
+.blockchain-browser-input {
+  margin-bottom: 0.5em;
+}
+
+.blockchain-browser-input input {
+  padding: .5em .75em;
+}
+
+.info-list {
+  margin-top: 0.5em;
+}
+
+/* Wallet styles */
+.wallet-balance {
+  margin: 0 auto;
+}
+
+.wallet-balance div, .wallet-balance img {
+  height: 100px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.wallet-image {
+  height: 100px;
+}
+
+.your-balance {
+  font-size: 1.5em;
+}
+
+.balance-value {
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.txns-header {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.txn-date {
+  margin-right: 10px;
+}
+
+.txn-date-day {
+  font-size: 1.4em;
+  height: 30px;
+}
+
+.txn-icon {
+  margin-right: 20px;
+}
+
+.exnUIm, .jGCZMs, .eyBbVy {
+  stroke: #2bbec0;
+  width: 42px;
+  height: 42px;
+  stroke-width: 1;
+}
+
+.wallet-container .list-group-item-heading, .txn-amt-gtt {
+  font-size: 20px;
+}
+
+.wallet-container .list-group-item-text {
+  font-size: 16px;
+}

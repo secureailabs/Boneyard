@@ -1,0 +1,305 @@
+caxpy.f:
+   caxpy:
+ccopy.f:
+   ccopy:
+cdotc.f:
+   cdotc:
+cdotu.f:
+   cdotu:
+cgbmv.f:
+   cgbmv:
+cgemm.f:
+   cgemm:
+cgemv.f:
+   cgemv:
+cgerc.f:
+   cgerc:
+cgeru.f:
+   cgeru:
+chbmv.f:
+   chbmv:
+chemm.f:
+   chemm:
+chemv.f:
+   chemv:
+cher2.f:
+   cher2:
+cher2k.f:
+   cher2k:
+cher.f:
+   cher:
+cherk.f:
+   cherk:
+chpmv.f:
+   chpmv:
+chpr2.f:
+   chpr2:
+chpr.f:
+   chpr:
+crotg.f:
+   crotg:
+cscal.f:
+   cscal:
+csrot.f:
+   csrot:
+csscal.f:
+   csscal:
+cswap.f:
+   cswap:
+csymm.f:
+   csymm:
+csyr2k.f:
+   csyr2k:
+csyrk.f:
+   csyrk:
+ctbmv.f:
+   ctbmv:
+ctbsv.f:
+   ctbsv:
+ctpmv.f:
+   ctpmv:
+ctpsv.f:
+   ctpsv:
+ctrmm.f:
+   ctrmm:
+ctrmv.f:
+   ctrmv:
+ctrsm.f:
+   ctrsm:
+ctrsv.f:
+   ctrsv:
+dasum.f:
+   dasum:
+daxpy.f:
+   daxpy:
+dcabs1.f:
+   dcabs1:
+dcopy.f:
+   dcopy:
+ddot.f:
+   ddot:
+dgbmv.f:
+   dgbmv:
+dgemm.f:
+   dgemm:
+dgemv.f:
+   dgemv:
+dger.f:
+   dger:
+dnrm2.f:
+   dnrm2:
+drot.f:
+   drot:
+drotg.f:
+   drotg:
+drotm.f:
+   drotm:
+drotmg.f:
+   drotmg:
+dsbmv.f:
+   dsbmv:
+dscal.f:
+   dscal:
+dsdot.f:
+   dsdot:
+dspmv.f:
+   dspmv:
+dspr2.f:
+   dspr2:
+dspr.f:
+   dspr:
+dswap.f:
+   dswap:
+dsymm.f:
+   dsymm:
+dsymv.f:
+   dsymv:
+dsyr2.f:
+   dsyr2:
+dsyr2k.f:
+   dsyr2k:
+dsyr.f:
+   dsyr:
+dsyrk.f:
+   dsyrk:
+dtbmv.f:
+   dtbmv:
+dtbsv.f:
+   dtbsv:
+dtpmv.f:
+   dtpmv:
+dtpsv.f:
+   dtpsv:
+dtrmm.f:
+   dtrmm:
+dtrmv.f:
+   dtrmv:
+dtrsm.f:
+   dtrsm:
+dtrsv.f:
+   dtrsv:
+dzasum.f:
+   dzasum:
+dznrm2.f:
+   dznrm2:
+icamax.f:
+   icamax:
+idamax.f:
+   idamax:
+isamax.f:
+   isamax:
+izamax.f:
+   izamax:
+lsame.f:
+   lsame:
+sasum.f:
+   sasum:
+saxpy.f:
+   saxpy:
+scabs1.f:
+   scabs1:
+scasum.f:
+   scasum:
+scnrm2.f:
+   scnrm2:
+scopy.f:
+   scopy:
+sdot.f:
+   sdot:
+sdsdot.f:
+   sdsdot:
+sgbmv.f:
+   sgbmv:
+sgemm.f:
+   sgemm:
+sgemv.f:
+   sgemv:
+sger.f:
+   sger:
+snrm2.f:
+   snrm2:
+srot.f:
+   srot:
+srotg.f:
+   srotg:
+srotm.f:
+   srotm:
+srotmg.f:
+   srotmg:
+ssbmv.f:
+   ssbmv:
+sscal.f:
+   sscal:
+sspmv.f:
+   sspmv:
+sspr2.f:
+   sspr2:
+sspr.f:
+   sspr:
+sswap.f:
+   sswap:
+ssymm.f:
+   ssymm:
+ssymv.f:
+   ssymv:
+ssyr2.f:
+   ssyr2:
+ssyr2k.f:
+   ssyr2k:
+ssyr.f:
+   ssyr:
+ssyrk.f:
+   ssyrk:
+stbmv.f:
+   stbmv:
+stbsv.f:
+   stbsv:
+stpmv.f:
+   stpmv:
+stpsv.f:
+   stpsv:
+strmm.f:
+   strmm:
+strmv.f:
+   strmv:
+strsm.f:
+   strsm:
+strsv.f:
+   strsv:
+xerbla_array.f:
+   xerbla_array:
+Error on line 92 of xerbla_array.f: syntax error
+Error on line 113 of xerbla_array.f: impossible conversion
+xerbla.f:
+   xerbla:
+Error on line 76 of xerbla.f: Declaration error for len_trim: unknown intrinsic function
+zaxpy.f:
+   zaxpy:
+zcopy.f:
+   zcopy:
+zdotc.f:
+   zdotc:
+zdotu.f:
+   zdotu:
+zdrot.f:
+   zdrot:
+zdscal.f:
+   zdscal:
+zgbmv.f:
+   zgbmv:
+zgemm.f:
+   zgemm:
+zgemv.f:
+   zgemv:
+zgerc.f:
+   zgerc:
+zgeru.f:
+   zgeru:
+zhbmv.f:
+   zhbmv:
+zhemm.f:
+   zhemm:
+zhemv.f:
+   zhemv:
+zher2.f:
+   zher2:
+zher2k.f:
+   zher2k:
+zher.f:
+   zher:
+zherk.f:
+   zherk:
+zhpmv.f:
+   zhpmv:
+zhpr2.f:
+   zhpr2:
+zhpr.f:
+   zhpr:
+zrotg.f:
+   zrotg:
+zscal.f:
+   zscal:
+zswap.f:
+   zswap:
+zsymm.f:
+   zsymm:
+zsyr2k.f:
+   zsyr2k:
+zsyrk.f:
+   zsyrk:
+ztbmv.f:
+   ztbmv:
+ztbsv.f:
+   ztbsv:
+ztpmv.f:
+   ztpmv:
+ztpsv.f:
+   ztpsv:
+ztrmm.f:
+   ztrmm:
+ztrmv.f:
+   ztrmv:
+ztrsm.f:
+   ztrsm:
+ztrsv.f:
+   ztrsv:

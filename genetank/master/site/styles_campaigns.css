@@ -1,0 +1,123 @@
+.campaign-list {
+  text-align: center;
+}
+
+.campaign-item a {
+  color: #9c9999;
+  opacity: 0.7;
+}
+
+.campaign-item a:hover {
+  color: #000;
+  opacity: 1;
+}
+
+.campaign-list-image {
+	height: 292px;
+}
+
+.campaign-list-title {
+  font-size: 32px;
+  font-weight: 300;
+  font-family: 'europa', sans-serif;
+  margin-top: 10px;
+}
+
+.campaign-left, .campaign-right {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 20px;
+  vertical-align: top;
+}
+
+.campaign-left {
+  width: 60%;
+}
+
+.campaign-right {
+  width: 39%;
+}
+
+.campaign-image {
+  width: 100%;
+}
+
+.campaign-graph {
+  width: 100%;
+}
+
+.campaign-graph-group-100 {
+  width: 100%;
+}
+
+.campaign-graph-group-50 {
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.back-campaign {
+  background-color: #fbfbfa;
+  padding: 20px;
+}
+
+.progress-bar {
+  height: 6px;
+  background-color: #e6e7e8;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.progress-bar-filled {
+  background-color: #a41e34;
+  height: 100%;
+}
+
+.progress-group {
+  margin: 10px 0;
+}
+
+.progress-large {
+  font-size: 1.5em;
+}
+
+.progress-highlight {
+  color: #a41e34;
+}
+
+.back-campaign-button {
+  width: 100%;
+}
+
+.support-header {
+  font-size: 32px;
+  font-weight: 300;
+  font-family: 'europa', sans-serif;
+  margin: 10px 0;
+}
+
+.pledge-level {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+
+.pledge-level:hover {
+  cursor: pointer;
+  border-color: #a41e34;
+}
+
+.pledge-level-title {
+  font-size: 24px;
+  font-weight: 300;
+  font-family: 'europa', sans-serif;
+  margin-bottom: 10px;
+}
+
+.pledge-level-subtitle {
+  font-weight: 600;
+  margin: 5px 0;
+}

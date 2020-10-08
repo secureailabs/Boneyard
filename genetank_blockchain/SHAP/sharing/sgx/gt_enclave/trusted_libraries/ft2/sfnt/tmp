@@ -1,0 +1,13 @@
+$(FT2SRCDIR)/sfnt/pngshim.c \
+$(FT2SRCDIR)/sfnt/sfdriver.c \
+$(FT2SRCDIR)/sfnt/sfnt.c \
+$(FT2SRCDIR)/sfnt/sfobjs.c \
+$(FT2SRCDIR)/sfnt/ttbdf.c \
+$(FT2SRCDIR)/sfnt/ttcmap.c \
+$(FT2SRCDIR)/sfnt/ttcolr.c \
+$(FT2SRCDIR)/sfnt/ttcpal.c \
+$(FT2SRCDIR)/sfnt/ttkern.c \
+$(FT2SRCDIR)/sfnt/ttload.c \
+$(FT2SRCDIR)/sfnt/ttmtx.c \
+$(FT2SRCDIR)/sfnt/ttpost.c \
+$(FT2SRCDIR)/sfnt/ttsbit.c \

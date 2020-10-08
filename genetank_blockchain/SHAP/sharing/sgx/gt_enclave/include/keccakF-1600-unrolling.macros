@@ -1,0 +1,158 @@
+/*
+ * Generic Hash and HMAC Program
+ *
+ * Copyright (C) 2009 2011 Harald von Fellenberg <hvf@hvf.ch>
+ *
+ * This program is free software; you can redistribute it and/or modify 
+ * it under the terms of the GNU General Public License as published by 
+ * the Free Software Foundation; either version 3 of the License, or 
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful, but 
+ * WITHOUT ANY WARRANTY; without even the implied warranty of 
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
+ * See the GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License 
+ * along with this program; if not, see <http://www.gnu.org/licenses/>.
+ */
+
+/*
+ * The files keccakF-1600-opt32.c  keccakNISTInterface.c  keccakSponge.c
+ * keccakF-1600-32.macros      keccakF-1600-opt32-settings.h
+ * keccakF-1600-32-rvk.macros  keccakF-1600-unrolling.macros
+ * keccakF-1600-interface.h    keccakNISTInterface.h
+ * keccakF-1600-int-set.h      keccakSponge.h
+ * have been taken from the Keccak submission to the SHA3 contest, see
+ * http://csrc.nist.gov/groups/ST/hash/sha-3/Round3/submissions_rnd3.html
+ * The Keccak homepage is http://keccak.noekeon.org/
+ * The authors of Keccak are
+ * Guido Bertoni, Joan Daemen, Michaël Peeters, Gilles Van Assche
+ *
+ * integration into fehashmac by hvf 10.04.2011
+ */
+
+/*
+The Keccak sponge function, designed by Guido Bertoni, Joan Daemen,
+Michaël Peeters and Gilles Van Assche. For more information, feedback or
+questions, please refer to our website: http://keccak.noekeon.org/
+
+Implementation by the designers,
+hereby denoted as "the implementer".
+
+To the extent possible under law, the implementer has waived all copyright
+and related or neighboring rights to the source code in this file.
+http://creativecommons.org/publicdomain/zero/1.0/
+*/
+
+#if (Unrolling == 24)
+#define rounds \
+    prepareTheta \
+    thetaRhoPiChiIotaPrepareTheta( 0, A, E) \
+    thetaRhoPiChiIotaPrepareTheta( 1, E, A) \
+    thetaRhoPiChiIotaPrepareTheta( 2, A, E) \
+    thetaRhoPiChiIotaPrepareTheta( 3, E, A) \
+    thetaRhoPiChiIotaPrepareTheta( 4, A, E) \
+    thetaRhoPiChiIotaPrepareTheta( 5, E, A) \
+    thetaRhoPiChiIotaPrepareTheta( 6, A, E) \
+    thetaRhoPiChiIotaPrepareTheta( 7, E, A) \
+    thetaRhoPiChiIotaPrepareTheta( 8, A, E) \
+    thetaRhoPiChiIotaPrepareTheta( 9, E, A) \
+    thetaRhoPiChiIotaPrepareTheta(10, A, E) \
+    thetaRhoPiChiIotaPrepareTheta(11, E, A) \
+    thetaRhoPiChiIotaPrepareTheta(12, A, E) \
+    thetaRhoPiChiIotaPrepareTheta(13, E, A) \
+    thetaRhoPiChiIotaPrepareTheta(14, A, E) \
+    thetaRhoPiChiIotaPrepareTheta(15, E, A) \
+    thetaRhoPiChiIotaPrepareTheta(16, A, E) \
+    thetaRhoPiChiIotaPrepareTheta(17, E, A) \
+    thetaRhoPiChiIotaPrepareTheta(18, A, E) \
+    thetaRhoPiChiIotaPrepareTheta(19, E, A) \
+    thetaRhoPiChiIotaPrepareTheta(20, A, E) \
+    thetaRhoPiChiIotaPrepareTheta(21, E, A) \
+    thetaRhoPiChiIotaPrepareTheta(22, A, E) \
+    thetaRhoPiChiIota(23, E, A) \
+    copyToState(state, A)
+#elif (Unrolling == 12)
+#define rounds \
+    prepareTheta \
+    for(i=0; i<24; i+=12) { \
+        thetaRhoPiChiIotaPrepareTheta(i   , A, E) \
+        thetaRhoPiChiIotaPrepareTheta(i+ 1, E, A) \
+        thetaRhoPiChiIotaPrepareTheta(i+ 2, A, E) \
+        thetaRhoPiChiIotaPrepareTheta(i+ 3, E, A) \
+        thetaRhoPiChiIotaPrepareTheta(i+ 4, A, E) \
+        thetaRhoPiChiIotaPrepareTheta(i+ 5, E, A) \
+        thetaRhoPiChiIotaPrepareTheta(i+ 6, A, E) \
+        thetaRhoPiChiIotaPrepareTheta(i+ 7, E, A) \
+        thetaRhoPiChiIotaPrepareTheta(i+ 8, A, E) \
+        thetaRhoPiChiIotaPrepareTheta(i+ 9, E, A) \
+        thetaRhoPiChiIotaPrepareTheta(i+10, A, E) \
+        thetaRhoPiChiIotaPrepareTheta(i+11, E, A) \
+    } \
+    copyToState(state, A)
+#elif (Unrolling == 8)
+#define rounds \
+    prepareTheta \
+    for(i=0; i<24; i+=8) { \
+        thetaRhoPiChiIotaPrepareTheta(i  , A, E) \
+        thetaRhoPiChiIotaPrepareTheta(i+1, E, A) \
+        thetaRhoPiChiIotaPrepareTheta(i+2, A, E) \
+        thetaRhoPiChiIotaPrepareTheta(i+3, E, A) \
+        thetaRhoPiChiIotaPrepareTheta(i+4, A, E) \
+        thetaRhoPiChiIotaPrepareTheta(i+5, E, A) \
+        thetaRhoPiChiIotaPrepareTheta(i+6, A, E) \
+        thetaRhoPiChiIotaPrepareTheta(i+7, E, A) \
+    } \
+    copyToState(state, A)
+#elif (Unrolling == 6)
+#define rounds \
+    prepareTheta \
+    for(i=0; i<24; i+=6) { \
+        thetaRhoPiChiIotaPrepareTheta(i  , A, E) \
+        thetaRhoPiChiIotaPrepareTheta(i+1, E, A) \
+        thetaRhoPiChiIotaPrepareTheta(i+2, A, E) \
+        thetaRhoPiChiIotaPrepareTheta(i+3, E, A) \
+        thetaRhoPiChiIotaPrepareTheta(i+4, A, E) \
+        thetaRhoPiChiIotaPrepareTheta(i+5, E, A) \
+    } \
+    copyToState(state, A)
+#elif (Unrolling == 4)
+#define rounds \
+    prepareTheta \
+    for(i=0; i<24; i+=4) { \
+        thetaRhoPiChiIotaPrepareTheta(i  , A, E) \
+        thetaRhoPiChiIotaPrepareTheta(i+1, E, A) \
+        thetaRhoPiChiIotaPrepareTheta(i+2, A, E) \
+        thetaRhoPiChiIotaPrepareTheta(i+3, E, A) \
+    } \
+    copyToState(state, A)
+#elif (Unrolling == 3)
+#define rounds \
+    prepareTheta \
+    for(i=0; i<24; i+=3) { \
+        thetaRhoPiChiIotaPrepareTheta(i  , A, E) \
+        thetaRhoPiChiIotaPrepareTheta(i+1, E, A) \
+        thetaRhoPiChiIotaPrepareTheta(i+2, A, E) \
+        copyStateVariables(A, E) \
+    } \
+    copyToState(state, A)
+#elif (Unrolling == 2)
+#define rounds \
+    prepareTheta \
+    for(i=0; i<24; i+=2) { \
+        thetaRhoPiChiIotaPrepareTheta(i  , A, E) \
+        thetaRhoPiChiIotaPrepareTheta(i+1, E, A) \
+    } \
+    copyToState(state, A)
+#elif (Unrolling == 1)
+#define rounds \
+    prepareTheta \
+    for(i=0; i<24; i++) { \
+        thetaRhoPiChiIotaPrepareTheta(i  , A, E) \
+        copyStateVariables(A, E) \
+    } \
+    copyToState(state, A)
+#else
+#error "Unrolling is not correctly specified!"
+#endif

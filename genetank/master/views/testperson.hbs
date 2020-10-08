@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <svg width="400" height="900">
+      <!-- Head -->
+      <circle class="head" cx="200" cy="100" r="70" fill="green" />
+      <!-- Shoulders -->
+      <circle cx="80" cy="255" r="60" fill="green" id="left-shoulder" />
+      <circle cx="320" cy="255" r="60" fill="green" id="right-shoulder" />
+      <rect x="80" y="195" width="240" height="120" fill="green" />
+      <!-- Left arm -->
+      <rect x="20" y="255" width="60" height="270" fill="green" />
+      <circle cx="50" cy="525" r="30" fill="green" />
+      <!-- Right arm -->
+      <rect x="320" y="255" width="60" height="270" fill="green" />
+      <circle cx="350" cy="525" r="30" fill="green" />
+      <!-- Torso -->
+      <rect x="90" y="195" width="220" height="370" fill="green" />
+      <!-- Left leg -->
+      <rect x="90" y="565" width="100" height="270" fill="green" />
+      <circle cx="140" cy="835" r="50" fill="green" />
+      <!-- Right leg -->
+      <rect x="210" y="565" width="100" height="270" fill="green" />
+      <circle cx="260" cy="835" r="50" fill="green" />
+      <!-- Face -->
+      <circle class="head" cx="160" cy="90" r="5" fill="white" />
+      <circle class="head" cx="240" cy="90" r="5" fill="white" />
+      <path class="head" d="M160 120
+           A 60 30 0 0 0 240 120
+           " stroke="white" fill="none" stroke-width="5" stroke-linecap="round" />
+      <!-- Head info -->
+      <g id="head-info" class="info-box head">
+        <circle cx="230" cy="60" r="8" fill="blue" />
+        <line x1="230" y1="60" x2="280" y2="60" stroke-width="3" stroke="blue" />
+        <rect x="280" y="40" width="120" height="70" fill="blue" rx="15" ry="15" />
+        <g transform="translate(290 45)">
+          <text x="0" y="0" font-family="Arial" font-size="14" stroke="none" fill="white">
+            <tspan x="0" dy="1.2em">Hair color: green</tspan>
+            <tspan x="0" dy="1.2em">Balding: yes</tspan>
+          </text>
+        </g>
+      </g>
+    </svg>
+    <script>
+      $('.info-box').hide();
+      $('.head').mouseenter(function() {
+        $('#head-info').show();
+      });
+      $('.head').mouseleave(function() {
+        $('#head-info').hide();
+      });
+    </script>
+  </body>
+</html>

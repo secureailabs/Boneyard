@@ -1,0 +1,189 @@
+"","Phenotype_Name","Phenotype_Discription","Phenotype_Symptoms","Phenotype_Treatment","Phenotype_Age","Phenotype_Gender","SnpediaScore","Risk","SNPrelated"
+"4","Parkinson's disease","Parkinson's Disease is a progressive disorder of the nervous system marked by muscle tremors, muscle rigidity, decreased mobility, stooped posture, slow voluntary movements, and a mask-like facial expression.","Tremor(s);Numbness and tingling with pins and needles;Visual hallucinations;Jerky movements (dyskinesia);Slowness (bradykinesia);Stiffness/Spasticity;Fatigue;Pain;Insomnia;Anxious mood;Constipation;Depressed mood;Excess saliva","Carbidopa-Levodopa;
+more
+;Rasagiline;
+more
+;Amantadine;
+more
+;Pramipexole;
+more
+;Ropinirole;
+more
+;Rotigotine;
+more
+;Deep Brain Stimulation;
+more
+;Carbidopa Levodopa ER;
+more
+;Entacapone;
+more
+;Carbidopa-Entacapone-Levodopa;
+more
+","<20;4;20s;68;30s;236;40s;922;50s;2,891;60s;5,360;70+;5,017","Female=48%;Male=52%",-18.5,"Increased Risk","rs10464059:rs10464059:rs112019125:rs112019125:rs113169049"
+"52","Rheumatoid arthritis","Rheumatoid arthritis (RA) is a chronic, systemic (whole body) disorder that may affect many tissues and organs, but principally affects the thin, loose vascular connective tissue (synovial tissue) that makes up the membranes surrounding joints.","Joint pain;Stiffness in morning;Fatigue;Pain;Insomnia;Depressed mood;Anxious mood","Methotrexate;
+more
+;Hydroxychloroquine;
+more
+;Adalimumab;
+more
+;Sulfasalazine;
+more
+;Etanercept;
+more
+;Leflunomide;
+more
+;Prednisone;
+more
+;Abatacept;
+more
+;Tocilizumab;
+more
+;Tramadol;
+more
+","<20;19;20s;402;30s;1,107;40s;2,607;50s;3,511;60s;2,053;70+;489","Female=89%;Male=11%",2,"Decreased Risk","rs10499194"
+"66","Lung cancer","Lung cancers are generally divided into two main categories: small cell lung cancers (SCLC) and non-small cell lung cancers (NSCLC). The type of cancer is determined by looking at the specific type of cancer cells that are present.","Coughing up blood (hemoptysis);Fatigue;Generalized weakness (asthenia);Shortness of breath (dyspnea);Anxious mood;Depressed mood;Insomnia;Pain;Cough;Decreased appetite;Wheezing;Chest pain","Chemotherapy;
+more
+;Radiation Therapy;
+more
+;Lung lobectomy;
+more
+;Erlotinib;
+more
+;Nivolumab;
+more
+;Afatinib;
+more
+;Crizotinib;
+more
+;Pneumonectomy;Pemetrexed;
+more
+;Gefitinib;
+more
+","<20;9;20s;83;30s;152;40s;448;50s;1,589;60s;2,027;70+;1,269","Female=71%;Male=29%",-1.2,"Normal","rs12050604"
+"68","Prostate cancer","Prostate cancer is a malignant tumor involving the prostate gland.  Prostate cancer is generally slow growing and is seen more often in men over the age of 50.","Fatigue;Insomnia;Anxious mood;Depressed mood;Pain","Prostatectomy;
+more
+;Radiation Therapy;
+more
+;Leuprolide (Leuprorelin);
+more
+;Bicalutamide;
+more
+;Chemotherapy;Citalopram;Enzalutamide;Fluoxetine;Hormone Therapy for Prostate Cancer (androgen deprivation therapy);Tramadol","<20;1;20s;11;30s;29;40s;51;50s;159;60s;371;70+;266","Female=4%;Male=96%",-3,"Increased Risk","rs10492519:rs10492519:rs11672691"
+"114","Alzheimer's disease","Alzheimer's disease is a progressive, neurodegenerative disease characterized by loss of function of nerve cells in several areas of the brain leading to loss of cognitive function such as memory and language.","Depressed mood;Fatigue;Anxious mood;Insomnia;Pain","Donepezil;Appendectomy;Citalopram;Clonazepam;Duloxetine;Prednisone;Rasagiline;Trazodone;Wheelchair (powered);Zolpidem","<20;2;20s;18;30s;21;40s;27;50s;33;60s;44;70+;139","Female=50%;Male=50%",1.5,"Decreased Risk","rs11136000"
+"129","Cystic fibrosis","Cystic fibrosis is a rare genetic condition in which certain glands produce abnormally thick mucus. This mucus can cause problems in digestion, breathing, and body cooling. There are over 1900 known mutations that can cause CF. Treatments may include specific drugs and lifestyle changes.","Coughing up phlegm;Exercise intolerance;Shortness of breath (dyspnea);Fat in stool (Steatorrhea);Abdominal pain;Constipation;Diarrhea;Fatigue;Pain;Wheezing;Insomnia;Anxious mood;Depressed mood","Albuterol;Dornase alfa;Ivacaftor;Azithromycin;Tobramycin;Aztreonam;Budesonide;Fluticasone;Hypertonic Saline;Pancrelipase","<20;204;20s;342;30s;270;40s;157;50s;101;60s;27;70+;5","Female=68%;Male=32%",-49.5,"Increased Risk","I3000001:I4000296:I4000297:I4000313:I4000315:I4000321:I4000321:rs113993958:rs113993958:rs113993959:rs113993959:rs113993960:rs121908745:rs121909011"
+"138","Phenylketonuria","Phenylketonuria (PKU) is a genetic disorder in which the body can't process part of a protein called phenylalanine (Phe). Phe is in almost all foods. If the Phe level gets too high, it can damage the brain and cause severe mental retardation.","Fatigue;Depressed mood;Insomnia;Pain;Anxious mood","","<20;2;20s;1;30s;3;40s;4;50s;1;60s;0;70+;0","Female=64%;Male=36%",-31,"Increased Risk","I3003403:I3003404:I4000467:I4000470:I4000473:I4000474:I4000479"
+"139","Tay-Sachs disease","Tay-Sachs disease is an autosomal recessive genetic disorder caused by a genetic defect in a single gene with one defective copy of that gene inherited from each parent. The disease occurs when harmful quantities of gangliosides accumulate in the nerve cells of the brain.","Fatigue;Insomnia;Depressed mood;Pain;Anxious mood","","<20;3;20s;0;30s;1;40s;0;50s;0;60s;0;70+;0","Female=33%;Male=67%",-13,"Increased Risk","I4000393:I4000393:I4000440"
+"154","Tyrosinemia type I","Tyrosinemia is a genetic disorder characterized by elevated blood levels of the amino acid tyrosine, a building block of most proteins. Type I is is caused by a shortage of the enzyme fumarylacetoacetate hydrolase. Symptoms usually appear in the first few months of life.","Fatigue;Anxious mood;Depressed mood;Pain;Insomnia","","<20;0;20s;2;30s;5;40s;1;50s;1;60s;1;70+;1","Female=73%;Male=27%",-9,"Increased Risk","I5012862:I5012865"
+"166","Bipolar disorder","Bipolar disorder, also referred to as bipolar affective disorder or manic depression, describes a category of mood disorders defined by the presence of one or more episodes of abnormally elevated energy levels, cognition, and mood with or without one or more depressive episodes.","Fatigue;Anxious mood;Depressed mood;Pain;Insomnia","Lamotrigine;
+more
+;Aripiprazole;
+more
+;Quetiapine;
+more
+;Individual Therapy;
+more
+;Lithium Carbonate;
+more
+;Clonazepam;
+more
+;Divalproex sodium;
+more
+;Olanzapine;
+more
+;Trazodone;
+more
+;Bupropion;
+more
+","<20;265;20s;1,909;30s;4,079;40s;5,995;50s;4,463;60s;1,674;70+;190","Female=83%;Male=17%",-2,"Normal","rs1006737:rs10937823"
+"167","Anorexia nervosa","Anorexia nervosa is a syndrome in which the primary features include excessive fear of becoming overweight, body image disturbance, significant weight loss, refusal to maintain minimal normal weight, and amenorrhea. This disorder occurs most frequently in adolescent females.","Fatigue;Depressed mood;Anxious mood;Insomnia;Pain","Alprazolam;Fluoxetine;
+more
+;Individual Therapy;Trazodone;
+more
+;Clonazepam;Escitalopram;Hydroxyzine;Mirtazapine;
+more
+;Amitriptyline;Desvenlafaxine","<20;29;20s;151;30s;77;40s;47;50s;39;60s;18;70+;0","Female=88%;Male=12%",0,"Decreased Risk","rs10096097"
+"185","Acute myeloid leukemia","Acute myeloid leukemia (AML) is a blood cancer where there are too many of a specific type of white blood cell called a myeloblast. AML has a number of subtypes that are distinguished from each other by cell type.","Fatigue;Insomnia;Pain;Anxious mood;Depressed mood","Allopurinol;Amitriptyline;Clonazepam;Cytarabine;Cytarabine-Daunorubicin;Fluvoxamine;
+more
+;Oxycodone;Oxycodone-acetaminophen;Quetiapine","<20;1;20s;3;30s;11;40s;22;50s;14;60s;25;70+;13","Female=61%;Male=39%",-2,"Normal","rs11978267"
+"195","Ovarian cancer","Ovarian cancer is the presence of cancerous growth in the ovary. It is classified by the type of cell involved. About 80% arise in epithelium cells. The rest originate in ovarian germ cells, stromal cells or are the result of cancer spreading (metastases) from another cancer site in the body.","Fatigue;Insomnia;Pain;Depressed mood;Anxious mood","Carboplatin;
+more
+;Hysterectomy;Paclitaxel;
+more
+;Salpingo-oophorectomy;Bevacizumab;
+more
+;Oophorectomy;Amitriptyline;Chemotherapy;
+more
+;Doxorubicin;Lorazepam","<20;1;20s;10;30s;29;40s;70;50s;151;60s;121;70+;37","Female=98%;Male=2%",-1.75,"Normal","rs10088218:rs1042838"
+"201","Ankylosing spondylitis","Ankylosing spondylitis is an autoimmune chronic inflammatory disorder characterized by inflammation in the vertebral joints of the spine and sacroiliac joints. Patients present with stiffness and pain in the spine.  Ankylosing spondylitis is a seronegative spondyloarthropathy.","Pain;Fatigue;Insomnia;Anxious mood;Depressed mood","Adalimumab;
+more
+;Diclofenac;
+more
+;Etanercept;
+more
+;Sulfasalazine;
+more
+;Ibuprofen;
+more
+;Celecoxib;Indomethacin;
+more
+;Infliximab;Amitriptyline;
+more
+;Hydrocodone-Acetaminophen;
+more
+","<20;0;20s;83;30s;237;40s;305;50s;299;60s;142;70+;27","Female=69%;Male=31%",1.7,"Decreased Risk","rs10050860"
+"228","Macular degeneration","Macular degeneration (MD) usually affects older adults and results in a loss of vision in the center of the visual field (the macula) because of damage to the retina. The dry form of MD occurs as a result of retinal atrophy; the wet form is due to leakage of blood or protein below the macula.","Fatigue;Pain;Insomnia;Anxious mood;Depressed mood","AREDS 2;Amitriptyline;Gabapentin;Alprazolam;Amphetamine-Dextroamphetamine;Bevacizumab;Pregabalin;PreserVision AREDS 2;Tramadol;Vitamin C (ascorbic acid)","<20;0;20s;5;30s;15;40s;33;50s;52;60s;74;70+;67","Female=67%;Male=33%",-8,"Increased Risk","rs10490924:rs10490924:rs1061147"
+"250","Aortic aneurysm","An aortic aneurysm is an abnormal balloon-like or sac-like dilatation of the aorta caused by weakening of the arterial wall. The aorta is the largest artery in the body, originating from the heart and extending down to the abdomen, where it branches off into two smaller arteries.","Fatigue;Pain;Anxious mood;Depressed mood;Insomnia","Amphetamine-Dextroamphetamine;Aortic aneurysm surgery;
+more
+;Mirtazapine;
+more
+;Pregabalin;
+more
+;Buspirone;Clonazepam;CT Scan (computerized tomography scan);Duloxetine;Escitalopram;Gabapentin","<20;1;20s;3;30s;8;40s;15;50s;25;60s;40;70+;28","Female=50%;Male=50%",-2,"Normal","rs10757278"
+"264","Obesity","Obesity is a medical condition in which excess body fat has accumulated to the extent that it may have an adverse effect on health, leading to reduced life expectancy and/or increased health problems.","Fatigue;Pain;Anxious mood;Depressed mood;Insomnia","Gabapentin;
+more
+;Tramadol;
+more
+;Duloxetine;
+more
+;Diet modification;
+more
+;Hydrocodone-Acetaminophen;
+more
+;Clonazepam;
+more
+;Cyclobenzaprine;
+more
+;Aripiprazole;
+more
+;Lorazepam;
+more
+;Trazodone;
+more
+","<20;4;20s;156;30s;470;40s;696;50s;660;60s;371;70+;68","Female=77%;Male=23%",-5.5,"Increased Risk","rs1121980:rs1121980"
+"289","Niemann-Pick disease","Niemann-Pick disease is an inherited condition involving lipid metabolism, which is the breakdown, transport, and use of fats and cholesterol in the body. Symptoms are related to the organs in which lipids accumulate.","Fatigue;Insomnia;Pain;Anxious mood;Depressed mood","","<20;10;20s;4;30s;4;40s;3;50s;1;60s;1;70+;0","Female=52%;Male=48%",-9,"Increased Risk","I4000381:I4000381"
+"290","Gaucher's disease","Gaucher disease is a lysosomal storage disorder involving the deficiency of beta glucocerebrosidase. There are 3 types, which vary in epidemiology, enzyme activity, and manifestations.","Pain;Depressed mood;Fatigue;Insomnia;Anxious mood","","<20;1;20s;2;30s;7;40s;8;50s;1;60s;1;70+;1","Female=62%;Male=38%",-5,"Increased Risk","I4000386"
+"398","Nemaline myopathy","Nemaline myopathy, a genetic disorder that primarily affects skeletal muscles, causing muscle weakness (myopathy) throughout the body, but it is typically most severe in the muscles of the face, neck, and limbs.","Fatigue;Depressed mood;Pain;Anxious mood;Insomnia","Celecoxib","<20;4;20s;2;30s;0;40s;1;50s;3;60s;0;70+;0","Female=60%;Male=40%",-23,"Increased Risk","rs121909519:rs121909521:rs121909522:rs121909522:rs121909523:rs121909523:rs121909524:rs121909524:rs121909525:rs121909527:rs121909527:rs121909530:rs121909531"
+"438","Dysautonomia","Dysautonomia is a broad term that describes any disease or malfunction of the autonomic nervous system. It can be local, as in reflex sympathetic dystrophy, or generalized, as in pure autonomic failure. It can be acute and reversible, as in Guillain-Barre syndrome, or chronic and progressive.","Fatigue;Pain;Insomnia;Anxious mood;Depressed mood","Tramadol;Acetaminophen (Paracetamol);Amitriptyline;
+more
+;Buspirone;
+more
+;Gabapentin;Hydrocodone-Acetaminophen;Pregabalin;
+more
+;Therapeutic brace;Trazodone;Wheelchair (manual);
+more
+","<20;11;20s;68;30s;81;40s;85;50s;72;60s;34;70+;7","Female=90%;Male=10%",-4,"Increased Risk","I4000400"
+"656","Medium-chain acyl-CoA dehydrogenase deficiency","Medium chain acyl CoA dehydrogenase deficiency is a genetic is a condition that prevents the body from converting certain fats to energy, particularly during periods without food. Typically symptoms first appear during infancy or early childhood but in rare cases can appear later in life.","Insomnia;Pain;Anxious mood;Depressed mood;Fatigue","","<20;3;20s;0;30s;1;40s;0;50s;1;60s;1;70+;0","Female=80%;Male=20%",-28,"Increased Risk","I5012755:I5012755:I5012758:I5012758:I5012759:I5012759:I5012760:I5012760"
+"1069","Brain aneurysm","A brain aneurysm occurs when a blood vessel becomes enlarged or balloons. Usually symptoms present when they become large, begin to leak blood, or rupture. Symptoms include, changes in vision, pain above or behind the eye, a dilated pupil, or numbness or weakness to one side.","Fatigue;Pain;Anxious mood;Depressed mood;Insomnia","Cyclobenzaprine;Hydrocodone-Acetaminophen;Vitamin B12 Injection;Amphetamine-Dextroamphetamine;Aspirin;Azathioprine;Buprenorphine patch;
+more
+;Craniotomy;Dextroamphetamine;Embolization;
+more
+","<20;0;20s;4;30s;18;40s;57;50s;106;60s;70;70+;8","Female=77%;Male=23%",-2,"Normal","rs10757278"
+"1218","Malignant hyperthermia","Malignant hyperthermia is a rare inherited disorder that causes a fast rise in body temperature (fever) and severe muscle contractions when the affected person gets general anesthesia.","Anxious mood;Depressed mood;Fatigue;Pain;Insomnia","Diphenhydramine;Gabapentin;Ibuprofen;propofol","<20;1;20s;1;30s;3;40s;3;50s;1;60s;3;70+;0","Female=58%;Male=42%",-15,"Increased Risk","rs118192161:rs118192162:rs118192172:rs118204421:rs118204423"
+"1314","Factor XI deficiency","Factor XI Deficiency is a rare autosomal recessive disease, which causes Hemophilia C.  Factor XI is produced by the liver and is part of a chain of clotting factor responsible for stopping bleeding by forming a clot after an injury or surgery.","Insomnia;Anxious mood;Depressed mood;Fatigue;Pain","","<20;2;20s;0;30s;3;40s;2;50s;1;60s;3;70+;3","Female=71%;Male=29%",-14,"Increased Risk","I4000397:I4000397:I4000398"
+"1525","Werner syndrome","Werner syndrome is characterized as the premature appearance and features associated with aging. Conditions that usually occur later in life, affect these patients at an earlier age, e.g. cataracts, skin ulcers, type 2 diabetes, infertility, and osteoporosis.","Pain;Anxious mood;Depressed mood;Fatigue;Insomnia","","<20;0;20s;0;30s;0;40s;2;50s;0;60s;0;70+;0","Female=0%;Male=100%",-6,"Increased Risk","rs113993961:rs113993961"
+"1675","Familial mediterranean fever","Familial (inherited) Mediterranean fever is a disorder passed down through families. Some characteristics of this condition include chronic fevers and inflammation of the lining of the abdomen, chest, or joints.","Fatigue;Pain;Insomnia;Anxious mood;Depressed mood","Colchicine;Alprazolam;Compression Stockings/Socks;Diazepam;Fentanyl patch;Furosemide;Gabapentin;Hydromorphone;Meloxicam;Nortriptyline","<20;5;20s;3;30s;10;40s;5;50s;2;60s;3;70+;3","Female=56%;Male=44%",-2,"Normal","rs11466023"
+"1968","Central core disease","Central core disease is an inherited neuromuscular disorder characterized as muscle weakness and decreased muscle tone. Babies with central core disease typically have the appearance of floppy limbs and delayed motor skill development.","Fatigue;Anxious mood;Depressed mood;Insomnia;Pain","","<20;1;20s;0;30s;1;40s;0;50s;4;60s;0;70+;1","Female=88%;Male=13%",-4,"Increased Risk","rs118192169"
+"2157","Familial hypercholesterolemia","Familial Hypercholesterolemia (FH) is a specific type of high cholesterol (or hypercholesterolemia) that is caused by a specific genetic defect. It can cause levels of low-density lipoprotein (LDL), to be extremely high and it may cause cardiovascular disease to occur at an earlier age.","Fatigue;Anxious mood;Pain;Depressed mood;Insomnia","Citalopram;Atorvastatin;Heated Baths;Hydrocodone-Acetaminophen;
+more
+;Hydromorphone;Morphine Sulfate IR (MSIR);Rosuvastatin;Xymogen IgG 2000 CWP","<20;0;20s;6;30s;7;40s;7;50s;8;60s;5;70+;3","Female=78%;Male=22%",-4,"Increased Risk","I4000339:rs112029328"
+"2354","Myopathy","Myopathy is a general term used to indicate muscle weakness due to dysfunction of muscle fiber. Myopathy can be inherited or acquired.","Fatigue;Pain;Anxious mood;Insomnia;Depressed mood","Amphetamine-Dextroamphetamine;Clonazepam;Codeine;Electro Therapeutic Point Stimulation (ETPS);Magnesium Glycinate;Morphine;Oxycodone-acetaminophen","<20;2;20s;0;30s;4;40s;7;50s;4;60s;2;70+;0","Female=67%;Male=33%",-23,"Increased Risk","rs121909519:rs121909521:rs121909522:rs121909522:rs121909523:rs121909523:rs121909524:rs121909524:rs121909525:rs121909527:rs121909527:rs121909530:rs121909531"

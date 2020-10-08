@@ -1,0 +1,9 @@
+$(MODULESRCDIR)/sklearn/utils/arrayfuncs.c \
+$(MODULESRCDIR)/sklearn/utils/graph_shortest_path.c \
+$(MODULESRCDIR)/sklearn/utils/lgamma.c \
+$(MODULESRCDIR)/sklearn/utils/_logistic_sigmoid.c \
+$(MODULESRCDIR)/sklearn/utils/murmurhash.c \
+$(MODULESRCDIR)/sklearn/utils/_random.c \
+$(MODULESRCDIR)/sklearn/utils/seq_dataset.c \
+$(MODULESRCDIR)/sklearn/utils/sparsefuncs_fast.c \
+$(MODULESRCDIR)/sklearn/utils/weight_vector.c \

@@ -1,0 +1,22 @@
+##model file generation 
+1.download GWAS summary statistics 
+2.standardise the GWAS summary statistics into format that can be used by Plink((GWASsumProcess.R))
+3. Use Plink tool LD clump function to deal with LD in summary statistics using 1000 genome project data as genotypes (LDClumping.sh)
+4. Generate GWAS JSON file using the processed GWAS summary statistics data and baseline risk data obtained from literature (Generate_GWAS_JSON_file.R)
+
+
+## data file 
+
+1.convert raw 23andMe data into VCF format based on hg19 reference 
+2. Impute missed SNPS （choose not to impute yet）
+3.convert the VCF file into simplified JSON format (CMD_PatientDataIntoJSON5.R)
+Rscript CMD_PatientDataIntoJSON5.R [PatientID] [VCF file address] [OutputAddress]
+
+
+
+##Prediction-method 
+1. 
+
+The final predicted polygenic score will be in txt in output address defined in C file (C code folder). 
+
+

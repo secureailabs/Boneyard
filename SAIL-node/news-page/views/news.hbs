@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{> head}}
+    <title>News</title>
+</head>
+
+
+<body>
+{{> nav}}
+
+<section id="news-page" class="bg-info">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10">
+                <h2>NEWS & HIGHLIGHTS</h2>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<div class="news-content container">
+    <ul id="headlines" class="news-list">
+    </ul>
+</div>
+
+
+
+{{> footer}}
+<script src="https://unpkg.com/@tryghost/content-api@1.2.4/umd/content-api.min.js"></script>
+<script>
+
+    // const api = new GhostContentAPI({
+    //     url: 'http://localhost:2369',
+    //     key: 'b14278f866b4a75e634a75da2f',
+    //     version: 'v2'
+    // });
+
+
+    const api = new GhostContentAPI({
+        url: 'https://blog.secureailabs.com',
+        key: 'd459e68aa3ce63d666f0857bd3b2793d9ef93afe31187717c3305b2775db44086441cfe5dda7b6038ee0a3a6ecc8870459105128f9c6e6042936694f9fc2ffe1',
+        version: 'v2'
+    });
+
+    api.posts
+            .browse()
+            .then((posts) => {
+                posts.forEach((post) => {
+                    var listItem = document.createElement("li");
+                    listItem.innerHTML = "            <a href=\"/news-content/"+post.id+"\" class=\"container news-content-container\">\n" +
+                            "                <div class=\"row\">\n" +
+                            "                    <div class=\"col\">\n" +
+                            "                        <img class=\"news-content-img\" src="+post.feature_image+">\n" +
+                            "                    </div>\n" +
+                            "                    <div class=\"col\">\n" +
+                            "                        <h5>"+post.title+"</h5>\n" +
+                            "                        <p>"+post.custom_excerpt+"</p>\n" +
+                            "                    </div>\n" +
+                            "                </div>\n" +
+                            "            </a>\n"
+
+                    document.getElementById("headlines").appendChild(listItem)
+                });
+            })
+            .catch((err) => {
+                console.error(err);
+            });
+</script>
+
+
+
+
+<!-- Javascript files-->
+<script src="/vendor/jquery/jquery-3.2.1.min.js"></script>
+<script src="/vendor/landy-template-bootstrapious/js/popper.js"></script>
+<script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="/vendor/jquery/jquery.cookie.js"></script>
+<script src="/vendor/owl-carousel/js/owl.carousel.min.js"></script>
+<script src="/vendor/landy-template-bootstrapious/js/front.js"></script>
+
+<script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-XXXXX-X');ga('send','pageview');
+</script>
+
+
+</body>
+
+</html>

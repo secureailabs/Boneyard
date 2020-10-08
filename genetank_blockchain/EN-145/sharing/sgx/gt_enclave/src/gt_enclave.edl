@@ -1,0 +1,139 @@
+enclave {
+    //from "sgx_tkey_exchange.edl" import *;
+	//from "sgx_tae_service.edl" import *;
+	from "sgx_tstdc.edl" import *;
+	from "sgx_pthread.edl" import *;
+	trusted {
+        //public sgx_status_t sgx_ra_get_ga(sgx_ra_context_t context,
+        //    [out] sgx_ec256_public_t *g_a);
+
+        //public sgx_status_t sgx_ra_proc_msg2_trusted(sgx_ra_context_t context,
+        //    [in]const sgx_ra_msg2_t *p_msg2, /*copy msg2 except quote into enclave */
+        //    [in] const sgx_target_info_t *p_qe_target,
+        //    [out] sgx_report_t *p_report,
+        //    [out] sgx_quote_nonce_t *p_nonce);
+
+        //public sgx_status_t sgx_ra_get_msg3_trusted(sgx_ra_context_t context,
+        //    uint32_t quote_size,
+        //    [in]sgx_report_t* qe_report,
+        //    [user_check]sgx_ra_msg3_t *p_msg3,
+        //    uint32_t msg3_size);
+	};
+
+    //include "sgx_key_exchange.h"
+    include "sgx_trts.h"
+    include "msg_def.h"
+    include "sgx_tcrypto.h"
+	trusted {
+	    public sgx_status_t enclave_set_eth([in] eth_addr_t *p_runnerEthAddr,
+	                                        [in] eth_addr_t *p_trainerEthAddr,
+	                                        [in] uint32_t *stId);
+
+		public sgx_status_t get_report([in] sgx_target_info_t *p_target, [out]sgx_report_t *p_report);
+	    public sgx_status_t ec_enclave_init([in, size=path_size] const char *home, size_t path_size,  uint32_t stakeholderId,
+	    	sgx_enclave_id_t enclave_id, [in, size=msgLen] const uint8_t *message, size_t msgLen, [in, out, size=ivLen] uint8_t *iv,
+	    	size_t ivLen, [out, size=respBuffSize] uint8_t *respBuff, size_t respBuffSize, [out]size_t *respSize);
+	    public sgx_status_t ec_enclave_reset();
+
+	    public sgx_status_t ec_lib_imported([in, size=pathLen] const char *path, size_t pathLen, [out] int *imported);
+	    public sgx_status_t ec_import_lib([in, size=nameSize] const char *fileName, size_t nameSize,
+	    	                               [in, size=dataSize] const uint8_t *buff, size_t dataSize
+	    	                               );
+
+  		//public sgx_status_t R_init([in,size=message_size] const char * init_code,size_t message_size,
+		//                               [out,size=result_size]char *result, size_t result_size);
+		//public sgx_status_t Py_init([in,size=message_size] const char * init_code,size_t message_size,
+		//                               [out,size=result_size]char *result, size_t result_size);
+        public sgx_status_t ec_Py_clean();
+
+        public sgx_status_t ec_new_session([out] uint32_t *sessionId, [in, size=msgLen]const char *msg, size_t msgLen,
+                                            [user_check] void *resultVecPtr,
+                                            [out, size=ivLen] uint8_t *iv, size_t ivLen,
+                                            uint64_t currentSecond);
+        public sgx_status_t ec_session(uint32_t sessionId, [in, size=msgLen]const uint8_t *msg, size_t msgLen,
+                                            [user_check] void *resultVecPtr,
+                                            [in, size=ivLen] uint8_t *iv, size_t ivLen,
+                                            uint64_t currentSecond);
+        public sgx_status_t ec_get_pubkey([out, size=len]char *enclavePublic, size_t len);
+        public sgx_status_t ec_getStakeholder([in, string]const char *ethPubkey, [out]uint32_t *enclavePublic, [out]uint32_t *roleId);
+        public sgx_status_t ec_send_in_data([in, size=inSize] const uint8_t *inBuf, size_t inSize, [out, size=1]uint8_t **destBuf);
+        public sgx_status_t ec_run_command([in, size=bufLen] uint8_t *encBuff, size_t bufLen, [user_check]void *resVecPtr, [in, size= ivLen] uint8_t *iv, size_t ivLen);
+
+        public sgx_status_t ec_task_manager(uint64_t tid_app, uint32_t index);
+
+        public sgx_status_t ecall_verify([in,size=in_sig_len]const uint8_t* input_sig,
+                                         size_t in_sig_len,
+                                         [in,size=in_pk_len]const uint8_t* input_pk,
+                                         size_t in_pk_len,
+                                         [in,size=msg_len]uint8_t* msg,
+                                         size_t msg_len);
+        // For sgx library testing
+        public sgx_status_t ec_test_imported([in, size=pathLen] const char *path, size_t pathLen, [out] int *imported);
+	    public sgx_status_t ec_import_test([in, size=nameSize] const char *fileName, size_t nameSize,
+	    	                               [in, size=dataSize] const uint8_t *buff, size_t dataSize
+	    	                               );
+        public sgx_status_t ec_test_code([in, size=code_len]const char* code,
+										size_t code_len,
+										[out, size=result_len]char* result,
+										size_t result_len,
+										[in]const char* type);
+    };
+
+	include "sgx_tprotected_fs.h"
+	untrusted {
+		void*   u_sgxprotectedfs_exclusive_file_open([in, string] const char* filename, uint8_t read_only, [out] int64_t* file_size, [out] int32_t* error_code);
+		uint8_t u_sgxprotectedfs_check_if_file_exists([in, string] const char* filename);
+		int32_t u_sgxprotectedfs_fread_node([user_check] void* f, uint64_t node_number, [out, size=node_size] uint8_t* buffer, uint32_t node_size);
+		int32_t u_sgxprotectedfs_fwrite_node([user_check] void* f, uint64_t node_number, [in, size=node_size] uint8_t* buffer, uint32_t node_size);
+		int32_t u_sgxprotectedfs_fclose([user_check] void* f);
+		uint8_t u_sgxprotectedfs_fflush([user_check] void* f);
+		int32_t u_sgxprotectedfs_remove([in, string] const char* filename);
+
+		void*   u_sgxprotectedfs_recovery_file_open([in, string] const char* filename);
+		uint8_t u_sgxprotectedfs_fwrite_recovery_node([user_check] void* f, [in, count=data_length] uint8_t* data, uint32_t data_length);
+		int32_t u_sgxprotectedfs_do_file_recovery([in, string] const char* filename, [in, string] const char* recovery_filename, uint32_t node_size);
+    };
+
+	include "sgx_quote.h"
+    untrusted {
+        sgx_status_t ocall_load_base([in, string] const char* name, [out, size=len] char* buf, size_t len);
+        sgx_status_t ocall_gettime([out]double* tm);
+        sgx_status_t oc_sendAttReq([in, string] const char * server_url, [in] sgx_report_t *pReport, [in] sgx_spid_t *pSpid_a,
+		[out, size=reportSize] char *attestation_report, size_t reportSize);
+		sgx_status_t oc_init_quote([out] sgx_target_info_t *pTarget_info, [out] sgx_epid_group_id_t *pGid);
+		sgx_status_t ocall_task_manager(uint32_t index, uint64_t tid, uint32_t stId);
+		sgx_status_t ocall_http2enclave(sgx_enclave_id_t eid, [in, out] uint32_t *session,
+		  [in, size=msgLen] uint8_t *reqBuff, size_t msgLen, [out] uint8_t **rspPtr, [out]size_t *rspLen,
+		  [in, out, size=iv_len] uint8_t *iv, size_t iv_len, [in, string] char *url);
+		sgx_status_t ocall_http_send([in, size=reqSize] const char *req, size_t reqSize, [out] uint8_t **rspPtr, [out] size_t *rspSize);
+		sgx_status_t ocall_get_data([in] uint8_t **rspPtr, [out, size=msgLen] uint8_t *rspBuf, size_t msgLen);
+		sgx_status_t ocall_sleep(uint32_t seconds);
+		sgx_status_t ocall_print([in, size=len] const char *str, size_t len);
+		sgx_status_t ocall_send_result([in, size=resultSize]const uint8_t *result, size_t resultSize, [user_check]void *buff);
+		sgx_status_t ocall_new_session(uint32_t stId, [in, size=msgLen] const char *message, size_t msgLen, [out]uint32_t *pSessionId,
+				[in, out, size=ivLen] uint8_t *iv, size_t ivLen,
+				[out, size=bufLen] uint8_t *outBuf, size_t bufLen, [out] size_t *pResultLen);
+		sgx_status_t ocall_create_enclave(uint32_t srcEID, uint32_t stId, [in, size=reqLen] const uint8_t *reqBuff, size_t reqLen,
+				[out, size=bufSize] uint8_t *rspBuf, size_t bufSize, [out]size_t *rspSize, [in, out, size=ivLen]uint8_t *iv, size_t ivLen);
+		sgx_status_t ocall_run_command(sgx_enclave_id_t srcEID, sgx_enclave_id_t destEID, uint32_t stId, [in, size=bufLen] uint8_t *encBuff, size_t bufLen,
+				[out] uint8_t **rspBuf, [out]size_t *rspSize, [in, out, size=ivLen] uint8_t *iv, size_t ivLen);
+		sgx_status_t ocall_destroy_enclave(sgx_enclave_id_t srcEID, sgx_enclave_id_t destEID, uint32_t stId);
+    sgx_status_t ocall_update_enclave_node(uint32_t stId, uint32_t roleId);
+		sgx_status_t ocall_clear_enclave_node(uint32_t stId);
+        void * oc_fopen([in, string] const char *filename, [in, string] const char *mode);
+        int32_t oc_fclose([user_check] void* f);
+        size_t oc_fread([out, size=total] void *ptr, size_t total, size_t size, size_t nmemb, [user_check] void *file);
+        int32_t oc_feof([user_check] void *file);
+        int32_t oc_fflush([user_check] void* file);
+        int64_t oc_ftell([user_check] void* file);
+        int32_t oc_ferror([user_check] void *file);
+        void oc_clearerr([user_check] void* file);
+        int oc_remove([in, string] const char *filename);
+        int oc_fseek([user_check] void* file, int64_t offset, int origin);
+        int oc_fgetc([user_check] void *fp);
+        int oc_fputc(int chr, [user_check] void *file);
+        int oc_isdir([in, string]char *path);
+        size_t oc_fwrite([in, size=totalb] const void *ptr, size_t totalb, size_t size, size_t nmemb, [user_check] void *stream);
+    };
+
+};

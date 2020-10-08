@@ -1,0 +1,97 @@
+.campaign-list {
+  text-align: center;
+}
+
+.campaign-item a {
+  color: #9c9999;
+  opacity: 0.7;
+}
+
+.campaign-item a:hover {
+  color: #000;
+  opacity: 1;
+}
+
+.campaign-list-image {
+  height: 292px;
+}
+
+.campaign-list-title {
+  font-size: 32px;
+  font-weight: 300;
+  font-family: 'europa', sans-serif;
+  margin-top: 10px;
+}
+
+.campaign-left, .campaign-right {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 20px;
+  vertical-align: top;
+}
+
+.campaign-left {
+  width: 30%;
+}
+
+.campaign-right {
+  width: 69%;
+}
+
+.campaign-image {
+  width: 100%;
+}
+
+.campaign-graph {
+  width: 100%;
+}
+
+.campaign-graph-group-100 {
+  width: 100%;
+}
+
+.support-header {
+  font-size: 32px;
+  font-weight: 300;
+  font-family: 'europa', sans-serif;
+  margin: 10px 0;
+}
+
+.user-title {
+  font-size: 1.6em;
+  text-align: center;
+}
+
+.user-button {
+  margin: 15px 0;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+.user-button:hover {
+  cursor: pointer;
+  border-color: #a41e34;
+}
+.user-button-title {
+  font-size: 20px;
+  font-weight: 300;
+  font-family: 'europa', sans-serif;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.back-update {
+  background-color: lightgray;
+  padding: 20px;
+}
+
+.back-button {
+  width: 32.5%;
+}
+
+.user-content {
+  max-width: 100%;
+  margin: 0px 10px;
+  padding: 0px 10px;
+}

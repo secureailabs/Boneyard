@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GeneTank — About</title>
+    {{> head}}
+    <!-- Page styles -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/styles_report.css">
+  </head>
+  <body>
+    {{> nav}}
+    
+    <!-- Main section of page -->
+    <main role="main">
+      <div id="empowering-everyone">
+        <div class="banner" id="header-banner">
+          <div class="color-overlay"></div>
+          <figure class="banner-image" id="top-banner-image-figure">
+            <img src="images/dna.jpg" class="top-banner-image" />
+          </figure>
+          <div class="banner-desc">
+            <p class="banner-desc-header">{{ name }}</p>
+          </div>
+        </div>
+        <div class="content">
+          <div class="row">
+            <div class="card-header">{{ name }} ({{ data.data.length }} total)</div>
+            <div class="card-list">
+              <ul>
+                {{#each data.data}}
+                  <a class="card-list-link" href="#"><li class="card-list-item"><div class="pull-left">{{ this.name }}</div><div class="pull-right text-{{ this.color }}">{{ this.note }}</div><div class="clearfix"></div></li></a>
+                {{/each}}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    {{> footer}}
+
+    <script>
+      // Highlight current page
+      // document.getElementById('nav-report').className += 'current-page';
+    </script>
+  </body>
+</html>

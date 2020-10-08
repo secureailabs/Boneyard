@@ -1,0 +1,22 @@
+From:
+https://medium.com/coinmonks/using-puppeth-to-manually-create-an-ethereum-proof-of-authority-clique-network-on-aws-ae0d7c906cce
+https://hackernoon.com/setup-your-own-private-proof-of-authority-ethereum-network-with-geth-9a0a3750cda8
+Install geth
+
+Voting node is called sealer
+
+geth --datadir node1/ account new
+geth --datadir node2/ account new
+
+puppeth
+PoA doesn’t have mining rewards
+
+geth --datadir node1/ init genesis.json
+geth --datadir node2/ init genesis.json
+
+bootnode:
+bootnode -genkey boot.key
+
+geth --datadir node1/ --syncmode 'full' --port 30311 --rpc --rpcaddr 'localhost' --rpcport 8501 --rpcapi 'personal,db,eth,net,web3,txpool,miner' --bootnodes 'enode:...' --networkid 1515 --gasprice '1' -unlock 'account number' --password node1/password.txt --mine
+
+

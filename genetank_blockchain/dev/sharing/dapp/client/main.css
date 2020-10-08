@@ -1,0 +1,11 @@
+body {
+    background-image: linear-gradient(to right, #72edf2, #5151e5)
+}
+
+*{
+    font-family: "Open Sans", Helvetica, Arial, serif;
+}
+
+.ace_editor *{
+	font: 20px/normal 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+}

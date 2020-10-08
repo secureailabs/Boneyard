@@ -1,0 +1,9 @@
+.demo-image {
+  max-width: 100%;
+  text-align: center;
+}
+
+.wikipedia-box {
+  float: left;
+  margin-right: 10px;
+}

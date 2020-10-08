@@ -1,0 +1,5 @@
+{
+  "defaultAccounts": [
+    { "username":"username", "email": "email", "password": "tomodify", "role": "admin" }
+  ]
+}

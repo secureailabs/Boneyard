@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GeneTank — Campaigns</title>
+    {{> head}}
+    <!-- Page styles -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/styles_campaigns.css">
+    <!-- Page scripts -->
+    <!-- <script src="scripts/dnaUpload.js"></script> -->
+  </head>
+  <body>
+    {{> nav}}
+    
+    <!-- Main section of page -->
+    <main role="main">
+      <div id="our-campaigns">
+        <div class="banner" id="header-banner">
+          <div class="color-overlay"></div>
+          <figure class="banner-image" id="top-banner-image-figure">
+            <img src="images/dna.jpg" class="top-banner-image" />
+          </figure>
+          <div class="banner-desc">
+            <p class="banner-desc-header">Our Campaigns</p>
+            <p class="banner-desc-info">Help us tackle these diseases</p>
+          </div>
+        </div>
+
+        <div class="content" id="steps">
+          <div class="row">
+            <div class="step">
+              <div class="step-image">
+                <img src="images/back.png" height="292px" />
+              </div>
+              <div class="step-text">
+                <p class="step-header">Back Your Disease</p>
+                <p class="step-info">Contribute your genetic data or money to support what makes you special, and invite others to join your cause.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-image">
+                <img src="images/build.png" height="292px" />
+              </div>
+              <div class="step-text">
+                <p class="step-header">We Build It</p>
+                <p class="step-info">We create an advanced AI model learned from your contributed genetic data, creating a positive impact for the community.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-image">
+                <img src="images/own.png" height="292px" />
+              </div>
+              <div class="step-text">
+                <p class="step-header">You Own It</p>
+                <p class="step-info">Your ownership of the AI model you contributed will be an unchangeable certificate protected by blockchain technology forever.</p>
+              </div>
+            </div>
+          </div>
+<!--          <div class="row medium-spacer"></div>
+          <div class="row">
+            <p class="section-header">Our Campaigns</p>
+            <div class="campaign-list">
+              <div class="campaign-item">
+                <a href="/campaigns-myopia">
+                  <img class="campaign-list-image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Eye_disease_simulation%2C_myopia.jpg/1229px-Eye_disease_simulation%2C_myopia.jpg" />
+                  <p class="campaign-list-title">Myopia</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </main>
+
+    {{> footer}}
+
+    <script>
+      // Highlight current page
+      document.getElementById('nav-campaigns').className += 'current-page';
+    </script>
+  </body>
+</html>

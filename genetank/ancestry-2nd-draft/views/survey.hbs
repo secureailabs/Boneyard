@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GeneTank — Answer Questions</title>
+    {{> head}}
+    <!-- Page styles -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/styles_survey.css">
+
+    <!-- Page scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.0.min.js"
+      integrity="sha256-JAW99MJVpJBGcbzEuXk4Az05s/XyDdBomFqNlM3ic+I="
+      crossorigin="anonymous"></script>
+    <script src="scripts/survey.js"></script>
+  </head>
+  <body>
+    {{> internalnav}}
+    
+    <!-- Main section of page -->
+    <main role="main">
+      <div class="content">
+        <div class="tall-spacer"></div>
+        <div class="row">
+          <p class="section-header">Answer Questions</p>
+        </div>
+        <div class="row">
+          <div id="survey-container">
+            <form>
+              <p id="question"></p>
+              <ul class="answers">
+                <li class="choice" id="choice-a">
+                  <input type="radio" name="answer" id="a" value="a" />
+                  <label for="a" id="label-a"></label>
+                </li>
+                <li class="choice" id="choice-b">
+                  <input type="radio" name="answer" value="b" id="b" />
+                  <label for="b" id="label-b"></label>
+                </li>
+                <li class="choice" id="choice-c">
+                  <input type="radio" name="answer" value="c" id="c" />
+                  <label for="c" id="label-c"></label>
+                </li>
+                <li class="choice" id="choice-d">
+                  <input type="radio" name="answer" value="d" id="d" />
+                  <label for="d" id="label-d"></label>
+                </li>
+                <li class="choice" id="choice-e">
+                  <input type="radio" name="answer" value="e" id="e" />
+                  <label for="e" id="label-e"></label>
+                </li>
+              </ul>
+              <div class="short-spacer"></div>
+              <button type="button" class="button black-button" id="next">Next &gt;</button>
+            </form>
+          </div>
+
+          <div id="completion-container" style="display:none">
+            <p class="section-info">All done! Thank you for your cooperation.</p>
+            <div class="short-spacer"></div>
+            <p class="section-info"><a href="/profile" class="button black-button">Return to Profile</a></p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    {{> footer}}
+  </body>
+</html>

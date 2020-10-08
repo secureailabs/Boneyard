@@ -1,0 +1,53 @@
+#---- Installing Go ----
+gvm install go1.4 -B
+gvm use go1.4
+export GOROOT_BOOTSTRAP=$GOROOT
+gvm install go1.10.3
+gvm use go1.10.3
+
+#---- Installing Geth, Puppeth, bootnode ----
+git clone https://github.com/ethereum/go-ethereum.git
+cd go-ethereum
+make all
+cd build/bin
+
+#----Commands ----
+./go-ethereum/build/bin/bootnode -genkey ./boot.key
+./go-ethereum/build/bin/bootnode -nodekey ./boot.key 
+./go-ethereum/build/bin/puppeth --network private
+./go-ethereum/build/bin/geth --datadir ./pnode1 init ./private.json
+./go-ethereum/build/bin/geth \
+  --datadir ~/pnode1 \
+  --rpc \
+  --bootnodes "enode://06ca99f1f1276ccff23edf07347de1c08fbd8974ad462850fc14d398591509e84168ee3d588e6c6ea2c834f639b2283faf24767fd325028e45fe52a17c02f3cf@127.0.0.1:30301"
+  --mine \
+  --etherbase 0xdef060a84b2ac47d47a1fa78fbb06fb26f545c22
+  --unlock 0xdef060a84b2ac47d47a1fa78fbb06fb26f545c22
+
+
+# --- No necessary: Just to have a visual representation
+git clone https://github.com/cubedro/eth-net-intelligence-api ~/eth-netstats
+cd ~/eth-netstats
+npm install
+npm start
+
+git clone https://github.com/cubedro/eth-net-intelligence-api ~/eth-net-intelligence-api
+cd ~/eth-net-intelligence-api
+npm install
+npm start
+
+# --- POA private blockchain server configurations
+
+Private blockchain configured using Proof of Authority
+104.211.1.154:8081 to see a status of the blocks
+
+We have two sealer nodes doing the validation/mining a bootnode and a ethstats configured as follows:
+
+platform.genetank.ai: did not add any nodes because everyone seems to be using it
+platform2.genetank.ai: used puppeth to configure platform3.genetank.ai and platform4.genetank.ai
+platform3.genetank.ai: has sealer node + bootnode + ethstats
+platform4.genetank.ai: has sealer node only
+
+Other userful document:
+https://dickolsson.com/building-dapps-on-ethereum-part-6-private-testnet/
+<git_home>/doc/private_blockchain

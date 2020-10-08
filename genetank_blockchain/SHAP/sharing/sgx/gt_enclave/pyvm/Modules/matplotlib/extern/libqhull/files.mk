@@ -1,0 +1,17 @@
+$(MODULESRCDIR)/matplotlib/extern/libqhull/geom2.c \
+$(MODULESRCDIR)/matplotlib/extern/libqhull/geom.c \
+$(MODULESRCDIR)/matplotlib/extern/libqhull/global.c \
+$(MODULESRCDIR)/matplotlib/extern/libqhull/io.c \
+$(MODULESRCDIR)/matplotlib/extern/libqhull/libqhull.c \
+$(MODULESRCDIR)/matplotlib/extern/libqhull/mem.c \
+$(MODULESRCDIR)/matplotlib/extern/libqhull/merge.c \
+$(MODULESRCDIR)/matplotlib/extern/libqhull/poly2.c \
+$(MODULESRCDIR)/matplotlib/extern/libqhull/poly.c \
+$(MODULESRCDIR)/matplotlib/extern/libqhull/qset.c \
+$(MODULESRCDIR)/matplotlib/extern/libqhull/random.c \
+$(MODULESRCDIR)/matplotlib/extern/libqhull/rboxlib.c \
+$(MODULESRCDIR)/matplotlib/extern/libqhull/stat.c \
+$(MODULESRCDIR)/matplotlib/extern/libqhull/user.c \
+$(MODULESRCDIR)/matplotlib/extern/libqhull/usermem.c \
+$(MODULESRCDIR)/matplotlib/extern/libqhull/userprintf.c \
+$(MODULESRCDIR)/matplotlib/extern/libqhull/userprintf_rbox.c \

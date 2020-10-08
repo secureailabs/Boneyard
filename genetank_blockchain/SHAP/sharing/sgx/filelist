@@ -1,0 +1,18 @@
+gt_enclave/rvm/appl/dchdc.f \
+gt_enclave/rvm/appl/dpbfa.f \
+gt_enclave/rvm/appl/dpbsl.f \
+gt_enclave/rvm/appl/dpoco.f \
+gt_enclave/rvm/appl/dpodi.f \
+gt_enclave/rvm/appl/dpofa.f \
+gt_enclave/rvm/appl/dposl.f \
+gt_enclave/rvm/appl/dqrdc2.f \
+gt_enclave/rvm/appl/dqrdc.f \
+gt_enclave/rvm/appl/dqrls.f \
+gt_enclave/rvm/appl/dqrsl.f \
+gt_enclave/rvm/appl/dqrutl.f \
+gt_enclave/rvm/appl/dsvdc.f \
+gt_enclave/rvm/appl/dtrco.f \
+gt_enclave/rvm/appl/dtrsl.f \
+gt_enclave/rvm/extra/blas/blas.f \
+gt_enclave/rvm/extra/blas/cmplxblas.f \
+gt_enclave/rvm/main/xxxpr.f

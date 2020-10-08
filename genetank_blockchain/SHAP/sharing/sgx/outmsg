@@ -1,0 +1,23 @@
+Enclave data is loaded from /home/jingwei/enclave/enclave1.
+Enclave output: 
+Library path is not provided, no library is imported. Use "-l anylibpath" to specify the library path.
+Listening for runner manage requests at: http://0.0.0.0:3220/runner
+Public key:80534300bf54f0e9190025e55d894b70dbda9f85ecf964358840d28487132f7603031bf223d848abba61404d8350144683cb533b68e3b7ac0e30cc4390a1379a
+HTTP/1.1 200 OK
+cache-control: no-store
+connection: keep-alive
+content-type: application/json
+date: Mon, 11 Mar 2019 13:03:20 GMT
+pragma: no-cache
+transfer-encoding: chunked
+vary: Accept-Encoding
+
+{
+  "msgType": 1,
+  "result": 0,
+  "runnerEth": "0xd5f19805ab7EceA56dB10Cc21CE9f9a701e97B59",
+  "trainerEth": "0x8b000a4f9c22D4f73F1539F038e5bdd5392039BD"
+}
+JSON received:{"msgType":1,"result":0,"runnerEth":"0xd5f19805ab7EceA56dB10Cc21CE9f9a701e97B59","trainerEth":"0x8b000a4f9c22D4f73F1539F038e5bdd5392039BD"}
+Ethereum address matches, register success.
+Press return to exit.

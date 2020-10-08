@@ -1,0 +1,17 @@
+$(MODULESRCDIR)/scipy/integrate/odepack/blkdta000.c \
+$(MODULESRCDIR)/scipy/integrate/odepack/bnorm.c \
+$(MODULESRCDIR)/scipy/integrate/odepack/cfode.c \
+$(MODULESRCDIR)/scipy/integrate/odepack/ewset.c \
+$(MODULESRCDIR)/scipy/integrate/odepack/fnorm.c \
+$(MODULESRCDIR)/scipy/integrate/odepack/intdy.c \
+$(MODULESRCDIR)/scipy/integrate/odepack/lsoda.c \
+$(MODULESRCDIR)/scipy/integrate/odepack/prja.c \
+$(MODULESRCDIR)/scipy/integrate/odepack/solsy.c \
+$(MODULESRCDIR)/scipy/integrate/odepack/srcma.c \
+$(MODULESRCDIR)/scipy/integrate/odepack/stoda.c \
+$(MODULESRCDIR)/scipy/integrate/odepack/vmnorm.c \
+$(MODULESRCDIR)/scipy/integrate/odepack/vode.c \
+$(MODULESRCDIR)/scipy/integrate/odepack/xerrwv.c \
+$(MODULESRCDIR)/scipy/integrate/odepack/xsetf.c \
+$(MODULESRCDIR)/scipy/integrate/odepack/xsetun.c \
+$(MODULESRCDIR)/scipy/integrate/odepack/zvode.c \

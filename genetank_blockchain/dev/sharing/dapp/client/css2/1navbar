@@ -1,0 +1,88 @@
+.navbar-base {
+    flex: 0 0 16.666667%;
+    width: 16%;
+    background-color    : rgba(64, 64, 65, 1.0);
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+}
+.nav-item {
+    position: relative;
+    bottom: 30px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+    font-family         : "Open Sans", Helvetica, Arial, serif;
+    font-weight         : 700;
+    font-style          : normal;
+    font-size           : 14.0px;
+    color               : rgba(255, 255, 255, 1.0);
+    text-align          : left;
+    line-height         : 21.0px;
+}
+
+.iconleft1 {
+    height              : 12px;
+    width               : 15px;
+    position            : relative;
+    bottom: 5px;
+    right:5px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+}
+
+.iconleft2 {
+    height              : 9px;
+    width               : 9px;
+    position            : relative;
+    bottom: 5px;
+    right:5px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+}
+
+.iconleft3 {
+    height              : 18px;
+    width               : 18px;
+    position            : relative;
+    bottom: 2px;
+    right: 5px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+}
+
+.down-arrow {
+    position            : relative;
+    margin              : 0;
+    left                : 30px;
+    z-index: 1000;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+}
+
+.bitmap1 {
+    top                 : 0px;
+    height              : 36px;
+    width               : 36px;
+    position            : relative;
+    margin              : 0;
+    left                : 0px;
+    -ms-transform       : rotate(0deg); /* IE 9 */
+    -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+    transform           : rotate(0deg);
+}
+
+.iconhover:hover {
+    background-color    : blue;
+}

@@ -1,0 +1,11 @@
+$(MODULESRCDIR)/scipy/ndimage/src/_ctest.c \
+$(MODULESRCDIR)/scipy/ndimage/src/_cytest.c \
+$(MODULESRCDIR)/scipy/ndimage/src/nd_image.c \
+$(MODULESRCDIR)/scipy/ndimage/src/ni_filters.c \
+$(MODULESRCDIR)/scipy/ndimage/src/ni_fourier.c \
+$(MODULESRCDIR)/scipy/ndimage/src/ni_interpolation.c \
+$(MODULESRCDIR)/scipy/ndimage/src/_ni_label.c \
+$(MODULESRCDIR)/scipy/ndimage/src/ni_measure.c \
+$(MODULESRCDIR)/scipy/ndimage/src/ni_morphology.c \
+$(MODULESRCDIR)/scipy/ndimage/src/ni_splines.c \
+$(MODULESRCDIR)/scipy/ndimage/src/ni_support.c \

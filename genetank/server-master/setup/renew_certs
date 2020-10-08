@@ -1,0 +1,4 @@
+sudo certbot renew
+sudo cp /etc/letsencrypt/live/api.genetank.xyz/fullchain.pem ~/genetank-server/src/config/cert.pem
+sudo cp /etc/letsencrypt/live/api.genetank.xyz/privkey.pem ~/genetank-server/src/config/key.pem
+sudo touch ~/ran_renew

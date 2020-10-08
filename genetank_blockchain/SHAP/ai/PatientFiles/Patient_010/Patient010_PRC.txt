@@ -1,0 +1,2 @@
+"trait" "ngt" "nmiss" "score" "meanscore" "odds"
+"1" "alzheimer" 8 25 2.12 1.46916 1.91715055930234

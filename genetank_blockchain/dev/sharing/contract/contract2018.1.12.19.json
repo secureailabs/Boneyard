@@ -1,0 +1,302 @@
+{
+	"name":"GeneTankAI",
+	"date":"2018.1.12.19",
+	"address":"0x83ccdadaa0125a62d66b8da85468609980af7f56",
+	"abi":
+	[
+	{
+		"constant": true,
+		"inputs": [],
+		"name": "owner",
+		"outputs": [
+			{
+				"name": "",
+				"type": "address"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "is_confirmed_by_user",
+				"type": "bool"
+			}
+		],
+		"name": "confirmTransactionByUser",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": true,
+		"inputs": [
+			{
+				"name": "is_confirmed_by_user",
+				"type": "bool"
+			}
+		],
+		"name": "findIfAllConditionsMet",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": false,
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "creator_address",
+				"type": "address"
+			},
+			{
+				"name": "signed_hash_auditing_package",
+				"type": "uint256"
+			},
+			{
+				"name": "mrenclave",
+				"type": "uint256"
+			},
+			{
+				"name": "result",
+				"type": "uint8"
+			},
+			{
+				"name": "public_key",
+				"type": "string"
+			},
+			{
+				"name": "certificate",
+				"type": "string"
+			},
+			{
+				"name": "auditor_signature",
+				"type": "string"
+			}
+		],
+		"name": "registerEnclaveByAuditor",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "creator_address",
+				"type": "address"
+			},
+			{
+				"name": "runner_address",
+				"type": "address"
+			},
+			{
+				"name": "mrenclave",
+				"type": "uint256"
+			},
+			{
+				"name": "access_code",
+				"type": "string"
+			}
+		],
+		"name": "cancelAccessCode",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "new_owner",
+				"type": "address"
+			}
+		],
+		"name": "transferOwnership",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "creator_address",
+				"type": "address"
+			},
+			{
+				"name": "runner_address",
+				"type": "address"
+			},
+			{
+				"name": "user_confirms",
+				"type": "bool"
+			},
+			{
+				"name": "mrenclave",
+				"type": "uint256"
+			},
+			{
+				"name": "access_code",
+				"type": "string"
+			}
+		],
+		"name": "sendDepositAccessCode",
+		"outputs": [
+			{
+				"name": "",
+				"type": "bool"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "creator_address",
+				"type": "address"
+			},
+			{
+				"name": "runner_address",
+				"type": "address"
+			},
+			{
+				"name": "mrenclave",
+				"type": "uint256"
+			}
+		],
+		"name": "getAttestationReport",
+		"outputs": [
+			{
+				"name": "",
+				"type": "string"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "creator_addr",
+				"type": "address"
+			}
+		],
+		"name": "getEnclaveByCreator",
+		"outputs": [
+			{
+				"name": "name",
+				"type": "string"
+			}
+		],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "constructor"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "creator_address",
+				"type": "address"
+			},
+			{
+				"name": "user_addr",
+				"type": "address"
+			},
+			{
+				"name": "mrenclave",
+				"type": "uint256"
+			},
+			{
+				"name": "access_code",
+				"type": "string"
+			},
+			{
+				"name": "acc_code",
+				"type": "uint256"
+			},
+			{
+				"name": "hash_user_input",
+				"type": "uint256"
+			},
+			{
+				"name": "attestation_report",
+				"type": "string"
+			}
+		],
+		"name": "registerEnclaveByRunner",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"constant": false,
+		"inputs": [
+			{
+				"name": "mrenclave",
+				"type": "uint256"
+			},
+			{
+				"name": "m_s_ver",
+				"type": "string"
+			},
+			{
+				"name": "hash_zip_enclave_details",
+				"type": "uint256"
+			},
+			{
+				"name": "name",
+				"type": "string"
+			},
+			{
+				"name": "creator_signature",
+				"type": "string"
+			},
+			{
+				"name": "creator_public_key",
+				"type": "string"
+			}
+		],
+		"name": "registerEnclaveByTrainer",
+		"outputs": [],
+		"payable": false,
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]
+}

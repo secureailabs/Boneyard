@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Admin - Features</title>
+    {{> old-head}}
+  </head>
+  <body>
+    <div class="container">
+      {{> adminnav}}
+      <div class="page-header text-center">
+        <h1>Create a New Feature</h1>
+        {{#if message}}
+          <div class="alert alert-{{ color }}">{{ message }}</div>
+        {{/if}}
+        <a href="/admin/features" class="btn btn-info"><span class="glyphicon glyphicon-th-list"></span> View all features</a>
+      </div>
+      <form method="post" action="/feature/new">
+        <div class="form-group">
+          <label for="name">Feature Name</label>
+          <input type="text" class="form-control" name="name" id="name">
+          <p class="help-block">No spaces, all caps (use underscores).</p>
+        </div>
+        <div class="form-group">
+          <label for="display_name">Feature Display Name</label>
+          <input type="text" class="form-control" name="display_name" id="display_name">
+          <p class="help-block">This is how the feature will be displayed to end users.</p>
+        </div>
+        <button type="submit" class="btn btn-success">Create Feature</button>
+      </form>
+    </div>
+  </body>
+</html>

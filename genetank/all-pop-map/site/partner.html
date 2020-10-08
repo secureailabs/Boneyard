@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GeneTank — Partner With Us</title>
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="animations.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+    <script src="https://use.typekit.net/tfx5lim.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.2.0.min.js"
+            integrity="sha256-JAW99MJVpJBGcbzEuXk4Az05s/XyDdBomFqNlM3ic+I="
+            crossorigin="anonymous"></script>
+    <script src="dynamic.js"></script>
+    <!-- Page styles -->
+    <link rel="stylesheet" type="text/css" href="styles_partner.css">
+  </head>
+  <body>
+    <!-- Banner and navigation -->
+    <header id="header" role="banner">
+      <!-- Content in navbar -->
+      <div class="header-content">
+        <div id="site-title">
+          <a href="index.html">GeneTank</a>
+        </div>
+        <!-- TODO: Mobile navbar -->
+        <div id="mobile-nav">
+        </div>
+        <div id="nav">
+          <nav>
+            <div>
+              <a href="about.html" id="nav-about">About Us</a>
+            </div>
+            <div>
+              <a href="partner.html" id="nav-partner">Partner With Us</a>
+            </div>
+            <div>
+              <a class="nav-button" href="subscribe.html">Get Notified</a>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    
+    <!-- Main section of page -->
+    <main role="main">
+      <div id="partner-with-us">
+        <div class="banner" id="header-banner">
+          <div class="color-overlay"></div>
+          <figure class="banner-image" id="top-banner-image-figure">
+            <img src="images/partner.jpg" class="top-banner-image" />
+          </figure>
+          <div class="banner-desc">
+            <p class="banner-desc-header">Partner With Us</p>
+          </div>
+        </div>
+        <div class="content">
+          <div class="row">
+            <p class="section-header">Interested in working together? Here's our contact info.</p>
+            <div class="medium-spacer"></div>
+            <p class="section-info">
+              <span class="contact contact-title">GeneTank</span>
+            </p>
+            <p class="section-info">
+              <span class="contact contact-address">77 Massachusetts Ave</span>
+              <br/>
+              <span class="contact-address">Cambridge, MA 02139</span>
+            </p>
+            <div class="short-spacer"></div>
+            <p class="section-info">
+              <a href="mailto:genetank@mit.edu" class="button black-button">Contact Us</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <div id="prefooter">
+      <div class="prefooter-content">
+        <nav>
+          <a href="#" class="social-icon"><img src="https://en.facebookbrand.com/wp-content/uploads/2016/05/FB-fLogo-Blue-broadcast-2.png" height="32px" /></a>
+          <a href="#" class="social-icon"><img src="https://cdn1.iconfinder.com/data/icons/logotypes/32/twitter-128.png" height="32px" /></a>
+          <a href="#" class="social-icon"><img src="https://maxcdn.icons8.com/Share/icon/Logos//medium_logo1600.png" height="32px" /></a>
+        </nav>
+      </div>
+    </div>
+    <footer id="footer" role="contentinfo">
+      <div class="footer-content">
+        &copy; 2017 GeneTank
+      </div>
+    </footer>
+
+    <script>
+      // Highlight current page
+      document.getElementById('nav-partner').className += 'current-page';
+    </script>
+  </body>
+</html>

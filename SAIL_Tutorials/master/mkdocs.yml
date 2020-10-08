@@ -1,0 +1,4 @@
+site_name: SAIL Docs
+docs: index.md
+theme: readthedocs
+

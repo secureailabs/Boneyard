@@ -1,0 +1,17 @@
+#git ignore file for model release codes
+.vs/*
+x64/*
+gt_app/x64/*
+gt_enclave/x64/*
+service_provider/x64/*
+GenetankSGX.VC.*
+gt_app/gt_enclave_u.*
+gt_enclave/gt_enclave_t.*
+stdin
+stdout
+stderr
+*_tests
+.enclave/*
+.cproject
+gt_enclave/gt_enclave_t.*
+build/

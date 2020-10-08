@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GeneTank — Partner With Us</title>
+    {{> head}}
+    <!-- Page styles -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/styles_partner.css">
+  </head>
+  <body>
+    {{> nav}}
+    
+    <!-- Main section of page -->
+    <main role="main">
+      <div id="partner-with-us">
+        <div class="banner" id="header-banner">
+          <div class="color-overlay"></div>
+          <figure class="banner-image" id="top-banner-image-figure">
+            <img src="images/partner.jpg" class="top-banner-image" />
+          </figure>
+          <div class="banner-desc">
+            <p class="banner-desc-header">Partner With Us</p>
+          </div>
+        </div>
+        <div class="content">
+          <div class="row">
+            <p class="section-header">Interested in working together? Here's our contact info.</p>
+            <div class="medium-spacer"></div>
+            <p class="section-info">
+              <span class="contact contact-title">GeneTank</span>
+            </p>
+            <p class="section-info">
+              <span class="contact contact-address">250 Main St, P.O.Box 426193</span>
+              <br/>
+              <span class="contact-address">Cambridge, MA 02139</span>
+            </p>
+            <div class="short-spacer"></div>
+            <p class="section-info">
+              <a href="mailto:genetank@mit.edu" class="button black-button">Contact Us</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    {{> footer}}
+
+    <script>
+      // Highlight current page
+      document.getElementById('nav-partner').className += 'current-page';
+    </script>
+  </body>
+</html>

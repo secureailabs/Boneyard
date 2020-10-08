@@ -1,0 +1,45 @@
+
+<link rel="stylesheet" href="/css/global.css">
+<link rel="stylesheet" href="/css/screen.css">
+
+<div class="container">
+    <br>
+    <br>
+    <h1 id="post-title">
+    </h1>
+    <img id="feature-image">
+    <section id="post-content">
+    </section>
+</div>
+
+<script src="https://unpkg.com/@tryghost/content-api@1.2.4/umd/content-api.min.js"></script>
+<script>
+
+    //    const api = new GhostContentAPI({
+    //        url: 'http://localhost:2369',
+    //        key: 'b14278f866b4a75e634a75da2f',
+    //        version: 'v2'
+    //    });
+
+
+    const api = new GhostContentAPI({
+        url: 'https://blog.secureailabs.com',
+        key: 'd459e68aa3ce63d666f0857bd3b2793d9ef93afe31187717c3305b2775db44086441cfe5dda7b6038ee0a3a6ecc8870459105128f9c6e6042936694f9fc2ffe1',
+        version: 'v2'
+    });
+
+    var id = "{{id}}"
+    api.posts
+            .read({id:id})
+            .then((post) => {
+                document.getElementById("post-title").innerHTML = post.title
+                document.getElementById("post-content").innerHTML = post.html
+                var image = document.getElementById("feature-image")
+                image.setAttribute("src", post.feature_image)
+            })
+            .catch((err) => {
+                console.error(err);
+            });
+    console.log()
+
+</script>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{> head}}
+  <title>Secure AI Labs</title>
+</head>
+<body>
+{{> nav}}
+<!--wrap class important for scrolling contact us modal on mobile view !! do not remove-->
+<div class="wrap">
+<section id="code" class="code bg-gray">
+    <div class="container">
+        <div class="row text-center">
+            <div class="code-container col-lg-12">
+                <h4>Thank you for your purchase!</h4>
+                <p>To access your demo, enter this code in the site below:</p>
+                <h1>{{ code }}</h1>
+                <a href="/demo" class="btn btn-primary navbar-btn btn-shadow btn-gradient mb-2">Go to Demo</a>
+            </div>
+        </div>
+    </div>
+</section>
+{{> footer}}
+</div>
+<!-- Javascript files-->
+<script src="/vendor/jquery/jquery-3.2.1.min.js"></script>
+<script src="/vendor/landy-template-bootstrapious/js/popper.js"></script>
+<script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="/vendor/jquery/jquery.cookie.js"></script>
+<script src="/vendor/owl-carousel/js/owl.carousel.min.js"></script>
+<script src="/vendor/landy-template-bootstrapious/js/front.js"></script>
+</body>
+</html>

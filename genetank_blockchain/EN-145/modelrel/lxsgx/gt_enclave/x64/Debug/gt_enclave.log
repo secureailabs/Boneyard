@@ -1,0 +1,31 @@
+﻿  gt_enclave.cpp
+  Default key derivation function is used.
+     Creating library C:\zsf\genetank_blockchain\modelrel\sgx\x64\Debug\gt_enclave.lib and object C:\zsf\genetank_blockchain\modelrel\sgx\x64\Debug\gt_enclave.exp
+  gt_enclave.vcxproj -> C:\zsf\genetank_blockchain\modelrel\sgx\x64\Debug\gt_enclave.dll
+  gt_enclave.vcxproj -> C:\zsf\genetank_blockchain\modelrel\sgx\x64\Debug\gt_enclave.pdb (Full PDB)
+  The required memory is 0x150a000.
+  Succeed.
+  <EnclaveConfiguration>
+      <ProdID>0</ProdID>
+      <ISVSVN>0</ISVSVN>
+      <StackMaxSize>0x400000</StackMaxSize>
+      <HeapMaxSize>0x1000000</HeapMaxSize>
+      <TCSNum>1</TCSNum>
+      <TCSPolicy>1</TCSPolicy>
+      <DisableDebug>0</DisableDebug>
+      <MiscSelect>0</MiscSelect>
+      <MiscMask>0xFFFFFFFF</MiscMask>
+  </EnclaveConfiguration>
+  <EnclaveConfiguration>
+      <ProdID>0</ProdID>
+      <ISVSVN>0</ISVSVN>
+      <StackMaxSize>0x400000</StackMaxSize>
+      <HeapMaxSize>0x1000000</HeapMaxSize>
+      <TCSNum>1</TCSNum>
+      <TCSPolicy>1</TCSPolicy>
+      <DisableDebug>0</DisableDebug>
+      <MiscSelect>0</MiscSelect>
+      <MiscMask>0xFFFFFFFF</MiscMask>
+  </EnclaveConfiguration>
+  The required memory is 0x150a000.
+  Succeed.

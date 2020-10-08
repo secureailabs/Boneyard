@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1515476088 source:/Users/kaiyuanmifen/Desktop/Ctutorial/Project13/cJSON.c
+	<string.h>
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<float.h>
+	<limits.h>
+	<ctype.h>
+	<locale.h>
+	"cJSON.h"
+
+1515476088 /Users/kaiyuanmifen/Desktop/Ctutorial/Project13/cJSON.h
+	<stddef.h>
+
+1516605232 source:/Users/kaiyuanmifen/Desktop/Ctutorial/Project13/main.c
+	<stdio.h>
+	<stdlib.h>
+	"cjson.h"
+

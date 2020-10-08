@@ -1,0 +1,6 @@
++ docker run --device /dev/isgx --volume /var/run/aesmd:/var/run/aesmd env_test:latest
+Checksum(0x0x7ffc79d1dc50, 100) = 0xfffd4143
+Info: executing thread synchronization, please wait...  
+Info: SampleEnclave successfully returned.
+Enter a character before exit ...
+

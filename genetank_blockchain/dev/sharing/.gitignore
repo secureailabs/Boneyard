@@ -1,0 +1,7 @@
+#git ignore file for model release codes
+tmp/*
+*.swp
+*.log
+dapp/nohup.out
+dapp/node_modules/*
+node_modules/*

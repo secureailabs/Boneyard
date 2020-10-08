@@ -1,0 +1,16 @@
+/* Login page styles */
+html, .container-fluid{
+    background-color    : rgba(50, 50, 51, 1.0);
+}
+
+body{
+    background-color    : rgba(50, 50, 51, 1.0);
+}
+
+*{
+    font-family: "Open Sans", Helvetica, Arial, serif;
+}
+
+.ace_editor *{
+	font: 20px/normal 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+}

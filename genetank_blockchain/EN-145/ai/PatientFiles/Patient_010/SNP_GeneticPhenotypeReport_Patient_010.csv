@@ -1,0 +1,1841 @@
+"","rsid","iid","allele1","allele2","magnitude","repute","Gene","summary","SnpID","reputeScore","HealthScore"
+"1",NA,"3000001","D","I","4","Bad",NA,"Cystic Fibrosis carrier","I3000001",-1,-4
+"2",NA,"3003137","T","T","0","Good",NA,"normal","I3003137",1,0
+"3",NA,"3003398","G","G","0","Good",NA,"normal","I3003398",1,0
+"4",NA,"3003399","G","G","0","Good",NA,"normal","I3003399",1,0
+"5",NA,"3003400","G","G","0","Good",NA,"normal","I3003400",1,0
+"6",NA,"3003401","G","G","0","Good",NA,"normal","I3003401",1,0
+"7",NA,"3003403","C","T","4","Bad",NA,"Phenylketonuria carrier","I3003403",-1,-4
+"8",NA,"3003404","T","T","5","Bad",NA,"Phenylketonuria","I3003404",-1,-5
+"9",NA,"4000178","A","A","1",NA,NA,"P30+","I4000178",0,0
+"10",NA,"4000294","G","G","0","Good",NA,"normal","I4000294",1,0
+"11",NA,"4000296","T","T","5","Bad",NA,"Cystic Fibrosis","I4000296",-1,-5
+"12",NA,"4000297","C","C","5","Bad",NA,"Cystic Fibrosis","I4000297",-1,-5
+"13",NA,"4000300","G","G","0","Good",NA,"normal","I4000300",1,0
+"14",NA,"4000307","G","G","0","Good",NA,"normal","I4000307",1,0
+"15",NA,"4000308","C","C","0","Good",NA,"normal","I4000308",1,0
+"16",NA,"4000313","G","G","5","Bad",NA,"Cystic Fibrosis","I4000313",-1,-5
+"17",NA,"4000315","T","T","5","Bad",NA,"Cystic Fibrosis","I4000315",-1,-5
+"18",NA,"4000320","G","G","0","Good",NA,"normal","I4000320",1,0
+"19",NA,"4000321","A","A","5","Bad",NA,"Cystic Fibrosis","I4000321",-1,-5
+"20",NA,"4000321","A","G","4","Bad",NA,"Cystic Fibrosis carrier","I4000321",-1,-4
+"21",NA,"4000334","A","A","0","Good",NA,"normal","I4000334",1,0
+"22",NA,"4000339","A","G","4","Bad",NA,"Familial Hypercholesterolemia Type B carrier","I4000339",-1,-4
+"23",NA,"4000339","G","G","0","Good",NA,"normal","I4000339",1,0
+"24",NA,"4000377","D","D","10","Bad",NA,"BRCA1 (breast cancer) 185delAG homozygous carrier","I4000377",-1,-10
+"25",NA,"4000379","D","I","7","Bad",NA,"increased risk of breast cancer","I4000379",-1,-7
+"26",NA,"4000381","C","C","5","Bad",NA,"Niemann-Pick Disease Type A","I4000381",-1,-5
+"27",NA,"4000381","C","T","4","Bad",NA,"Niemann-Pick Disease Type A carrier","I4000381",-1,-4
+"28",NA,"4000386","T","T","5","Bad",NA,"Gaucher's disease","I4000386",-1,-5
+"29",NA,"4000393","C","G","4","Bad",NA,"Tay-Sachs Disease carrier","I4000393",-1,-4
+"30",NA,"4000393","G","G","5","Bad",NA,"Tay-Sachs Disease","I4000393",-1,-5
+"31",NA,"4000397","A","A","5","Bad",NA,"Factor XI Deficiency","I4000397",-1,-5
+"32",NA,"4000397","A","G","4","Bad",NA,"Factor XI Deficiency carrier","I4000397",-1,-4
+"33",NA,"4000397","G","G","0","Good",NA,"normal","I4000397",1,0
+"34",NA,"4000398","T","T","5","Bad",NA,"Factor XI Deficiency","I4000398",-1,-5
+"35",NA,"4000400","C","C","0","Good",NA,"normal","I4000400",1,0
+"36",NA,"4000400","C","G","4","Bad",NA,"Familial dysautonomia carrier","I4000400",-1,-4
+"37",NA,"4000412","A","A","5","Bad",NA,"Fanconi Anemia (FANCC-related) ","I4000412",-1,-5
+"38",NA,"4000412","A","G","4","Bad",NA,"Fanconi Anemia carrier","I4000412",-1,-4
+"39",NA,"4000412","G","G","0","Good",NA,"normal","I4000412",1,0
+"40",NA,"4000436","C","C","0","Good",NA,"normal","I4000436",1,0
+"41",NA,"4000440","A","G","4","Bad",NA,"Tay-Sachs Disease carrier","I4000440",-1,-4
+"42",NA,"4000440","G","G","0","Good",NA,"normal","I4000440",1,0
+"43",NA,"4000467","A","C","4","Bad",NA,"Phenylketonuria carrier","I4000467",-1,-4
+"44",NA,"4000467","C","C","0","Good",NA,"normal","I4000467",1,0
+"45",NA,"4000470","C","G","4","Bad",NA,"Phenylketonuria carrier","I4000470",-1,-4
+"46",NA,"4000470","G","G","0","Good",NA,"normal","I4000470",1,0
+"47",NA,"4000472","A","A","0","Good",NA,"normal","I4000472",1,0
+"48",NA,"4000473","A","A","5","Bad",NA,"Phenylketonuria","I4000473",-1,-5
+"49",NA,"4000473","G","G","0","Good",NA,"normal","I4000473",1,0
+"50",NA,"4000474","T","T","5","Bad",NA,"Phenylketonuria","I4000474",-1,-5
+"51",NA,"4000475","A","A","0","Good",NA,"normal","I4000475",1,0
+"52",NA,"4000479","C","G","4","Bad",NA,"Phenylketonuria carrier","I4000479",-1,-4
+"53",NA,"4001456","A","A","3.5",NA,NA,"Homozygous for CYP2D6*4F non-functioning variant","I4001456",0,0
+"54",NA,"4001456","A","G","2",NA,NA,"Carrier of one copy of CYP2D6*4F non-functioning variant.","I4001456",0,0
+"55",NA,"4001460","A","C","0.1",NA,NA,"common","I4001460",0,0
+"56",NA,"4001527","D","D","2",NA,NA,"Rh- blood","I4001527",0,0
+"57",NA,"4001527","D","I","2",NA,NA,"Rh+ blood","I4001527",0,0
+"58",NA,"5000047","T","T","0","Good",NA,"normal","I5000047",1,0
+"59",NA,"5000693","G","T","4","Bad",NA,"Pendred Syndrome carrier","I5000693",-1,-4
+"60",NA,"5003700","G","G","0","Good",NA,"normal","I5003700",1,0
+"61",NA,"5003700","G","T","4","Bad",NA,"Dihydrolipooamide Dehydrogenase Deficiency carrier","I5003700",-1,-4
+"62",NA,"5003700","T","T","5","Bad",NA,"Dihydrolipooamide Dehydrogenase Deficiency ","I5003700",-1,-5
+"63",NA,"5004213","G","G","4","Bad",NA,"highest risk","I5004213",-1,-4
+"64",NA,"5005855","T","T","0","Good",NA,"","I5005855",1,0
+"65",NA,"5005856","G","G","0","Good",NA,"","I5005856",1,0
+"66",NA,"5007146","A","A","0","Good",NA,"normal","I5007146",1,0
+"67",NA,"5007146","A","T","4","Bad",NA,"Carrier of DBP deficiency","I5007146",-1,-4
+"68",NA,"5012618","A","A","0","Good",NA,"normal","I5012618",1,0
+"69",NA,"5012618","A","C","4","Bad",NA,"Pendred Syndrome carrier","I5012618",-1,-4
+"70",NA,"5012624","A","G","4","Bad",NA,"Neuronal Ceroid Lipofuscinosis carrier","I5012624",-1,-4
+"71",NA,"5012660","A","A","0","Good",NA,"normal","I5012660",1,0
+"72",NA,"5012660","A","G","4","Bad",NA,"Gracile Syndrome carrier","I5012660",-1,-4
+"73",NA,"5012679","A","A","5","Bad",NA,"Congenital Disorder of Glycosylation Type 1a (PMM2-CDG) ","I5012679",-1,-5
+"74",NA,"5012688","C","C","0","Good",NA,"normal","I5012688",1,0
+"75",NA,"5012688","C","T","4","Bad",NA,"Zellweger Syndrome Spectrum carrier","I5012688",-1,-4
+"76",NA,"5012688","T","T","5","Bad",NA,"Zellweger Syndrome Spectrum ","I5012688",-1,-5
+"77",NA,"5012749","A","A","5","Bad",NA,"Leigh Syndrome, French Canadian Type (LSFC)","I5012749",-1,-5
+"78",NA,"5012749","A","G","4","Bad",NA,"Leigh Syndrome, French Canadian Type carrier","I5012749",-1,-4
+"79",NA,"5012749","G","G","0","Good",NA,"normal","I5012749",1,0
+"80",NA,"5012755","C","C","0","Good",NA,"normal","I5012755",1,0
+"81",NA,"5012755","C","T","3","Bad",NA,"Carrier of Medium-Chain Acyl-CoA Dehydrogenase Deficiency","I5012755",-1,-3
+"82",NA,"5012755","T","T","4","Bad",NA,"Medium-Chain Acyl-CoA Dehydrogenase Deficiency","I5012755",-1,-4
+"83",NA,"5012758","C","C","4","Bad",NA,"Medium-Chain Acyl-CoA Dehydrogenase Deficiency","I5012758",-1,-4
+"84",NA,"5012758","C","T","3","Bad",NA,"Carrier of Medium-Chain Acyl-CoA Dehydrogenase Deficiency","I5012758",-1,-3
+"85",NA,"5012758","T","T","0","Good",NA,"normal","I5012758",1,0
+"86",NA,"5012759","A","A","0","Good",NA,"normal","I5012759",1,0
+"87",NA,"5012759","A","G","3","Bad",NA,"Carrier of Medium-Chain Acyl-CoA Dehydrogenase Deficiency","I5012759",-1,-3
+"88",NA,"5012759","G","G","4","Bad",NA,"Medium-Chain Acyl-CoA Dehydrogenase Deficiency","I5012759",-1,-4
+"89",NA,"5012760","C","C","0","Good",NA,"normal","I5012760",1,0
+"90",NA,"5012760","C","T","3","Bad",NA,"Carrier of Medium-Chain Acyl-CoA Dehydrogenase Deficiency","I5012760",-1,-3
+"91",NA,"5012760","T","T","4","Bad",NA,"Medium-Chain Acyl-CoA Dehydrogenase Deficiency","I5012760",-1,-4
+"92",NA,"5012804","A","A","5","Bad",NA,"Usher Syndrome Type I (PCDH15-related)","I5012804",-1,-5
+"93",NA,"5012862","A","G","4","Bad",NA,"Tyrosinemia Type I carrier","I5012862",-1,-4
+"94",NA,"5012865","A","A","5","Bad",NA,"Tyrosinemia Type I ","I5012865",-1,-5
+"95","1000113",NA,"T","T",NA,"Bad",NA,"1.9x risk of Crohn's disease","rs1000113",-1,NA
+"96","10050257",NA,"T","T","0","Good",NA,"common in complete genomics","rs10050257",1,0
+"97","10050860",NA,"T","T","1.7","Good",NA,"Half the risk (about 0.05%) of Ankylosing Spondylitis.","rs10050860",1,1.7
+"98","1005651",NA,"A","A","0","Good",NA,"common in complete genomics","rs1005651",1,0
+"99","10065172",NA,"C","C","0","Good",NA,"common in complete genomics","rs10065172",1,0
+"100","1006737",NA,"A","A","1.7",NA,NA,"increased risk of Bipolar disorder","rs1006737",0,0
+"101","10088218",NA,"A","G","1.25","Good",NA,"0.76x decreased risk for ovarian cancer","rs10088218",1,1.25
+"102","10096097",NA,"A","G","1","",NA,"unknown Anorexia Nervosa risk","rs10096097",0,0
+"103","1012729",NA,"A","G",NA,NA,NA,"altered pediatric blood pressure","rs1012729",0,NA
+"104","1012729",NA,"G","G",NA,NA,NA,"altered pediatric blood pressure","rs1012729",0,NA
+"105","10133111",NA,"G","G","0","Good",NA,"common in complete genomics","rs10133111",1,0
+"106","10134944",NA,"C","T",NA,NA,NA,"1.4x risk","rs10134944",0,NA
+"107","10151259",NA,"G","G","0","Good",NA,"common in clinvar","rs10151259",1,0
+"108","1015362",NA,"A","A","1.9","Good",NA,"Probably tans instead of freckles and sunburns.","rs1015362",1,1.9
+"109","10159302",NA,"A","A","0","Good",NA,"common in complete genomics","rs10159302",1,0
+"110","10162002",NA,"G","G","0","Good",NA,"common in complete genomics","rs10162002",1,0
+"111","10181656",NA,"C","G",NA,"Bad",NA,"1.7x increased SLE risk","rs10181656",-1,NA
+"112","10197862",NA,"A","A","0","Good",NA,"common in complete genomics","rs10197862",1,0
+"113","10244329",NA,"A","T","0","Good",NA,"common in complete genomics","rs10244329",1,0
+"114","10246939",NA,"C","C","0.1",NA,NA,"can taste bitter","rs10246939",0,0
+"115","10250779",NA,"T","T",NA,NA,NA,"possible exercise-inducing cramping in African-Americans","rs10250779",0,NA
+"116","10260404",NA,"C","C","2","Bad",NA,"1.60x risk of developing ALS","rs10260404",-1,-2
+"117","10260404",NA,"C","T","1.5","Bad",NA,"1.20x risk of developing ALS","rs10260404",-1,-1.5
+"118","10264272",NA,"T","T","0",NA,NA,"homozygous for a silent polymorphism in CYP3A5","rs10264272",0,0
+"119","10270805",NA,"G","G","0","Good",NA,"common in complete genomics","rs10270805",1,0
+"120","1027557",NA,"A","G","0.1",NA,NA,"heterozygosity seems common","rs1027557",0,0
+"121","1027643",NA,"C","C","0","Good",NA,"common in complete genomics","rs1027643",1,0
+"122","10281281",NA,"A","A","0","Good",NA,"common in complete genomics","rs10281281",1,0
+"123","1032757",NA,"C","C","0","Good",NA,"common in complete genomics","rs1032757",1,0
+"124","1037757",NA,"C","C","0","Good",NA,"common in complete genomics","rs1037757",1,0
+"125","10407503",NA,"C","C","0","Good",NA,"common in complete genomics","rs10407503",1,0
+"126","1042602",NA,"A","A",NA,NA,NA,"associated with the absence of freckles","rs1042602",0,NA
+"127","1042636",NA,"A","A","0","Good",NA,"common in complete genomics","rs1042636",1,0
+"128","1042638",NA,"C","C","0","Good",NA,"common in complete genomics","rs1042638",1,0
+"129","1042713",NA,"G","G",NA,NA,NA,"normal","rs1042713",0,NA
+"130",NA,NA,NA,NA,"2",NA,NA,"~0.8cm taller",NA,0,0
+"131","1042838",NA,"T","T","3","Bad",NA,"1.42x risk for endometrial ovarian cancer; overlaps with rs608995","rs1042838",-1,-3
+"132","1043994",NA,"A","A",NA,NA,NA,"?","rs1043994",0,NA
+"133","10455872",NA,"A","G","2","Bad",NA,"increased Coronary Heart disease risk","rs10455872",-1,-2
+"134","10455872",NA,"G","G","2.1","Bad",NA,"increased Coronary Heart disease risk","rs10455872",-1,-2.1
+"135","1045642",NA,"C","T","2","Bad",NA,"Slower metaboliser for some drugs","rs1045642",-1,-2
+"136","1045642",NA,"T","T","3","Bad",NA,"2.6 times higher odds of developing early stent thrombosis","rs1045642",-1,-3
+"137","1045643",NA,"C","C","0","Good",NA,"common in complete genomics","rs1045643",1,0
+"138","10464059",NA,"A","A","2","Bad",NA,"Increased risk of developing Parkinson's Disease","rs10464059",-1,-2
+"139","10464059",NA,"A","G","1.5","Bad",NA,"Slightly increased risk of developing Parkinson's Disease","rs10464059",-1,-1.5
+"140","1047031",NA,"G","G","0","Good",NA,"normal","rs1047031",1,0
+"141","1047552",NA,"G","T",NA,NA,NA,"1.6x higher atherosclerosis risk only in males","rs1047552",0,NA
+"142","10483774",NA,"G","G","0","Good",NA,"common in complete genomics","rs10483774",1,0
+"143","10485165",NA,"G","G","0","Good",NA,"common on affy axiom data","rs10485165",1,0
+"144","104886035",NA,"C","C","0","Good",NA,"common in clinvar","rs104886035",1,0
+"145","104886040",NA,"G","G","0","Good",NA,"common in clinvar","rs104886040",1,0
+"146","104886061",NA,"G","G","0","Good",NA,"common in clinvar","rs104886061",1,0
+"147","104886062",NA,"G","G","0","Good",NA,"common in clinvar","rs104886062",1,0
+"148","104886063",NA,"G","G","0","Good",NA,"common in clinvar","rs104886063",1,0
+"149","104886065",NA,"C","C","0","Good",NA,"common in clinvar","rs104886065",1,0
+"150","104886076",NA,"G","G","0","Good",NA,"common in clinvar","rs104886076",1,0
+"151","104886078",NA,"G","G","0","Good",NA,"common in clinvar","rs104886078",1,0
+"152","104886079",NA,"G","G","0","Good",NA,"common in clinvar","rs104886079",1,0
+"153","104886082",NA,"G","G","0","Good",NA,"common in clinvar","rs104886082",1,0
+"154","104886101",NA,"G","G","0","Good",NA,"common in clinvar","rs104886101",1,0
+"155","104886127",NA,"G","G","0","Good",NA,"common in clinvar","rs104886127",1,0
+"156","104886132",NA,"G","G","0","Good",NA,"common in clinvar","rs104886132",1,0
+"157","104886138",NA,"G","G","0","Good",NA,"common in clinvar","rs104886138",1,0
+"158","104886146",NA,"G","G","0","Good",NA,"common in clinvar","rs104886146",1,0
+"159","104886150",NA,"G","G","0","Good",NA,"common in clinvar","rs104886150",1,0
+"160","104886161",NA,"G","G","0","Good",NA,"common in clinvar","rs104886161",1,0
+"161","104886165",NA,"G","G","0","Good",NA,"common in clinvar","rs104886165",1,0
+"162","104886166",NA,"G","G","0","Good",NA,"common in clinvar","rs104886166",1,0
+"163","104886169",NA,"G","G","0","Good",NA,"common in clinvar","rs104886169",1,0
+"164","104886173",NA,"G","G","0","Good",NA,"common in clinvar","rs104886173",1,0
+"165","104886176",NA,"G","G","0","Good",NA,"common in clinvar","rs104886176",1,0
+"166","104886184",NA,"G","G","0","Good",NA,"common in clinvar","rs104886184",1,0
+"167","104886185",NA,"G","G","0","Good",NA,"common in clinvar","rs104886185",1,0
+"168","104886186",NA,"G","G","0","Good",NA,"common in clinvar","rs104886186",1,0
+"169","104886187",NA,"G","G","0","Good",NA,"common in clinvar","rs104886187",1,0
+"170","104886188",NA,"G","G","0","Good",NA,"common in clinvar","rs104886188",1,0
+"171","104886189",NA,"G","G","0","Good",NA,"common in clinvar","rs104886189",1,0
+"172","104886190",NA,"G","G","0","Good",NA,"common in clinvar","rs104886190",1,0
+"173","104886191",NA,"G","G","0","Good",NA,"common in clinvar","rs104886191",1,0
+"174","104886192",NA,"A","A","0","Good",NA,"common in clinvar","rs104886192",1,0
+"175","104886193",NA,"A","A","0","Good",NA,"common in clinvar","rs104886193",1,0
+"176","104886194",NA,"C","C","0","Good",NA,"common in clinvar","rs104886194",1,0
+"177","104886195",NA,"G","G","0","Good",NA,"common in clinvar","rs104886195",1,0
+"178","104886196",NA,"G","G","0","Good",NA,"common in clinvar","rs104886196",1,0
+"179","104886197",NA,"C","C","0","Good",NA,"common in clinvar","rs104886197",1,0
+"180","104886198",NA,"A","A","0","Good",NA,"common in clinvar","rs104886198",1,0
+"181","104886199",NA,"G","G","0","Good",NA,"common in clinvar","rs104886199",1,0
+"182","104886200",NA,"G","G","0","Good",NA,"common in clinvar","rs104886200",1,0
+"183","104886201",NA,"G","G","0","Good",NA,"common in clinvar","rs104886201",1,0
+"184","104886202",NA,"G","G","0","Good",NA,"common in clinvar","rs104886202",1,0
+"185","104886204",NA,"A","A","0","Good",NA,"common in clinvar","rs104886204",1,0
+"186","104886206",NA,"G","G","0","Good",NA,"common in clinvar","rs104886206",1,0
+"187","104886207",NA,"C","C","0","Good",NA,"common in clinvar","rs104886207",1,0
+"188","104886208",NA,"T","T","0","Good",NA,"common in clinvar","rs104886208",1,0
+"189","104886209",NA,"G","G","0","Good",NA,"common in clinvar","rs104886209",1,0
+"190","104886210",NA,"G","G","0","Good",NA,"common in clinvar","rs104886210",1,0
+"191","104886211",NA,"G","G","0","Good",NA,"common in clinvar","rs104886211",1,0
+"192","104886212",NA,"G","G","0","Good",NA,"common in clinvar","rs104886212",1,0
+"193","104886213",NA,"C","C","0","Good",NA,"common in clinvar","rs104886213",1,0
+"194","104886215",NA,"G","G","0","Good",NA,"common in clinvar","rs104886215",1,0
+"195","104886216",NA,"G","G","0","Good",NA,"common in clinvar","rs104886216",1,0
+"196","104886217",NA,"G","G","0","Good",NA,"common in clinvar","rs104886217",1,0
+"197","104886218",NA,"G","G","0","Good",NA,"common in clinvar","rs104886218",1,0
+"198","104886219",NA,"G","G","0","Good",NA,"common in clinvar","rs104886219",1,0
+"199","104886221",NA,"G","G","0","Good",NA,"common in clinvar","rs104886221",1,0
+"200","104886222",NA,"C","C","0","Good",NA,"common in clinvar","rs104886222",1,0
+"201","104886223",NA,"G","G","0","Good",NA,"common in clinvar","rs104886223",1,0
+"202","104886224",NA,"G","G","0","Good",NA,"common in clinvar","rs104886224",1,0
+"203","104886225",NA,"G","G","0","Good",NA,"common in clinvar","rs104886225",1,0
+"204","104886226",NA,"A","A","0","Good",NA,"common in clinvar","rs104886226",1,0
+"205","104886227",NA,"C","C","0","Good",NA,"common in clinvar","rs104886227",1,0
+"206","104886228",NA,"G","G","0","Good",NA,"common in clinvar","rs104886228",1,0
+"207","104886229",NA,"G","G","0","Good",NA,"common in clinvar","rs104886229",1,0
+"208","104886231",NA,"G","G","0","Good",NA,"common in clinvar","rs104886231",1,0
+"209","104886232",NA,"G","G","0","Good",NA,"common in clinvar","rs104886232",1,0
+"210","104886233",NA,"A","A","0","Good",NA,"common in clinvar","rs104886233",1,0
+"211","104886234",NA,"G","G","0","Good",NA,"common in clinvar","rs104886234",1,0
+"212","104886235",NA,"G","G","0","Good",NA,"common in clinvar","rs104886235",1,0
+"213","104886237",NA,"G","G","0","Good",NA,"common in clinvar","rs104886237",1,0
+"214","104886238",NA,"G","G","0","Good",NA,"common in clinvar","rs104886238",1,0
+"215","104886239",NA,"G","G","0","Good",NA,"common in clinvar","rs104886239",1,0
+"216","104886240",NA,"G","G","0","Good",NA,"common in clinvar","rs104886240",1,0
+"217","104886241",NA,"C","C","0","Good",NA,"common in clinvar","rs104886241",1,0
+"218","104886242",NA,"G","G","0","Good",NA,"common in clinvar","rs104886242",1,0
+"219","104886244",NA,"G","G","0","Good",NA,"common in clinvar","rs104886244",1,0
+"220","104886245",NA,"G","G","0","Good",NA,"common in clinvar","rs104886245",1,0
+"221","104886246",NA,"G","G","0","Good",NA,"common in clinvar","rs104886246",1,0
+"222","104886247",NA,"G","G","0","Good",NA,"common in clinvar","rs104886247",1,0
+"223","104886248",NA,"G","G","0","Good",NA,"common in clinvar","rs104886248",1,0
+"224","104886249",NA,"C","C","0","Good",NA,"common in clinvar","rs104886249",1,0
+"225","104886250",NA,"G","G","0","Good",NA,"common in clinvar","rs104886250",1,0
+"226","104886251",NA,"G","G","0","Good",NA,"common in clinvar","rs104886251",1,0
+"227","104886252",NA,"G","G","0","Good",NA,"common in clinvar","rs104886252",1,0
+"228","104886253",NA,"G","G","0","Good",NA,"common in clinvar","rs104886253",1,0
+"229","104886254",NA,"C","C","0","Good",NA,"common in clinvar","rs104886254",1,0
+"230","104886255",NA,"G","G","0","Good",NA,"common in clinvar","rs104886255",1,0
+"231","104886256",NA,"G","G","0","Good",NA,"common in clinvar","rs104886256",1,0
+"232","104886257",NA,"G","G","0","Good",NA,"common in clinvar","rs104886257",1,0
+"233","104886258",NA,"C","C","0","Good",NA,"common in clinvar","rs104886258",1,0
+"234","104886260",NA,"A","A","0","Good",NA,"common in clinvar","rs104886260",1,0
+"235","104886263",NA,"G","G","0","Good",NA,"common in clinvar","rs104886263",1,0
+"236","104886300",NA,"G","G","0","Good",NA,"common in clinvar","rs104886300",1,0
+"237","104886302",NA,"G","G","0","Good",NA,"common in clinvar","rs104886302",1,0
+"238","104886304",NA,"C","C","0","Good",NA,"common in clinvar","rs104886304",1,0
+"239","10488631",NA,"C","C","3","Bad",NA,"2x increased risk of developing SLE; 3.2x increased risk of developing primary biliary cirrhosis; and 3.4x increased risk of developing Sjögren's syndrome","rs10488631",-1,-3
+"240","104886312",NA,"G","G","0","Good",NA,"common in clinvar","rs104886312",1,0
+"241","104886317",NA,"G","G","0","Good",NA,"common in clinvar","rs104886317",1,0
+"242","104886318",NA,"","","0","Good",NA,"common in clinvar","rs104886318",1,0
+"243","104886323",NA,"G","G","0","Good",NA,"common in clinvar","rs104886323",1,0
+"244","104886333",NA,"AG","AG","0","Good",NA,"common in clinvar","rs104886333",1,0
+"245","104886348",NA,"G","G","0","Good",NA,"common in clinvar","rs104886348",1,0
+"246","104886382",NA,"C","C","0","Good",NA,"common in clinvar","rs104886382",1,0
+"247","104886394",NA,"","","0","Good",NA,"common in clinvar","rs104886394",1,0
+"248","104886409",NA,"","","0","Good",NA,"common in clinvar","rs104886409",1,0
+"249","104886420",NA,"GA","GA","0","Good",NA,"common in clinvar","rs104886420",1,0
+"250","104886427",NA,"CT","CT","0","Good",NA,"common in clinvar","rs104886427",1,0
+"251","104886451",NA,"G","G","0","Good",NA,"common in clinvar","rs104886451",1,0
+"252","104886457",NA,"C","C","0","Good",NA,"common in clinvar","rs104886457",1,0
+"253","104893643",NA,"G","G","0","Good",NA,"common in clinvar","rs104893643",1,0
+"254","104893647",NA,"C","C","0","Good",NA,"common in clinvar","rs104893647",1,0
+"255","104893652",NA,"C","C","0","Good",NA,"common in clinvar","rs104893652",1,0
+"256","104893663",NA,"A","A","0","Good",NA,"common in clinvar","rs104893663",1,0
+"257","104893664",NA,"G","G","0","Good",NA,"common in clinvar","rs104893664",1,0
+"258","104893671",NA,"G","G","0","Good",NA,"common in clinvar","rs104893671",1,0
+"259","104893677",NA,"C","C","0","Good",NA,"common in clinvar","rs104893677",1,0
+"260","104893687",NA,"C","C","0","Good",NA,"common in clinvar","rs104893687",1,0
+"261","104893690",NA,"G","G","0","Good",NA,"common in clinvar","rs104893690",1,0
+"262","104893693",NA,"T","T","0","Good",NA,"common in clinvar","rs104893693",1,0
+"263","104893696",NA,"T","T","0","Good",NA,"common in clinvar","rs104893696",1,0
+"264","104893697",NA,"G","G","0","Good",NA,"common in clinvar","rs104893697",1,0
+"265","104893701",NA,"T","T","0","Good",NA,"common in clinvar","rs104893701",1,0
+"266","104893708",NA,"T","T","0","Good",NA,"common in clinvar","rs104893708",1,0
+"267","104893718",NA,"T","T","0","Good",NA,"common in clinvar","rs104893718",1,0
+"268","104893724",NA,"T","T","0","Good",NA,"common in clinvar","rs104893724",1,0
+"269","104893726",NA,"T","T","0","Good",NA,"common in clinvar","rs104893726",1,0
+"270","104893731",NA,"T","T","0","Good",NA,"common in clinvar","rs104893731",1,0
+"271","104893735",NA,"G","G","0","Good",NA,"common in clinvar","rs104893735",1,0
+"272","104893741",NA,"C","C","0","Good",NA,"common in clinvar","rs104893741",1,0
+"273","104893744",NA,"T","T","0","Good",NA,"common in clinvar","rs104893744",1,0
+"274","104893746",NA,"C","C","0","Good",NA,"common in clinvar","rs104893746",1,0
+"275","104893751",NA,"G","G","0","Good",NA,"common in complete genomics","rs104893751",1,0
+"276","104893755",NA,"C","C","0","Good",NA,"common in clinvar","rs104893755",1,0
+"277","104893767",NA,"G","G","0","Good",NA,"common in clinvar","rs104893767",1,0
+"278","104893774",NA,"G","G","0","Good",NA,"common in clinvar","rs104893774",1,0
+"279","104893777",NA,"A","A","0","Good",NA,"common in clinvar","rs104893777",1,0
+"280","104893778",NA,"C","C","0","Good",NA,"common in clinvar","rs104893778",1,0
+"281","104893779",NA,"G","G","0","Good",NA,"common in clinvar","rs104893779",1,0
+"282","104893781",NA,"C","C","0","Good",NA,"common in clinvar","rs104893781",1,0
+"283","104893782",NA,"T","T","0","Good",NA,"common in clinvar","rs104893782",1,0
+"284","104893786",NA,"A","A","0","Good",NA,"common in clinvar","rs104893786",1,0
+"285","104893787",NA,"G","G","0","Good",NA,"common in clinvar","rs104893787",1,0
+"286","104893788",NA,"G","G","0","Good",NA,"common in clinvar","rs104893788",1,0
+"287","104893789",NA,"C","C","0","Good",NA,"common in clinvar","rs104893789",1,0
+"288","104893790",NA,"G","G","0","Good",NA,"common in clinvar","rs104893790",1,0
+"289","104893795",NA,"G","G","0","Good",NA,"common in clinvar","rs104893795",1,0
+"290","104893802",NA,"T","T","0","Good",NA,"common in clinvar","rs104893802",1,0
+"291","104893803",NA,"C","C","0","Good",NA,"common in clinvar","rs104893803",1,0
+"292","104893807",NA,"C","C","0","Good",NA,"common in clinvar","rs104893807",1,0
+"293","104893808",NA,"G","G","0","Good",NA,"common in clinvar","rs104893808",1,0
+"294","104893819",NA,"C","C","0","Good",NA,"common in clinvar","rs104893819",1,0
+"295","104893827",NA,"T","T","0","Good",NA,"common in clinvar","rs104893827",1,0
+"296","104893829",NA,"C","C","0","Good",NA,"common in clinvar","rs104893829",1,0
+"297","104893833",NA,"G","G","0","Good",NA,"common in complete genomics","rs104893833",1,0
+"298","104893835",NA,"C","C","0","Good",NA,"common in clinvar","rs104893835",1,0
+"299","104893836",NA,"A","A","0","Good",NA,"common in clinvar","rs104893836",1,0
+"300","104893847",NA,"C","C","0","Good",NA,"common in clinvar","rs104893847",1,0
+"301","104893848",NA,"T","T","0","Good",NA,"common in clinvar","rs104893848",1,0
+"302","104893849",NA,"A","A","0","Good",NA,"common in clinvar","rs104893849",1,0
+"303","104893851",NA,"C","C","0","Good",NA,"common in clinvar","rs104893851",1,0
+"304","104893852",NA,"C","C","0","Good",NA,"common in clinvar","rs104893852",1,0
+"305","104893853",NA,"C","C","0","Good",NA,"common in clinvar","rs104893853",1,0
+"306","104893854",NA,"C","C","0","Good",NA,"common in clinvar","rs104893854",1,0
+"307","104893855",NA,"G","G","0","Good",NA,"common in complete genomics","rs104893855",1,0
+"308","104893856",NA,"G","G","0","Good",NA,"common in complete genomics","rs104893856",1,0
+"309","104893859",NA,"G","G","0","Good",NA,"common in clinvar","rs104893859",1,0
+"310","104893874",NA,"G","G","0","Good",NA,"common in clinvar","rs104893874",1,0
+"311","104893900",NA,"C","C","0","Good",NA,"common in clinvar","rs104893900",1,0
+"312","104893901",NA,"C","C","0","Good",NA,"common in clinvar","rs104893901",1,0
+"313","104893905",NA,"C","C","0","Good",NA,"common in clinvar","rs104893905",1,0
+"314","104893906",NA,"C","C","0","Good",NA,"common in clinvar","rs104893906",1,0
+"315","104893907",NA,"T","T","0","Good",NA,"common in clinvar","rs104893907",1,0
+"316","104893908",NA,"A","A","0","Good",NA,"common in clinvar","rs104893908",1,0
+"317","104893910",NA,"T","T","0","Good",NA,"common in clinvar","rs104893910",1,0
+"318","104893911",NA,"T","T","0","Good",NA,"common in clinvar","rs104893911",1,0
+"319","104893912",NA,"T","T","0","Good",NA,"common in clinvar","rs104893912",1,0
+"320","104893913",NA,"G","G","0","Good",NA,"common in clinvar","rs104893913",1,0
+"321","104893914",NA,"G","G","0","Good",NA,"common in clinvar","rs104893914",1,0
+"322","104893915",NA,"C","C","0","Good",NA,"common in clinvar","rs104893915",1,0
+"323","104893930",NA,"G","G","0","Good",NA,"common in clinvar","rs104893930",1,0
+"324","104893938",NA,"T","T","0","Good",NA,"common in clinvar","rs104893938",1,0
+"325","104893941",NA,"C","C","0","Good",NA,"common in clinvar","rs104893941",1,0
+"326","104893942",NA,"C","C","0","Good",NA,"common in clinvar","rs104893942",1,0
+"327","104893943",NA,"G","G","0","Good",NA,"common in clinvar","rs104893943",1,0
+"328","104893945",NA,"C","C","0","Good",NA,"common in clinvar","rs104893945",1,0
+"329","104893952",NA,"C","C","0","Good",NA,"common in clinvar","rs104893952",1,0
+"330","104893956",NA,"C","C","0","Good",NA,"common in clinvar","rs104893956",1,0
+"331","104893958",NA,"C","C","0","Good",NA,"common in clinvar","rs104893958",1,0
+"332","104893959",NA,"G","G","0","Good",NA,"common in clinvar","rs104893959",1,0
+"333","104893960",NA,"G","G","0","Good",NA,"common in clinvar","rs104893960",1,0
+"334","104893961",NA,"A","A","0","Good",NA,"common in clinvar","rs104893961",1,0
+"335","104893962",NA,"T","T","0","Good",NA,"common in clinvar","rs104893962",1,0
+"336","104893979",NA,"C","C","0","Good",NA,"common in clinvar","rs104893979",1,0
+"337","104893985",NA,"C","C","0","Good",NA,"common in clinvar","rs104893985",1,0
+"338","104894009",NA,"G","G","0","Good",NA,"common in clinvar","rs104894009",1,0
+"339","104894012",NA,"G","G","0","Good",NA,"common in clinvar","rs104894012",1,0
+"340","104894014",NA,"C","C","0","Good",NA,"common in clinvar","rs104894014",1,0
+"341","104894015",NA,"A","A","0","Good",NA,"common in clinvar","rs104894015",1,0
+"342","104894017",NA,"C","C","0","Good",NA,"common in clinvar","rs104894017",1,0
+"343","104894018",NA,"C","C","0","Good",NA,"common in clinvar","rs104894018",1,0
+"344","104894019",NA,"G","G","0","Good",NA,"common in clinvar","rs104894019",1,0
+"345","104894020",NA,"C","C","0","Good",NA,"common in clinvar","rs104894020",1,0
+"346","104894021",NA,"C","C","0","Good",NA,"common in clinvar","rs104894021",1,0
+"347","104894023",NA,"C","C","0","Good",NA,"common in clinvar","rs104894023",1,0
+"348","104894024",NA,"C","C","0","Good",NA,"common in clinvar","rs104894024",1,0
+"349","104894025",NA,"A","A","0","Good",NA,"common in clinvar","rs104894025",1,0
+"350","104894026",NA,"C","C","0","Good",NA,"common in clinvar","rs104894026",1,0
+"351","104894027",NA,"T","T","0","Good",NA,"common in clinvar","rs104894027",1,0
+"352","104894028",NA,"A","A","0","Good",NA,"common in clinvar","rs104894028",1,0
+"353","104894029",NA,"G","G","0","Good",NA,"common in clinvar","rs104894029",1,0
+"354","104894030",NA,"A","A","0","Good",NA,"common in clinvar","rs104894030",1,0
+"355","104894031",NA,"G","G","0","Good",NA,"common in clinvar","rs104894031",1,0
+"356","104894032",NA,"T","T","0","Good",NA,"common in clinvar","rs104894032",1,0
+"357","104894033",NA,"C","C","0","Good",NA,"common in clinvar","rs104894033",1,0
+"358","104894034",NA,"C","C","0","Good",NA,"common in clinvar","rs104894034",1,0
+"359","104894035",NA,"G","G","0","Good",NA,"common in clinvar","rs104894035",1,0
+"360","104894036",NA,"T","T","0","Good",NA,"common in clinvar","rs104894036",1,0
+"361","104894037",NA,"A","A","0","Good",NA,"common in clinvar","rs104894037",1,0
+"362","104894039",NA,"A","A","0","Good",NA,"common in clinvar","rs104894039",1,0
+"363","104894040",NA,"T","T","0","Good",NA,"common in clinvar","rs104894040",1,0
+"364","104894042",NA,"T","T","0","Good",NA,"common in clinvar","rs104894042",1,0
+"365","104894052",NA,"T","T","0","Good",NA,"common in clinvar","rs104894052",1,0
+"366","104894053",NA,"G","G","0","Good",NA,"common in clinvar","rs104894053",1,0
+"367","104894057",NA,"A","A","0","Good",NA,"common in clinvar","rs104894057",1,0
+"368","104894061",NA,"C","C","0","Good",NA,"common in clinvar","rs104894061",1,0
+"369","104894072",NA,"A","A","0","Good",NA,"common in clinvar","rs104894072",1,0
+"370","104894073",NA,"G","G","0","Good",NA,"common in clinvar","rs104894073",1,0
+"371","104894075",NA,"C","C","0","Good",NA,"common in clinvar","rs104894075",1,0
+"372","104894077",NA,"C","C","0","Good",NA,"common in clinvar","rs104894077",1,0
+"373","104894091",NA,"G","G","0","Good",NA,"common in clinvar","rs104894091",1,0
+"374","104894095",NA,"G","G","0","Good",NA,"common in clinvar","rs104894095",1,0
+"375","104894098",NA,"T","T","0","Good",NA,"common in complete genomics","rs104894098",1,0
+"376","104894101",NA,"C","C","0","Good",NA,"common in clinvar","rs104894101",1,0
+"377","104894108",NA,"G","G","0","Good",NA,"common in clinvar","rs104894108",1,0
+"378","104894111",NA,"C","C","0","Good",NA,"common in clinvar","rs104894111",1,0
+"379","104894116",NA,"C","C","0","Good",NA,"common in clinvar","rs104894116",1,0
+"380","104894137",NA,"C","C","0","Good",NA,"common in clinvar","rs104894137",1,0
+"381","104894151",NA,"T","T","0","Good",NA,"common in clinvar","rs104894151",1,0
+"382","104894153",NA,"G","G","0","Good",NA,"common in clinvar","rs104894153",1,0
+"383","104894154",NA,"G","G","0","Good",NA,"common in clinvar","rs104894154",1,0
+"384","104894170",NA,"G","G","0","Good",NA,"common in clinvar","rs104894170",1,0
+"385","104894171",NA,"A","A","0","Good",NA,"common in clinvar","rs104894171",1,0
+"386","104894172",NA,"G","G","0","Good",NA,"common in clinvar","rs104894172",1,0
+"387","104894176",NA,"G","G","0","Good",NA,"common in clinvar","rs104894176",1,0
+"388","104894177",NA,"T","T","0","Good",NA,"common in clinvar","rs104894177",1,0
+"389","104894186",NA,"C","C","0","Good",NA,"common in clinvar","rs104894186",1,0
+"390","104894188",NA,"C","C","0","Good",NA,"common in clinvar","rs104894188",1,0
+"391","104894190",NA,"G","G","0","Good",NA,"common in clinvar","rs104894190",1,0
+"392","104894195",NA,"C","C","0","Good",NA,"common in clinvar","rs104894195",1,0
+"393","104894197",NA,"C","C","0","Good",NA,"common in clinvar","rs104894197",1,0
+"394","104894208",NA,"A","A","0","Good",NA,"common in clinvar","rs104894208",1,0
+"395","104894211",NA,"A","A","0","Good",NA,"common in clinvar","rs104894211",1,0
+"396","104894213",NA,"G","G","0","Good",NA,"common in clinvar","rs104894213",1,0
+"397","104894224",NA,"C","C","0","Good",NA,"common in clinvar","rs104894224",1,0
+"398","104894226",NA,"G","G","0","Good",NA,"common in clinvar","rs104894226",1,0
+"399","104894236",NA,"C","C","0","Good",NA,"common in clinvar","rs104894236",1,0
+"400","104894254",NA,"G","G","0","Good",NA,"common in clinvar","rs104894254",1,0
+"401","104894255",NA,"G","G","0","Good",NA,"common in clinvar","rs104894255",1,0
+"402","104894256",NA,"T","T","0","Good",NA,"common in clinvar","rs104894256",1,0
+"403","104894259",NA,"T","T","0","Good",NA,"common in clinvar","rs104894259",1,0
+"404","104894261",NA,"C","C","0","Good",NA,"common in clinvar","rs104894261",1,0
+"405","104894272",NA,"T","T","0","Good",NA,"common in clinvar","rs104894272",1,0
+"406","104894277",NA,"G","G","0","Good",NA,"common in clinvar","rs104894277",1,0
+"407","104894300",NA,"T","T","0","Good",NA,"common in clinvar","rs104894300",1,0
+"408","104894307",NA,"A","A","0","Good",NA,"common in complete genomics","rs104894307",1,0
+"409","104894313",NA,"C","C","0","Good",NA,"common in clinvar","rs104894313",1,0
+"410","104894314",NA,"G","G","0","Good",NA,"common in clinvar","rs104894314",1,0
+"411","104894320",NA,"T","T","0","Good",NA,"common in clinvar","rs104894320",1,0
+"412","104894326",NA,"G","G","0","Good",NA,"common in clinvar","rs104894326",1,0
+"413","104894329",NA,"T","T","0","Good",NA,"common in clinvar","rs104894329",1,0
+"414","104894345",NA,"G","G","0","Good",NA,"common in clinvar","rs104894345",1,0
+"415","104894354",NA,"A","A","0","Good",NA,"common in clinvar","rs104894354",1,0
+"416","104894371",NA,"C","C","0","Good",NA,"common in clinvar","rs104894371",1,0
+"417","104894377",NA,"G","G","0","Good",NA,"common in clinvar","rs104894377",1,0
+"418","104894378",NA,"G","G","0","Good",NA,"common in clinvar","rs104894378",1,0
+"419","104894382",NA,"C","C","0","Good",NA,"common in clinvar","rs104894382",1,0
+"420","104894383",NA,"C","C","0","Good",NA,"common in clinvar","rs104894383",1,0
+"421","104894393",NA,"T","T","0","Good",NA,"common in clinvar","rs104894393",1,0
+"422","104894395",NA,"G","G","0","Good",NA,"common in clinvar","rs104894395",1,0
+"423","104894396",NA,"G","G","0","Good",NA,"common in clinvar","rs104894396",1,0
+"424","104894401",NA,"G","G","0","Good",NA,"common in clinvar","rs104894401",1,0
+"425","104894402",NA,"C","C","0","Good",NA,"common in clinvar","rs104894402",1,0
+"426","104894409",NA,"G","G","0","Good",NA,"common in clinvar","rs104894409",1,0
+"427","104894426",NA,"T","T","0","Good",NA,"common in clinvar","rs104894426",1,0
+"428","104894429",NA,"C","C","0","Good",NA,"common in clinvar","rs104894429",1,0
+"429","104894430",NA,"G","G","0","Good",NA,"common in clinvar","rs104894430",1,0
+"430","104894437",NA,"A","A","0","Good",NA,"common in clinvar","rs104894437",1,0
+"431","104894439",NA,"G","G","0","Good",NA,"common in clinvar","rs104894439",1,0
+"432","104894440",NA,"A","A","0","Good",NA,"common in clinvar","rs104894440",1,0
+"433","104894444",NA,"C","C","0","Good",NA,"common in clinvar","rs104894444",1,0
+"434","104894445",NA,"G","G","0","Good",NA,"common in clinvar","rs104894445",1,0
+"435","104894447",NA,"A","A","0","Good",NA,"common in clinvar","rs104894447",1,0
+"436","104894455",NA,"C","C","0","Good",NA,"common in clinvar","rs104894455",1,0
+"437","104894459",NA,"T","T","0","Good",NA,"common in clinvar","rs104894459",1,0
+"438","104894471",NA,"C","C","0","Good",NA,"common in clinvar","rs104894471",1,0
+"439","104894484",NA,"G","G","0","Good",NA,"common in clinvar","rs104894484",1,0
+"440","104894488",NA,"C","C","0","Good",NA,"common in clinvar","rs104894488",1,0
+"441","104894489",NA,"G","G","0","Good",NA,"common in clinvar","rs104894489",1,0
+"442","104894494",NA,"C","C","0","Good",NA,"common in clinvar","rs104894494",1,0
+"443","104894495",NA,"T","T","0","Good",NA,"common in clinvar","rs104894495",1,0
+"444","104894499",NA,"G","G","0","Good",NA,"common in clinvar","rs104894499",1,0
+"445","104894502",NA,"A","A","0","Good",NA,"common in clinvar","rs104894502",1,0
+"446","104894503",NA,"G","G","0","Good",NA,"common in clinvar","rs104894503",1,0
+"447","104894505",NA,"G","G","0","Good",NA,"common in clinvar","rs104894505",1,0
+"448","104894508",NA,"T","T","0","Good",NA,"common in clinvar","rs104894508",1,0
+"449","104894512",NA,"A","A","0","Good",NA,"common in clinvar","rs104894512",1,0
+"450","104894519",NA,"G","G","0","Good",NA,"common in clinvar","rs104894519",1,0
+"451","104894525",NA,"G","G","0","Good",NA,"common in clinvar","rs104894525",1,0
+"452","104894549",NA,"C","C","0","Good",NA,"common in clinvar","rs104894549",1,0
+"453","104894550",NA,"A","A","0","Good",NA,"common in clinvar","rs104894550",1,0
+"454","104894557",NA,"A","A","0","Good",NA,"common in clinvar","rs104894557",1,0
+"455","104894567",NA,"G","G","0","Good",NA,"common in clinvar","rs104894567",1,0
+"456","104894577",NA,"G","G","0","Good",NA,"common in clinvar","rs104894577",1,0
+"457","104894581",NA,"C","C","0","Good",NA,"common in clinvar","rs104894581",1,0
+"458","104894590",NA,"G","G","0","Good",NA,"common in clinvar","rs104894590",1,0
+"459","104894605",NA,"T","T","0","Good",NA,"common in clinvar","rs104894605",1,0
+"460","104894609",NA,"G","G","0","Good",NA,"common in clinvar","rs104894609",1,0
+"461","104894616",NA,"A","A","0","Good",NA,"common in clinvar","rs104894616",1,0
+"462","104894640",NA,"G","G","0","Good",NA,"common in clinvar","rs104894640",1,0
+"463","104894652",NA,"G","G","0","Good",NA,"common in clinvar","rs104894652",1,0
+"464","104894658",NA,"G","G","0","Good",NA,"common in clinvar","rs104894658",1,0
+"465","104894671",NA,"A","A","0","Good",NA,"common in clinvar","rs104894671",1,0
+"466","104894675",NA,"C","C","0","Good",NA,"common in clinvar","rs104894675",1,0
+"467","104894682",NA,"T","T","0","Good",NA,"common in clinvar","rs104894682",1,0
+"468","104894689",NA,"G","G","0","Good",NA,"common in clinvar","rs104894689",1,0
+"469","104894690",NA,"C","C","0","Good",NA,"common in clinvar","rs104894690",1,0
+"470","104894698",NA,"C","C","0","Good",NA,"common in clinvar","rs104894698",1,0
+"471","104894702",NA,"T","T","0","Good",NA,"common in clinvar","rs104894702",1,0
+"472","104894703",NA,"T","T","0","Good",NA,"common in clinvar","rs104894703",1,0
+"473","104894705",NA,"G","G","0","Good",NA,"common in clinvar","rs104894705",1,0
+"474","104894707",NA,"T","T","0","Good",NA,"common in clinvar","rs104894707",1,0
+"475","104894709",NA,"A","A","0","Good",NA,"common in clinvar","rs104894709",1,0
+"476","104894714",NA,"C","C","0","Good",NA,"common in clinvar","rs104894714",1,0
+"477","104894721",NA,"C","C","0","Good",NA,"common in clinvar","rs104894721",1,0
+"478","104894725",NA,"A","A","0","Good",NA,"common in clinvar","rs104894725",1,0
+"479","104894729",NA,"G","G","0","Good",NA,"common in clinvar","rs104894729",1,0
+"480","104894752",NA,"A","A","0","Good",NA,"common in clinvar","rs104894752",1,0
+"481","104894761",NA,"C","C","0","Good",NA,"common in clinvar","rs104894761",1,0
+"482","104894781",NA,"T","T","0","Good",NA,"common in clinvar","rs104894781",1,0
+"483","104894810",NA,"C","C","0","Good",NA,"common in clinvar","rs104894810",1,0
+"484","104894817",NA,"T","T","0","Good",NA,"common in clinvar","rs104894817",1,0
+"485","104894818",NA,"T","T","0","Good",NA,"common in clinvar","rs104894818",1,0
+"486","104894820",NA,"G","G","0","Good",NA,"common in clinvar","rs104894820",1,0
+"487","104894821",NA,"G","G","0","Good",NA,"common in clinvar","rs104894821",1,0
+"488","104894823",NA,"C","C","0","Good",NA,"common in clinvar","rs104894823",1,0
+"489","104894825",NA,"T","T","0","Good",NA,"common in clinvar","rs104894825",1,0
+"490","104894849",NA,"T","T","0","Good",NA,"common in clinvar","rs104894849",1,0
+"491","104894852",NA,"A","A","0","Good",NA,"common in clinvar","rs104894852",1,0
+"492","104894853",NA,"C","C","0","Good",NA,"common in clinvar","rs104894853",1,0
+"493","104894866",NA,"T","T","0","Good",NA,"common in clinvar","rs104894866",1,0
+"494","104894870",NA,"A","A","0","Good",NA,"common in clinvar","rs104894870",1,0
+"495","104894872",NA,"G","G","0","Good",NA,"common in clinvar","rs104894872",1,0
+"496","104894873",NA,"C","C","0","Good",NA,"common in clinvar","rs104894873",1,0
+"497","104894894",NA,"C","C","0","Good",NA,"common in clinvar","rs104894894",1,0
+"498","104894902",NA,"C","C","0","Good",NA,"common in clinvar","rs104894902",1,0
+"499","104894903",NA,"C","C","0","Good",NA,"common in clinvar","rs104894903",1,0
+"500","104894904",NA,"G","G","0","Good",NA,"common in clinvar","rs104894904",1,0
+"501","104894905",NA,"G","G","0","Good",NA,"common in clinvar","rs104894905",1,0
+"502","104894906",NA,"C","C","0","Good",NA,"common in clinvar","rs104894906",1,0
+"503","104894910",NA,"G","G","0","Good",NA,"common in clinvar","rs104894910",1,0
+"504","104894912",NA,"C","C","0","Good",NA,"common in clinvar","rs104894912",1,0
+"505","104894913",NA,"G","G","0","Good",NA,"common in clinvar","rs104894913",1,0
+"506","104894915",NA,"C","C","0","Good",NA,"common in clinvar","rs104894915",1,0
+"507","104894925",NA,"C","C","0","Good",NA,"common in clinvar","rs104894925",1,0
+"508","104894949",NA,"C","C","0","Good",NA,"common in clinvar","rs104894949",1,0
+"509","104894967",NA,"G","G","0","Good",NA,"common in clinvar","rs104894967",1,0
+"510","104894969",NA,"G","G","0","Good",NA,"common in clinvar","rs104894969",1,0
+"511","104895072",NA,"G","G","0","Good",NA,"common in clinvar","rs104895072",1,0
+"512","104895076",NA,"A","A","0","Good",NA,"common in clinvar","rs104895076",1,0
+"513","104895079",NA,"G","G","0","Good",NA,"common in clinvar","rs104895079",1,0
+"514","104895083",NA,"C","C","0","Good",NA,"common in clinvar","rs104895083",1,0
+"515","104895157",NA,"C","C","0","Good",NA,"common in clinvar","rs104895157",1,0
+"516","104895476",NA,"C","C","0","Good",NA,"common in clinvar","rs104895476",1,0
+"517","104895530",NA,"C","C","0","Good",NA,"common in clinvar","rs104895530",1,0
+"518","10489759",NA,"G","G","0","Good",NA,"common in complete genomics","rs10489759",1,0
+"519","1048990",NA,"C","C",NA,"Bad",NA,"> 1.48x risk","rs1048990",-1,NA
+"520","1048990",NA,"C","G",NA,"Bad",NA,"1.48x risk","rs1048990",-1,NA
+"521","10490923",NA,"G","G","0","Good",NA,"common in complete genomics","rs10490923",1,0
+"522","10490924",NA,"G","T","2.5","Bad",NA,"2.7x risk for age related macular degeneration","rs10490924",-1,-2.5
+"523","10490924",NA,"T","T","3.5","Bad",NA,"8.2x risk for age related macular degeneration","rs10490924",-1,-3.5
+"524","10491334",NA,"C","C","0","Good",NA,"common on affy axiom data","rs10491334",1,0
+"525","1049174",NA,"C","G",NA,NA,NA,"0.77x reduced risk for colorectal cancer","rs1049174",0,NA
+"526","1049174",NA,"G","G",NA,NA,NA,"0.48x reduced risk for colorectal cancer","rs1049174",0,NA
+"527","10492519",NA,"A","A","1","Good",NA,"Normal risk of developing prostate cancer","rs10492519",1,1
+"528","10492519",NA,"G","G","2","Bad",NA,"Increased risk of developing prostate cancer","rs10492519",-1,-2
+"529","10492972",NA,"C","T",NA,NA,NA,"conflicting reports; possible slight increased risk for multiple sclerosis","rs10492972",0,NA
+"530","1049353",NA,"A","G",NA,NA,NA,"more resistant to treatment for depression","rs1049353",0,NA
+"531",NA,NA,NA,NA,"0","Good",NA,"common in clinvar",NA,1,0
+"532",NA,NA,NA,NA,"2",NA,NA,"Shorter QT interval",NA,0,0
+"533","10494778",NA,"A","A","0","Good",NA,"common in complete genomics","rs10494778",1,0
+"534","10495584",NA,"A","A","1.1",NA,NA,"Normal (higher) blood pressure.","rs10495584",0,0
+"535","10498514",NA,"A","A","0","Good",NA,"common in complete genomics","rs10498514",1,0
+"536","10498635",NA,"C","C","0","Good",NA,"common on affy axiom data","rs10498635",1,0
+"537","10499080",NA,"C","C","0","Good",NA,"common in complete genomics","rs10499080",1,0
+"538","10499138",NA,"A","A","0","Good",NA,"common in complete genomics","rs10499138",1,0
+"539","10499194",NA,"T","T","2","Good",NA,"protective against rheumatoid arthritis for asians","rs10499194",1,2
+"540","1050106",NA,"C","C","0","Good",NA,"common in clinvar","rs1050106",1,0
+"541","1050152",NA,"C","C","0","Good",NA,"normal","rs1050152",1,0
+"542","10502094",NA,"A","A","0","Good",NA,"common in complete genomics","rs10502094",1,0
+"543","1050357",NA,"G","G","0","Good",NA,"common in clinvar","rs1050357",1,0
+"544","10503669",NA,"A","A","2","Good",NA,"associated with higher HDL cholesterol","rs10503669",1,2
+"545","10503887",NA,"G","G","0","Good",NA,"common on affy axiom data","rs10503887",1,0
+"546","1050393",NA,"A","A","0","Good",NA,"common in clinvar","rs1050393",1,0
+"547","1050462",NA,"G","G","0","Good",NA,"common in clinvar","rs1050462",1,0
+"548","1050502",NA,"C","C","0","Good",NA,"common in clinvar","rs1050502",1,0
+"549","1050518",NA,"A","A","0","Good",NA,"common in clinvar","rs1050518",1,0
+"550","1050529",NA,"G","G","0","Good",NA,"common in clinvar","rs1050529",1,0
+"551","1050538",NA,"A","A","0","Good",NA,"common in clinvar","rs1050538",1,0
+"552","10505483",NA,"A","A",NA,NA,NA,"None","rs10505483",0,NA
+"553","1050565",NA,"A","A","0","Good",NA,"normal","rs1050565",1,0
+"554","1050723",NA,"C","C","0","Good",NA,"common in clinvar","rs1050723",1,0
+"555","1050828",NA,"A","A","4","Bad",NA,"G6PD deficiency","rs1050828",-1,-4
+"556","1050829",NA,"G","G","2.1","Bad",NA,"G6PD Type A","rs1050829",-1,-2.1
+"557","10508372",NA,"G","G","0","Good",NA,"common in complete genomics","rs10508372",1,0
+"558","10510089",NA,"T","T","0","Good",NA,"common in complete genomics","rs10510089",1,0
+"559","10511089",NA,"G","G","0","Good",NA,"common on affy axiom data","rs10511089",1,0
+"560","10513025",NA,"C","C","2.1","Good",NA,">0.55x reduced risk for autism","rs10513025",1,2.1
+"561","10513025",NA,"C","T","2","Good",NA,"0.55x reduced risk for autism","rs10513025",1,2
+"562","10513137",NA,"C","C","0","Good",NA,"common in complete genomics","rs10513137",1,0
+"563","10516526",NA,"A","A","0","Good",NA,"common on affy axiom data","rs10516526",1,0
+"564","10519262",NA,"A","G",NA,"Bad",NA,"1.9x risk for AD","rs10519262",-1,NA
+"565","10519262",NA,"G","G","0","Good",NA,"average","rs10519262",1,0
+"566","10519612",NA,"A","A","0","Good",NA,"common in complete genomics","rs10519612",1,0
+"567","10519613",NA,"C","C","0","Good",NA,"common in complete genomics","rs10519613",1,0
+"568","10521222",NA,"C","C","0","Good",NA,"common in complete genomics","rs10521222",1,0
+"569","1054111",NA,"G","G","0","Good",NA,"common in clinvar","rs1054111",1,0
+"570","1055061",NA,"G","G","0","Good",NA,"common in complete genomics","rs1055061",1,0
+"571","1055138",NA,"G","G","0","Good",NA,"common in clinvar","rs1055138",1,0
+"572",NA,NA,NA,NA,"2.1",NA,NA,"CYP2C9*3 carrier; average 40% reduction in warfarin metabolism",NA,0,0
+"573","1059441",NA,"G","G","0","Good",NA,"common in clinvar","rs1059441",1,0
+"574","1059509",NA,"C","C","0","Good",NA,"common in clinvar","rs1059509",1,0
+"575","1059514",NA,"G","G","0","Good",NA,"common in clinvar","rs1059514",1,0
+"576","1059517",NA,"A","A","0","Good",NA,"common in clinvar","rs1059517",1,0
+"577","1059526",NA,"G","G","0","Good",NA,"common in clinvar","rs1059526",1,0
+"578","1059559",NA,"T","T","0","Good",NA,"common in complete genomics","rs1059559",1,0
+"579","1059563",NA,"C","C","0","Good",NA,"common in clinvar","rs1059563",1,0
+"580","1059564",NA,"C","C","0","Good",NA,"common in clinvar","rs1059564",1,0
+"581","1061009",NA,"C","C","0","Good",NA,"common in complete genomics","rs1061009",1,0
+"582","1061147",NA,"A","A","2","Bad",NA,"2.76x increased risk for Age Related Macular Degeneration.","rs1061147",-1,-2
+"583","1061234",NA,"C","C","0","Good",NA,"common in clinvar","rs1061234",1,0
+"584","1061235",NA,"A","T","4","Bad",NA,"26% risk of bad reaction to anti-epileptic carbamazepine","rs1061235",-1,-4
+"585","1061235",NA,"T","T","4","Bad",NA,"26% risk of bad reaction to anti-epileptic carbamazepine","rs1061235",-1,-4
+"586","1061471",NA,"G","G","0","Good",NA,"common in complete genomics","rs1061471",1,0
+"587","1061472",NA,"A","A","0","Good",NA,"common in clinvar","rs1061472",1,0
+"588","1061501",NA,"A","A","0","Good",NA,"common in complete genomics","rs1061501",1,0
+"589","1061517",NA,"G","G","0","",NA,"Observed in a family trio, seems harmless","rs1061517",0,0
+"590","1064074",NA,"G","G","0","Good",NA,"common in clinvar","rs1064074",1,0
+"591","1065341",NA,"A","A","0","Good",NA,"common in complete genomics","rs1065341",1,0
+"592","1065711",NA,"C","C","0","Good",NA,"common in clinvar","rs1065711",1,0
+"593","1065776",NA,"C","C","0","Good",NA,"common in complete genomics","rs1065776",1,0
+"594","1065852",NA,"C","C","0","Good",NA,"normal","rs1065852",1,0
+"595","1065852",NA,"T","T","3.2","Bad",NA,"Homozygous for CYP2D6 decreased or non-functioning variants.","rs1065852",-1,-3.2
+"596","10735781",NA,"G","G",NA,NA,NA,"common","rs10735781",0,NA
+"597","10741243",NA,"G","G","0","Good",NA,"common in complete genomics","rs10741243",1,0
+"598","10743465",NA,"G","G","0","Good",NA,"common in complete genomics","rs10743465",1,0
+"599","10757278",NA,"A","G","2","Bad",NA,"1.3x risk for Heart Attack. Normal risk for Abdominal Aortic Aneurysm and Brain Aneurysm.","rs10757278",-1,-2
+"600","10759932",NA,"C","C","2","Bad",NA,"increased risk for chorionic plate inflammation","rs10759932",-1,-2
+"601","10761659",NA,"A","G",NA,"Bad",NA,"1.2x risk","rs10761659",-1,NA
+"602","1076560",NA,"A","A","2",NA,NA,"influences working memory","rs1076560",0,0
+"603","10770612",NA,"A","A","0","Good",NA,"common in complete genomics","rs10770612",1,0
+"604","10794338",NA,"T","T",NA,NA,NA,"0.57x reduced risk of squamous cell carcinoma of the head and neck","rs10794338",0,NA
+"605","10794720",NA,"C","C","0","Good",NA,"common in complete genomics","rs10794720",1,0
+"606","1080985",NA,"C","G","0.1",NA,NA,"a common variant","rs1080985",0,0
+"607","1080985",NA,"G","G",NA,NA,NA,"Homozygous for CYP2D6 variants (non-CYP2D6*1)","rs1080985",0,NA
+"608","1080992",NA,"G","G","0","Good",NA,"common in complete genomics","rs1080992",1,0
+"609","10818488",NA,"G","G",NA,"Good",NA,"normal","rs10818488",1,NA
+"610","10835638",NA,"G","G","0",NA,NA,"common","rs10835638",0,0
+"611","10835638",NA,"T","T",NA,NA,NA,"lower serum FSH level among males","rs10835638",0,NA
+"612",NA,NA,NA,NA,"0",NA,NA,"average",NA,0,0
+"613","10868366",NA,"G","T",NA,NA,NA,"reduced risk for AD?","rs10868366",0,NA
+"614","10868366",NA,"T","T",NA,NA,NA,"reduced risk for AD?","rs10868366",0,NA
+"615","10871777",NA,"A","A","0","Good",NA,"normal","rs10871777",1,0
+"616","10871777",NA,"A","G","2","Bad",NA,"adults likely to be 0.22 BMI units higher","rs10871777",-1,-2
+"617","10871777",NA,"G","G","2.1","Bad",NA,"adults likely to be 0.44 BMI units higher","rs10871777",-1,-2.1
+"618","10895068",NA,"A","G","1.5","Bad",NA,"2.5x increased odds of breast cancer among hormone-using postmenopausal women","rs10895068",-1,-1.5
+"619","10897346",NA,"C","C","0","Good",NA,"if depressed, 2.6x more likely to not respond to antidepressants","rs10897346",1,0
+"620","10918594",NA,"G","G",NA,NA,NA,"Longer QT interval","rs10918594",0,NA
+"621","10922162",NA,"C","C","0","Good",NA,"common in clinvar","rs10922162",1,0
+"622","10936599",NA,"C","C","2","Good",NA,"longer telomeres, longer life?","rs10936599",1,2
+"623","10937823",NA,"T","T","2","Bad",NA,"some association with bipolar disorder","rs10937823",-1,-2
+"624","10987883",NA,"A","A","0","Good",NA,"common in complete genomics","rs10987883",1,0
+"625","10994336",NA,"C","C","0","Good",NA,"common on affy axiom data","rs10994336",1,0
+"626","11006923",NA,"T","T","0","Good",NA,"common in complete genomics","rs11006923",1,0
+"627","11020790",NA,"C","C","0","Good",NA,"common in complete genomics","rs11020790",1,0
+"628","11067600",NA,"T","T","0","Good",NA,"common in complete genomics","rs11067600",1,0
+"629",NA,NA,NA,NA,"2",NA,NA,"increased longevity?",NA,0,0
+"630","111033174",NA,"C","C","0","Good",NA,"common in clinvar","rs111033174",1,0
+"631","111033175",NA,"A","A","0","Good",NA,"common in clinvar","rs111033175",1,0
+"632","111033178",NA,"G","G","0","Good",NA,"common in clinvar","rs111033178",1,0
+"633","111033182",NA,"C","C","0","Good",NA,"common in clinvar","rs111033182",1,0
+"634","111033202",NA,"C","C","0","Good",NA,"common in clinvar","rs111033202",1,0
+"635","111033220",NA,"C","C","0","Good",NA,"common in clinvar","rs111033220",1,0
+"636","111033232",NA,"CTT","CTT","0","Good",NA,"common in clinvar","rs111033232",1,0
+"637","111033257",NA,"G","G","0","Good",NA,"common in clinvar","rs111033257",1,0
+"638","111033313",NA,"A","A","0","Good",NA,"common in clinvar","rs111033313",1,0
+"639","111033314",NA,"A","A","0","Good",NA,"common in clinvar","rs111033314",1,0
+"640","111033317",NA,"","","0","Good",NA,"common in clinvar","rs111033317",1,0
+"641","111033383",NA,"G","G","0","Good",NA,"common in clinvar","rs111033383",1,0
+"642","111033384",NA,"G","G","0","Good",NA,"common in clinvar","rs111033384",1,0
+"643","111033404",NA,"G","G","0","Good",NA,"common in clinvar","rs111033404",1,0
+"644","111033405",NA,"T","T","0","Good",NA,"common in clinvar","rs111033405",1,0
+"645","111033407",NA,"","","0","Good",NA,"common in clinvar","rs111033407",1,0
+"646","111033417",NA,"G","G","0","Good",NA,"common in clinvar","rs111033417",1,0
+"647","111033426",NA,"G","G","0","Good",NA,"common in clinvar","rs111033426",1,0
+"648","111033448",NA,"G","G","0","Good",NA,"common in clinvar","rs111033448",1,0
+"649","111033486",NA,"A","A","0","Good",NA,"common in clinvar","rs111033486",1,0
+"650","111033539",NA,"C","C","0","Good",NA,"common in clinvar","rs111033539",1,0
+"651","111033563",NA,"A","A","0","Good",NA,"common in clinvar","rs111033563",1,0
+"652","111033566",NA,"A","A","0","Good",NA,"common in clinvar","rs111033566",1,0
+"653","111033567",NA,"A","A","0","Good",NA,"common in clinvar","rs111033567",1,0
+"654","111033570",NA,"G","G","0","Good",NA,"common in clinvar","rs111033570",1,0
+"655","111033571",NA,"C","C","0","Good",NA,"common in clinvar","rs111033571",1,0
+"656","111033573",NA,"G","G","0","Good",NA,"common in clinvar","rs111033573",1,0
+"657","111033578",NA,"C","C","0","Good",NA,"common in clinvar","rs111033578",1,0
+"658","111033590",NA,"C","C","0","Good",NA,"common in clinvar","rs111033590",1,0
+"659","111033601",NA,"C","C","0","Good",NA,"common in clinvar","rs111033601",1,0
+"660","111033602",NA,"A","A","0","Good",NA,"common in clinvar","rs111033602",1,0
+"661","111033603",NA,"T","T","0","Good",NA,"common in clinvar","rs111033603",1,0
+"662","111033611",NA,"T","T","0","Good",NA,"common in clinvar","rs111033611",1,0
+"663","111033632",NA,"G","G","0","Good",NA,"common in clinvar","rs111033632",1,0
+"664","111033634",NA,"C","C","0","Good",NA,"common in clinvar","rs111033634",1,0
+"665","111033648",NA,"G","G","0","Good",NA,"common in clinvar","rs111033648",1,0
+"666","111033665",NA,"G","G","0","Good",NA,"common in clinvar","rs111033665",1,0
+"667","111033667",NA,"A","A","0","Good",NA,"common in clinvar","rs111033667",1,0
+"668","111033668",NA,"T","T","0","Good",NA,"common in clinvar","rs111033668",1,0
+"669","111033728",NA,"T","T","0","Good",NA,"common in clinvar","rs111033728",1,0
+"670","111033730",NA,"G","G","0","Good",NA,"common in clinvar","rs111033730",1,0
+"671","111033731",NA,"A","A","0","Good",NA,"common in clinvar","rs111033731",1,0
+"672","111033751",NA,"C","C","0","Good",NA,"common in clinvar","rs111033751",1,0
+"673","111033755",NA,"A","A","0","Good",NA,"common in clinvar","rs111033755",1,0
+"674","111033757",NA,"T","T","0","Good",NA,"common in clinvar","rs111033757",1,0
+"675","111033765",NA,"A","A","0","Good",NA,"common in clinvar","rs111033765",1,0
+"676","111033766",NA,"C","C","0","Good",NA,"common in clinvar","rs111033766",1,0
+"677","111033769",NA,"G","G","0","Good",NA,"common in clinvar","rs111033769",1,0
+"678","111033770",NA,"GCC","GCC","0","Good",NA,"common in clinvar","rs111033770",1,0
+"679","111033772",NA,"C","C","0","Good",NA,"common in clinvar","rs111033772",1,0
+"680","111033790",NA,"G","G","0","Good",NA,"common in clinvar","rs111033790",1,0
+"681","111033800",NA,"C","C","0","Good",NA,"common in clinvar","rs111033800",1,0
+"682","111033802",NA,"G","G","0","Good",NA,"common in clinvar","rs111033802",1,0
+"683","111033808",NA,"G","G","0","Good",NA,"common in clinvar","rs111033808",1,0
+"684","111033810",NA,"A","A","0","Good",NA,"common in clinvar","rs111033810",1,0
+"685","111033814",NA,"C","C","0","Good",NA,"common in clinvar","rs111033814",1,0
+"686","111033819",NA,"A","A","0","Good",NA,"common in clinvar","rs111033819",1,0
+"687","111033822",NA,"C","C","0","Good",NA,"common in clinvar","rs111033822",1,0
+"688","111033827",NA,"A","A","0","Good",NA,"common in clinvar","rs111033827",1,0
+"689","111033829",NA,"G","G","0","Good",NA,"common in clinvar","rs111033829",1,0
+"690","111033839",NA,"T","T","0","Good",NA,"common in clinvar","rs111033839",1,0
+"691","111033844",NA,"G","G","0","Good",NA,"common in clinvar","rs111033844",1,0
+"692","111052004",NA,"T","T","0","Good",NA,"common in clinvar","rs111052004",1,0
+"693","1111875",NA,"A","G",NA,NA,NA,"1.3x risk of [[type-2 diabetes]]","rs1111875",0,NA
+"694","111231312",NA,"C","C","0","Good",NA,"common in clinvar","rs111231312",1,0
+"695","111290936",NA,"C","C","0","Good",NA,"common in complete genomics","rs111290936",1,0
+"696","11136000",NA,"C","T","1.5","Good",NA,"0.84x decreased risk for Alzheimer's disease","rs11136000",1,1.5
+"697","1113673",NA,"G","G","0","Good",NA,"common in complete genomics","rs1113673",1,0
+"698","11190302",NA,"C","C","1.2","Good",NA,"","rs11190302",1,1.2
+"699","11195419",NA,"C","C","0","Good",NA,"common in complete genomics","rs11195419",1,0
+"700","11200014",NA,"A","G",NA,NA,NA,"1.20x risk for breast cancer","rs11200014",0,NA
+"701","112019125",NA,"G","T","5","Bad",NA,"Possible late-onset Parkinson's disease variant","rs112019125",-1,-5
+"702","112019125",NA,"T","T","5","Bad",NA,"Possible late-onset Parkinson's disease variant","rs112019125",-1,-5
+"703","112029328",NA,"A","G","4",NA,NA,"dominant mutation leading to Familial Hypercholesterolemia","rs112029328",0,0
+"704","112029328",NA,"G","G","0","Good",NA,"common in complete genomics","rs112029328",1,0
+"705","11214606",NA,"C","C","0","Good",NA,"common on affy axiom data","rs11214606",1,0
+"706","1121980",NA,"C","T","2.5","Bad",NA,"1.67x risk for obesity","rs1121980",-1,-2.5
+"707","1121980",NA,"T","T","3","Bad",NA,"2.76x risk for obesity","rs1121980",-1,-3
+"708","112205661",NA,"C","T","2","",NA,"unaffected carrier of rare mutation","rs112205661",0,0
+"709","112205661",NA,"T","T","5","Bad",NA,"likely hypomyelination with brainstem and spinal cord involvement and leg spasticity; see discussion","rs112205661",-1,-5
+"710","112289537",NA,"C","C","0","Good",NA,"common in clinvar","rs112289537",1,0
+"711","11231898",NA,"G","G","0","Good",NA,"common in complete genomics","rs11231898",1,0
+"712","112456072",NA,"G","G","0","Good",NA,"common in clinvar","rs112456072",1,0
+"713","112525507",NA,"G","G","0","Good",NA,"common in clinvar","rs112525507",1,0
+"714","1126821",NA,"A","A","0","Good",NA,"common in clinvar","rs1126821",1,0
+"715","1128501",NA,"G","G","0","Good",NA,"common in clinvar","rs1128501",1,0
+"716","112901682",NA,"C","C","0","Good",NA,"common in clinvar","rs112901682",1,0
+"717","1129038",NA,"A","A",NA,NA,NA,"blue eye color more likely","rs1129038",0,NA
+"718","1129706",NA,"G","G","0","Good",NA,"common in complete genomics","rs1129706",1,0
+"719","112989722",NA,"C","C","0","Good",NA,"common in complete genomics","rs112989722",1,0
+"720","1130335",NA,"C","C","0","Good",NA,"common in clinvar","rs1130335",1,0
+"721","1130495",NA,"C","C","0","Good",NA,"common on affy axiom data","rs1130495",1,0
+"722","1130866",NA,"T","T",NA,NA,NA,"if sclerotic, reduced risk of lung disease","rs1130866",0,NA
+"723","1131096",NA,"C","C","0","Good",NA,"common in clinvar","rs1131096",1,0
+"724","1131123",NA,"A","A","0","Good",NA,"common in clinvar","rs1131123",1,0
+"725","1131163",NA,"C","C","0","Good",NA,"common in clinvar","rs1131163",1,0
+"726","1131223",NA,"A","A","0","Good",NA,"common in clinvar","rs1131223",1,0
+"727","1131233",NA,"C","C","0","Good",NA,"common in clinvar","rs1131233",1,0
+"728","1131235",NA,"C","C","0","Good",NA,"common in clinvar","rs1131235",1,0
+"729","1131292",NA,"C","C","0","Good",NA,"common in clinvar","rs1131292",1,0
+"730","1131500",NA,"G","G","0","Good",NA,"common in clinvar","rs1131500",1,0
+"731","1131532",NA,"C","C",NA,NA,NA,"normal","rs1131532",0,NA
+"732","1131532",NA,"C","T",NA,NA,NA,"normal","rs1131532",0,NA
+"733","1131532",NA,"T","T",NA,NA,NA,"3-6x higher odds of worse outcomes in breast cancer patients","rs1131532",0,NA
+"734","113167551",NA,"C","C","0","Good",NA,"common in clinvar","rs113167551",1,0
+"735","113169049",NA,"A","A","0","Good",NA,"common in complete genomics","rs113169049",1,0
+"736","113169049",NA,"A","C","5","Bad",NA,"Possible late-onset Parkinson's disease variant","rs113169049",-1,-5
+"737","113485686",NA,"G","G","0","Good",NA,"common in clinvar","rs113485686",1,0
+"738","113488022",NA,"T","T","0","Good",NA,"normal","rs113488022",1,0
+"739","1135062",NA,"A","A","0","Good",NA,"common in clinvar","rs1135062",1,0
+"740","1135071",NA,"G","G","0","Good",NA,"common in clinvar","rs1135071",1,0
+"741","1135101",NA,"T","T","0","Good",NA,"common in complete genomics","rs1135101",1,0
+"742","1135728",NA,"G","G","0","Good",NA,"common in complete genomics","rs1135728",1,0
+"743","1135824",NA,"A","G","3",NA,NA,"One copy of CYP2D6*3B non-functioning variant.","rs1135824",0,0
+"744","1135826",NA,"T","T","0","Good",NA,"common in complete genomics","rs1135826",1,0
+"745","1135827",NA,"A","A","0","Good",NA,"common in complete genomics","rs1135827",1,0
+"746","1135828",NA,"T","T","0","Good",NA,"common in complete genomics","rs1135828",1,0
+"747","113605875",NA,"G","G","0","Good",NA,"common in complete genomics","rs113605875",1,0
+"748","1136410",NA,"C","T",NA,"Good",NA,"0.80x reduced risk for glioblastoma","rs1136410",1,NA
+"749","1136691",NA,"G","G","0","Good",NA,"common in clinvar","rs1136691",1,0
+"750","1136692",NA,"C","C","0","Good",NA,"common in clinvar","rs1136692",1,0
+"751","1136695",NA,"A","A","0","Good",NA,"common in clinvar","rs1136695",1,0
+"752","1136697",NA,"A","A","0","Good",NA,"common in clinvar","rs1136697",1,0
+"753","1136700",NA,"T","T","0","Good",NA,"common in clinvar","rs1136700",1,0
+"754","1136702",NA,"G","G","0","Good",NA,"common in clinvar","rs1136702",1,0
+"755","1136741",NA,"C","C","0","Good",NA,"common in clinvar","rs1136741",1,0
+"756","1136743",NA,"C","C","0","Good",NA,"common in clinvar","rs1136743",1,0
+"757","1136903",NA,"T","T","0","Good",NA,"common in clinvar","rs1136903",1,0
+"758","113857788",NA,"G","G","0","Good",NA,"common in clinvar","rs113857788",1,0
+"759","113871094",NA,"C","C","0","Good",NA,"common in clinvar","rs113871094",1,0
+"760","113954997",NA,"A","A","0","Good",NA,"common in complete genomics","rs113954997",1,0
+"761","113993945",NA,"C","C","0","Good",NA,"common in clinvar","rs113993945",1,0
+"762","113993947",NA,"G","G","0","Good",NA,"common in clinvar","rs113993947",1,0
+"763","113993948",NA,"C","C","0","Good",NA,"common in clinvar","rs113993948",1,0
+"764","113993949",NA,"G","G","0","Good",NA,"common in clinvar","rs113993949",1,0
+"765","113993951",NA,"A","A","0","Good",NA,"common in clinvar","rs113993951",1,0
+"766","113993952",NA,"A","A","0","Good",NA,"common in clinvar","rs113993952",1,0
+"767","113993953",NA,"A","A","0","Good",NA,"common in clinvar","rs113993953",1,0
+"768","113993954",NA,"G","G","0","Good",NA,"common in clinvar","rs113993954",1,0
+"769","113993956",NA,"G","G","0","Good",NA,"common in clinvar","rs113993956",1,0
+"770","113993958",NA,"C","C","4",NA,NA,"Cystic Fibrosis (D110H); milder form","rs113993958",0,0
+"771","113993958",NA,"C","G","2",NA,NA,"carrier for milder form of cystic fibrosis","rs113993958",0,0
+"772","113993958",NA,"G","G","0","Good",NA,"normal","rs113993958",1,0
+"773","113993959",NA,"G","G","0","Good",NA,"normal","rs113993959",1,0
+"774","113993959",NA,"G","T","3","Bad",NA,"carrier for G542X cystic fibrosis mutation","rs113993959",-1,-3
+"775","113993959",NA,"T","T","4","Bad",NA,"Cystic Fibrosis; homozygote for G542X mutation","rs113993959",-1,-4
+"776","113993960",NA,"-","CTT","3.5","Bad",NA,"carrier for most common cystic fibrosis mutation","rs113993960",-1,-3.5
+"777","113993961",NA,"C","C","6","Bad",NA,"Werner syndrome; homozygote for transversion mutation","rs113993961",-1,-6
+"778","113993961",NA,"C","G","2",NA,NA,"carrier for Werner syndrome","rs113993961",0,0
+"779","113993961",NA,"G","G","0","Good",NA,"normal","rs113993961",1,0
+"780","113993962",NA,"-","-","4",NA,NA,"Bloom syndrome; homozygote for most common mutation","rs113993962",0,0
+"781","113993962",NA,"-","ATCTGA","3",NA,NA,"carrier for Bloom syndrome mutation","rs113993962",0,0
+"782","113993962",NA,"ATCTGA","ATCTGA","0","Good",NA,"common in clinvar","rs113993962",1,0
+"783","113993963",NA,"A","A","0","Good",NA,"common in clinvar","rs113993963",1,0
+"784","113993964",NA,"C","C","0","Good",NA,"common in clinvar","rs113993964",1,0
+"785","113993965",NA,"G","G","0","Good",NA,"common in clinvar","rs113993965",1,0
+"786","113993966",NA,"C","C","0","Good",NA,"common in clinvar","rs113993966",1,0
+"787","113993967",NA,"G","G","0","Good",NA,"common in clinvar","rs113993967",1,0
+"788","113993968",NA,"G","G","0","Good",NA,"common in clinvar","rs113993968",1,0
+"789","113993969",NA,"G","G","0","Good",NA,"common in clinvar","rs113993969",1,0
+"790","113993986",NA,"C","C","0","Good",NA,"common in clinvar","rs113993986",1,0
+"791","113993988",NA,"T","T","0","Good",NA,"common in clinvar","rs113993988",1,0
+"792","113993993",NA,"T","T","0","Good",NA,"common in clinvar","rs113993993",1,0
+"793","113993996",NA,"C","C","0","Good",NA,"common in clinvar","rs113993996",1,0
+"794","113993997",NA,"G","G","0","Good",NA,"common in clinvar","rs113993997",1,0
+"795","113994006",NA,"G","G","0","Good",NA,"common in clinvar","rs113994006",1,0
+"796","113994007",NA,"A","A","0","Good",NA,"common in clinvar","rs113994007",1,0
+"797","113994010",NA,"G","G","0","Good",NA,"common in clinvar","rs113994010",1,0
+"798","113994028",NA,"G","G","0","Good",NA,"common in clinvar","rs113994028",1,0
+"799","113994033",NA,"G","G","0","Good",NA,"common in clinvar","rs113994033",1,0
+"800","113994035",NA,"C","C","0","Good",NA,"common in clinvar","rs113994035",1,0
+"801","113994039",NA,"C","C","0","Good",NA,"common in clinvar","rs113994039",1,0
+"802","113994046",NA,"G","G","0","Good",NA,"common in clinvar","rs113994046",1,0
+"803","113994049",NA,"G","G","0","Good",NA,"common in clinvar","rs113994049",1,0
+"804","113994057",NA,"G","G","0","Good",NA,"common in clinvar","rs113994057",1,0
+"805","113994060",NA,"G","G","0","Good",NA,"common in clinvar","rs113994060",1,0
+"806","113994072",NA,"A","A","0","Good",NA,"common in clinvar","rs113994072",1,0
+"807","113994075",NA,"A","A","0","Good",NA,"common in clinvar","rs113994075",1,0
+"808","113994076",NA,"C","C","0","Good",NA,"common in clinvar","rs113994076",1,0
+"809","113994078",NA,"C","C","0","Good",NA,"common in clinvar","rs113994078",1,0
+"810","113994082",NA,"A","A","0","Good",NA,"common in clinvar","rs113994082",1,0
+"811","113994085",NA,"G","G","0","Good",NA,"common in clinvar","rs113994085",1,0
+"812","113994091",NA,"C","C","0","Good",NA,"common in complete genomics","rs113994091",1,0
+"813","113994099",NA,"A","A","0","Good",NA,"common in clinvar","rs113994099",1,0
+"814","113994117",NA,"G","G","0","Good",NA,"common in clinvar","rs113994117",1,0
+"815","113994124",NA,"G","G","0","Good",NA,"common in clinvar","rs113994124",1,0
+"816","113994125",NA,"G","G","0","Good",NA,"common in clinvar","rs113994125",1,0
+"817","113994126",NA,"C","C","0","Good",NA,"common in clinvar","rs113994126",1,0
+"818","113994128",NA,"C","C","0","Good",NA,"common in clinvar","rs113994128",1,0
+"819","113994130",NA,"C","C","0","Good",NA,"common in clinvar","rs113994130",1,0
+"820","113994131",NA,"C","C","0","Good",NA,"common in clinvar","rs113994131",1,0
+"821","113994132",NA,"T","T","0","Good",NA,"common in clinvar","rs113994132",1,0
+"822","113994133",NA,"A","A","0","Good",NA,"common in clinvar","rs113994133",1,0
+"823","113994134",NA,"T","T","0","Good",NA,"common in clinvar","rs113994134",1,0
+"824","113994135",NA,"C","C","0","Good",NA,"common in clinvar","rs113994135",1,0
+"825","113994140",NA,"G","G","0","Good",NA,"common in clinvar","rs113994140",1,0
+"826","113994144",NA,"A","A","0","Good",NA,"common in clinvar","rs113994144",1,0
+"827","113994145",NA,"G","G","0","Good",NA,"common in clinvar","rs113994145",1,0
+"828","113994146",NA,"C","C","0","Good",NA,"common in clinvar","rs113994146",1,0
+"829","113994152",NA,"G","G","0","Good",NA,"common in clinvar","rs113994152",1,0
+"830","113994153",NA,"C","C","0","Good",NA,"common in clinvar","rs113994153",1,0
+"831","113994156",NA,"A","A","0","Good",NA,"common in clinvar","rs113994156",1,0
+"832","113994166",NA,"C","C","0","Good",NA,"common in clinvar","rs113994166",1,0
+"833","113994192",NA,"A","A","0","Good",NA,"common in complete genomics","rs113994192",1,0
+"834","113994208",NA,"G","G","0","Good",NA,"common in clinvar","rs113994208",1,0
+"835","113994209",NA,"","","0","Good",NA,"common in clinvar","rs113994209",1,0
+"836","1140404",NA,"A","A","0","Good",NA,"common in clinvar","rs1140404",1,0
+"837","1143146",NA,"C","C","0","Good",NA,"common in clinvar","rs1143146",1,0
+"838","114343571",NA,"G","G","0","Good",NA,"common in clinvar","rs114343571",1,0
+"839","11465770",NA,"T","T","1.5",NA,NA,"possibly lower risk of Crohn's Disease (OR=0.30)","rs11465770",0,0
+"840","11466023",NA,"T","T","2","Bad",NA,"mild familial Mediterranean fever","rs11466023",-1,-2
+"841","1148259",NA,"G","T",NA,NA,NA,"intermediate sphingomyelin ratios","rs1148259",0,NA
+"842","1152846",NA,"A","G","0","Good",NA,"common in complete genomics","rs1152846",1,0
+"843","11540652",NA,"G","G","0","Good",NA,"common in clinvar","rs11540652",1,0
+"844","11547350",NA,"C","C","0","Good",NA,"common in clinvar","rs11547350",1,0
+"845","11547464",NA,"A","G","3.0",NA,NA,"red hair carrier","rs11547464",0,0
+"846","11548605",NA,"C","C","0","Good",NA,"common in clinvar","rs11548605",1,0
+"847","11558261",NA,"G","G","0","Good",NA,"common in complete genomics","rs11558261",1,0
+"848","11558492",NA,"T","T","0","Good",NA,"common in clinvar","rs11558492",1,0
+"849","11564258",NA,"G","G","0","Good",NA,"common in complete genomics","rs11564258",1,0
+"850","11568324",NA,"C","C","0","Good",NA,"common in complete genomics","rs11568324",1,0
+"851","11568350",NA,"G","G","0","Good",NA,"common in complete genomics","rs11568350",1,0
+"852","11568372",NA,"A","A","0","Good",NA,"common in clinvar","rs11568372",1,0
+"853","11568388",NA,"G","G","0","Good",NA,"common in complete genomics","rs11568388",1,0
+"854","11568482",NA,"A","A","0","Good",NA,"common in complete genomics","rs11568482",1,0
+"855","11568492",NA,"C","C","0","Good",NA,"common in complete genomics","rs11568492",1,0
+"856","11568496",NA,"C","C","0","Good",NA,"common in complete genomics","rs11568496",1,0
+"857","11568520",NA,"C","C","0","Good",NA,"common in complete genomics","rs11568520",1,0
+"858","11568563",NA,"A","A","0","Good",NA,"common in complete genomics","rs11568563",1,0
+"859","11568564",NA,"C","C","0","Good",NA,"common in complete genomics","rs11568564",1,0
+"860","11568634",NA,"G","G","0","Good",NA,"common in complete genomics","rs11568634",1,0
+"861","11568668",NA,"G","G","0","Good",NA,"common in complete genomics","rs11568668",1,0
+"862","11571833",NA,"A","A","0","Good",NA,"common in complete genomics","rs11571833",1,0
+"863","11574514",NA,"G","G","0","Good",NA,"common in complete genomics","rs11574514",1,0
+"864","11575892",NA,"C","C","0","Good",NA,"common in complete genomics","rs11575892",1,0
+"865","11575937",NA,"G","G","0","Good",NA,"common in clinvar","rs11575937",1,0
+"866","1158392",NA,"C","C","0","Good",NA,"common in complete genomics","rs1158392",1,0
+"867","11622475",NA,"C","C",NA,"Bad",NA,"1.5x risk","rs11622475",-1,NA
+"868","11622475",NA,"C","T",NA,"Bad",NA,"1.1x risk","rs11622475",-1,NA
+"869",NA,NA,NA,NA,"0",NA,NA,"normal",NA,0,0
+"870","11636768",NA,"G","G","0","Good",NA,"common on affy axiom data","rs11636768",1,0
+"871","11650915",NA,"G","G","0","Good",NA,"common in clinvar","rs11650915",1,0
+"872","11661856",NA,"G","G","0","Good",NA,"common in complete genomics","rs11661856",1,0
+"873","11672691",NA,"A","G","2","Bad",NA,"1.18x increased risk for PCSM in patients with prostate cancer","rs11672691",-1,-2
+"874","116840743",NA,"G","G","0","Good",NA,"common in clinvar","rs116840743",1,0
+"875","116840744",NA,"G","G","0","Good",NA,"common in clinvar","rs116840744",1,0
+"876","116840746",NA,"GG","GG","0","Good",NA,"common in clinvar","rs116840746",1,0
+"877","116840748",NA,"C","C","0","Good",NA,"common in clinvar","rs116840748",1,0
+"878","116840749",NA,"C","C","0","Good",NA,"common in clinvar","rs116840749",1,0
+"879","116840750",NA,"C","C","0","Good",NA,"common in clinvar","rs116840750",1,0
+"880","116840751",NA,"C","C","0","Good",NA,"common in clinvar","rs116840751",1,0
+"881","116840752",NA,"C","C","0","Good",NA,"common in clinvar","rs116840752",1,0
+"882","116840753",NA,"","","0","Good",NA,"common in clinvar","rs116840753",1,0
+"883","116840754",NA,"CTTCCTCTGACCGATGGAG","CTTCCTCTGACCGATGGAG","0","Good",NA,"common in clinvar","rs116840754",1,0
+"884","116840755",NA,"AC","AC","0","Good",NA,"common in clinvar","rs116840755",1,0
+"885","116840758",NA,"G","G","0","Good",NA,"common in clinvar","rs116840758",1,0
+"886","116840765",NA,"G","G","0","Good",NA,"common in clinvar","rs116840765",1,0
+"887","116840766",NA,"C","C","0","Good",NA,"common in clinvar","rs116840766",1,0
+"888","116840794",NA,"A","A","0","Good",NA,"common in clinvar","rs116840794",1,0
+"889","116840795",NA,"G","G","0","Good",NA,"common in clinvar","rs116840795",1,0
+"890","116840798",NA,"A","A","0","Good",NA,"common in clinvar","rs116840798",1,0
+"891","116840799",NA,"C","C","0","Good",NA,"common in clinvar","rs116840799",1,0
+"892","116840800",NA,"CACCACCTT","CACCACCTT","0","Good",NA,"common in clinvar","rs116840800",1,0
+"893","116840801",NA,"T","T","0","Good",NA,"common in clinvar","rs116840801",1,0
+"894","116840802",NA,"TCTG","TCTG","0","Good",NA,"common in clinvar","rs116840802",1,0
+"895","116840809",NA,"C","C","0","Good",NA,"common in clinvar","rs116840809",1,0
+"896","116840810",NA,"A","A","0","Good",NA,"common in clinvar","rs116840810",1,0
+"897","116840811",NA,"T","T","0","Good",NA,"common in clinvar","rs116840811",1,0
+"898","116840817",NA,"T","T","0","Good",NA,"common in clinvar","rs116840817",1,0
+"899","116840822",NA,"G","G","0","Good",NA,"common in clinvar","rs116840822",1,0
+"900","117067974",NA,"C","C","0","Good",NA,"common in clinvar","rs117067974",1,0
+"901","11708996",NA,"G","G","0","Good",NA,"common on affy axiom data","rs11708996",1,0
+"902","11718863",NA,"T","T",NA,"Bad",NA,"1.43x increased osteoarthritis risk","rs11718863",-1,NA
+"903","11719664",NA,"C","C","0","Good",NA,"common on affy axiom data","rs11719664",1,0
+"904","11754661",NA,"G","G","0","Good",NA,"common on affy axiom data","rs11754661",1,0
+"905","11757919",NA,"G","G","0","Good",NA,"common in clinvar","rs11757919",1,0
+"906","117607728",NA,"G","G","0","Good",NA,"common in complete genomics","rs117607728",1,0
+"907","11763963",NA,"T","T","0","Good",NA,"common in complete genomics","rs11763963",1,0
+"908","11778329",NA,"C","C","0","Good",NA,"common on affy axiom data","rs11778329",1,0
+"909","11786893",NA,"C","C","0","Good",NA,"common in complete genomics","rs11786893",1,0
+"910","11805303",NA,"C","T",NA,"Bad",NA,"1.4x risk","rs11805303",-1,NA
+"911","11809207",NA,"A","G",NA,NA,NA,"0.46cm taller on average","rs11809207",0,NA
+"912","118192100",NA,"G","G","0","Good",NA,"common in clinvar","rs118192100",1,0
+"913","118192101",NA,"G","G","0","Good",NA,"common in clinvar","rs118192101",1,0
+"914","118192104",NA,"G","G","0","Good",NA,"common in clinvar","rs118192104",1,0
+"915","118192113",NA,"C","C","0","Good",NA,"common in clinvar","rs118192113",1,0
+"916","118192115",NA,"G","G","0","Good",NA,"common in clinvar","rs118192115",1,0
+"917","118192125",NA,"G","G","0","Good",NA,"common in clinvar","rs118192125",1,0
+"918","118192129",NA,"C","C","0","Good",NA,"common in clinvar","rs118192129",1,0
+"919","118192138",NA,"T","T","0","Good",NA,"common in clinvar","rs118192138",1,0
+"920","118192139",NA,"A","A","0","Good",NA,"common in clinvar","rs118192139",1,0
+"921","118192140",NA,"C","C","0","Good",NA,"common in clinvar","rs118192140",1,0
+"922","118192142",NA,"C","C","0","Good",NA,"common in clinvar","rs118192142",1,0
+"923","118192143",NA,"C","C","0","Good",NA,"common in clinvar","rs118192143",1,0
+"924","118192149",NA,"G","G","0","Good",NA,"common in clinvar","rs118192149",1,0
+"925","118192150",NA,"C","C","0","Good",NA,"common in clinvar","rs118192150",1,0
+"926","118192151",NA,"G","G","0","Good",NA,"common in clinvar","rs118192151",1,0
+"927","118192154",NA,"G","G","0","Good",NA,"common in clinvar","rs118192154",1,0
+"928","118192158",NA,"G","G","0","Good",NA,"common in clinvar","rs118192158",1,0
+"929","118192160",NA,"G","G","0","Good",NA,"common in clinvar","rs118192160",1,0
+"930","118192161",NA,"C","C","0","Good",NA,"common in complete genomics","rs118192161",1,0
+"931","118192161",NA,"C","T","3","Bad",NA,"susceptibility to malignant hyperthermia","rs118192161",-1,-3
+"932","118192162",NA,"A","C","3","Bad",NA,"susceptibility to malignant hyperthermia","rs118192162",-1,-3
+"933","118192166",NA,"A","A","0","Good",NA,"common in clinvar","rs118192166",1,0
+"934","118192167",NA,"A","A","0","Good",NA,"common in complete genomics","rs118192167",1,0
+"935","118192169",NA,"-","TTCTACAACAAGAGCGAGGAT","4","Bad",NA,"likely severe central core disease","rs118192169",-1,-4
+"936","118192171",NA,"TT","TT","0","Good",NA,"common in clinvar","rs118192171",1,0
+"937","118192172",NA,"C","C","0","Good",NA,"common in complete genomics","rs118192172",1,0
+"938","118192172",NA,"C","T","3","Bad",NA,"susceptibility to malignant hyperthermia","rs118192172",-1,-3
+"939","118192178",NA,"C","C","0","Good",NA,"common in clinvar","rs118192178",1,0
+"940","118192184",NA,"A","A","0","Good",NA,"common in clinvar","rs118192184",1,0
+"941","118192185",NA,"A","A","0","Good",NA,"common in clinvar","rs118192185",1,0
+"942","118192197",NA,"CTGCGCTCCG","CTGCGCTCCG","0","Good",NA,"common in clinvar","rs118192197",1,0
+"943","118192202",NA,"A","A","0","Good",NA,"common in clinvar","rs118192202",1,0
+"944","118192208",NA,"G","G","0","Good",NA,"common in clinvar","rs118192208",1,0
+"945","118192213",NA,"","","0","Good",NA,"common in clinvar","rs118192213",1,0
+"946","118192217",NA,"T","T","0","Good",NA,"common in clinvar","rs118192217",1,0
+"947","118192218",NA,"C","C","0","Good",NA,"common in clinvar","rs118192218",1,0
+"948","118192223",NA,"T","T","0","Good",NA,"common in clinvar","rs118192223",1,0
+"949","118192225",NA,"G","G","0","Good",NA,"common in clinvar","rs118192225",1,0
+"950","118192244",NA,"T","T","0","Good",NA,"common in clinvar","rs118192244",1,0
+"951","118203657",NA,"C","C","0","Good",NA,"common in clinvar","rs118203657",1,0
+"952","118203896",NA,"A","A","0","Good",NA,"common in clinvar","rs118203896",1,0
+"953","118203907",NA,"A","A","0","Good",NA,"common in clinvar","rs118203907",1,0
+"954","118203918",NA,"G","G","0","Good",NA,"common in clinvar","rs118203918",1,0
+"955","118203930",NA,"C","C","0","Good",NA,"common in clinvar","rs118203930",1,0
+"956","118203931",NA,"A","A","0","Good",NA,"common in clinvar","rs118203931",1,0
+"957","118203932",NA,"C","C","0","Good",NA,"common in clinvar","rs118203932",1,0
+"958","118203936",NA,"C","C","0","Good",NA,"common in clinvar","rs118203936",1,0
+"959","118203940",NA,"T","T","0","Good",NA,"common in clinvar","rs118203940",1,0
+"960","118203943",NA,"A","A","0","Good",NA,"common in clinvar","rs118203943",1,0
+"961","118203945",NA,"A","A","0","Good",NA,"common in clinvar","rs118203945",1,0
+"962","118203954",NA,"G","G","0","Good",NA,"common in clinvar","rs118203954",1,0
+"963","118203956",NA,"C","C","0","Good",NA,"common in clinvar","rs118203956",1,0
+"964","118203959",NA,"C","C","0","Good",NA,"common in clinvar","rs118203959",1,0
+"965","118203963",NA,"C","C","0","Good",NA,"common in clinvar","rs118203963",1,0
+"966","118203967",NA,"A","A","0","Good",NA,"common in clinvar","rs118203967",1,0
+"967","118203970",NA,"C","C","0","Good",NA,"common in clinvar","rs118203970",1,0
+"968","118203971",NA,"G","G","0","Good",NA,"common in clinvar","rs118203971",1,0
+"969","118203972",NA,"C","C","0","Good",NA,"common in clinvar","rs118203972",1,0
+"970","118203979",NA,"G","G","0","Good",NA,"common in clinvar","rs118203979",1,0
+"971","118203980",NA,"C","C","0","Good",NA,"common in clinvar","rs118203980",1,0
+"972","118203999",NA,"C","C","0","Good",NA,"common in complete genomics","rs118203999",1,0
+"973","118204014",NA,"C","C","0","Good",NA,"common in clinvar","rs118204014",1,0
+"974","118204029",NA,"C","C","0","Good",NA,"common in clinvar","rs118204029",1,0
+"975","118204047",NA,"C","C","0","Good",NA,"common in clinvar","rs118204047",1,0
+"976","118204073",NA,"A","A","0","Good",NA,"common in clinvar","rs118204073",1,0
+"977","118204094",NA,"C","C","0","Good",NA,"common in clinvar","rs118204094",1,0
+"978","118204095",NA,"A","G","4","Bad",NA,"Porphyria, acute intermittent","rs118204095",-1,-4
+"979","118204096",NA,"A","G","4","Bad",NA,"Porphyria, acute intermittent","rs118204096",-1,-4
+"980","118204097",NA,"C","T","4","Bad",NA,"Porphyria, acute intermittent","rs118204097",-1,-4
+"981","118204097",NA,"T","T","5","Bad",NA,"Porphyria, acute intermittent","rs118204097",-1,-5
+"982","118204098",NA,"A","A","5","Bad",NA,"Porphyria, acute intermittent","rs118204098",-1,-5
+"983","118204098",NA,"A","G","4","Bad",NA,"Porphyria, acute intermittent","rs118204098",-1,-4
+"984","118204098",NA,"G","G","0","Good",NA,"common in clinvar","rs118204098",1,0
+"985","118204099",NA,"G","G","5","Bad",NA,"Porphyria, acute intermittent","rs118204099",-1,-5
+"986","118204099",NA,"G","T","4","Bad",NA,"Porphyria, acute intermittent","rs118204099",-1,-4
+"987","118204099",NA,"T","T","0","Good",NA,"common in clinvar","rs118204099",1,0
+"988","118204100",NA,"A","A","5","Bad",NA,"Porphyria, acute intermittent","rs118204100",-1,-5
+"989","118204100",NA,"A","G","4","Bad",NA,"Porphyria, acute intermittent","rs118204100",-1,-4
+"990","118204100",NA,"G","G","0","Good",NA,"common in clinvar","rs118204100",1,0
+"991","118204101",NA,"C","C","0","Good",NA,"common in clinvar","rs118204101",1,0
+"992","118204101",NA,"T","T","5","Bad",NA,"Porphyria, acute intermittent","rs118204101",-1,-5
+"993","118204103",NA,"A","A","5","Bad",NA,"Porphyria, acute intermittent","rs118204103",-1,-5
+"994","118204103",NA,"G","G","0","Good",NA,"common in clinvar","rs118204103",1,0
+"995","118204104",NA,"A","A","5","Bad",NA,"Porphyria, acute intermittent","rs118204104",-1,-5
+"996","118204104",NA,"G","G","0","Good",NA,"common in clinvar","rs118204104",1,0
+"997","118204105",NA,"A","C","4","Bad",NA,"Porphyria, acute intermittent","rs118204105",-1,-4
+"998","118204106",NA,"G","G","0","Good",NA,"common in clinvar","rs118204106",1,0
+"999","118204106",NA,"G","T","4","Bad",NA,"Porphyria, acute intermittent","rs118204106",-1,-4
+"1000","118204106",NA,"T","T","5","Bad",NA,"Porphyria, acute intermittent","rs118204106",-1,-5
+"1001","118204107",NA,"A","A","5","Bad",NA,"Porphyria, acute intermittent","rs118204107",-1,-5
+"1002","118204107",NA,"A","G","4","Bad",NA,"Porphyria, acute intermittent","rs118204107",-1,-4
+"1003","118204107",NA,"G","G","0","Good",NA,"common in clinvar","rs118204107",1,0
+"1004","118204111",NA,"T","T","0","Good",NA,"common in clinvar","rs118204111",1,0
+"1005","118204112",NA,"G","G","0","Good",NA,"common in clinvar","rs118204112",1,0
+"1006","118204114",NA,"C","C","0","Good",NA,"common in clinvar","rs118204114",1,0
+"1007","118204114",NA,"C","T","4","Bad",NA,"Porphyria, acute intermittent","rs118204114",-1,-4
+"1008","118204114",NA,"T","T","5","Bad",NA,"Porphyria, acute intermittent","rs118204114",-1,-5
+"1009","118204115",NA,"C","C","0","Good",NA,"common in clinvar","rs118204115",1,0
+"1010","118204118",NA,"A","G","4","Bad",NA,"Porphyria, acute intermittent","rs118204118",-1,-4
+"1011","118204118",NA,"G","G","4","Bad",NA,"Porphyria, acute intermittent","rs118204118",-1,-4
+"1012","118204119",NA,"C","C","4","Bad",NA,"Porphyria, acute intermittent","rs118204119",-1,-4
+"1013","118204119",NA,"C","T","4","Bad",NA,"Carrier for porphyria, acute intermittent","rs118204119",-1,-4
+"1014","118204421",NA,"C","C","0","Good",NA,"common in clinvar","rs118204421",1,0
+"1015","118204421",NA,"C","G","3","Bad",NA,"susceptibility to malignant hyperthermia","rs118204421",-1,-3
+"1016","118204423",NA,"C","G","3","Bad",NA,"susceptibility to malignant hyperthermia","rs118204423",-1,-3
+"1017","118204431",NA,"C","C","0","Good",NA,"common in clinvar","rs118204431",1,0
+"1018","118204435",NA,"C","C","0","Good",NA,"common in clinvar","rs118204435",1,0
+"1019","118204442",NA,"G","G","0","Good",NA,"common in clinvar","rs118204442",1,0
+"1020","118204445",NA,"T","T","0","Good",NA,"common in clinvar","rs118204445",1,0
+"1021","118204446",NA,"C","C","0","Good",NA,"common in clinvar","rs118204446",1,0
+"1022","118204449",NA,"G","G","0","Good",NA,"common in clinvar","rs118204449",1,0
+"1023","118204453",NA,"C","C","0","Good",NA,"common in clinvar","rs118204453",1,0
+"1024","11821102",NA,"G","G","0","Good",NA,"common in complete genomics","rs11821102",1,0
+"1025","11859916",NA,"G","G","0","Good",NA,"common in complete genomics","rs11859916",1,0
+"1026","11868035",NA,"A","A",NA,NA,NA,"1.19x increased risk for T2D","rs11868035",0,NA
+"1027","1186868",NA,"G","G","0","Good",NA,"common in complete genomics","rs1186868",1,0
+"1028","11878133",NA,"T","T","0","Good",NA,"common in complete genomics","rs11878133",1,0
+"1029","119103222",NA,"T","T","0","Good",NA,"common in complete genomics","rs119103222",1,0
+"1030","119103229",NA,"C","C","0","Good",NA,"common in clinvar","rs119103229",1,0
+"1031","119103230",NA,"G","G","0","Good",NA,"common in clinvar","rs119103230",1,0
+"1032","119103232",NA,"G","G","0","Good",NA,"common in clinvar","rs119103232",1,0
+"1033","119103233",NA,"G","G","0","Good",NA,"common in clinvar","rs119103233",1,0
+"1034","119103236",NA,"G","G","0","Good",NA,"common in clinvar","rs119103236",1,0
+"1035","119103240",NA,"C","C","0","Good",NA,"common in clinvar","rs119103240",1,0
+"1036","119103262",NA,"C","C","0","Good",NA,"common in clinvar","rs119103262",1,0
+"1037","119103267",NA,"C","C","0","Good",NA,"common in clinvar","rs119103267",1,0
+"1038","119103268",NA,"C","C","0","Good",NA,"common in clinvar","rs119103268",1,0
+"1039","119103272",NA,"T","T","0","Good",NA,"common in clinvar","rs119103272",1,0
+"1040","119103274",NA,"C","C","0","Good",NA,"common in clinvar","rs119103274",1,0
+"1041","119103276",NA,"C","C","0","Good",NA,"common in clinvar","rs119103276",1,0
+"1042","119103278",NA,"A","A","0","Good",NA,"common in clinvar","rs119103278",1,0
+"1043","11938019",NA,"C","C","0","Good",NA,"common in complete genomics","rs11938019",1,0
+"1044","119450940",NA,"T","T","0","Good",NA,"common in clinvar","rs119450940",1,0
+"1045","119454949",NA,"G","G","0","Good",NA,"common in complete genomics","rs119454949",1,0
+"1046","119455950",NA,"G","G","0","Good",NA,"common in clinvar","rs119455950",1,0
+"1047","119456959",NA,"A","A","0","Good",NA,"common in complete genomics","rs119456959",1,0
+"1048","119456966",NA,"C","C","0","Good",NA,"common in clinvar","rs119456966",1,0
+"1049","119456967",NA,"T","T","0","Good",NA,"common in clinvar","rs119456967",1,0
+"1050","119458970",NA,"C","C","0","Good",NA,"common in clinvar","rs119458970",1,0
+"1051","119458971",NA,"G","G","0","Good",NA,"common in clinvar","rs119458971",1,0
+"1052","119461975",NA,"C","C","0","Good",NA,"common in clinvar","rs119461975",1,0
+"1053","119468006",NA,"G","G","0","Good",NA,"common in clinvar","rs119468006",1,0
+"1054","119468008",NA,"A","A","0","Good",NA,"common in clinvar","rs119468008",1,0
+"1055","119469012",NA,"T","T","0","Good",NA,"common in clinvar","rs119469012",1,0
+"1056","119469013",NA,"G","G","0","Good",NA,"common in clinvar","rs119469013",1,0
+"1057","119470016",NA,"C","C","0","Good",NA,"common in clinvar","rs119470016",1,0
+"1058","119471024",NA,"G","G","0","Good",NA,"common in clinvar","rs119471024",1,0
+"1059","119472026",NA,"C","C","0","Good",NA,"common in clinvar","rs119472026",1,0
+"1060","119473035",NA,"C","C","0","Good",NA,"common in clinvar","rs119473035",1,0
+"1061","119477056",NA,"C","C","0","Good",NA,"common in clinvar","rs119477056",1,0
+"1062","119479062",NA,"C","C","0","Good",NA,"common in clinvar","rs119479062",1,0
+"1063","119479063",NA,"G","G","0","Good",NA,"common in clinvar","rs119479063",1,0
+"1064","119479064",NA,"C","C","0","Good",NA,"common in clinvar","rs119479064",1,0
+"1065","119479065",NA,"C","C","0","Good",NA,"common in clinvar","rs119479065",1,0
+"1066","119481075",NA,"G","G","0","Good",NA,"common in clinvar","rs119481075",1,0
+"1067","119482082",NA,"T","T","0","Good",NA,"common in clinvar","rs119482082",1,0
+"1068","119486096",NA,"C","C","0","Good",NA,"common in clinvar","rs119486096",1,0
+"1069","119487098",NA,"T","T","0","Good",NA,"common in complete genomics","rs119487098",1,0
+"1070","119488100",NA,"T","T","0","Good",NA,"common in clinvar","rs119488100",1,0
+"1071","119489101",NA,"G","G","0","Good",NA,"common in clinvar","rs119489101",1,0
+"1072","119489102",NA,"C","C","0","Good",NA,"common in clinvar","rs119489102",1,0
+"1073","119490107",NA,"G","G","0","Good",NA,"common in clinvar","rs119490107",1,0
+"1074","11961171",NA,"G","G","0","Good",NA,"common in complete genomics","rs11961171",1,0
+"1075","11968814",NA,"G","G","0","Good",NA,"common in complete genomics","rs11968814",1,0
+"1076","11978267",NA,"A","A","0","",NA,"normal/common","rs11978267",0,0
+"1077","11978267",NA,"G","G","2","Bad",NA,"possible increased risk for infant acute myeloid leukemia (AML)","rs11978267",-1,-2
+"1078","11979158",NA,"A","A","0","Good",NA,"common in complete genomics","rs11979158",1,0
+"1079","11984145",NA,"C","C","0","Good",NA,"common on affy axiom data","rs11984145",1,0
+"1080","11989782",NA,"A","C","0","Good",NA,"common in complete genomics","rs11989782",1,0
+"1081","120074123",NA,"A","A","0","Good",NA,"common in clinvar","rs120074123",1,0
+"1082","120074132",NA,"G","G","0","Good",NA,"common in clinvar","rs120074132",1,0
+"1083","120074134",NA,"T","T","0","Good",NA,"common in clinvar","rs120074134",1,0
+"1084","120074137",NA,"C","C","0","Good",NA,"common in clinvar","rs120074137",1,0
+"1085","120074138",NA,"C","C","0","Good",NA,"common in clinvar","rs120074138",1,0
+"1086","120074141",NA,"G","G","0","Good",NA,"common in clinvar","rs120074141",1,0
+"1087","120074143",NA,"G","G","0","Good",NA,"common in clinvar","rs120074143",1,0
+"1088","120074144",NA,"C","C","0","Good",NA,"common in clinvar","rs120074144",1,0
+"1089","120074149",NA,"T","T","0","Good",NA,"common in clinvar","rs120074149",1,0
+"1090","120074155",NA,"T","T","0","Good",NA,"common in clinvar","rs120074155",1,0
+"1091","120074161",NA,"C","C","0","Good",NA,"common in clinvar","rs120074161",1,0
+"1092","120074162",NA,"T","T","0","Good",NA,"common in clinvar","rs120074162",1,0
+"1093","120074164",NA,"G","G","0","Good",NA,"common in clinvar","rs120074164",1,0
+"1094","120074171",NA,"G","G","0","Good",NA,"common in clinvar","rs120074171",1,0
+"1095","120074172",NA,"A","A","0","Good",NA,"common in clinvar","rs120074172",1,0
+"1096","120074175",NA,"G","G","0","Good",NA,"common in complete genomics","rs120074175",1,0
+"1097","120074180",NA,"C","C","0","Good",NA,"common in clinvar","rs120074180",1,0
+"1098","120074183",NA,"G","G","0","Good",NA,"common in clinvar","rs120074183",1,0
+"1099","120074184",NA,"G","G","0","Good",NA,"common in clinvar","rs120074184",1,0
+"1100","120074185",NA,"C","C","0","Good",NA,"common in clinvar","rs120074185",1,0
+"1101","120074186",NA,"G","G","0","Good",NA,"common in clinvar","rs120074186",1,0
+"1102","120074192",NA,"A","A","0","Good",NA,"common in clinvar","rs120074192",1,0
+"1103","120074196",NA,"G","G","0","Good",NA,"common in clinvar","rs120074196",1,0
+"1104","12026",NA,"C","C","0","Good",NA,"common in clinvar","rs12026",1,0
+"1105","12027542",NA,"A","A","0","Good",NA,"common on affy axiom data","rs12027542",1,0
+"1106","12034829",NA,"A","A","0","Good",NA,"common in complete genomics","rs12034829",1,0
+"1107","12035891",NA,"A","A","0","Good",NA,"common in complete genomics","rs12035891",1,0
+"1108","12037173",NA,"A","A","0","Good",NA,"common in complete genomics","rs12037173",1,0
+"1109","12037606",NA,"A","A","2","Bad",NA,"1.52x risk of developing Crohn's disease","rs12037606",-1,-2
+"1110","12037606",NA,"A","G","1.5","Bad",NA,"1.22x risk of developing Crohn's disease","rs12037606",-1,-1.5
+"1111","12037606",NA,"G","G","1","Good",NA,"Normal risk of developing Crohn's disease","rs12037606",1,1
+"1112","12044852",NA,"A","C",NA,"Bad",NA,"1.24x risk","rs12044852",-1,NA
+"1113","12050604",NA,"A","A","1.2","Bad",NA,"slightly increased risk for lung cancer","rs12050604",-1,-1.2
+"1114","1207421",NA,"C","C","0","Good",NA,"common on affy axiom data","rs1207421",1,0
+"1115","12084280",NA,"G","G","0","Good",NA,"common in complete genomics","rs12084280",1,0
+"1116","12117544",NA,"T","T","0","Good",NA,"common in complete genomics","rs12117544",1,0
+"1117","12141391",NA,"C","C","0","Good",NA,"common in complete genomics","rs12141391",1,0
+"1118","121434215",NA,"T","T","0","Good",NA,"common in clinvar","rs121434215",1,0
+"1119","121434216",NA,"T","T","0","Good",NA,"common in clinvar","rs121434216",1,0
+"1120","121434217",NA,"G","G","0","Good",NA,"common in complete genomics","rs121434217",1,0
+"1121","121434218",NA,"T","T","0","Good",NA,"common in clinvar","rs121434218",1,0
+"1122","121434219",NA,"C","C","0","Good",NA,"common in clinvar","rs121434219",1,0
+"1123","121434220",NA,"C","C","0","Good",NA,"common in clinvar","rs121434220",1,0
+"1124","121434221",NA,"A","A","0","Good",NA,"common in clinvar","rs121434221",1,0
+"1125","121434222",NA,"C","C","0","Good",NA,"common in complete genomics","rs121434222",1,0
+"1126","121434224",NA,"G","G","0","Good",NA,"common in clinvar","rs121434224",1,0
+"1127","121434229",NA,"G","G","0","Good",NA,"common in clinvar","rs121434229",1,0
+"1128","121434231",NA,"G","G","0","Good",NA,"common in clinvar","rs121434231",1,0
+"1129","121434232",NA,"G","G","0","Good",NA,"common in clinvar","rs121434232",1,0
+"1130","121434233",NA,"C","C","0","Good",NA,"common in clinvar","rs121434233",1,0
+"1131","121434238",NA,"G","G","0","Good",NA,"common in clinvar","rs121434238",1,0
+"1132","121434249",NA,"G","G","0","Good",NA,"common in clinvar","rs121434249",1,0
+"1133","121434255",NA,"A","A","0","Good",NA,"common in clinvar","rs121434255",1,0
+"1134","121434258",NA,"A","A","0","Good",NA,"common in clinvar","rs121434258",1,0
+"1135","121434261",NA,"T","T","0","Good",NA,"common in clinvar","rs121434261",1,0
+"1136","121434281",NA,"C","C","0","Good",NA,"common in clinvar","rs121434281",1,0
+"1137","121434282",NA,"G","G","0","Good",NA,"common in clinvar","rs121434282",1,0
+"1138","121434283",NA,"C","C","0","Good",NA,"common in clinvar","rs121434283",1,0
+"1139","121434284",NA,"T","T","0","Good",NA,"common in clinvar","rs121434284",1,0
+"1140","121434285",NA,"G","G","0","Good",NA,"common in clinvar","rs121434285",1,0
+"1141","121434287",NA,"C","C","0","Good",NA,"common in complete genomics","rs121434287",1,0
+"1142","121434291",NA,"G","G","0","Good",NA,"common in complete genomics","rs121434291",1,0
+"1143","121434293",NA,"G","G","0","Good",NA,"common in complete genomics","rs121434293",1,0
+"1144","121434295",NA,"G","G","0","Good",NA,"common in clinvar","rs121434295",1,0
+"1145","121434299",NA,"G","G","0","Good",NA,"common in clinvar","rs121434299",1,0
+"1146","121434308",NA,"G","G","0","Good",NA,"common in clinvar","rs121434308",1,0
+"1147","121434311",NA,"A","A","0","Good",NA,"common in clinvar","rs121434311",1,0
+"1148","121434319",NA,"TTC","TTC","0","Good",NA,"common in clinvar","rs121434319",1,0
+"1149","121434320",NA,"C","C","0","Good",NA,"common in clinvar","rs121434320",1,0
+"1150","121434322",NA,"C","C","0","Good",NA,"common in clinvar","rs121434322",1,0
+"1151","121434324",NA,"G","G","0","Good",NA,"common in clinvar","rs121434324",1,0
+"1152","121434328",NA,"G","G","0","Good",NA,"common in clinvar","rs121434328",1,0
+"1153","121434330",NA,"G","G","0","Good",NA,"common in clinvar","rs121434330",1,0
+"1154","121434335",NA,"G","G","0","Good",NA,"common in clinvar","rs121434335",1,0
+"1155","121434336",NA,"C","C","0","Good",NA,"common in clinvar","rs121434336",1,0
+"1156","121434342",NA,"G","G","0","Good",NA,"common in clinvar","rs121434342",1,0
+"1157","121434343",NA,"G","G","0","Good",NA,"common in clinvar","rs121434343",1,0
+"1158","121434348",NA,"C","C","0","Good",NA,"common in clinvar","rs121434348",1,0
+"1159","121434352",NA,"C","C","0","Good",NA,"common in clinvar","rs121434352",1,0
+"1160","121434355",NA,"G","G","0","Good",NA,"common in clinvar","rs121434355",1,0
+"1161","121434359",NA,"C","C","0","Good",NA,"common in clinvar","rs121434359",1,0
+"1162","121434370",NA,"G","G","0","Good",NA,"common in clinvar","rs121434370",1,0
+"1163","121434396",NA,"A","A","0","Good",NA,"common in clinvar","rs121434396",1,0
+"1164","121434402",NA,"C","C","0","Good",NA,"common in clinvar","rs121434402",1,0
+"1165","121434412",NA,"C","C","0","Good",NA,"common in clinvar","rs121434412",1,0
+"1166","121434413",NA,"T","T","0","Good",NA,"common in clinvar","rs121434413",1,0
+"1167","121434414",NA,"A","A","0","Good",NA,"common in clinvar","rs121434414",1,0
+"1168","121434417",NA,"T","T","0","Good",NA,"common in clinvar","rs121434417",1,0
+"1169","121434419",NA,"G","G","0","Good",NA,"common in clinvar","rs121434419",1,0
+"1170","121434421",NA,"C","C","0","Good",NA,"common in clinvar","rs121434421",1,0
+"1171","121434425",NA,"G","G","0","Good",NA,"common in clinvar","rs121434425",1,0
+"1172","121434430",NA,"C","C","0","Good",NA,"common in clinvar","rs121434430",1,0
+"1173","121434434",NA,"T","T","0","Good",NA,"common in clinvar","rs121434434",1,0
+"1174","121434438",NA,"G","G","0","Good",NA,"common in clinvar","rs121434438",1,0
+"1175","121434443",NA,"A","A","0","Good",NA,"common in clinvar","rs121434443",1,0
+"1176","121434447",NA,"G","G","0","Good",NA,"common in clinvar","rs121434447",1,0
+"1177","121434457",NA,"G","G","0","Good",NA,"common in clinvar","rs121434457",1,0
+"1178","121434464",NA,"T","T","0","Good",NA,"common in clinvar","rs121434464",1,0
+"1179","121434467",NA,"A","A","0","Good",NA,"common in clinvar","rs121434467",1,0
+"1180","121434479",NA,"G","G","0","Good",NA,"common in clinvar","rs121434479",1,0
+"1181","121434480",NA,"G","G","0","Good",NA,"common in clinvar","rs121434480",1,0
+"1182","121434493",NA,"C","C","0","Good",NA,"common in complete genomics","rs121434493",1,0
+"1183","121434494",NA,"C","C","0","Good",NA,"common in complete genomics","rs121434494",1,0
+"1184","121434496",NA,"C","C","0","Good",NA,"common in complete genomics","rs121434496",1,0
+"1185","121434497",NA,"T","T","0","Good",NA,"common in clinvar","rs121434497",1,0
+"1186","121434498",NA,"T","T","0","Good",NA,"common in clinvar","rs121434498",1,0
+"1187","121434499",NA,"T","T","0","Good",NA,"common in clinvar","rs121434499",1,0
+"1188","121434500",NA,"C","C","0","Good",NA,"common in clinvar","rs121434500",1,0
+"1189","121434501",NA,"G","G","0","Good",NA,"common in clinvar","rs121434501",1,0
+"1190","121434502",NA,"C","C","0","Good",NA,"common in complete genomics","rs121434502",1,0
+"1191","121434503",NA,"C","C","0","Good",NA,"common in complete genomics","rs121434503",1,0
+"1192","121434504",NA,"A","A","0","Good",NA,"common in complete genomics","rs121434504",1,0
+"1193","121434511",NA,"C","C","0","Good",NA,"common in clinvar","rs121434511",1,0
+"1194","121434514",NA,"C","C","0","Good",NA,"common in clinvar","rs121434514",1,0
+"1195","121434526",NA,"C","C","0","Good",NA,"common in clinvar","rs121434526",1,0
+"1196","121434536",NA,"C","C","0","Good",NA,"common in clinvar","rs121434536",1,0
+"1197","121434542",NA,"G","G","0","Good",NA,"common in clinvar","rs121434542",1,0
+"1198","121434543",NA,"A","A","0","Good",NA,"common in clinvar","rs121434543",1,0
+"1199","121434545",NA,"C","C","0","Good",NA,"common in clinvar","rs121434545",1,0
+"1200","121434548",NA,"G","G","0","Good",NA,"common in clinvar","rs121434548",1,0
+"1201","121434557",NA,"G","G","0","Good",NA,"common in clinvar","rs121434557",1,0
+"1202","121434561",NA,"C","C","0","Good",NA,"common in clinvar","rs121434561",1,0
+"1203","121434568",NA,"T","T","0","Good",NA,"common in clinvar","rs121434568",1,0
+"1204","121434584",NA,"C","C","0","Good",NA,"common in clinvar","rs121434584",1,0
+"1205","121434588",NA,"G","G","0","Good",NA,"common in complete genomics","rs121434588",1,0
+"1206","121434600",NA,"T","T","0","Good",NA,"common in clinvar","rs121434600",1,0
+"1207","121434602",NA,"C","C","0","Good",NA,"common in clinvar","rs121434602",1,0
+"1208","121434618",NA,"C","C","0","Good",NA,"common in clinvar","rs121434618",1,0
+"1209","121434625",NA,"C","C","0","Good",NA,"common in clinvar","rs121434625",1,0
+"1210","121434626",NA,"G","G","0","Good",NA,"common in clinvar","rs121434626",1,0
+"1211","121434629",NA,"G","G","0","Good",NA,"common in clinvar","rs121434629",1,0
+"1212","121434631",NA,"C","C","0","Good",NA,"common in complete genomics","rs121434631",1,0
+"1213","121434635",NA,"G","G","0","Good",NA,"common in clinvar","rs121434635",1,0
+"1214","121434641",NA,"C","C","0","Good",NA,"common in clinvar","rs121434641",1,0
+"1215","121434643",NA,"G","G","0","Good",NA,"common in clinvar","rs121434643",1,0
+"1216","12143842",NA,"C","T",NA,NA,NA,"4.4ms QT interval duration increase on average","rs12143842",0,NA
+"1217","12143842",NA,"T","T",NA,NA,NA,"8.8ms QT interval duration increase on average","rs12143842",0,NA
+"1218","12185268",NA,"A","A","0","Good",NA,"common on affy axiom data","rs12185268",1,0
+"1219","121907897",NA,"G","G","0","Good",NA,"common in clinvar","rs121907897",1,0
+"1220","121907901",NA,"G","G","0","Good",NA,"common in clinvar","rs121907901",1,0
+"1221","121907903",NA,"G","G","0","Good",NA,"common in clinvar","rs121907903",1,0
+"1222","121907907",NA,"C","C","0","Good",NA,"common in clinvar","rs121907907",1,0
+"1223","121907909",NA,"C","C","0","Good",NA,"common in clinvar","rs121907909",1,0
+"1224","121907912",NA,"C","C","0","Good",NA,"common in clinvar","rs121907912",1,0
+"1225","121907920",NA,"G","G","0","Good",NA,"common in clinvar","rs121907920",1,0
+"1226","121907923",NA,"C","C","0","Good",NA,"common in clinvar","rs121907923",1,0
+"1227","121907924",NA,"C","C","0","Good",NA,"common in clinvar","rs121907924",1,0
+"1228","121907927",NA,"G","G","0","Good",NA,"common in clinvar","rs121907927",1,0
+"1229","121907929",NA,"G","G","0","Good",NA,"common in clinvar","rs121907929",1,0
+"1230","121907930",NA,"G","G","0","Good",NA,"common in clinvar","rs121907930",1,0
+"1231","121907931",NA,"C","C","0","Good",NA,"common in clinvar","rs121907931",1,0
+"1232","121907932",NA,"G","G","0","Good",NA,"common in clinvar","rs121907932",1,0
+"1233","121907936",NA,"T","T","0","Good",NA,"common in clinvar","rs121907936",1,0
+"1234","121907938",NA,"C","C","0","Good",NA,"common in clinvar","rs121907938",1,0
+"1235","121907940",NA,"T","T","0","Good",NA,"common in clinvar","rs121907940",1,0
+"1236","121907942",NA,"C","C","0","Good",NA,"common in clinvar","rs121907942",1,0
+"1237","121907946",NA,"A","A","0","Good",NA,"common in clinvar","rs121907946",1,0
+"1238","121907947",NA,"G","G","0","Good",NA,"common in clinvar","rs121907947",1,0
+"1239","121907959",NA,"G","G","0","Good",NA,"common in clinvar","rs121907959",1,0
+"1240","121907966",NA,"C","C","0","Good",NA,"common in clinvar","rs121907966",1,0
+"1241","121907967",NA,"G","G","0","Good",NA,"common in clinvar","rs121907967",1,0
+"1242","121907969",NA,"C","C","0","Good",NA,"common in clinvar","rs121907969",1,0
+"1243","121907984",NA,"G","G","0","Good",NA,"common in complete genomics","rs121907984",1,0
+"1244","121907985",NA,"C","C","0","Good",NA,"common in clinvar","rs121907985",1,0
+"1245","121907997",NA,"C","C","0","Good",NA,"common in clinvar","rs121907997",1,0
+"1246","121907999",NA,"C","C","0","Good",NA,"common in clinvar","rs121907999",1,0
+"1247","121908000",NA,"T","T","0","Good",NA,"common in clinvar","rs121908000",1,0
+"1248","121908001",NA,"G","G","0","Good",NA,"common in clinvar","rs121908001",1,0
+"1249","121908002",NA,"C","C","0","Good",NA,"common in clinvar","rs121908002",1,0
+"1250","121908011",NA,"G","G","0","Good",NA,"common in clinvar","rs121908011",1,0
+"1251","121908022",NA,"G","G","0","Good",NA,"common in clinvar","rs121908022",1,0
+"1252","121908034",NA,"C","C","0","Good",NA,"normal","rs121908034",1,0
+"1253","121908034",NA,"G","G","2",NA,NA,"hypercholesterolemia risk; homozygote","rs121908034",0,0
+"1254","121908035",NA,"C","C","0","Good",NA,"common in complete genomics","rs121908035",1,0
+"1255","121908036",NA,"G","G","0","Good",NA,"common in complete genomics","rs121908036",1,0
+"1256","121908044",NA,"C","C","0","Good",NA,"common in clinvar","rs121908044",1,0
+"1257","121908045",NA,"T","T","0","Good",NA,"common in clinvar","rs121908045",1,0
+"1258","121908068",NA,"C","C","0","Good",NA,"common in clinvar","rs121908068",1,0
+"1259","121908072",NA,"G","G","0","Good",NA,"common in clinvar","rs121908072",1,0
+"1260","121908073",NA,"C","C","0","Good",NA,"common in clinvar","rs121908073",1,0
+"1261","121908074",NA,"A","A","0","Good",NA,"common in clinvar","rs121908074",1,0
+"1262","121908076",NA,"T","T","0","Good",NA,"common in clinvar","rs121908076",1,0
+"1263","121908077",NA,"GTT","GTT","0","Good",NA,"common in clinvar","rs121908077",1,0
+"1264","121908079",NA,"TAT","TAT","0","Good",NA,"common in clinvar","rs121908079",1,0
+"1265","121908080",NA,"TCA","TCA","0","Good",NA,"common in clinvar","rs121908080",1,0
+"1266","121908081",NA,"G","G","0","Good",NA,"common in clinvar","rs121908081",1,0
+"1267","121908082",NA,"C","C","0","Good",NA,"common in clinvar","rs121908082",1,0
+"1268","121908083",NA,"T","T","0","Good",NA,"common in clinvar","rs121908083",1,0
+"1269","121908084",NA,"G","G","0","Good",NA,"common in clinvar","rs121908084",1,0
+"1270","121908085",NA,"G","G","0","Good",NA,"common in clinvar","rs121908085",1,0
+"1271","121908086",NA,"G","G","0","Good",NA,"common in clinvar","rs121908086",1,0
+"1272","121908087",NA,"C","C","0","Good",NA,"common in clinvar","rs121908087",1,0
+"1273","121908088",NA,"C","C","0","Good",NA,"common in clinvar","rs121908088",1,0
+"1274","121908089",NA,"T","T","0","Good",NA,"common in clinvar","rs121908089",1,0
+"1275","121908090",NA,"G","G","0","Good",NA,"common in clinvar","rs121908090",1,0
+"1276","121908091",NA,"T","T","0","Good",NA,"common in clinvar","rs121908091",1,0
+"1277","121908094",NA,"C","C","0","Good",NA,"common in clinvar","rs121908094",1,0
+"1278","121908095",NA,"C","C","0","Good",NA,"common in clinvar","rs121908095",1,0
+"1279","121908102",NA,"C","C","0","Good",NA,"common in clinvar","rs121908102",1,0
+"1280","121908112",NA,"G","G","0","Good",NA,"common in clinvar","rs121908112",1,0
+"1281","121908114",NA,"C","C","0","Good",NA,"common in clinvar","rs121908114",1,0
+"1282","121908128",NA,"C","C","0","Good",NA,"common in clinvar","rs121908128",1,0
+"1283","121908137",NA,"C","C","0","Good",NA,"common in clinvar","rs121908137",1,0
+"1284","121908153",NA,"G","G","0","Good",NA,"common in clinvar","rs121908153",1,0
+"1285","121908154",NA,"T","T","0","Good",NA,"common in clinvar","rs121908154",1,0
+"1286","121908161",NA,"A","A","0","Good",NA,"common in clinvar","rs121908161",1,0
+"1287","121908167",NA,"C","C","0","Good",NA,"common in clinvar","rs121908167",1,0
+"1288","121908168",NA,"C","C","0","Good",NA,"common in clinvar","rs121908168",1,0
+"1289","121908174",NA,"T","T","0","Good",NA,"common in clinvar","rs121908174",1,0
+"1290","121908176",NA,"C","C","0","Good",NA,"common in clinvar","rs121908176",1,0
+"1291","121908178",NA,"C","C","0","Good",NA,"common in clinvar","rs121908178",1,0
+"1292","121908190",NA,"T","T","0","Good",NA,"common in clinvar","rs121908190",1,0
+"1293","121908225",NA,"C","C","0","Good",NA,"common in clinvar","rs121908225",1,0
+"1294","121908227",NA,"T","T","0","Good",NA,"common in clinvar","rs121908227",1,0
+"1295","121908251",NA,"G","G","0","Good",NA,"common in clinvar","rs121908251",1,0
+"1296","121908280",NA,"G","G","0","Good",NA,"common in clinvar","rs121908280",1,0
+"1297","121908283",NA,"T","T","0","Good",NA,"common in clinvar","rs121908283",1,0
+"1298","121908287",NA,"C","C","4",NA,NA,"homozygote for I41T partial function variant","rs121908287",0,0
+"1299","121908287",NA,"C","T","1",NA,NA,"carrier for I41T partial function variant","rs121908287",0,0
+"1300","121908308",NA,"C","C","0","Good",NA,"common in complete genomics","rs121908308",1,0
+"1301","121908326",NA,"C","C","0","Good",NA,"common in clinvar","rs121908326",1,0
+"1302","121908327",NA,"C","C","0","Good",NA,"common in clinvar","rs121908327",1,0
+"1303","121908328",NA,"G","G","0","Good",NA,"common in clinvar","rs121908328",1,0
+"1304","121908329",NA,"C","C","0","Good",NA,"common in clinvar","rs121908329",1,0
+"1305","121908330",NA,"G","G","0","Good",NA,"common in clinvar","rs121908330",1,0
+"1306","121908359",NA,"G","G","0","Good",NA,"common in clinvar","rs121908359",1,0
+"1307","121908363",NA,"C","C","0","Good",NA,"common in clinvar","rs121908363",1,0
+"1308","121908404",NA,"A","A","0","Good",NA,"common in clinvar","rs121908404",1,0
+"1309","121908405",NA,"TTC","TTC","0","Good",NA,"common in clinvar","rs121908405",1,0
+"1310","121908410",NA,"C","C","0","Good",NA,"common in clinvar","rs121908410",1,0
+"1311","121908419",NA,"G","G","0","Good",NA,"common in clinvar","rs121908419",1,0
+"1312","121908423",NA,"A","A","0","Good",NA,"common in clinvar","rs121908423",1,0
+"1313","121908432",NA,"C","C","0","Good",NA,"common in clinvar","rs121908432",1,0
+"1314","121908433",NA,"A","A","0","Good",NA,"common in clinvar","rs121908433",1,0
+"1315","121908440",NA,"C","C","0","Good",NA,"common in clinvar","rs121908440",1,0
+"1316","121908456",NA,"G","G","0","Good",NA,"common in clinvar","rs121908456",1,0
+"1317","121908458",NA,"C","C","0","Good",NA,"common in clinvar","rs121908458",1,0
+"1318","121908460",NA,"G","G","0","Good",NA,"common in clinvar","rs121908460",1,0
+"1319","121908461",NA,"C","C","0","Good",NA,"common in clinvar","rs121908461",1,0
+"1320","121908462",NA,"C","C","0","Good",NA,"common in clinvar","rs121908462",1,0
+"1321","121908463",NA,"T","T","0","Good",NA,"common in clinvar","rs121908463",1,0
+"1322","121908464",NA,"C","C","0","Good",NA,"common in clinvar","rs121908464",1,0
+"1323","121908465",NA,"G","G","0","Good",NA,"common in clinvar","rs121908465",1,0
+"1324","121908466",NA,"A","A","0","Good",NA,"common in clinvar","rs121908466",1,0
+"1325","121908467",NA,"C","C","0","Good",NA,"common in complete genomics","rs121908467",1,0
+"1326","121908468",NA,"T","T","0","Good",NA,"common in complete genomics","rs121908468",1,0
+"1327","121908469",NA,"C","C","0","Good",NA,"common in complete genomics","rs121908469",1,0
+"1328","121908470",NA,"C","C","0","Good",NA,"common in complete genomics","rs121908470",1,0
+"1329","121908471",NA,"G","G","0","Good",NA,"common in complete genomics","rs121908471",1,0
+"1330","121908472",NA,"T","T","0","Good",NA,"common in complete genomics","rs121908472",1,0
+"1331","121908473",NA,"A","A","0","Good",NA,"common in complete genomics","rs121908473",1,0
+"1332","121908474",NA,"G","G","0","Good",NA,"common in complete genomics","rs121908474",1,0
+"1333","121908475",NA,"C","C","0","Good",NA,"common in complete genomics","rs121908475",1,0
+"1334","121908476",NA,"C","C","0","Good",NA,"common in complete genomics","rs121908476",1,0
+"1335","121908477",NA,"G","G","0","Good",NA,"common in clinvar","rs121908477",1,0
+"1336","121908483",NA,"G","G","0","Good",NA,"common in clinvar","rs121908483",1,0
+"1337","121908489",NA,"C","C","0","Good",NA,"common in clinvar","rs121908489",1,0
+"1338","121908509",NA,"C","C","0","Good",NA,"common in clinvar","rs121908509",1,0
+"1339","121908520",NA,"T","T","0","Good",NA,"common in clinvar","rs121908520",1,0
+"1340","121908522",NA,"G","G","0","Good",NA,"common in clinvar","rs121908522",1,0
+"1341","121908527",NA,"G","G","0","Good",NA,"common in clinvar","rs121908527",1,0
+"1342","121908531",NA,"C","C","0","Good",NA,"common in clinvar","rs121908531",1,0
+"1343","121908551",NA,"G","G","0","Good",NA,"common in clinvar","rs121908551",1,0
+"1344","121908565",NA,"A","A","0","Good",NA,"common in clinvar","rs121908565",1,0
+"1345","121908571",NA,"G","G","0","Good",NA,"common in clinvar","rs121908571",1,0
+"1346","121908572",NA,"C","C","0","Good",NA,"common in clinvar","rs121908572",1,0
+"1347","121908574",NA,"G","G","0","Good",NA,"common in clinvar","rs121908574",1,0
+"1348","121908576",NA,"C","C","0","Good",NA,"common in clinvar","rs121908576",1,0
+"1349","121908583",NA,"C","C","0","Good",NA,"common in clinvar","rs121908583",1,0
+"1350","121908585",NA,"A","A","0","Good",NA,"common in complete genomics","rs121908585",1,0
+"1351","121908586",NA,"T","T","0","Good",NA,"common in complete genomics","rs121908586",1,0
+"1352","121908590",NA,"G","G","0","Good",NA,"common in clinvar","rs121908590",1,0
+"1353","121908604",NA,"A","A","0","Good",NA,"common in clinvar","rs121908604",1,0
+"1354","121908613",NA,"T","T","0","Good",NA,"common in clinvar","rs121908613",1,0
+"1355","121908616",NA,"T","T","0","Good",NA,"common in clinvar","rs121908616",1,0
+"1356","121908622",NA,"G","G","0","Good",NA,"common in clinvar","rs121908622",1,0
+"1357","121908626",NA,"G","G","0","Good",NA,"common in clinvar","rs121908626",1,0
+"1358","121908634",NA,"A","A","0","Good",NA,"common in clinvar","rs121908634",1,0
+"1359","121908647",NA,"G","G","0","Good",NA,"common in clinvar","rs121908647",1,0
+"1360","121908657",NA,"C","C","0","Good",NA,"common in clinvar","rs121908657",1,0
+"1361","121908662",NA,"","","0","Good",NA,"common in clinvar","rs121908662",1,0
+"1362","121908662",NA,"CTG","CTG","0","Good",NA,"common in clinvar","rs121908662",1,0
+"1363","121908663",NA,"C","C","0","Good",NA,"common in clinvar","rs121908663",1,0
+"1364","121908665",NA,"C","C","0","Good",NA,"common in clinvar","rs121908665",1,0
+"1365","121908681",NA,"A","A","0","Good",NA,"common in clinvar","rs121908681",1,0
+"1366","121908687",NA,"C","C","0","Good",NA,"common in clinvar","rs121908687",1,0
+"1367","121908688",NA,"C","C","0","Good",NA,"common in complete genomics","rs121908688",1,0
+"1368","121908702",NA,"G","G","0","Good",NA,"common in clinvar","rs121908702",1,0
+"1369","121908718",NA,"C","C","0","Good",NA,"common in clinvar","rs121908718",1,0
+"1370","121908721",NA,"C","C","0","Good",NA,"common in clinvar","rs121908721",1,0
+"1371","121908722",NA,"G","G","0","Good",NA,"common in clinvar","rs121908722",1,0
+"1372","121908723",NA,"G","G","0","Good",NA,"common in clinvar","rs121908723",1,0
+"1373","121908728",NA,"C","C","0","Good",NA,"common in clinvar","rs121908728",1,0
+"1374","121908737",NA,"G","G","0","Good",NA,"common in clinvar","rs121908737",1,0
+"1375","121908745",NA,"-","ATC","3","Bad",NA,"Cystic Fibrosis carrier","rs121908745",-1,-3
+"1376","121908749",NA,"C","C","0","Good",NA,"common in clinvar","rs121908749",1,0
+"1377","121908751",NA,"G","G","0","Good",NA,"common in clinvar","rs121908751",1,0
+"1378","121908752",NA,"T","T","0","Good",NA,"common in clinvar","rs121908752",1,0
+"1379","121908753",NA,"G","G","0","Good",NA,"common in clinvar","rs121908753",1,0
+"1380","121908754",NA,"C","C","0","Good",NA,"common in clinvar","rs121908754",1,0
+"1381","121908755",NA,"G","G","0","Good",NA,"common in clinvar","rs121908755",1,0
+"1382","121908759",NA,"G","G","0","Good",NA,"common in clinvar","rs121908759",1,0
+"1383","121908760",NA,"C","C","0","Good",NA,"common in clinvar","rs121908760",1,0
+"1384","121908765",NA,"G","G","0","Good",NA,"common in clinvar","rs121908765",1,0
+"1385","121908769",NA,"TTT","TTT","0","Good",NA,"common in clinvar","rs121908769",1,0
+"1386","121908772",NA,"A","A","0","Good",NA,"common in clinvar","rs121908772",1,0
+"1387","121908774",NA,"C","C","0","Good",NA,"common in clinvar","rs121908774",1,0
+"1388","121908780",NA,"GAAATTCAATCCT","GAAATTCAATCCT","0","Good",NA,"common in clinvar","rs121908780",1,0
+"1389","121908794",NA,"G","G","0","Good",NA,"common in clinvar","rs121908794",1,0
+"1390","121908797",NA,"G","G","0","Good",NA,"common in clinvar","rs121908797",1,0
+"1391","121908798",NA,"TAT","TAT","0","Good",NA,"common in clinvar","rs121908798",1,0
+"1392","121908799",NA,"AA","AA","0","Good",NA,"common in clinvar","rs121908799",1,0
+"1393","121908800",NA,"T","T","0","Good",NA,"common in clinvar","rs121908800",1,0
+"1394","121908801",NA,"A","A","0","Good",NA,"common in clinvar","rs121908801",1,0
+"1395","121908802",NA,"C","C","0","Good",NA,"common in clinvar","rs121908802",1,0
+"1396","121908803",NA,"C","C","0","Good",NA,"common in clinvar","rs121908803",1,0
+"1397","121908804",NA,"AGGGAGAATGATGATGAAGTAC","AGGGAGAATGATGATGAAGTAC","0","Good",NA,"common in clinvar","rs121908804",1,0
+"1398","121908818",NA,"G","G","0","Good",NA,"common in clinvar","rs121908818",1,0
+"1399","121908821",NA,"G","G","0","Good",NA,"common in complete genomics","rs121908821",1,0
+"1400","121908831",NA,"","","0","Good",NA,"common in clinvar","rs121908831",1,0
+"1401","121908836",NA,"G","G","0","Good",NA,"common in clinvar","rs121908836",1,0
+"1402","121908847",NA,"A","A","0","Good",NA,"common in clinvar","rs121908847",1,0
+"1403","121908850",NA,"G","G","0","Good",NA,"common in complete genomics","rs121908850",1,0
+"1404","121908851",NA,"A","A","0","Good",NA,"common in clinvar","rs121908851",1,0
+"1405","121908860",NA,"GC","GC","0","Good",NA,"common in complete genomics","rs121908860",1,0
+"1406","121908867",NA,"C","C","0","Good",NA,"common in clinvar","rs121908867",1,0
+"1407","121908868",NA,"G","G","0","Good",NA,"common in clinvar","rs121908868",1,0
+"1408","121908871",NA,"T","T","0","Good",NA,"common in clinvar","rs121908871",1,0
+"1409","121908874",NA,"T","T","0","Good",NA,"common in clinvar","rs121908874",1,0
+"1410","121908881",NA,"C","C","0","Good",NA,"common in clinvar","rs121908881",1,0
+"1411","121908885",NA,"T","T","0","Good",NA,"common in clinvar","rs121908885",1,0
+"1412","121908895",NA,"A","A","0","Good",NA,"common in clinvar","rs121908895",1,0
+"1413","121908896",NA,"T","T","0","Good",NA,"common in clinvar","rs121908896",1,0
+"1414","121908905",NA,"A","A","0","Good",NA,"common in clinvar","rs121908905",1,0
+"1415","121908910",NA,"C","C","0","Good",NA,"common in clinvar","rs121908910",1,0
+"1416","121908921",NA,"C","C","0","Good",NA,"common in clinvar","rs121908921",1,0
+"1417","121908931",NA,"G","G","0","Good",NA,"common in clinvar","rs121908931",1,0
+"1418","121908932",NA,"G","G","0","Good",NA,"common in clinvar","rs121908932",1,0
+"1419","121908933",NA,"G","G","0","Good",NA,"common in clinvar","rs121908933",1,0
+"1420","121908940",NA,"G","G","0","Good",NA,"common in clinvar","rs121908940",1,0
+"1421","121908945",NA,"C","C","0","Good",NA,"common in clinvar","rs121908945",1,0
+"1422","121908948",NA,"T","T","0","Good",NA,"common in clinvar","rs121908948",1,0
+"1423","121908953",NA,"C","C","0","Good",NA,"common in clinvar","rs121908953",1,0
+"1424","121908957",NA,"TG","TG","0","Good",NA,"common in clinvar","rs121908957",1,0
+"1425","121908958",NA,"G","G","0","Good",NA,"common in clinvar","rs121908958",1,0
+"1426","121908959",NA,"C","C","0","Good",NA,"common in clinvar","rs121908959",1,0
+"1427","121908979",NA,"C","C","0","Good",NA,"common in clinvar","rs121908979",1,0
+"1428","121908980",NA,"G","G","0","Good",NA,"common in clinvar","rs121908980",1,0
+"1429","121908983",NA,"TAT","TAT","0","Good",NA,"common in clinvar","rs121908983",1,0
+"1430","121908985",NA,"G","G","0","Good",NA,"common in clinvar","rs121908985",1,0
+"1431","121909005",NA,"T","T","0","Good",NA,"common in clinvar","rs121909005",1,0
+"1432","121909006",NA,"T","T","0","Good",NA,"common in clinvar","rs121909006",1,0
+"1433","121909011",NA,"C","T","3","Bad",NA,"Cystic fibrosis allele (carrier)","rs121909011",-1,-3
+"1434","121909015",NA,"G","G","0","Good",NA,"common in clinvar","rs121909015",1,0
+"1435","121909016",NA,"C","C","0","Good",NA,"common in clinvar","rs121909016",1,0
+"1436","121909018",NA,"G","G","0","Good",NA,"common in clinvar","rs121909018",1,0
+"1437","121909031",NA,"A","A","0","Good",NA,"common in complete genomics","rs121909031",1,0
+"1438","121909035",NA,"C","C","0","Good",NA,"common in clinvar","rs121909035",1,0
+"1439","121909042",NA,"A","A","0","Good",NA,"common in clinvar","rs121909042",1,0
+"1440","121909046",NA,"A","A","0","Good",NA,"common in clinvar","rs121909046",1,0
+"1441","121909048",NA,"T","T","0","Good",NA,"common in clinvar","rs121909048",1,0
+"1442","121909049",NA,"C","C","0","Good",NA,"common in clinvar","rs121909049",1,0
+"1443","121909050",NA,"A","A","0","Good",NA,"common in clinvar","rs121909050",1,0
+"1444","121909052",NA,"A","A","0","Good",NA,"common in clinvar","rs121909052",1,0
+"1445","121909062",NA,"G","G","0","Good",NA,"common in clinvar","rs121909062",1,0
+"1446","121909070",NA,"C","C","0","Good",NA,"common in clinvar","rs121909070",1,0
+"1447","121909076",NA,"T","T","0","Good",NA,"common in clinvar","rs121909076",1,0
+"1448","121909081",NA,"G","G","0","Good",NA,"common in clinvar","rs121909081",1,0
+"1449","121909082",NA,"C","C","0","Good",NA,"common in clinvar","rs121909082",1,0
+"1450","121909083",NA,"C","C","0","Good",NA,"common in clinvar","rs121909083",1,0
+"1451","121909098",NA,"G","G","0","Good",NA,"common in clinvar","rs121909098",1,0
+"1452","121909103",NA,"C","C","0","Good",NA,"common in clinvar","rs121909103",1,0
+"1453","121909106",NA,"C","C","0","Good",NA,"common in clinvar","rs121909106",1,0
+"1454","121909110",NA,"C","C","0","Good",NA,"common in clinvar","rs121909110",1,0
+"1455","121909112",NA,"C","C","0","Good",NA,"common in clinvar","rs121909112",1,0
+"1456","121909132",NA,"G","G","0","Good",NA,"common in clinvar","rs121909132",1,0
+"1457","121909136",NA,"G","G","0","Good",NA,"common in clinvar","rs121909136",1,0
+"1458","121909143",NA,"T","T","0","Good",NA,"common in complete genomics","rs121909143",1,0
+"1459","121909144",NA,"C","C","0","Good",NA,"common in complete genomics","rs121909144",1,0
+"1460","121909145",NA,"C","C","0","Good",NA,"common in clinvar","rs121909145",1,0
+"1461","121909152",NA,"G","G","0","Good",NA,"common in clinvar","rs121909152",1,0
+"1462","121909154",NA,"T","T","0","Good",NA,"common in clinvar","rs121909154",1,0
+"1463","121909207",NA,"C","C","0","Good",NA,"common in clinvar","rs121909207",1,0
+"1464","121909209",NA,"G","G","0","Good",NA,"common in clinvar","rs121909209",1,0
+"1465","121909210",NA,"C","C","0","Good",NA,"common in clinvar","rs121909210",1,0
+"1466","121909211",NA,"G","G","0","Good",NA,"common in clinvar","rs121909211",1,0
+"1467","121909212",NA,"C","C","0","Good",NA,"common in clinvar","rs121909212",1,0
+"1468","121909213",NA,"G","G","0","Good",NA,"common in clinvar","rs121909213",1,0
+"1469","121909216",NA,"T","T","0","Good",NA,"common in clinvar","rs121909216",1,0
+"1470","121909222",NA,"A","A","0","Good",NA,"common in clinvar","rs121909222",1,0
+"1471","121909223",NA,"T","T","0","Good",NA,"common in clinvar","rs121909223",1,0
+"1472","121909224",NA,"C","C","0","Good",NA,"common in complete genomics","rs121909224",1,0
+"1473","121909227",NA,"C","C","0","Good",NA,"common in clinvar","rs121909227",1,0
+"1474","121909230",NA,"T","T","0","Good",NA,"common in clinvar","rs121909230",1,0
+"1475","121909231",NA,"C","C","0","Good",NA,"common in clinvar","rs121909231",1,0
+"1476","121909232",NA,"C","C","0","Good",NA,"common in complete genomics","rs121909232",1,0
+"1477","121909240",NA,"T","T","0","Good",NA,"common in clinvar","rs121909240",1,0
+"1478","121909241",NA,"G","G","0","Good",NA,"common in clinvar","rs121909241",1,0
+"1479","121909242",NA,"A","A","0","Good",NA,"common in complete genomics","rs121909242",1,0
+"1480","121909258",NA,"C","C","0","Good",NA,"common in clinvar","rs121909258",1,0
+"1481","121909259",NA,"G","G","0","Good",NA,"common in clinvar","rs121909259",1,0
+"1482","121909265",NA,"G","G","0","Good",NA,"common in clinvar","rs121909265",1,0
+"1483","121909267",NA,"C","C","0","Good",NA,"common in clinvar","rs121909267",1,0
+"1484","121909268",NA,"T","T","0","Good",NA,"common in clinvar","rs121909268",1,0
+"1485","121909272",NA,"G","G","0","Good",NA,"common in clinvar","rs121909272",1,0
+"1486","121909274",NA,"G","G","0","Good",NA,"common in clinvar","rs121909274",1,0
+"1487","121909282",NA,"T","T","0","Good",NA,"common in clinvar","rs121909282",1,0
+"1488","121909299",NA,"C","C","0","Good",NA,"common in clinvar","rs121909299",1,0
+"1489","121909303",NA,"G","G","0","Good",NA,"common in clinvar","rs121909303",1,0
+"1490","121909308",NA,"C","C","0","Good",NA,"common in clinvar","rs121909308",1,0
+"1491","121909315",NA,"C","C","0","Good",NA,"common in clinvar","rs121909315",1,0
+"1492","121909324",NA,"C","C","0","Good",NA,"common in clinvar","rs121909324",1,0
+"1493","121909326",NA,"T","T","0","Good",NA,"common in clinvar","rs121909326",1,0
+"1494","121909329",NA,"G","G","0","Good",NA,"common in clinvar","rs121909329",1,0
+"1495","121909361",NA,"G","G","0","Good",NA,"common in clinvar","rs121909361",1,0
+"1496","121909365",NA,"C","C","0","Good",NA,"common in clinvar","rs121909365",1,0
+"1497","121909368",NA,"A","A","0","Good",NA,"common in clinvar","rs121909368",1,0
+"1498","121909371",NA,"C","C","0","Good",NA,"common in clinvar","rs121909371",1,0
+"1499","121909382",NA,"C","C","0","Good",NA,"common in clinvar","rs121909382",1,0
+"1500","121909386",NA,"C","C","0","Good",NA,"common in clinvar","rs121909386",1,0
+"1501","121909393",NA,"G","G","0","Good",NA,"common in clinvar","rs121909393",1,0
+"1502","121909394",NA,"T","T","0","Good",NA,"common in clinvar","rs121909394",1,0
+"1503","121909395",NA,"T","T","0","Good",NA,"common in clinvar","rs121909395",1,0
+"1504","121909397",NA,"C","C","0","Good",NA,"common in clinvar","rs121909397",1,0
+"1505","121909398",NA,"C","C","0","Good",NA,"common in clinvar","rs121909398",1,0
+"1506","121909448",NA,"T","T","0","Good",NA,"common in clinvar","rs121909448",1,0
+"1507","121909485",NA,"C","C","0","Good",NA,"common in clinvar","rs121909485",1,0
+"1508","121909486",NA,"C","C","0","Good",NA,"common in clinvar","rs121909486",1,0
+"1509","121909493",NA,"G","G","0","Good",NA,"common in clinvar","rs121909493",1,0
+"1510","121909495",NA,"C","C","0","Good",NA,"common in clinvar","rs121909495",1,0
+"1511","121909497",NA,"T","T","0","Good",NA,"common in clinvar","rs121909497",1,0
+"1512","121909498",NA,"T","T","0","Good",NA,"common in clinvar","rs121909498",1,0
+"1513","121909501",NA,"C","C","0","Good",NA,"common in clinvar","rs121909501",1,0
+"1514","121909505",NA,"G","G","0","Good",NA,"common in clinvar","rs121909505",1,0
+"1515","121909506",NA,"T","T","0","Good",NA,"common in clinvar","rs121909506",1,0
+"1516","121909507",NA,"C","C","0","Good",NA,"common in clinvar","rs121909507",1,0
+"1517","121909508",NA,"T","T","0","Good",NA,"common in clinvar","rs121909508",1,0
+"1518","121909509",NA,"T","T","0","Good",NA,"common in clinvar","rs121909509",1,0
+"1519","121909510",NA,"A","A","0","Good",NA,"common in clinvar","rs121909510",1,0
+"1520","121909518",NA,"G","G","0","Good",NA,"common in clinvar","rs121909518",1,0
+"1521","121909519",NA,"C","T","1",NA,NA,"carrier for Nemaline Myopathy 3","rs121909519",0,0
+"1522","121909520",NA,"A","A","0","Good",NA,"common in clinvar","rs121909520",1,0
+"1523","121909521",NA,"C","G","2",NA,NA,"Nemaline Myopathy 3","rs121909521",0,0
+"1524","121909521",NA,"G","G","0","Good",NA,"common in clinvar","rs121909521",1,0
+"1525","121909522",NA,"G","G","0","Good",NA,"common in clinvar","rs121909522",1,0
+"1526","121909522",NA,"G","T","2",NA,NA,"Nemaline Myopathy 3","rs121909522",0,0
+"1527","121909522",NA,"T","T","4","Bad",NA,"Nemaline Myopathy 3","rs121909522",-1,-4
+"1528","121909523",NA,"A","A","0","Good",NA,"common in clinvar","rs121909523",1,0
+"1529","121909523",NA,"A","T","2",NA,NA,"Nemaline Myopathy 3","rs121909523",0,0
+"1530","121909523",NA,"T","T","4","Bad",NA,"Nemaline Myopathy 3","rs121909523",-1,-4
+"1531","121909524",NA,"A","A","0","Good",NA,"common in clinvar","rs121909524",1,0
+"1532","121909524",NA,"A","C","2",NA,NA,"Nemaline Myopathy 3","rs121909524",0,0
+"1533","121909524",NA,"C","C","4","Bad",NA,"Nemaline Myopathy 3","rs121909524",-1,-4
+"1534","121909525",NA,"G","G","0","Good",NA,"common in clinvar","rs121909525",1,0
+"1535","121909525",NA,"G","T","2",NA,NA,"Nemaline Myopathy 3","rs121909525",0,0
+"1536","121909527",NA,"G","T","2",NA,NA,"Nemaline Myopathy 3","rs121909527",0,0
+"1537","121909527",NA,"T","T","4","Bad",NA,"Nemaline Myopathy 3","rs121909527",-1,-4
+"1538","121909528",NA,"A","A","0","Good",NA,"common in clinvar","rs121909528",1,0
+"1539","121909530",NA,"C","C","4","Bad",NA,"Nemaline Myopathy 3","rs121909530",-1,-4
+"1540","121909531",NA,"C","T","3","Bad",NA,"Nemaline Myopathy 3 carrier","rs121909531",-1,-3
+"1541","121909568",NA,"C","C","0","Good",NA,"common in clinvar","rs121909568",1,0
+"1542","121909581",NA,"C","C","0","Good",NA,"common in clinvar","rs121909581",1,0
+"1543","121909609",NA,"C","C","0","Good",NA,"common in clinvar","rs121909609",1,0
+"1544","121909616",NA,"C","C","0","Good",NA,"common in clinvar","rs121909616",1,0
+"1545","121909617",NA,"G","G","0","Good",NA,"common in clinvar","rs121909617",1,0
+"1546","121909632",NA,"A","A","0","Good",NA,"common in clinvar","rs121909632",1,0
+"1547","121909640",NA,"G","G","0","Good",NA,"common in clinvar","rs121909640",1,0
+"1548","121909643",NA,"G","G","0","Good",NA,"common in clinvar","rs121909643",1,0
+"1549","121909653",NA,"A","A","0","Good",NA,"common in clinvar","rs121909653",1,0
+"1550","121909660",NA,"C","C","0","Good",NA,"common in clinvar","rs121909660",1,0
+"1551","121909678",NA,"G","G","0","Good",NA,"common in clinvar","rs121909678",1,0
+"1552","121909721",NA,"G","G","0","Good",NA,"common in clinvar","rs121909721",1,0
+"1553","121909722",NA,"C","C","0","Good",NA,"common in clinvar","rs121909722",1,0
+"1554","121909725",NA,"G","G","0","Good",NA,"common in clinvar","rs121909725",1,0
+"1555","121909730",NA,"C","C","0","Good",NA,"common in clinvar","rs121909730",1,0
+"1556","121909735",NA,"A","A","0","Good",NA,"common in clinvar","rs121909735",1,0
+"1557","121909737",NA,"G","G","0","Good",NA,"common in clinvar","rs121909737",1,0
+"1558","121909738",NA,"A","A","0","Good",NA,"common in clinvar","rs121909738",1,0
+"1559","121909739",NA,"G","G","0","Good",NA,"common in clinvar","rs121909739",1,0
+"1560","121909741",NA,"G","G","0","Good",NA,"common in clinvar","rs121909741",1,0
+"1561","121909742",NA,"C","C","0","Good",NA,"common in clinvar","rs121909742",1,0
+"1562","121909763",NA,"A","A","0","Good",NA,"common in clinvar","rs121909763",1,0
+"1563","121909790",NA,"G","G","0","Good",NA,"common in clinvar","rs121909790",1,0
+"1564","121909794",NA,"G","G","0","Good",NA,"common in clinvar","rs121909794",1,0
+"1565","121909795",NA,"C","C","0","Good",NA,"common in clinvar","rs121909795",1,0
+"1566","121909796",NA,"G","G","0","Good",NA,"common in clinvar","rs121909796",1,0
+"1567","121909802",NA,"G","G","0","Good",NA,"common in clinvar","rs121909802",1,0
+"1568","121912294",NA,"CT","CT","0","Good",NA,"common in clinvar","rs121912294",1,0
+"1569","121912295",NA,"G","G","0","Good",NA,"common in clinvar","rs121912295",1,0
+"1570","121912297",NA,"A","A","0","Good",NA,"common in clinvar","rs121912297",1,0
+"1571","121912421",NA,"C","C","0","Good",NA,"common in clinvar","rs121912421",1,0
+"1572","121912422",NA,"A","A","0","Good",NA,"common in clinvar","rs121912422",1,0
+"1573","121912426",NA,"G","G","0","Good",NA,"common in clinvar","rs121912426",1,0
+"1574","121912430",NA,"G","G","0","Good",NA,"common in clinvar","rs121912430",1,0
+"1575","121912446",NA,"T","T","0","Good",NA,"common in clinvar","rs121912446",1,0
+"1576","121912448",NA,"G","G","0","Good",NA,"common in clinvar","rs121912448",1,0
+"1577","121912468",NA,"G","G","0","Good",NA,"common in clinvar","rs121912468",1,0
+"1578","121912495",NA,"T","T","0","Good",NA,"common in clinvar","rs121912495",1,0
+"1579","121912503",NA,"C","C","0","Good",NA,"common in clinvar","rs121912503",1,0
+"1580","121912509",NA,"G","G","0","Good",NA,"common in clinvar","rs121912509",1,0
+"1581","121912515",NA,"C","C","0","Good",NA,"common in clinvar","rs121912515",1,0
+"1582","121912517",NA,"G","G","0","Good",NA,"common in clinvar","rs121912517",1,0
+"1583","121912518",NA,"A","A","0","Good",NA,"common in clinvar","rs121912518",1,0
+"1584","121912519",NA,"G","G","0","Good",NA,"common in clinvar","rs121912519",1,0
+"1585","121912523",NA,"C","C","0","Good",NA,"common in clinvar","rs121912523",1,0
+"1586","121912525",NA,"C","C","0","Good",NA,"common in clinvar","rs121912525",1,0
+"1587","121912530",NA,"T","T","0","Good",NA,"common in clinvar","rs121912530",1,0
+"1588","121912531",NA,"A","A","0","Good",NA,"common in clinvar","rs121912531",1,0
+"1589","121912533",NA,"T","T","0","Good",NA,"common in clinvar","rs121912533",1,0
+"1590","121912534",NA,"C","C","0","Good",NA,"common in clinvar","rs121912534",1,0
+"1591","121912535",NA,"T","T","0","Good",NA,"common in clinvar","rs121912535",1,0
+"1592","121912540",NA,"A","A","0","Good",NA,"common in clinvar","rs121912540",1,0
+"1593","121912541",NA,"G","G","0","Good",NA,"common in clinvar","rs121912541",1,0
+"1594","121912543",NA,"G","G","0","Good",NA,"common in clinvar","rs121912543",1,0
+"1595","121912546",NA,"C","C","0","Good",NA,"common in clinvar","rs121912546",1,0
+"1596","121912548",NA,"A","A","0","Good",NA,"common in clinvar","rs121912548",1,0
+"1597","121912572",NA,"C","C","0","Good",NA,"common in clinvar","rs121912572",1,0
+"1598","121912573",NA,"C","C","0","Good",NA,"common in clinvar","rs121912573",1,0
+"1599","121912574",NA,"A","A","0","Good",NA,"common in clinvar","rs121912574",1,0
+"1600","121912598",NA,"T","T","0","Good",NA,"common in clinvar","rs121912598",1,0
+"1601","121912605",NA,"C","C","0","Good",NA,"common in clinvar","rs121912605",1,0
+"1602","121912606",NA,"G","G","0","Good",NA,"common in clinvar","rs121912606",1,0
+"1603","121912611",NA,"A","A","0","Good",NA,"common in clinvar","rs121912611",1,0
+"1604","121912612",NA,"A","A","0","Good",NA,"common in clinvar","rs121912612",1,0
+"1605","121912613",NA,"T","T","0","Good",NA,"common in clinvar","rs121912613",1,0
+"1606","121912615",NA,"T","T","0","Good",NA,"common in clinvar","rs121912615",1,0
+"1607","121912618",NA,"G","G","0","Good",NA,"common in clinvar","rs121912618",1,0
+"1608","121912619",NA,"T","T","0","Good",NA,"common in clinvar","rs121912619",1,0
+"1609","121912623",NA,"C","C","0","Good",NA,"common in clinvar","rs121912623",1,0
+"1610","121912635",NA,"G","G","0","Good",NA,"common in clinvar","rs121912635",1,0
+"1611","121912636",NA,"A","A","0","Good",NA,"common in clinvar","rs121912636",1,0
+"1612","121912638",NA,"G","G","0","Good",NA,"common in clinvar","rs121912638",1,0
+"1613","121912639",NA,"C","C","0","Good",NA,"common in clinvar","rs121912639",1,0
+"1614","121912642",NA,"C","C","0","Good",NA,"common in clinvar","rs121912642",1,0
+"1615","121912644",NA,"C","C","0","Good",NA,"common in clinvar","rs121912644",1,0
+"1616","121912645",NA,"G","G","0","Good",NA,"common in clinvar","rs121912645",1,0
+"1617","121912647",NA,"T","T","0","Good",NA,"common in clinvar","rs121912647",1,0
+"1618","121912653",NA,"T","T","0","Good",NA,"common in clinvar","rs121912653",1,0
+"1619","121912656",NA,"G","G","0","Good",NA,"common in clinvar","rs121912656",1,0
+"1620","121912664",NA,"G","G","0","Good",NA,"common in clinvar","rs121912664",1,0
+"1621","121912666",NA,"A","A","0","Good",NA,"common in clinvar","rs121912666",1,0
+"1622","121912672",NA,"C","C","0","Good",NA,"common in clinvar","rs121912672",1,0
+"1623","121912683",NA,"C","C","0","Good",NA,"common in clinvar","rs121912683",1,0
+"1624","121912694",NA,"G","G","0","Good",NA,"common in clinvar","rs121912694",1,0
+"1625","121912697",NA,"G","G","0","Good",NA,"common in clinvar","rs121912697",1,0
+"1626","121912698",NA,"C","C","0","Good",NA,"common in clinvar","rs121912698",1,0
+"1627","121912699",NA,"A","A","0","Good",NA,"common in clinvar","rs121912699",1,0
+"1628","121912703",NA,"C","C","0","Good",NA,"common in clinvar","rs121912703",1,0
+"1629","121912710",NA,"T","T","0","Good",NA,"common in clinvar","rs121912710",1,0
+"1630","121912718",NA,"G","G","0","Good",NA,"common in clinvar","rs121912718",1,0
+"1631","121912721",NA,"C","C","0","Good",NA,"common in clinvar","rs121912721",1,0
+"1632","121912728",NA,"G","G","0","Good",NA,"common in clinvar","rs121912728",1,0
+"1633","121912729",NA,"T","T","0","Good",NA,"common in clinvar","rs121912729",1,0
+"1634","121912737",NA,"C","C","0","Good",NA,"common in clinvar","rs121912737",1,0
+"1635","121912738",NA,"G","G","0","Good",NA,"common in clinvar","rs121912738",1,0
+"1636","121912752",NA,"GTG","GTG","0","Good",NA,"common in clinvar","rs121912752",1,0
+"1637","121912754",NA,"G","G","0","Good",NA,"common in clinvar","rs121912754",1,0
+"1638","121912756",NA,"G","G","0","Good",NA,"common in clinvar","rs121912756",1,0
+"1639","121912762",NA,"C","C","2","Bad",NA,"Rh factor D(VII); see explanation","rs121912762",-1,-2
+"1640","121912795",NA,"C","C","0","Good",NA,"common in clinvar","rs121912795",1,0
+"1641","121912810",NA,"C","C","0","Good",NA,"common in clinvar","rs121912810",1,0
+"1642","121912815",NA,"C","C","0","Good",NA,"common in clinvar","rs121912815",1,0
+"1643","121912820",NA,"T","T","0","Good",NA,"common in clinvar","rs121912820",1,0
+"1644","121912821",NA,"C","C","0","Good",NA,"common in clinvar","rs121912821",1,0
+"1645","121912825",NA,"C","C","0","Good",NA,"common in clinvar","rs121912825",1,0
+"1646","121912831",NA,"G","G","0","Good",NA,"common in clinvar","rs121912831",1,0
+"1647","121912837",NA,"G","G","0","Good",NA,"common in clinvar","rs121912837",1,0
+"1648","121912838",NA,"G","G","0","Good",NA,"common in clinvar","rs121912838",1,0
+"1649","121912858",NA,"G","G","0","Good",NA,"common in clinvar","rs121912858",1,0
+"1650","121912860",NA,"G","G","0","Good",NA,"common in clinvar","rs121912860",1,0
+"1651","121912862",NA,"C","C","0","Good",NA,"common in clinvar","rs121912862",1,0
+"1652","121912873",NA,"T","T","0","Good",NA,"common in clinvar","rs121912873",1,0
+"1653","121912876",NA,"C","C","0","Good",NA,"common in clinvar","rs121912876",1,0
+"1654","121912877",NA,"G","G","0","Good",NA,"common in clinvar","rs121912877",1,0
+"1655","121912879",NA,"G","G","0","Good",NA,"common in clinvar","rs121912879",1,0
+"1656","121912882",NA,"C","C","0","Good",NA,"common in clinvar","rs121912882",1,0
+"1657","121912889",NA,"A","A","0","Good",NA,"common in clinvar","rs121912889",1,0
+"1658","121912891",NA,"G","G","0","Good",NA,"common in clinvar","rs121912891",1,0
+"1659","121912895",NA,"A","A","0","Good",NA,"common in clinvar","rs121912895",1,0
+"1660","121912900",NA,"G","G","0","Good",NA,"common in clinvar","rs121912900",1,0
+"1661","121912904",NA,"G","G","0","Good",NA,"common in clinvar","rs121912904",1,0
+"1662","121912911",NA,"G","G","0","Good",NA,"common in clinvar","rs121912911",1,0
+"1663","121912918",NA,"G","G","0","Good",NA,"common in clinvar","rs121912918",1,0
+"1664","121912927",NA,"G","G","0","Good",NA,"common in clinvar","rs121912927",1,0
+"1665","121912953",NA,"G","G","0","Good",NA,"common in clinvar","rs121912953",1,0
+"1666","121912956",NA,"C","C","0","Good",NA,"common in clinvar","rs121912956",1,0
+"1667","121912963",NA,"G","G","0","Good",NA,"common on affy axiom data","rs121912963",1,0
+"1668","121912966",NA,"G","G","0","Good",NA,"common in clinvar","rs121912966",1,0
+"1669","121912975",NA,"A","A","0","Good",NA,"common in clinvar","rs121912975",1,0
+"1670","121912978",NA,"C","C","0","Good",NA,"common in clinvar","rs121912978",1,0
+"1671","121912979",NA,"C","C","0","Good",NA,"common in clinvar","rs121912979",1,0
+"1672","121912982",NA,"C","C","0","Good",NA,"common in clinvar","rs121912982",1,0
+"1673","121912993",NA,"T","T","0","Good",NA,"common in clinvar","rs121912993",1,0
+"1674","121913016",NA,"C","C","0","Good",NA,"common in clinvar","rs121913016",1,0
+"1675","121913018",NA,"G","G","0","Good",NA,"common in clinvar","rs121913018",1,0
+"1676","121913021",NA,"C","C","0","Good",NA,"common in clinvar","rs121913021",1,0
+"1677","121913022",NA,"G","G","0","Good",NA,"common in clinvar","rs121913022",1,0
+"1678","121913027",NA,"C","C","0","Good",NA,"common in clinvar","rs121913027",1,0
+"1679","121913036",NA,"A","A","0","Good",NA,"common in clinvar","rs121913036",1,0
+"1680","121913038",NA,"G","G","0","Good",NA,"common in clinvar","rs121913038",1,0
+"1681","121913047",NA,"C","C","0","Good",NA,"common in clinvar","rs121913047",1,0
+"1682","121913056",NA,"T","T","0","Good",NA,"common in clinvar","rs121913056",1,0
+"1683","121913068",NA,"G","G","0","Good",NA,"common in clinvar","rs121913068",1,0
+"1684","121913076",NA,"A","A","0","Good",NA,"common in clinvar","rs121913076",1,0
+"1685","121913092",NA,"A","A","0","Good",NA,"common in clinvar","rs121913092",1,0
+"1686","121913094",NA,"A","A","0","Good",NA,"common in clinvar","rs121913094",1,0
+"1687","121913107",NA,"A","A","0","Good",NA,"common in clinvar","rs121913107",1,0
+"1688","121913112",NA,"G","G","0","Good",NA,"common in clinvar","rs121913112",1,0
+"1689","121913113",NA,"G","G","0","Good",NA,"common in clinvar","rs121913113",1,0
+"1690","121913123",NA,"G","G","0","Good",NA,"common in clinvar","rs121913123",1,0
+"1691","121913124",NA,"G","G","0","Good",NA,"common in clinvar","rs121913124",1,0
+"1692","121913127",NA,"C","C","0","Good",NA,"common in clinvar","rs121913127",1,0
+"1693","121913130",NA,"T","T","0","Good",NA,"common in clinvar","rs121913130",1,0
+"1694","121913131",NA,"A","A","0","Good",NA,"common in clinvar","rs121913131",1,0
+"1695","121913135",NA,"G","G","0","Good",NA,"common in clinvar","rs121913135",1,0
+"1696","121913144",NA,"C","C","0","Good",NA,"common in clinvar","rs121913144",1,0
+"1697","121913155",NA,"A","A","0","Good",NA,"common in clinvar","rs121913155",1,0
+"1698","121913158",NA,"G","G","0","Good",NA,"common in clinvar","rs121913158",1,0
+"1699","121913240",NA,"A","A","0","Good",NA,"common in clinvar","rs121913240",1,0
+"1700","121913378",NA,"G","G","0","Good",NA,"common in clinvar","rs121913378",1,0
+"1701","121913403",NA,"C","C","0","Good",NA,"common in clinvar","rs121913403",1,0
+"1702","121913412",NA,"A","A","0","Good",NA,"common in clinvar","rs121913412",1,0
+"1703","121913488",NA,"G","G","0","Good",NA,"common in clinvar","rs121913488",1,0
+"1704","121913558",NA,"A","A","0","Good",NA,"common in clinvar","rs121913558",1,0
+"1705","121913565",NA,"A","A","0","Good",NA,"common in clinvar","rs121913565",1,0
+"1706","121913566",NA,"A","A","0","Good",NA,"common in clinvar","rs121913566",1,0
+"1707","121913567",NA,"C","C","0","Good",NA,"common in clinvar","rs121913567",1,0
+"1708","121913568",NA,"G","G","0","Good",NA,"common in clinvar","rs121913568",1,0
+"1709","121913571",NA,"C","C","0","Good",NA,"common in clinvar","rs121913571",1,0
+"1710","121913574",NA,"G","G","0","Good",NA,"common in clinvar","rs121913574",1,0
+"1711","121913577",NA,"C","C","0","Good",NA,"common in clinvar","rs121913577",1,0
+"1712","121913579",NA,"C","C","0","Good",NA,"common in clinvar","rs121913579",1,0
+"1713","121913580",NA,"C","C","0","Good",NA,"common in clinvar","rs121913580",1,0
+"1714","121913589",NA,"G","G","0","Good",NA,"common in clinvar","rs121913589",1,0
+"1715","121913593",NA,"C","C","0","Good",NA,"common in clinvar","rs121913593",1,0
+"1716","121913598",NA,"C","C","0","Good",NA,"common in clinvar","rs121913598",1,0
+"1717","121913603",NA,"A","A","0","Good",NA,"common in clinvar","rs121913603",1,0
+"1718","121913608",NA,"G","G","0","Good",NA,"common in clinvar","rs121913608",1,0
+"1719","121913609",NA,"C","C","0","Good",NA,"common in clinvar","rs121913609",1,0
+"1720","121913611",NA,"C","C","0","Good",NA,"common in clinvar","rs121913611",1,0
+"1721","121913613",NA,"G","G","0","Good",NA,"common in clinvar","rs121913613",1,0
+"1722","121913623",NA,"G","G","0","Good",NA,"common in clinvar","rs121913623",1,0
+"1723","121913632",NA,"G","G","0","Good",NA,"common in clinvar","rs121913632",1,0
+"1724","121913638",NA,"G","G","0","Good",NA,"common in clinvar","rs121913638",1,0
+"1725","121913639",NA,"G","G","0","Good",NA,"common in clinvar","rs121913639",1,0
+"1726","121913647",NA,"G","G","0","Good",NA,"common in clinvar","rs121913647",1,0
+"1727","121913653",NA,"C","C","0","Good",NA,"common in clinvar","rs121913653",1,0
+"1728","121913654",NA,"T","T","0","Good",NA,"common in clinvar","rs121913654",1,0
+"1729","121913655",NA,"C","C","0","Good",NA,"common in clinvar","rs121913655",1,0
+"1730","121913656",NA,"C","C","0","Good",NA,"common in clinvar","rs121913656",1,0
+"1731","121913657",NA,"C","C","0","Good",NA,"common in clinvar","rs121913657",1,0
+"1732","121913658",NA,"C","C","0","Good",NA,"common in clinvar","rs121913658",1,0
+"1733","121913659",NA,"C","C","0","Good",NA,"common in clinvar","rs121913659",1,0
+"1734","121913660",NA,"C","C","0","Good",NA,"common in clinvar","rs121913660",1,0
+"1735","121913661",NA,"G","G","0","Good",NA,"common in clinvar","rs121913661",1,0
+"1736","121913662",NA,"G","G","0","Good",NA,"common in clinvar","rs121913662",1,0
+"1737","121913663",NA,"G","G","0","Good",NA,"common in clinvar","rs121913663",1,0
+"1738","121913664",NA,"G","G","0","Good",NA,"common in clinvar","rs121913664",1,0
+"1739","121913665",NA,"G","G","0","Good",NA,"common in clinvar","rs121913665",1,0
+"1740","121913670",NA,"G","G","0","Good",NA,"common in clinvar","rs121913670",1,0
+"1741","121913682",NA,"A","A","0","Good",NA,"common in clinvar","rs121913682",1,0
+"1742","121917702",NA,"G","G","0","Good",NA,"common on affy axiom data","rs121917702",1,0
+"1743","121917710",NA,"G","G","0","Good",NA,"common in clinvar","rs121917710",1,0
+"1744","121917711",NA,"G","G","0","Good",NA,"common in clinvar","rs121917711",1,0
+"1745","121917712",NA,"C","C","0","Good",NA,"common in clinvar","rs121917712",1,0
+"1746","121917718",NA,"C","C","0","Good",NA,"common in clinvar","rs121917718",1,0
+"1747","121917720",NA,"C","C","0","Good",NA,"common in clinvar","rs121917720",1,0
+"1748","121917741",NA,"C","C","0","Good",NA,"common in clinvar","rs121917741",1,0
+"1749","121917742",NA,"G","G","0","Good",NA,"common in clinvar","rs121917742",1,0
+"1750","121917751",NA,"G","G","0","Good",NA,"common in clinvar","rs121917751",1,0
+"1751","121917752",NA,"G","G","0","Good",NA,"common in clinvar","rs121917752",1,0
+"1752","121917757",NA,"C","C","0","Good",NA,"common in clinvar","rs121917757",1,0
+"1753","121917763",NA,"T","T","0","Good",NA,"common in clinvar","rs121917763",1,0
+"1754","121917768",NA,"G","G","0","Good",NA,"common in clinvar","rs121917768",1,0
+"1755","121917771",NA,"G","G","0","Good",NA,"common in clinvar","rs121917771",1,0
+"1756","121917772",NA,"T","T","0","Good",NA,"common in clinvar","rs121917772",1,0
+"1757","121917773",NA,"T","T","0","Good",NA,"common in clinvar","rs121917773",1,0
+"1758","121917774",NA,"G","G","0","Good",NA,"common in clinvar","rs121917774",1,0
+"1759","121917775",NA,"G","G","0","Good",NA,"common in clinvar","rs121917775",1,0
+"1760","121917776",NA,"C","C","0","Good",NA,"common in clinvar","rs121917776",1,0
+"1761","121917778",NA,"T","T","0","Good",NA,"common in clinvar","rs121917778",1,0
+"1762","121917789",NA,"A","A","0","Good",NA,"common in clinvar","rs121917789",1,0
+"1763","121917809",NA,"A","A","0","Good",NA,"common in clinvar","rs121917809",1,0
+"1764","121917823",NA,"A","A","0","Good",NA,"common in clinvar","rs121917823",1,0
+"1765","121917825",NA,"C","C","0","Good",NA,"common in clinvar","rs121917825",1,0
+"1766","121917826",NA,"C","C","0","Good",NA,"common in clinvar","rs121917826",1,0
+"1767","121917827",NA,"G","G","0","Good",NA,"common in clinvar","rs121917827",1,0
+"1768","121917828",NA,"C","C","0","Good",NA,"common in clinvar","rs121917828",1,0
+"1769","121917829",NA,"T","T","0","Good",NA,"common in clinvar","rs121917829",1,0
+"1770","121917830",NA,"G","G","0","Good",NA,"common in clinvar","rs121917830",1,0
+"1771","121917834",NA,"T","T","0","Good",NA,"common in clinvar","rs121917834",1,0
+"1772","121917837",NA,"C","C","0","Good",NA,"common in clinvar","rs121917837",1,0
+"1773","121917839",NA,"C","C","0","Good",NA,"common in clinvar","rs121917839",1,0
+"1774","121917840",NA,"T","T","0","Good",NA,"common in clinvar","rs121917840",1,0
+"1775","121917842",NA,"G","G","0","Good",NA,"common in clinvar","rs121917842",1,0
+"1776","121917843",NA,"C","C","0","Good",NA,"common in clinvar","rs121917843",1,0
+"1777","121917848",NA,"T","T","0","Good",NA,"common in clinvar","rs121917848",1,0
+"1778","121917850",NA,"G","G","0","Good",NA,"common in clinvar","rs121917850",1,0
+"1779","121917855",NA,"G","G","0","Good",NA,"common in clinvar","rs121917855",1,0
+"1780","121917862",NA,"C","C","0","Good",NA,"common in clinvar","rs121917862",1,0
+"1781","121917865",NA,"A","A","0","Good",NA,"common in clinvar","rs121917865",1,0
+"1782","121917872",NA,"C","C","0","Good",NA,"common in clinvar","rs121917872",1,0
+"1783","121917874",NA,"G","G","0","Good",NA,"common in clinvar","rs121917874",1,0
+"1784","121917876",NA,"T","T","0","Good",NA,"common in clinvar","rs121917876",1,0
+"1785","121917878",NA,"C","C","0","Good",NA,"common in clinvar","rs121917878",1,0
+"1786","121917886",NA,"C","C","0","Good",NA,"common in clinvar","rs121917886",1,0
+"1787","121917891",NA,"G","G","0","Good",NA,"common in clinvar","rs121917891",1,0
+"1788","121917892",NA,"T","T","0","Good",NA,"common in clinvar","rs121917892",1,0
+"1789","121917999",NA,"G","G","0","Good",NA,"common in clinvar","rs121917999",1,0
+"1790","121918002",NA,"A","A","0","Good",NA,"common in clinvar","rs121918002",1,0
+"1791","121918008",NA,"A","A","0","Good",NA,"common in clinvar","rs121918008",1,0
+"1792","121918021",NA,"T","T","0","Good",NA,"common in clinvar","rs121918021",1,0
+"1793","121918026",NA,"A","A","0","Good",NA,"common in clinvar","rs121918026",1,0
+"1794","121918028",NA,"G","G","0","Good",NA,"common in clinvar","rs121918028",1,0
+"1795","121918033",NA,"G","G","0","Good",NA,"common in clinvar","rs121918033",1,0
+"1796","121918034",NA,"AAG","AAG","0","Good",NA,"common in clinvar","rs121918034",1,0
+"1797","121918035",NA,"A","A","0","Good",NA,"common in clinvar","rs121918035",1,0
+"1798","121918037",NA,"T","T","0","Good",NA,"common in clinvar","rs121918037",1,0
+"1799","121918040",NA,"C","C","0","Good",NA,"common in clinvar","rs121918040",1,0
+"1800","121918041",NA,"C","C","0","Good",NA,"common in clinvar","rs121918041",1,0
+"1801","121918043",NA,"A","A","0","Good",NA,"common in clinvar","rs121918043",1,0
+"1802","121918047",NA,"G","G","0","Good",NA,"common in clinvar","rs121918047",1,0
+"1803","121918049",NA,"G","G","0","Good",NA,"common in clinvar","rs121918049",1,0
+"1804","121918050",NA,"A","A","0","Good",NA,"common in clinvar","rs121918050",1,0
+"1805","121918057",NA,"G","G","0","Good",NA,"common in clinvar","rs121918057",1,0
+"1806","121918060",NA,"C","C","0","Good",NA,"common in clinvar","rs121918060",1,0
+"1807","121918061",NA,"A","A","0","Good",NA,"common in clinvar","rs121918061",1,0
+"1808","121918066",NA,"G","G","0","Good",NA,"common in clinvar","rs121918066",1,0
+"1809","121918069",NA,"T","T","0","Good",NA,"common in clinvar","rs121918069",1,0
+"1810","121918071",NA,"C","C","0","Good",NA,"common in clinvar","rs121918071",1,0
+"1811","121918073",NA,"C","C","0","Good",NA,"common in clinvar","rs121918073",1,0
+"1812","121918078",NA,"G","G","0","Good",NA,"common in clinvar","rs121918078",1,0
+"1813","121918085",NA,"A","A","0","Good",NA,"common in clinvar","rs121918085",1,0
+"1814","121918087",NA,"C","C","0","Good",NA,"common in clinvar","rs121918087",1,0
+"1815","121918089",NA,"A","A","0","Good",NA,"common in clinvar","rs121918089",1,0
+"1816","121918093",NA,"G","G","0","Good",NA,"common in clinvar","rs121918093",1,0
+"1817","121918094",NA,"T","T","0","Good",NA,"common in clinvar","rs121918094",1,0
+"1818","121918097",NA,"G","G","0","Good",NA,"common in clinvar","rs121918097",1,0
+"1819","121918099",NA,"T","T","0","Good",NA,"common in clinvar","rs121918099",1,0
+"1820","121918112",NA,"A","A","0","Good",NA,"common in clinvar","rs121918112",1,0
+"1821","121918113",NA,"C","C","0","Good",NA,"common in clinvar","rs121918113",1,0
+"1822","121918115",NA,"C","C","0","Good",NA,"common in clinvar","rs121918115",1,0
+"1823","121918120",NA,"C","C","0","Good",NA,"common in clinvar","rs121918120",1,0
+"1824","121918123",NA,"T","T","0","Good",NA,"common in clinvar","rs121918123",1,0
+"1825","121918128",NA,"G","G","0","Good",NA,"common in clinvar","rs121918128",1,0
+"1826","121918131",NA,"C","C","0","Good",NA,"common in clinvar","rs121918131",1,0
+"1827","121918132",NA,"C","C","0","Good",NA,"common in clinvar","rs121918132",1,0
+"1828","121918136",NA,"T","T","0","Good",NA,"common in clinvar","rs121918136",1,0
+"1829","121918140",NA,"G","G","0","Good",NA,"common in clinvar","rs121918140",1,0
+"1830","121918141",NA,"C","C","0","Good",NA,"common in clinvar","rs121918141",1,0
+"1831","121918142",NA,"G","G","0","Good",NA,"common in clinvar","rs121918142",1,0
+"1832","121918144",NA,"C","C","0","Good",NA,"common in clinvar","rs121918144",1,0
+"1833","121918147",NA,"G","G","0","Good",NA,"common in clinvar","rs121918147",1,0
+"1834","121918149",NA,"G","G","0","Good",NA,"common in clinvar","rs121918149",1,0
+"1835","121918154",NA,"C","C","0","Good",NA,"common in clinvar","rs121918154",1,0
+"1836","121918155",NA,"G","G","0","Good",NA,"common in clinvar","rs121918155",1,0
+"1837","121918159",NA,"A","A","0","Good",NA,"common in clinvar","rs121918159",1,0
+"1838","121918160",NA,"C","C","0","Good",NA,"common in clinvar","rs121918160",1,0
+"1839","121918161",NA,"C","C","0","Good",NA,"common in clinvar","rs121918161",1,0
+"1840","121918169",NA,"G","G","0","Good",NA,"common in clinvar","rs121918169",1,0

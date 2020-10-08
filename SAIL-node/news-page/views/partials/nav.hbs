@@ -1,0 +1,77 @@
+<!-- navbar-->
+<header class="header">
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <a href="/" class="navbar-brand"><img src="/img/sail-logo.png"></a>
+        <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler navbar-toggler-right"><span></span><span></span><span></span></button>
+        <div id="navbarSupportedContent" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto align-items-start align-items-lg-center">
+                <li class="nav-item dropdown">
+                    <a href="/" class="nav-link link-scroll" role="button">PRODUCT</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="/#browser">HOW IT WORKS</a>
+                        <a class="dropdown-item" href="/#features">TECHNOLOGY</a>
+                        <a class="dropdown-item" href="/#horizontals">APPLICATION</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="/about-us" class="nav-link link-scroll" role="button">ABOUT US</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="/about-us#team">TEAM</a>
+                        <a class="dropdown-item" href="/about-us#associations">COMMUNITY</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a href="/join-us" class="nav-link link-scroll">CAREERS</a></li>
+                <li class="nav-item"><a href="/news" class="nav-link link-scroll">NEWS</a></li>
+                <div class="navbar-text">
+                    <!-- Button trigger modal-->
+                    <a href="#" data-toggle="modal" data-target="#exampleModal"
+                       class="btn btn-primary navbar-btn btn-shadow btn-gradient">Contact Us</a>
+                </div>
+                <!--                <li class="nav-item"><a href="https://blog.secureailabs.com" class="nav-link">Blog</a></li>-->
+            </ul>
+        </div>
+    </nav>
+</header>
+<!--Modal-->
+<div id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" class="modal fade show"
+     style="display: none;">
+    <div role="document" class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 id="exampleModalLabel" class="modal-title">CONTACT US</h5>
+                <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span
+                        aria-hidden="true">×</span></button>
+            </div>
+            <div class="modal-body">
+                <form action="https://formspree.io/contact@secureailabs.com" method="post">
+                    <div class="form-group">
+                        <input class="input" type="text" name="Name" placeholder="Your Name">
+                        <input class="input" type="text" name="Company" placeholder="Your Company">
+                        <input class="input" type="email" name="Email" id="email" placeholder="Your Email Address">
+                        <div class="">
+                            <label>You are Interested in?</label>
+                        </div>
+                        <div>
+                            <label class="checkbox"><input class="checkbox" type="checkbox" value=""
+                                                           name="Interested in getting More Information: Yes">More
+                                Information</label>
+                            <label class="checkbox"><input class="checkbox" type="checkbox" value=""
+                                                           name="Interested in Our Demo: Yes">Demo</label>
+                            <label class="checkbox"><input class="checkbox" type="checkbox" value=""
+                                                           name="Interested in Investing: Yes">Investing</label>
+                            <label class="checkbox"><input class="checkbox" type="checkbox" value=""
+                                                           name="Interested in Our Careers: Yes">Careers</label>
+                            <label class="checkbox"><input class="checkbox" type="checkbox" value=""
+                                                           name="Interested In Other: Yes">Other</label>
+                        </div>
+                        <input class="input" type="text" name="Subject" placeholder="Subject/Topic">
+                        <textarea name="Message" placeholder="Enter Your Message Here"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-gradient submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

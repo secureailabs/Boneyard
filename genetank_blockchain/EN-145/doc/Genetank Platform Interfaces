@@ -1,0 +1,175 @@
+####################################################################################
+#								Smart Contract Interface						   #					
+####################################################################################
+
+
+#############################################
+# 		Naming conventions:	   				#				
+#############################################
+
+
+struct: begins with upper case
+method: begins lowercase and subsequent word upper
+constant: ALL Upper with underscore
+variables: lower case separated by underscore
+class names: same to typedef
+
+
+#############################################
+# 				Begin STRUCTS 		   	    #				
+#############################################
+
+/* 	Any information pertaining to the auditor
+	Consider using just a mapping if we are sure that there will not be any more information 
+*/
+	struct AuditorInformation {
+	        address auditor_address;
+	}
+
+
+/*
+	Each enclave that runs by the Runner must have been verified by auditor
+         a) remote attestation gives back an attestation report for a particular version
+        Assumption: An attestation report for each version of enclave
+*/
+	struct Enclave {
+	    mapping<address => address> runner_trainer_mapping;
+	    string attestation_report; 
+	    uint256 mrenclave;
+	}
+
+
+/*
+    Each enclave is associated with:
+        a) main version and sub version
+        b) hash(hash(attestation report) || MRENCLAVE)
+        c) Each ethereum address is associated with one enclave version:
+                ethereum address => AuditorSignature
+        d) Enclave enclaves to access the ethereum address of who is the runner and other info
+           in Struct Enclave)
+*/
+	struct EnclaveVer {
+	    uint8 main_version;
+	    uint8 sub_version;
+	    mapping(address => AuditorSignature) audits;
+	    mapping(uint256 => Enclave) enclaves;
+	    uint256 hash_audit_package; 
+	}
+
+ /*
+      Each trainer's enclave is associated with an ethereum address and versions
+      Each trainer could have multiple enclave versions
+      The key of the mapping is calculated from function calcEVKey
+ */
+
+	struct Trainer {
+	    address trainer_address;
+	    mapping(uint256 => EnclaveVer) enclave_ver; 
+	}
+
+	struct UserDetails{
+        uint256 deposit_ID;
+        uint256 amount;
+        mapping<userID => ACCOUNT> payment;
+        GTTDistributionDetails address_token_to_distribute;
+    }
+
+	mapping (uint256 => Trainer) trainers;
+
+	struct GTTDistributionDetails {
+        address sender_user_address;
+        address recipient_runner_address;
+        address recipient_trainer_address;
+    }
+
+############## END STRUCTS ##############
+
+
+
+#############################################
+# 				Begin Functions      	    #				
+#############################################
+
+/*
+        @notice Auditor calls this function so the address. We cannot let the trainer register this address
+
+*/
+	function registerEnclaveByTrainer( uint8 m_ver, 
+	                        uint8 s_ver, 
+	                        string attest_report,
+	                        uint256 mrencl ) {
+	      // to complete
+	}
+
+/*
+        @notice Auditor verifies that the enclave from trainer
+	*/
+	function registerEnclaveByAuditor( address trainer_address_param, 
+	                                        uint8 m_ver, 
+	                                        uint8 s_ver,
+	                                        uint256 public_key,
+	                                        uint256 signed_hash_auditing_package ) {
+	                                        
+	  // to complete
+	}
+
+/*
+        @notice Runner will have the trainer do the attestation and place these in the struct
+*/
+    function registerEnclaveByRunner( address trainer_address_param, 
+                                            uint8 m_ver, 
+                                            uint8 s_ver,
+                                            uint256 public_key,
+                                            uint256 signed_hash_auditing_package ) {
+                                            
+       // to complete
+    }
+
+
+/*
+        @ notice Compute a unique key
+        @ dev specified internal - so can only use within this contract only
+        @ param ethereum address, enclave main version and sub version
+        @ return hash of the concatenation of the params
+*/
+    function calculateEVKey( address unique_address, 
+                             uint8 version, 
+                            uint8 sub_version ) internal public returns ( uint256 ) {
+        // to complete
+    }
+
+
+    function getDepositID() {
+        // to complete
+    }
+
+/*
+        @ notice Fill out all information pertaining to the user
+        
+*/
+
+    function setUserDetails(unique_deposit_ID, amt, PAYMENT status_payment) {
+
+       // to complete
+    }
+
+/*
+        @ notice Each user is associated with a key
+        
+*/
+
+    function calculateUserKey(address unique_address, uint256 deposit_ID) internal public returns (uint256) {
+        // to complete
+    }
+
+/*
+        @ notice Distribute token to trainer and runner
+        
+*/
+
+    function distributeDeposit() {
+
+    }
+ 
+
+############## END Functions ##############

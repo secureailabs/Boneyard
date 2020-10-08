@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GeneTank — Report</title>
+    {{> head}}
+    <!-- Page styles -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/styles_report.css">
+    <!-- Page scripts -->
+    <script src="scripts/scripts_report.js"></script>
+  </head>
+  <body>
+    {{> nav}}
+    
+    <!-- Main section of page -->
+    <main role="main">
+      <div id="empowering-everyone">
+        <div class="banner" id="header-banner">
+          <div class="color-overlay"></div>
+          <figure class="banner-image" id="top-banner-image-figure">
+            <img src="images/dna.jpg" class="top-banner-image" />
+          </figure>
+          <div class="banner-desc">
+            <p class="banner-desc-header">Your Genetic Report</p>
+            <p class="banner-desc-info">Here's what you can learn from your DNA</p>
+          </div>
+        </div>
+        <div class="content">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card risks">
+                <img class="card-header-icon" src="/images/icons/disease_risks.png"><div class="card-header" style="background-color: #13c2fa">Disease Risks</div>
+                <div class="card-highlight">
+                  <div>
+                    <table class="image-slideshow-container" id="risks-slideshow">
+                      <tr>
+                        <td class="image-slideshow-nav arrow-left disabled"><</td>
+                        <td>
+                          <div class="image-slideshow">
+                            {{#each data.risks.highlights}}
+                            {{#if @index}}
+                            <div class="slide" id="risks-{{@index}}" style="display:none">
+                            {{else}}
+                            <div class="slide" id="risks-{{@index}}">
+                            {{/if}}
+                              <a href="#">
+                                <div class="half text-right"><img src="{{ this.image }}"></div>
+                                <div class="half text-left">
+                                  <p>{{ this.name }}</p>
+                                  <p>{{ this.note }}</p>
+                                </div>
+                              </a>
+                            </div>
+                            {{/each}}
+                          </div>
+                        </td>
+                        <td class="image-slideshow-nav arrow-right disabled">></td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+                <div class="card-list">
+                  <ul>
+                    {{#each data.risks.data}}
+                      <a class="card-list-link" href="#"><li class="card-list-item"><div class="pull-left">{{ this.name }}</div><div class="pull-right text-{{ this.color }}">{{ this.note }}</div><div class="clearfix"></div></li></a>
+                    {{/each}}
+                    <a class="card-list-link" href="/report-sample-risks"><li class="card-list-item card-list-last-item"><div class="text-center">See all disease risks ></div></li></a>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card diseases">
+                <img class="card-header-icon" src="/images/icons/genetic_diseases.png"><div class="card-header" style="background-color: #23d0a5">Genetic Diseases</div>
+                <div class="card-highlight">
+                  <div>
+                    <table class="image-slideshow-container" id="diseases-slideshow">
+                      <tr>
+                        <td class="image-slideshow-nav arrow-left disabled"><</td>
+                        <td>
+                          <div class="image-slideshow">
+                            {{#each data.diseases.highlights}}
+                            {{#if @index}}
+                            <div class="slide" id="diseases-{{@index}}" style="display:none">
+                            {{else}}
+                            <div class="slide" id="diseases-{{@index}}">
+                            {{/if}}
+                              <a href="#">
+                                <div class="half text-right"><img src="{{ this.image }}"></div>
+                                <div class="half text-left">
+                                  <p>{{ this.name }}</p>
+                                  <p>{{ this.note }}</p>
+                                </div>
+                              </a>
+                            </div>
+                            {{/each}}
+                          </div>
+                        </td>
+                        <td class="image-slideshow-nav arrow-right disabled">></td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+                <div class="card-list">
+                  <ul>
+                    {{#each data.diseases.data}}
+                      <a class="card-list-link" href="#"><li class="card-list-item"><div class="pull-left">{{ this.name }}</div><div class="pull-right text-{{ this.color }}">{{ this.note }}</div><div class="clearfix"></div></li></a>
+                    {{/each}}
+                    <a class="card-list-link" href="/report-sample-diseases"><li class="card-list-item card-list-last-item"><div class="text-center">See all genetic diseases ></div></li></a>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card medication">
+                <img class="card-header-icon" src="/images/icons/medication_information.png"><div class="card-header" style="background-color: #4a57e2">Medication Information</div>
+                <div class="card-highlight">
+                  <div>
+                    <table class="image-slideshow-container" id="medication-slideshow">
+                      <tr>
+                        <td class="image-slideshow-nav arrow-left disabled"><</td>
+                        <td>
+                          <div class="image-slideshow">
+                            {{#each data.medication.highlights}}
+                            {{#if @index}}
+                            <div class="slide" id="medication-{{@index}}" style="display:none">
+                            {{else}}
+                            <div class="slide" id="medication-{{@index}}">
+                            {{/if}}
+                              <a href="#">
+                                <div class="half text-right"><img src="{{ this.image }}"></div>
+                                <div class="half text-left">
+                                  <p>{{ this.name }}</p>
+                                  <p>{{ this.note }}</p>
+                                </div>
+                              </a>
+                            </div>
+                            {{/each}}
+                          </div>
+                        </td>
+                        <td class="image-slideshow-nav arrow-right disabled">></td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+                <div class="card-list">
+                  <ul>
+                    {{#each data.medication.data}}
+                      <a class="card-list-link" href="#"><li class="card-list-item"><div class="pull-left">{{ this.name }}</div><div class="pull-right text-{{ this.color }}">{{ this.note }}</div><div class="clearfix"></div></li></a>
+                    {{/each}}
+                    <a class="card-list-link" href="/report-sample-medication"><li class="card-list-item card-list-last-item"><div class="text-center">See all medication information ></div></li></a>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card special">
+                <img class="card-header-icon" src="/images/icons/special_traits.png"><div class="card-header" style="background-color: #10369e">Special Traits</div>
+                <div class="card-highlight">
+                  <div>
+                    <table class="image-slideshow-container" id="special-slideshow">
+                      <tr>
+                        <td class="image-slideshow-nav arrow-left disabled"><</td>
+                        <td>
+                          <div class="image-slideshow">
+                            {{#each data.special.highlights}}
+                            {{#if @index}}
+                            <div class="slide" id="special-{{@index}}" style="display:none">
+                            {{else}}
+                            <div class="slide" id="special-{{@index}}">
+                            {{/if}}
+                              <a href="#">
+                                <div class="half text-right"><img src="{{ this.image }}"></div>
+                                <div class="half text-left">
+                                  <p>{{ this.name }}</p>
+                                  <p>{{ this.note }}</p>
+                                </div>
+                              </a>
+                            </div>
+                            {{/each}}
+                          </div>
+                        </td>
+                        <td class="image-slideshow-nav arrow-right disabled">></td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+                <div class="card-list">
+                  <ul>
+                    {{#each data.special.data}}
+                      <a class="card-list-link" href="#"><li class="card-list-item"><div class="pull-left">{{ this.name }}</div><div class="pull-right text-{{ this.color }}">{{ this.note }}</div><div class="clearfix"></div></li></a>
+                    {{/each}}
+                    <a class="card-list-link" href="/report-sample-special"><li class="card-list-item card-list-last-item"><div class="text-center">See all special traits ></div></li></a>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card diet">
+                <img class="card-header-icon" src="/images/icons/diet_recommendations.png"><div class="card-header" style="background-color: #ec4a12">Diet Recommendations</div>
+                <div class="card-highlight">
+                  <div>
+                    <table class="image-slideshow-container" id="diet-slideshow">
+                      <tr>
+                        <td class="image-slideshow-nav arrow-left disabled"><</td>
+                        <td>
+                          <div class="image-slideshow">
+                            {{#each data.diet.highlights}}
+                            {{#if @index}}
+                            <div class="slide" id="diet-{{@index}}" style="display:none">
+                            {{else}}
+                            <div class="slide" id="diet-{{@index}}">
+                            {{/if}}
+                              <a href="#">
+                                <div class="half text-right"><img src="{{ this.image }}"></div>
+                                <div class="half text-left">
+                                  <p>{{ this.name }}</p>
+                                  <p>{{ this.note }}</p>
+                                </div>
+                              </a>
+                            </div>
+                            {{/each}}
+                          </div>
+                        </td>
+                        <td class="image-slideshow-nav arrow-right disabled">></td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+                <div class="card-list">
+                  <ul>
+                    {{#each data.diet.data}}
+                      <a class="card-list-link" href="#"><li class="card-list-item"><div class="pull-left">{{ this.name }}</div><div class="pull-right text-{{ this.color }}">{{ this.note }}</div><div class="clearfix"></div></li></a>
+                    {{/each}}
+                    <a class="card-list-link" href="/report-sample-diet"><li class="card-list-item card-list-last-item"><div class="text-center">See all diet recommendations ></div></li></a>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card nutrition">
+                <img class="card-header-icon" src="/images/icons/nutrition_advice.png"><div class="card-header" style="background-color: #1a9810">Nutrition Advice</div>
+                <div class="card-highlight">
+                  <div>
+                    <table class="image-slideshow-container" id="nutrition-slideshow">
+                      <tr>
+                        <td class="image-slideshow-nav arrow-left disabled"><</td>
+                        <td>
+                          <div class="image-slideshow">
+                            {{#each data.nutrition.highlights}}
+                            {{#if @index}}
+                            <div class="slide" id="nutrition-{{@index}}" style="display:none">
+                            {{else}}
+                            <div class="slide" id="nutrition-{{@index}}">
+                            {{/if}}
+                              <a href="#">
+                                <div class="half text-right"><img src="{{ this.image }}"></div>
+                                <div class="half text-left">
+                                  <p>{{ this.name }}</p>
+                                  <p>{{ this.note }}</p>
+                                </div>
+                              </a>
+                            </div>
+                            {{/each}}
+                          </div>
+                        </td>
+                        <td class="image-slideshow-nav arrow-right disabled">></td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+                <div class="card-list">
+                  <ul>
+                    {{#each data.nutrition.data}}
+                      <a class="card-list-link" href="#"><li class="card-list-item"><div class="pull-left">{{ this.name }}</div><div class="pull-right text-{{ this.color }}">{{ this.note }}</div><div class="clearfix"></div></li></a>
+                    {{/each}}
+                    <a class="card-list-link" href="/report-sample-nutrition"><li class="card-list-item card-list-last-item"><div class="text-center">See all nutrition advice ></div></li></a>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card exercise">
+                <img class="card-header-icon" src="/images/icons/exercise_recommendations.png"><div class="card-header" style="background-color: #f57144">Exercise Recommendations</div>
+                <div class="card-highlight">
+                  <div>
+                    <table class="image-slideshow-container" id="exercise-slideshow">
+                      <tr>
+                        <td class="image-slideshow-nav arrow-left disabled"><</td>
+                        <td>
+                          <div class="image-slideshow">
+                            {{#each data.exercise.highlights}}
+                            {{#if @index}}
+                            <div class="slide" id="exercise-{{@index}}" style="display:none">
+                            {{else}}
+                            <div class="slide" id="exercise-{{@index}}">
+                            {{/if}}
+                              <a href="#">
+                                <div class="half text-right"><img src="{{ this.image }}"></div>
+                                <div class="half text-left">
+                                  <p>{{ this.name }}</p>
+                                  <p>{{ this.note }}</p>
+                                </div>
+                              </a>
+                            </div>
+                            {{/each}}
+                          </div>
+                        </td>
+                        <td class="image-slideshow-nav arrow-right disabled">></td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+                <div class="card-list">
+                  <ul>
+                    {{#each data.exercise.data}}
+                      <a class="card-list-link" href="#"><li class="card-list-item"><div class="pull-left">{{ this.name }}</div><div class="pull-right text-{{ this.color }}">{{ this.note }}</div><div class="clearfix"></div></li></a>
+                    {{/each}}
+                    <a class="card-list-link" href="/report-sample-exercise"><li class="card-list-item card-list-last-item"><div class="text-center">See all exercise recommendations ></div></li></a>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    {{> footer}}
+
+    <script>
+      // Highlight current page
+      // document.getElementById('nav-report').className += 'current-page';
+    </script>
+  </body>
+</html>

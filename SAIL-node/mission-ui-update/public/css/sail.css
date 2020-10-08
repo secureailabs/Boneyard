@@ -1,0 +1,709 @@
+/*!
+ * Start Bootstrap - Coming Soon v5.0.0 (https://startbootstrap.com/template-overviews/coming-soon)
+ * Copyright 2013-2018 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-coming-soon/blob/master/LICENSE)
+ *
+ * Tweaked for SAIL's use; Enjoy!
+*/
+
+
+/* Custom colors */
+:root {
+  --landing: #002e66;
+  --pharma: #1d5e7b;
+  --genomics: #ff6600;
+  --clinical: #1fadb6;
+  --patients: #ff3843;
+}
+
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  min-height: 35rem;   
+  position: relative;
+  font-family: "Liberation Sans", "Open Sans", serif;
+  font-weight: bolder;
+  color: #1d5e7b;
+}
+
+hr {
+  max-width: 70%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Liberation Sans", "Open Sans", serif;
+  font-weight: bold;
+}
+
+.pad-team h5{
+  margin-bottom: unset;
+}
+
+h1{
+  padding-bottom: 1.8rem
+}
+
+video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 0;
+}
+
+@media (pointer: coarse) and (hover: none) { 
+  body {
+    background: no-repeat center center scroll;
+    background-position: cover;
+  }
+  body video {
+    display: none;
+  }
+}
+
+.learn {
+  position: relative;
+}
+
+.learn-arrow {
+    left: 0;
+    position:absolute;
+    text-align:center;
+    width: 100%;
+    z-index: 5;
+    bottom: 0;
+}
+
+.learn-text {
+  font-size: 1.5rem;
+  left: 0;
+  position:absolute;
+  text-align:center;
+  width: 100%;
+  z-index: 5;
+  bottom: 5vh;
+}
+
+.scroll-landing {
+  opacity: 1 !important;
+}
+
+.scroll-landing:hover {
+  opacity: 0.7 !important;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.7;
+  z-index: 1;
+}
+
+.overlay-bg {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  z-index: 0;
+}
+
+/* Make navbar slightly transparent */
+.bg-light {
+  background-color: rgba(256, 256, 256, 0.95) !important;
+}
+
+/* Each section takes up entire page within viewport */
+.full-page {
+  height: 100vh;
+}
+
+.full-page p {
+  font-size: 2vw;
+}
+
+.full-page h1 {
+  font-size: 4vw;
+}
+
+.full-page h4 {
+  font-size: 2vw;
+}
+
+/* Small hack to make top of full-page text smaller */
+.top-page p {
+  width: 75%;
+  font-size: 1.5vw;
+  margin: 0 auto;
+  margin-top: -4vh;
+}
+
+.landing {
+  color: #fff;
+  background-color: var(--landing);
+}
+/* Mission section background color declarations */
+.pharma {
+  color: #fff;
+  background-color: var(--pharma);
+}
+
+.genomics {
+  color: #fff;
+  background-color: var(--genomics);
+}
+
+.clinical {
+  color: #fff;
+  background-color: var(--clinical);
+}
+
+.patients {
+  color: #fff;
+  background-color: var(--patients);
+}
+
+.goto-products {
+  background-color: var(--landing);
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 20%;
+  margin-bottom: 0;
+}
+
+.goto-button {
+  font-size: 1.5rem;
+  margin:0 auto;
+  display:block;
+}
+
+/* Styling to fit mission object images */
+.img-overview {
+  width: 14vw;
+  height: 14vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+}
+
+.img-overview:hover {
+  transform: scale(1.1);
+}
+
+.landing-arrow {
+  width: 2vw !important;
+  opacity: 1 !important;
+}
+
+.img-scroll {
+  width: 4vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+  margin-top: 4vh;
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.img-scroll:hover {
+  opacity: 0.2;
+  filter: alpha(opacity=20); /* For IE8 and earlier */
+}
+
+.img-product {
+    width: 30vw;
+    height: 30vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+}
+
+.clear {
+  float: right;
+}
+
+.mc-field-group {
+  display: inline-block;
+}
+
+.sail-logo {
+  max-width: 44vw;
+  padding-bottom: 1rem;
+}
+
+
+.sail-logo-2 {
+  max-width: 25vw;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+.gigi {
+  max-width: 20vw;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+.row_padding {
+  padding-bottom: 4rem;
+}
+
+.sail-bg {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-left: -4rem;
+  margin-right: -4rem;
+  background: #92c1e5; /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #92c1e5 0%, #0f4f99 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #92c1e5 0%,#0f4f99 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #92c1e5 0%,#0f4f99 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#92c1e5', endColorstr='#0f4f99',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+
+.navbar .navbar-brand img {
+  padding-right: 0.5rem;
+  height: 5rem;
+}
+
+.font-thicc {
+  font-weight: 700;
+}
+
+.nav-thicc {
+  font-weight: 400;
+}
+
+.nav-thicc:hover {
+  text-shadow: 0 0 .4px #D3D3D3, 0 0 .4px #D3D3D3;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 1);
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+  color: rgba(0, 0, 0, 0.25);
+}
+
+.img-smol {
+  max-width: 50%;
+  height: auto;
+}
+
+.img-team {
+  max-width: 50%;
+  height: auto;
+}
+
+/* amidala */
+.padme {
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.showcase{
+  background-color: #f5f5f5;
+}
+
+.showcase .showcase-text-r {
+  padding: 3rem;
+  padding-left: 14rem;
+  padding-right: 4rem;
+}
+
+.showcase .showcase-text-l {
+  padding: 3rem;
+  padding-left: 4rem;
+  padding-right: 14rem;
+}
+
+.showcase .showcase-img {
+  min-height: 10rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.masthead .masthead-bg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  min-height: 35rem;
+  height: 100%;
+  /* background-color: rgba(29, 94, 123, 0.5); */
+  background-color: rgba(0, 46, 102, 0.5);
+}
+
+.masthead .masthead-content h1 {
+  font-size: 3rem;
+}
+
+.masthead .masthead-content p {
+  font-size: 1.5rem;
+}
+
+.masthead .masthead-content p strong {
+  font-weight: 700;
+}
+
+.masthead .masthead-content .input-group-newsletter {
+  margin: 0 auto;
+  float: none;
+  width: 30rem;
+  justify-content: center;
+}
+
+.masthead .masthead-content .input-group-newsletter input {
+  height: auto;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+.masthead .masthead-content .input-group-newsletter button {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 1rem;
+  
+}
+
+.index-section {
+  z-index: 2;
+  background-color: #fff no-repeat center center scroll;
+}
+
+
+.btn-sail {
+  color: #fff;
+  background-color: var(--landing);
+  border-color: #fff;
+}
+
+.job-listing-para {
+  margin-left: 15vw;
+  margin-right: 15vw;
+  text-align: left;
+  font-size: 1.2em;
+  font-weight: 300;
+}
+
+.job-listing-para em {
+  margin-left: 1vw;
+}
+
+.job-listing-para li {
+  margin-left: 2vw;
+}
+
+/* MOBILE */
+@media (max-width: 1200px) {
+  .mission-html {
+    min-height: 100vh;
+    height: unset;
+  }
+
+  .full-page {
+    height: unset;
+  }
+
+  .full-page p {
+    margin-top: -5vh;
+    font-size: 5vw;
+  }
+
+  .full-page h1 {
+    font-size: 2em;
+  }
+
+  .full-page h4 {
+    font-size: 1.5em;
+  }
+
+  .top-page h1 {
+    font-size: 3em;
+  }
+
+  .img-overview {
+      width: 35vw;
+      height: 35vw;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      object-fit: contain;
+  }
+
+  .img-product {
+      margin-top: -3vh;
+      width: 50vw;
+      height: 50vw;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      object-fit: contain;
+  }
+
+  .img-scroll {
+    width: 12vw;
+    margin-top: -2vh;
+  }
+
+  .sail-logo {
+    max-width: 76vw;
+    padding-bottom: 1rem;
+  }
+
+  .gigi {
+    max-width: 60%;
+  }
+
+  .sail-bg {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .index_bg {
+    background: url("../img/fallback.png") #002E66 no-repeat center center scroll;
+    background-position: cover;
+  }
+
+  .mission_title_mobile {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem; 
+  }
+
+  .text-left {
+    text-align: left !important;
+  }
+
+  .text-right {
+    text-align: left !important; 
+  }
+
+  .showcase .showcase-text-r {
+    margin: auto;
+    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 80vw;
+  }
+
+  .showcase .showcase-text-l {
+    margin: auto;
+    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 80vw;
+  }
+
+  .showcase .showcase-img {
+    min-height: 10rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }  
+
+  .masthead {
+    height: 100%;
+    min-height: 0;
+    padding-bottom: 0;
+  }
+
+  .masthead .masthead-bg {
+    min-height: 100%;
+    height: auto;
+  }
+
+  .masthead .masthead-content {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .masthead .masthead-content h1 {
+    margin-top: -25%;
+    font-size: 2rem;
+  }
+
+  .masthead .masthead-content p {
+    font-size: 1rem;
+  }
+
+  .masthead .masthead-content .input-group-newsletter {
+    width: 100%;
+  }
+}
+
+
+#contact-us{
+  background-image: linear-gradient(to right, #4CB8C4, #3CD3AD);
+}
+
+/* DESKTOP+ MASTHEAD */
+@media (min-width: 1201px) {
+  .masthead {
+    height: 100%;
+    min-height: 0;
+    padding-bottom: 0;
+  }
+}
+
+.btn-secondary {
+  background-color: #cd9557;
+  border-color: #cd9557;
+}
+
+.btn-secondary:active, .btn-secondary:focus, .btn-secondary:hover {
+  background-color: #ba7c37 !important;
+  border-color: #ba7c37 !important;
+}
+
+.input {
+  font-weight: 300 !important;
+}
+
+
+.fade-in {
+  -webkit-animation: fade-in 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0s both;
+  animation: fade-in 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0s both;
+}
+
+.fade-in-long {
+  -webkit-animation: fade-in 4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+  animation: fade-in 4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2019-5-14 14:38:38
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation fade-in
+ * ----------------------------------------
+ */
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.banner{
+  width: 70%;
+  height: 60%;
+}
+
+
+@media (max-width: 900px) {
+  .banner{
+    visibility: hidden;
+    text-align: left;
+    background-image: url("/img/banner.png");
+    background-size: cover;
+  }
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+  border-radius:4px;
+  border:1px solid #AAAAAA;
+  box-shadow: #17a2b8;
+  background-image: linear-gradient(to right, #1d5e7b, #0c5460);
+  margin-top: -5px;
+}
+
+.dropdown-item{
+  font-weight: bolder;
+  color: #f5f5f5;
+}
+
+body.modal-open > .wrap {
+  overflow: hidden;
+  height: 100%;
+}
+
+.modal-content,
+.modal-dialog,
+.modal-body {
+  height: inherit;
+  min-height: 100%;
+}
+
+.modal {
+  min-height: 100%;
+}
+
+.social .fa {
+  padding: 20px;
+  margin-right: 20px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  color: white;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+.social{
+  float: right;
+  margin-right: 100px;
+}
+
+.tab-pane {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden
+}
+
+.img-browser{
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: fill;
+}
+
+.checkbox {
+  margin-right: 5px;
+}
+
+.checkbox-col{
+  display: flex;
+  align-items: start;
+}
+

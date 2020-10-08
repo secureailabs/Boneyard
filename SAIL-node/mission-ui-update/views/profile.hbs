@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Profile</title>
+    {{> old-head}}
+  </head>
+  <body>
+    <div class="container">
+      <div class="page-header text-center">
+        <h1>Profile</h1>
+        {{#if message}}
+          <div class="alert alert-{{ color }}">{{ message }}</div>
+        {{/if}}
+        <a href="/logout" class="btn btn-info">Logout</a>
+      </div>
+
+      <div class="well">
+        <p><strong>Email:</strong> {{ user.email }}</p>
+        {{#if features.length}}
+        <p><strong>You are participating in the following betas:</strong></p>
+        <ul>
+          {{#each features}}
+          <li>{{ this.display_name }}</li>
+          {{/each}}
+        </ul>
+        {{else}}
+        <p><strong>You are not currently participating in any betas.</strong></p>
+        {{/if}}
+      </div>
+    </div>
+  </body>
+</html>

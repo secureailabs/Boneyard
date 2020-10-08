@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GeneTank</title>
+    {{> head}}
+  </head>
+  <body>
+    {{> nav}}
+    
+    <!-- Main section of page -->
+    <main role="main">
+      <div id="intro">
+        <div class="banner" id="header-banner">
+          <div class="color-overlay"></div>
+          <figure class="banner-image" id="top-banner-image-figure">
+            <img src="images/dna.jpg" class="top-banner-image" />
+          </figure>
+          <div class="banner-desc">
+            <p class="banner-desc-header">Crowdsourcing genetic knowledge.</p>
+            <p class="banner-desc-info">
+              <a href="#steps" class="button gray-rounded-corner-button">Learn More</a>
+              <!-- <a href="#" class="button gray-rounded-corner-button">Get Started</a> -->
+              <a href="/subscribe" class="button gray-rounded-corner-button">Get Notified</a>
+            </p>
+          </div>
+        </div>
+        <div class="content" id="steps">
+          <div class="row">
+            <p class="section-header">Support science and earn rewards with your DNA.</p>
+            <p class="section-info section-header-info">Help us crowdsource genetic knowledge and fuel medical research.</p>
+          </div>
+          <div class="row">
+            <div class="step">
+              <div class="step-image">
+                <img src="images/upload_dna.png" height="292px" />
+              </div>
+              <div class="step-text">
+                <p class="step-header">Add Your DNA</p>
+                <p class="step-info">Download your DNA data in one click and securely upload it to GeneTank.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-image">
+                <img src="images/answer_questions.png" height="292px" />
+              </div>
+              <div class="step-text">
+                <p class="step-header">Answer Questions</p>
+                <p class="step-info">Answer questions about your health and lifestyle.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-image">
+                <img src="images/get_rewards.png" height="292px" />
+              </div>
+              <div class="step-text">
+                <p class="step-header">Get Rewards</p>
+                <p class="step-info">Earn rewards and fuel science research with your contributions!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="how-it-works">
+        <div class="banner">
+          <div class="color-overlay"></div>
+          <figure class="banner-image">
+            <img src="images/dna2.jpg" class="section-banner-image" />
+          </figure>
+          <div class="banner-desc">
+            <p class="banner-desc-header">Our Key Technologies</p>
+          </div>
+        </div>
+        <div class="content" id="tech">
+          <div class="row">
+            <div class="step">
+              <div class="step-image">
+                <img src="images/collection.png" height="292px" />
+              </div>
+              <div class="step-text">
+                <p class="step-header">Data Collection</p>
+                <p class="step-info">Our extremely low-cost DNA sequencing technology allows us to achieve 90% of the accuracy with 5x lower cost.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-image">
+                <img src="images/processing.png" height="292px" />
+              </div>
+              <div class="step-text">
+                <p class="step-header">Data Processing</p>
+                <p class="step-info">We use blockchain technology to ensure absolute privacy for people's personal information.</p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="step-image">
+                <img src="images/interpretation.png" height="292px" />
+              </div>
+              <div class="step-text">
+                <p class="step-header">Data Interpretation</p>
+                <p class="step-info">We combine state-of-the-art bioinformatics methods and machine learning to produce useful, meaningful results.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    {{> footer}}
+  </body>
+</html>

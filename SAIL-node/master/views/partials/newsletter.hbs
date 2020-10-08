@@ -1,0 +1,53 @@
+<section id="newsletter" class="newsletter bg-light">
+    <div class="container text-center">
+        <h3>Want to learn more?</h3>
+        <br>
+        <div class="navbar-text">
+            <!-- Button trigger modal-->
+            <a href="#" data-toggle="modal" data-target="#exampleModal"
+               class="btn btn-primary navbar-btn btn-shadow btn-gradient mb-2">Contact Us</a>
+            <!--<a href="/demo" class="btn btn-primary navbar-btn btn-shadow btn-gradient mb-2">Try a 1-Week Demo</a>-->
+        </div>
+    </div>
+</section>
+<!--Modal-->
+<div id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" class="modal fade show"
+     style="display: none;">
+    <div role="document" class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 id="exampleModalLabel" class="modal-title">CONTACT US</h5>
+                <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span
+                        aria-hidden="true">×</span></button>
+            </div>
+            <div class="modal-body">
+                <form action="https://formspree.io/contact@secureailabs.com" method="post">
+                    <div class="form-group">
+                        <input class="input" type="text" name="Name" placeholder="Your Name">
+                        <input class="input" type="text" name="Company" placeholder="Your Company">
+                        <input class="input" type="email" name="Email" id="email" placeholder="Your Email Address">
+                        <div class="">
+                            <label>You are Interested in?</label>
+                        </div>
+                        <div>
+                            <label class="checkbox"><input class="checkbox" type="checkbox" value=""
+                                                           name="Interested in getting More Information: Yes">More
+                                Information</label>
+                            <label class="checkbox"><input class="checkbox" type="checkbox" value=""
+                                                           name="Interested in Our Demo: Yes">Demo</label>
+                            <label class="checkbox"><input class="checkbox" type="checkbox" value=""
+                                                           name="Interested in Investing: Yes">Investing</label>
+                            <label class="checkbox"><input class="checkbox" type="checkbox" value=""
+                                                           name="Interested in Our Careers: Yes">Careers</label>
+                            <label class="checkbox"><input class="checkbox" type="checkbox" value=""
+                                                           name="Interested In Other: Yes">Other</label>
+                        </div>
+                        <input class="input" type="text" name="Subject" placeholder="Subject/Topic">
+                        <textarea name="Message" placeholder="Enter Your Message Here"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-gradient submit">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

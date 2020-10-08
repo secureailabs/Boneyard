@@ -1,0 +1,9 @@
+$(MODULESRCDIR)/scipy/sparse/linalg/isolve/iterative/BiCGREVCOM.c \
+$(MODULESRCDIR)/scipy/sparse/linalg/isolve/iterative/BiCGSTABREVCOM.c \
+$(MODULESRCDIR)/scipy/sparse/linalg/isolve/iterative/CGREVCOM.c \
+$(MODULESRCDIR)/scipy/sparse/linalg/isolve/iterative/CGSREVCOM.c \
+$(MODULESRCDIR)/scipy/sparse/linalg/isolve/iterative/fortranobject.c \
+$(MODULESRCDIR)/scipy/sparse/linalg/isolve/iterative/getbreak.c \
+$(MODULESRCDIR)/scipy/sparse/linalg/isolve/iterative/GMRESREVCOM.c \
+$(MODULESRCDIR)/scipy/sparse/linalg/isolve/iterative/_iterativemodule.c \
+$(MODULESRCDIR)/scipy/sparse/linalg/isolve/iterative/QMRREVCOM.c \

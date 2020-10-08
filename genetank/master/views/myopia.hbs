@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GeneTank — Myopia</title>
+    {{> head}}
+    <!-- Page styles -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/styles_campaigns.css">
+    <!-- Page scripts -->
+    <!-- <script src="scripts/dnaUpload.js"></script> -->
+  </head>
+  <body>
+    {{> nav}}
+    
+    <!-- Main section of page -->
+    <main role="main">
+      <div id="our-campaigns">
+        <div class="banner" id="header-banner">
+          <div class="color-overlay"></div>
+          <figure class="banner-image" id="top-banner-image-figure">
+            <img src="{{ image }}" class="top-banner-image" />
+          </figure>
+          <div class="banner-desc">
+            <p class="banner-desc-header">Myopia</p>
+            <p class="banner-desc-info">Demo Campaign</p>
+          </div>
+        </div>
+
+        <div class="content">
+          <div class="row campaign-container">
+            <div class="campaign-left">
+              <img class="campaign-image" src="{{ image }}" />
+              <p class="section-info">{{ description }}</p>
+              <div class="medium-spacer"></div>
+              <p class="section-header">Real-time AI Model Status</p>
+              <div class="campaign-graph-group campaign-graph-group-100">
+                <p class="section-info">Manhattan Plot</p>
+                <img class="campaign-graph" src="/images/myopia_manhattan_plot.jpg" />
+              </div>
+              <div class="campaign-graph-group campaign-graph-group-50">
+                <p class="section-info">Q-Q Plot</p>
+                <img class="campaign-graph" src="/images/myopia_q_q_plot.jpg" />
+              </div>
+              <div class="campaign-graph-group campaign-graph-group-50">
+                <p class="section-info">AI Predictive Score</p>
+                <img class="campaign-graph" src="/images/myopia_predictive_score.jpg" />
+              </div>
+            </div>
+            <div class="campaign-right">
+              <div class="back-campaign">
+                <div class="campaign-progress">
+                  <div class="progress-bar">
+                    <div class="progress-bar-filled" style="width: 70%"></div>
+                  </div>
+                  <div class="progress-group">
+                    <div class="progress-large"><span class="progress-highlight">7,000</span></div>
+                    <div class="progress-small">DNA backers of 10,000 goal</div>
+                  </div>
+                  <div class="progress-group">
+                    <div class="progress-large">$6,000</div>
+                    <div class="progress-small">contributed</div>
+                  </div>
+                  <div class="progress-group">
+                    <div class="progress-large">50</div>
+                    <div class="progress-small">cash backers</div>
+                  </div>
+                  <div class="progress-group">
+                    <div class="progress-large">17</div>
+                    <div class="progress-small">days to go</div>
+                  </div>
+                </div>
+                <div class="short-spacer"></div>
+                <div class="campaign-actions">
+                  <button class="btn button black-button back-campaign-button">Back this campaign</button>
+                </div>
+              </div>
+              <div class="support-header">Support this campaign</div>
+              <div class="pledge-level">
+                <div class="pledge-level-title">Contribute without a reward</div>
+                <div class="pledge-level-info"><span class="input-label-inline">$</span><span class="input-remaining"><input type="number" class="field input-block" placeholder="Contribute any amount" value="20" /></span></div>
+              </div>
+              <div class="pledge-level">
+                <div class="pledge-level-title">Pledge $100</div>
+                <div class="pledge-level-info">
+                  <div class="pledge-level-subtitle">100 free disease predictions</div>
+                  <div class="pledge-level-text">You will be able to make 100 free risk prediction API queries for myopia.</div>
+                </div>
+              </div>
+              <div class="pledge-level">
+                <div class="pledge-level-title">Pledge $1000</div>
+                <div class="pledge-level-info">
+                  <div class="pledge-level-subtitle">1500 free disease predictions</div>
+                  <div class="pledge-level-text">You will be able to make 1500 free risk prediction API queries for myopia.</div>
+                </div>
+              </div>
+              <div class="pledge-level">
+                <div class="pledge-level-title">Pledge $10000</div>
+                <div class="pledge-level-info">
+                  <div class="pledge-level-subtitle">GWAS summary report for myopia</div>
+                  <div class="pledge-level-text">You will be able to get a detailed GWAS summary report for myopia, including a list of causal SNPs and genes, and comprehensive data interpretation.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    {{> footer}}
+
+    <script>
+      // Highlight current page
+      document.getElementById('nav-campaigns').className += 'current-page';
+    </script>
+  </body>
+</html>

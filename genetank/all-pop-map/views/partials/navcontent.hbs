@@ -1,0 +1,30 @@
+<!-- Content in navbar -->
+<div class="header-content">
+  <div id="site-title">
+    <a href="/">GeneTank</a>
+  </div>
+  <!-- TODO: Mobile navbar -->
+  <div id="mobile-nav">
+  </div>
+  <div id="nav">
+    <nav>
+      <div>
+        <a href="/about" id="nav-about">About Us</a>
+      </div>
+      <div>
+        <a href="/campaigns" id="nav-campaigns">Campaigns</a>
+      </div>
+      <div>
+        <a href="/partner" id="nav-partner">Partner With Us</a>
+      </div>
+      <div>
+        {{#if user}}
+        <a class="nav-button" href="/profile">Profile</a>
+        {{else}}
+        <!-- <a class="nav-button" href="/login">Login</a> -->
+        <a class="nav-button" href="/subscribe">Get Notified</a>
+        {{/if}}
+      </div>
+    </nav>
+  </div>
+</div>

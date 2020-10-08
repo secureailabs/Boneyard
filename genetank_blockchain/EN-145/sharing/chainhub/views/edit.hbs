@@ -1,0 +1,98 @@
+<html>
+
+<head>
+  <title>ChainHub</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lodash@4.17.10/lodash.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="styles/index.css">
+  <script type="text/javascript" src="scripts/edit.js"></script>
+</head>
+
+<body>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">ChainHub</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/">View Entries</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Edit Entries
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-6 p-4">
+        <h1>Insert entry:</h1>
+        <form action="/entry/insert" method="POST" id="entry-insert-form">
+          <div class="form-group">
+            <label for="entry-insert-key">Key</label>
+            <input type="text" class="form-control" name="key" id="entry-insert-key" required>
+          </div>
+          <div class="form-group">
+            <label for="value">Value (must be a valid JSON object)</label>
+            <textarea class="form-control" name="value" id="value" required></textarea>
+          </div>
+          <div class="form-group">
+            <label for="keywords">Keywords (must be a valid JSON list)</label>
+            <input type="text" class="form-control" name="keywords" id="keywords">
+          </div>
+          <button type="submit" class="btn btn-primary">Insert</button>
+        </form>
+      </div>
+      <div class="col-md-6 p-4">
+        <h1>Delete entry:</h1>
+        <form action="/entry/delete" method="POST">
+          <div class="form-group">
+            <label for="entry-delete-key">Key</label>
+            <input type="text" class="form-control" name="key" id="entry-delete-key" required>
+          </div>
+          <button type="submit" class="btn btn-primary">Delete</button>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 p-4">
+        <h1>Upload file:</h1>
+        <form action="/file/upload" method="POST" id="file-upload-form">
+          <div class="form-group">
+            <input type="file" class="form-control" name="file" id="file" required>
+          </div>
+          <button type="submit" class="btn btn-primary">Upload</button>
+        </form>
+      </div>
+      <div class="col-md-6 p-4">
+        <h1>Delete file:</h1>
+        <form action="/file/delete" method="POST">
+          <div class="form-group">
+            <label for="file-delete-key">Key</label>
+            <input type="text" class="form-control" name="key" id="file-delete-key" required>
+          </div>
+          <button type="submit" class="btn btn-primary">Delete</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
